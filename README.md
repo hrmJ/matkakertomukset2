@@ -3,5 +3,5 @@ A linguistic research paper on indicating topic in the paragraphs of texts writt
 
 ## Aputyökaluja:
 
-- [Markdown pad](http://www.markdownpad.com/download.html) Editori markdown-muotoisen teksiraakateksti, josta saa helposti taitettua tekstiä) kirjoittamiseen.
+- [Markdown pad](http://www.markdownpad.com/download.html) Editori markdown-muotoisen tekstin (raakateksti, josta saa helposti taitettua tekstiä) kirjoittamiseen.
 
