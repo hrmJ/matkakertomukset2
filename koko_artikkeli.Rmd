@@ -1,0 +1,12 @@
+---
+title: Sata ja yksi tapaa ilmaista topiikkia
+author: Kirsi Sandberg & Juho Härme
+output:
+    ioslides_presentation:
+        widescreen: true
+        logo: uta_ja_plural.png
+        includes:
+          in_header: header.html
+bibliography: bibliography.bib
+csl: formatting/utaltl.csl
+---
