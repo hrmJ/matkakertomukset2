@@ -2,6 +2,9 @@
 
 export(ClassifyVerbs)
 export(ClassifyWords)
+export(ClearReferences)
 export(GetListOfDepRels)
+export(Ref)
 export(VerbInfo)
 export(fn)
+export(references)

@@ -22,7 +22,13 @@ näyteaineiston avulla testattiin myös, kuinka samanlaisia tulkinnat kappaleide
 erottelua.
 [^tarkm]: Tarkista määrä
 
-Kun koko aineiston kappalekohtainen analyysi saatiin päätökseen, tuloksna oli  `r `
+Kun kaikki tekstit kattava varsinainen kappalekohtainen analyysi saatiin
+päätökseen, lopulliseksi aineistoksi muodostui  `r nrow(withindicator)`
+asumisesta kertovan kappaleen sisältävää tekstiä. Syntaksin tason annotointi ym.
+
+Tekstit sinänsä olivat keskimäärin
+x sanaa pitkiä, asumisesta kertovat kappaleet koostuivat x lauseesta.
+Meitä kiinnosti.
 
 
 (ps. liitä mukaan jonnekin linkki githubiin tilastoja ajatellen?)
