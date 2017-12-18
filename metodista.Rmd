@@ -2,7 +2,6 @@
 ```{r tietojen_lataus, echo=FALSE}
 
 library("SataTapaa")
-data(withindicator)
 dr  <- GetListOfDepRels()
 
 ```
@@ -25,17 +24,25 @@ erottelua.
 
 Kun kaikki tekstit kattava varsinainen kappalekohtainen analyysi saatiin
 päätökseen, lopulliseksi aineistoksi muodostui  `r nrow(withindicator)`
-asumisesta kertovan kappaleen sisältävää tekstiä. Asumisesta kertovien
-kappaleiden syntaktisesta rakenteesta saatiin yleiskuva annotoimalla kappaleet
-koneellisesti dependenssijäsentimellä [ks. @haverinen2013tdt].
+asumisesta kertovan kappaleen sisältävää tekstiä. Tekstit sinänsä ovat
+keskimäärin `r round(mean(text_statistics$words))` sanaa pitkiä ja sisältävät
+kaiken kaikkiaan keskimäärin `r round(mean(text_statistics$paragraphs))`
+kappaletta, joista vähintään yhden topiikiksi on edellä kuvatussa
+tutkimusvaiheessa analysoitu asuminen. 
+
+Asumisesta kertovien kappaleiden syntaktisesta rakenteesta saatiin yleiskuva
+annotoimalla kappaleet koneellisesti dependenssijäsentimellä [ks.
+@haverinen2013tdt]. Koneellisesti tuotettu annotointi toimi lähtökohtana, kun
+kappaleita ryhdyttiin luokittelemaan eri ryhmiin sen mukaan, miten niissä
+indikoitiin asumistopiikkia.
+
 
 Miten selvitettiin indikaattorisana=johdosasia.
 
 
-Tekstit sinänsä olivat keskimäärin
-x sanaa pitkiä, asumisesta kertovat kappaleet koostuivat x lauseesta.
-Meitä kiinnosti.
-
-
 (ps. liitä mukaan jonnekin linkki githubiin tilastoja ajatellen?)
+
+(jotain tyyliin että mitä kaikkia automaattisesti tunnistettavissa olevia ominaisuuksia
+kullakin ryhmällä on...?
+)
 
