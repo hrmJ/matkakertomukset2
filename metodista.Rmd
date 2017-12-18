@@ -10,13 +10,14 @@ dr  <- GetListOfDepRels()
 
 Tutkimuksen ensimmäisessä vaiheessa aineistoon valikoidut tekstit analysoitiin
 kappaleittain[^alkup_kpl] siten, että jokaiselle kappaleelle merkittiin
-topiikki eli se, mistä kappale kertoi (vrt. Lambrechtin määritelmä). Yhteensä neljäkymmentä
-tekstiä[^tarkm] kattaneen kokeiluaineiston perusteella päätettiin keskittyä *asumisesta*
-kertoviin kappaleisiin siitä syystä, että asumista käsiteltiin lähes jokaisessa
-analysoidussa näytetekstissä ja että asuminen aiheena havaittiin tavallisesti
-melko selvärajaiseksi. Koska tekstejä analysoi kaksi eri henkilöä (kumpikin 20 tekstiä),
-näyteaineiston avulla testattiin myös, kuinka samanlaisia tulkinnat kappaleiden aiheista olivat.
-(tähän joku maininta niistä tuloksista).
+topiikki eli se, mistä kappale kertoo (vrt. Lambrechtin määritelmä). Yhteensä
+neljäkymmentä tekstiä[^tarkm] kattaneen kokeiluaineiston perusteella päätettiin
+keskittyä *asumisesta* kertoviin kappaleisiin siitä syystä, että asumista
+käsiteltiin lähes jokaisessa analysoidussa näytetekstissä ja että asuminen
+aiheena havaittiin tavallisesti melko selvärajaiseksi. Koska tekstejä analysoi
+kaksi eri henkilöä (kumpikin 20 tekstiä), näyteaineiston avulla testattiin
+myös, kuinka samanlaisia tulkinnat kappaleiden aiheista olivat. (tähän joku
+maininta niistä tuloksista).
 
 [^alkup_kpl]: Käyttäen kirjoittajien itsensä tekemeää  kappaleiden ortografista
 erottelua.
@@ -24,7 +25,12 @@ erottelua.
 
 Kun kaikki tekstit kattava varsinainen kappalekohtainen analyysi saatiin
 päätökseen, lopulliseksi aineistoksi muodostui  `r nrow(withindicator)`
-asumisesta kertovan kappaleen sisältävää tekstiä. Syntaksin tason annotointi ym.
+asumisesta kertovan kappaleen sisältävää tekstiä. Asumisesta kertovien
+kappaleiden syntaktisesta rakenteesta saatiin yleiskuva annotoimalla kappaleet
+koneellisesti dependenssijäsentimellä [ks. @haverinen2013tdt].
+
+Miten selvitettiin indikaattorisana=johdosasia.
+
 
 Tekstit sinänsä olivat keskimäärin
 x sanaa pitkiä, asumisesta kertovat kappaleet koostuivat x lauseesta.
