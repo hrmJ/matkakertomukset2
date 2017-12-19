@@ -1,10 +1,19 @@
 
-Asua-verbi ja sen johdokset esiintyvät tutkimusaineistossa siten, että.
+Asua-verbi ja sen johdokset esiintyvät tutkimusaineistossa
+tavallisimmin jo asumisesta kertovan kappaleen ensimmäisessä virkkeessä 
+(`r fn(100*nrow(subset(withindicator,sentence_number==1))/nrow(withindicator))` % tapauksista).
+Juuri nämä ovat myös potentiaalisimpia kohteita alatopiikin esiintiymisen kannalta,
+minkä takia edellisessä osiossa kuvattu satunnaisotanta päätettiin kohdistaa näihin tapauksiin.
+Lopputuloksena oli kaiken kaikkiaan `r nrow(subset(withindicator,sentence_number==1))`
+asumisesta kertovan kappaleen sisältävää tekstiä. Näissä itse asua-johdoksen
+syntaktinen kategoria eli jäsentimen sille asettama dependenssirooli jakautui
+kuvion `r Ref('fig', 'ff_deproles.shares')` mukaisesti
 
 
-```{r, echo=FALSE}
+```{r deproles.shares, echo=FALSE, fig.caption=Ref('fig','ff_deproles.shares','Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.')}
 
-
+withindicator$indicator.deprel <- factor(withindicator$asuminen_expressed,levels=unique(names(sort(table(withindicator$asuminen_expressed),d=T))))
+ggplot2::ggplot(withindicator, ggplot2::aes(x=asuminen_expressed)) + ggplot2::geom_bar() + ggplot2::coord_flip() + ggthemes::theme_tufte()
 
 ```
 

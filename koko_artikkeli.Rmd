@@ -2,12 +2,10 @@
 title: Sata ja yksi tapaa ilmaista topiikkia
 author: Kirsi Sandberg & Juho Härme
 output:
-  pdf_document:
+  pdf_document: 
     toc: false
     number_sections: true
-  word_document:
-    fig_caption: true
-output_dir: output
+  word_document: default
 bibliography: bibliography.bib
 csl: formatting/utaltl.csl
 ---
