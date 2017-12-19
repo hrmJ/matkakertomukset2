@@ -50,10 +50,6 @@ indikoitiin asumistopiikkia. Luokittelu tapahtui seuraavien vaiheiden mukaisesti
    koon mukainen (tai suurin mahdollinen) määrä alatopiikkitapauksia, nämä
    analysoitiin tarkemmin ja ryhmiteltiin eri tapauksiksi.
 
-Miten selvitettiin indikaattorisana=johdosasia.
 
-Katsellaan eri 
-
-(ps. liitä mukaan jonnekin linkki githubiin tilastoja ajatellen?)
-(jotain tyyliin että mitä kaikkia automaattisesti tunnistettavissa olevia ominaisuuksia kullakin ryhmällä on...?)
-
+Analyysin varsinaiset tulokset kunkin syntaktisen kategorian osalta on kuvattu
+tarkemmin seuraavassa.

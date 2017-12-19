@@ -20,13 +20,20 @@ library(rmarkdown)
 
 ```
 
+# Johdanto
+
+`r knit_child('teoriaosa.Rmd', quiet=T)`
 
 # Tutkimusaineisto ja -metodi
 
 `r knit_child('metodista.Rmd', quiet=T)`
 
-# Alatopiikkien tunnistaminen
+# Alatopiikkitapaukset syntaktisten kategorioiden mukaan ryhmiteltyinä
 
 `r knit_child('alatopiikkeja.Rmd', quiet=T)`
+
+# Päätelmiä
+
+`r knit_child('paatelmia.Rmd', quiet=T)`
 
 
