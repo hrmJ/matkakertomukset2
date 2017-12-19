@@ -12,8 +12,8 @@ kuvion `r Ref('fig', 'ff_deproles.shares')` mukaisesti
 
 ```{r deproles.shares, echo=FALSE, fig.caption=Ref('fig','ff_deproles.shares','Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.')}
 
-withindicator$indicator.deprel <- factor(withindicator$asuminen_expressed,levels=unique(names(sort(table(withindicator$asuminen_expressed),d=T))))
-ggplot2::ggplot(withindicator, ggplot2::aes(x=asuminen_expressed)) + ggplot2::geom_bar() + ggplot2::coord_flip() + ggthemes::theme_tufte()
+withindicator$indicator.deprel <- factor(withindicator$indicator.deprel,levels=unique(names(sort(table(withindicator$indicator.deprel),d=T))))
+ggplot2::ggplot(withindicator, ggplot2::aes(x=indicator.deprel)) + ggplot2::geom_bar() + ggplot2::coord_flip() + ggthemes::theme_tufte()
 
 ```
 

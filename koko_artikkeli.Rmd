@@ -12,9 +12,7 @@ csl: formatting/utaltl.csl
 
 
 ```{r, echo=FALSE}
-library(knitr)
-library(rmarkdown)
-#render()
+library(SataTapaa)
 
 ```
 
