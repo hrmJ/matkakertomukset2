@@ -34,8 +34,21 @@ Asumisesta kertovien kappaleiden syntaktisesta rakenteesta saatiin yleiskuva
 annotoimalla kappaleet koneellisesti dependenssijäsentimellä [ks.
 @haverinen2013tdt]. Koneellisesti tuotettu annotointi toimi lähtökohtana, kun
 kappaleita ryhdyttiin luokittelemaan eri ryhmiin sen mukaan, miten niissä
-indikoitiin asumistopiikkia.
+indikoitiin asumistopiikkia. Luokittelu tapahtui seuraavien vaiheiden mukaisesti:
 
+1. Määriteltiin, että kaikista potentiaalisesti asumista indikoivista sanoista
+   otetaan mukaan ainoastaan varsinaiset asua-verbin johdokset, koska tämä oli
+   selvimmin rajattavissa oleva kategoria. Tarkasteltaessa
+   topiikki-indikaattoreita tarkasteltiin siis sitä, minkälaisissa rakenteissa
+   kunkin kappaleen ensimmäinen asua-johdos (kuten verbi *asua* tai substantiivit
+   *asuminen*, *asunto*, *asuntoasia*, *asuntomarkkinat*) esiintyi. 
+2. Jokaisesta kategoriasta valittiin tarkasteltavaksi puolet (tai vähintään x)
+   Tätä kautta mukaan valikoitui eniten niitä, joita... yms.
+   Tämä joukko analysoitiin siten, että mukaan otettiin vain tapaukset, joissa
+   tulkintamme mukaan toteutettiin alatopiikin funktiota.
+3. Kun jokaisesta syntaktisesta kategoriasta oli saatu kategorian suhteellisen
+   koon mukainen (tai suurin mahdollinen) määrä alatopiikkitapauksia, nämä
+   analysoitiin tarkemmin ja ryhmiteltiin eri tapauksiksi.
 
 Miten selvitettiin indikaattorisana=johdosasia.
 

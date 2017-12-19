@@ -5,6 +5,8 @@ output:
   pdf_document:
     toc: false
     number_sections: true
+  word_document:
+    fig_caption: true
 output_dir: output
 bibliography: bibliography.bib
 csl: formatting/utaltl.csl
