@@ -5,6 +5,7 @@ output:
   pdf_document:
     toc: false
     number_sections: true
+output_dir: output
 bibliography: bibliography.bib
 csl: formatting/utaltl.csl
 ---
@@ -18,5 +19,12 @@ library(rmarkdown)
 ```
 
 
+# Tutkimusaineisto ja -metodi
 
 `r knit_child('metodista.Rmd', quiet=T)`
+
+# Alatopiikkien tunnistaminen
+
+`r knit_child('alatopiikkeja.Rmd', quiet=T)`
+
+

@@ -1,0 +1,23 @@
+
+Asua-verbi ja sen johdokset esiintyvät tutkimusaineistossa siten,
+että.
+
+Tähän: x satunnaista kustakin?
+Tai: satunnaisten määrä suhteessa ryhmän kokoon...
+
+```{r, echo=FALSE}
+
+
+```
+
+
+## Predikaattiverbit
+
+
+Predikaattiverbitapaukset ovat harvoin..
+
+
+## Objektit
+
+
+## jne

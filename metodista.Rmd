@@ -39,10 +39,8 @@ indikoitiin asumistopiikkia.
 
 Miten selvitettiin indikaattorisana=johdosasia.
 
+Katsellaan eri 
 
 (ps. liitä mukaan jonnekin linkki githubiin tilastoja ajatellen?)
-
-(jotain tyyliin että mitä kaikkia automaattisesti tunnistettavissa olevia ominaisuuksia
-kullakin ryhmällä on...?
-)
+(jotain tyyliin että mitä kaikkia automaattisesti tunnistettavissa olevia ominaisuuksia kullakin ryhmällä on...?)
 
