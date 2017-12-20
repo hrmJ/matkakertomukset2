@@ -1,4 +1,10 @@
 
+Ensin: edellä tehdyn analyysin perusteella saadut ryhmät kootusti
+
+Sitten:
+
 - Kuinka monta eri tapaa oikeasti löydettiin?
 - mihin tällaista voisi soveltaa?
 - mitä voidaan sanoa tekstilajista / kirjoittajista / yms.?
+
+- Testaa "valvottua klusterianalyysiä" käyttäen tässä tehtyä luokittelua pohjana

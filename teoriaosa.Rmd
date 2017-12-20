@@ -1,23 +1,30 @@
-Johdanto
-=============
-
-TEstiÃ¤
-
-- lista 1
-- lista 2
-
-Otsikko 2
----------------
-
-lklkjlkj
-
-### Osaanko siirtää tätä sittenkään
 
 
-Oppilaitoksissa ja korkeakouluissa opiskelee kasvava joukko kirjoittajia, jolla ei peruskoulun päättötodistuksesta huolimatta ole hallinnassaan opinnoissa menestymiseen tarvittavia tekstitaitoja ja riittävää repertuaaria kirjoitetulle ilmaisulle tyypillisiä rakenteita. Osa heistä on suorittanut opintonsa S2-oppimäärän mukaisesti, mutta opiskeluun liittyvien tekstilajien ja ns. akateemisten genrejen hallinta tuottaa hankaluuksia myös suomalaisen peruskoulun suomi äidinkielenä -oppimäärän suorittaneille (ks. esim. Kuusela 2010). 2010-luvulla kielten ja kirjoittamisen opetuksessa korostuu tekstilähtöisyys ja funktionaalinen tapa tarkastella kieltä (ks esim. opsit & muita lähteitä). Tässä kehyksessä perinteinen, Suomenkin kontekstissa pääosin preskriptiivinen kuvaus (Komppa 2012: 121) tekstikokonaisuuden ja -kappaleen rakentumisesta ei palvele tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen tiedonhakija ja tekstien tutkija, joka ei enää kysy, miten minun pitäisi tämä tehdä vaan miten eri tavoilla tämä on tehty. 
+Oppilaitoksissa ja korkeakouluissa opiskelee kasvava joukko kirjoittajia,
+jolla ei peruskoulun pÃ¤Ã¤ttÃ¶todistuksesta huolimatta ole hallinnassaan
+opinnoissa menestymiseen tarvittavia tekstitaitoja ja riittÃ¤vÃ¤Ã¤
+repertuaaria kirjoitetulle ilmaisulle tyypillisiÃ¤ rakenteita. Osa heistÃ¤
+on suorittanut opintonsa S2-oppimÃ¤Ã¤rÃ¤n mukaisesti, mutta opiskeluun
+liittyvien tekstilajien ja ns. akateemisten genrejen hallinta tuottaa
+hankaluuksia myÃ¶s suomalaisen peruskoulun suomi Ã¤idinkielenÃ¤ -oppimÃ¤Ã¤rÃ¤n
+suorittaneille  [ks. esim. @kuusela2010]. 2010-luvulla kielten ja
+kirjoittamisen opetuksessa korostuu tekstilÃ¤htÃ¶isyys ja funktionaalinen
+tapa tarkastella kieltÃ¤ (ks esim. opsit & muita lÃ¤hteitÃ¤). TÃ¤ssÃ¤
+kehyksessÃ¤ perinteinen, Suomenkin kontekstissa pÃ¤Ã¤osin preskriptiivinen
+kuvaus [@komppa2012, 121] tekstikokonaisuuden ja -kappaleen rakentumisesta
+ei palvele tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen tiedonhakija
+ja tekstien tutkija, joka ei enÃ¤Ã¤ kysy, miten minun pitÃ¤isi tÃ¤mÃ¤ tehdÃ¤
+vaan miten eri tavoilla tÃ¤mÃ¤ on tehty. 
 
-Tutkimusperustaisen kirjoittamisenopetuksen tueksi tarvitaan käyttöpohjaista, kuvailevaa tutkimusta. Yksi keskeinen kriteeri mm.  äidinkielen ylioppilaskokeen arvioinnissa on kappaleiden sujuva liittyminen toisiinsa (Ylioppilastutkintolautakunta 2017), mutta saatavilla on enemmän tietoa siitä, miten se pitäisi tehdä, kuin todellisesta kielenkäytöstä (Komppa sanoo tämän sivulla 121 ja viittaa Chafeeseen 1994: 296) 
+Tutkimusperustaisen kirjoittamisenopetuksen tueksi tarvitaan
+kÃ¤yttÃ¶pohjaista, kuvailevaa tutkimusta. Yksi keskeinen kriteeri mm.
+Ã¤idinkielen ylioppilaskokeen arvioinnissa on kappaleiden sujuva
+liittyminen toisiinsa (Ylioppilastutkintolautakunta 2017), mutta
+saatavilla on enemmÃ¤n tietoa siitÃ¤, miten se pitÃ¤isi tehdÃ¤, kuin
+todellisesta kielenkÃ¤ytÃ¶stÃ¤ (Komppa sanoo tÃ¤mÃ¤n sivulla 121 ja viittaa
+[@chafe1994,  296]) 
 
 
 
-Tarve syntaksin ja tekstin rajapinnan analyysille (lähdeviite, eu-kartoitus) -> sovellusmahdollisuudet
+Tarve syntaksin ja tekstin rajapinnan analyysille (lÃ¤hdeviite,
+eu-kartoitus) -> sovellusmahdollisuudet

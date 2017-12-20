@@ -37,14 +37,31 @@ knitr::kable(tab,caption=Ref('tab','tt_tutkittavat','Syntaktiset kategoriat ja s
 
 ```
 
+Taulukossa `r Ref('tab', 'tt_tutkittavat')` kuvatut kategoriat on seuraavassa
+analysoitu seuraavalla tavalla:
 
-## Predikaattiverbit
-
-
-Predikaattiverbitapaukset ovat harvoin..
+1. Jokaisesta kategoriasta on tutkittu taulukossa `r Ref('tab', 'tt_tutkittavat')` 
+   esitetyn otannan mukainen määrä tapauksia ja näistä on eroteltu ne tapaukset,
+   joissa kyseessä todella on ollut alatopiikki.
+2. Alatopiikkitapaukset on ryhmitelty siten, että ne tapaukset, jotka tulkintamme mukaan
+   ovat olleet samanlaisia, on analysoitu osaksi samaa ryhmää
+3. Lopuksi eri syntaktisten kategorioiden perusteella saaduista tapauksista tehdään synteesi,
+   joka esitelmään Päätelmiä-osiossa.
 
 
 ## Objektit
 
+Alkuun: kuinka monta alatopiikkitapausta
+
+## Predikaattiverbit
+
+Alkuun: kuinka monta alatopiikkitapausta
+
+Predikaattiverbitapaukset ovat harvoin..
+
 
 ## jne
+
+
+Alkuun: kuinka monta alatopiikkitapausta
+
