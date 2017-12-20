@@ -1,0 +1,2 @@
+Tähän kansioon voidaan tallentaa esimerkiksi
+virkkeiden analyysin tulokset excel-muodossa
