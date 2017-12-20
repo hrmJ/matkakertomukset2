@@ -35,6 +35,7 @@ tab$sample <- round(tab$Freq/2)
 colnames(tab) <- c("Kategoria","Yht.","Otanta")
 knitr::kable(tab,caption=Ref('tab','tt_tutkittavat','Syntaktiset kategoriat ja satunnaisotannan koko'))
 
+
 ```
 
 Taulukossa `r Ref('tab', 'tt_tutkittavat')` kuvatut kategoriat on seuraavassa
@@ -59,9 +60,7 @@ Alkuun: kuinka monta alatopiikkitapausta
 
 Predikaattiverbitapaukset ovat harvoin..
 
-
 ## jne
-
 
 Alkuun: kuinka monta alatopiikkitapausta
 

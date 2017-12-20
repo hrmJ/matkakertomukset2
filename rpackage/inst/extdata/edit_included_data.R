@@ -24,3 +24,26 @@ fsstats1$indicatorword_length <-  str_length(fsstats1$indicatorword_token)
 
 save(fsstats1, file="rpackage/data/fsstats1.rda")
 save(withindicator, file="rpackage/data/withindicator.rda")
+
+#SATUNNAISOTANTA
+
+withindicator.1s <- subset(withindicator,sentence_number==1)
+withindicator.1s$indicator.deprel <- as.character(withindicator.1s$indicator.deprel)
+withindicator.1s$indicator.deprel[withindicator.1s$indicator.deprel %in% names(table(withindicator.1s$indicator.deprel)[table(withindicator.1s$indicator.deprel)<10])] <- "Muu"
+withindicator.1s$indicator.deprel <- factor(withindicator.1s$indicator.deprel,levels=unique(names(sort(table(withindicator.1s$indicator.deprel),d=T))))
+tab <- as.data.frame(sort(table(withindicator.1s$indicator.deprel),dec=T))
+tab$sample <- round(tab$Freq/2)
+colnames(tab) <- c("Kategoria","Yht.","Otanta")
+
+
+set.seed(9^9)
+otannat_analyysiin <- list()
+for(kat in tab$Kategoria){
+    no  <- tab[tab$Kategoria==kat,"Otanta"]
+    thisdf <- subset(withindicator.1s,indicator.deprel==kat)
+    otannat_analyysiin[[kat]] <- thisdf[sample(c(1:nrow(thisdf)),size=no),]
+}
+otannat_analyysiin <- do.call("rbind", otannat_analyysiin)
+
+save(otannat_analyysiin, file="rpackage/data/otannat_analyysin.rda")
+
