@@ -1,4 +1,4 @@
-Otsikko
+Johdanto
 =============
 
 TEstiÃ¤
@@ -11,6 +11,13 @@ Otsikko 2
 
 lklkjlkj
 
-### Otsikko 3
+### Osaanko siirtää tätä sittenkään
 
 
+Oppilaitoksissa ja korkeakouluissa opiskelee kasvava joukko kirjoittajia, jolla ei peruskoulun päättötodistuksesta huolimatta ole hallinnassaan opinnoissa menestymiseen tarvittavia tekstitaitoja ja riittävää repertuaaria kirjoitetulle ilmaisulle tyypillisiä rakenteita. Osa heistä on suorittanut opintonsa S2-oppimäärän mukaisesti, mutta opiskeluun liittyvien tekstilajien ja ns. akateemisten genrejen hallinta tuottaa hankaluuksia myös suomalaisen peruskoulun suomi äidinkielenä -oppimäärän suorittaneille (ks. esim. Kuusela 2010). 2010-luvulla kielten ja kirjoittamisen opetuksessa korostuu tekstilähtöisyys ja funktionaalinen tapa tarkastella kieltä (ks esim. opsit & muita lähteitä). Tässä kehyksessä perinteinen, Suomenkin kontekstissa pääosin preskriptiivinen kuvaus (Komppa 2012: 121) tekstikokonaisuuden ja -kappaleen rakentumisesta ei palvele tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen tiedonhakija ja tekstien tutkija, joka ei enää kysy, miten minun pitäisi tämä tehdä vaan miten eri tavoilla tämä on tehty. 
+
+Tutkimusperustaisen kirjoittamisenopetuksen tueksi tarvitaan käyttöpohjaista, kuvailevaa tutkimusta. Yksi keskeinen kriteeri mm.  äidinkielen ylioppilaskokeen arvioinnissa on kappaleiden sujuva liittyminen toisiinsa (Ylioppilastutkintolautakunta 2017), mutta saatavilla on enemmän tietoa siitä, miten se pitäisi tehdä, kuin todellisesta kielenkäytöstä (Komppa sanoo tämän sivulla 121 ja viittaa Chafeeseen 1994: 296) 
+
+
+
+Tarve syntaksin ja tekstin rajapinnan analyysille (lähdeviite, eu-kartoitus) -> sovellusmahdollisuudet
