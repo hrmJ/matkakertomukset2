@@ -5,6 +5,8 @@ output:
   pdf_document: 
     toc: false
     number_sections: true
+    includes:
+        in_header: formatting/preamble.tex
   word_document: default
 bibliography: bibliography.bib
 csl: formatting/utaltl.csl
@@ -33,4 +35,4 @@ library(SataTapaa)
 
 `r knit_child('paatelmia.Rmd', quiet=T)`
 
-
+# Lähteet

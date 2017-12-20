@@ -13,11 +13,12 @@ fn <- function(n,numbers=2){
 #' Just a convinience function for outputting to the right folder
 #' 
 #' @importFrom rmarkdown render
+#' @importFrom knitr knit_child kable
 #' @param odir the folder to output to, defaults to "output"
 #' @param fname name of the file to output (defaults to "koko_artikkeli.Rmd")
 #' @export
 
 Output <- function(odir="output",fname="koko_artikkeli.Rmd"){
-    render(fname,output_dir=odir)
+    render(fname,output_dir=odir, output_format=c("word_document", "pdf_document"))
 }
 

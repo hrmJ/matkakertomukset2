@@ -2,18 +2,38 @@
 Asua-verbi ja sen johdokset esiintyvät tutkimusaineistossa
 tavallisimmin jo asumisesta kertovan kappaleen ensimmäisessä virkkeessä 
 (`r fn(100*nrow(subset(withindicator,sentence_number==1))/nrow(withindicator))` % tapauksista).
-Juuri nämä ovat myös potentiaalisimpia kohteita alatopiikin esiintiymisen kannalta,
+Juuri nämä ovat myös potentiaalisimpia kohteita alatopiikin esiintymisen kannalta,
 minkä takia edellisessä osiossa kuvattu satunnaisotanta päätettiin kohdistaa näihin tapauksiin.
 Lopputuloksena oli kaiken kaikkiaan `r nrow(subset(withindicator,sentence_number==1))`
 asumisesta kertovan kappaleen sisältävää tekstiä. Näissä itse asua-johdoksen
-syntaktinen kategoria eli jäsentimen sille asettama dependenssirooli jakautui
-kuvion `r Ref('fig', 'ff_deproles.shares')` mukaisesti
+syntaktinen kategoria eli jäsentimen sille asettama dependenssirooli vaihteli
+kuvion `r Ref('fig', 'ff_deproles.shares')` mukaisesti:
 
 
-```{r deproles.shares, echo=FALSE, fig.caption=Ref('fig','ff_deproles.shares','Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.')}
+```{r deproles.shares, echo=FALSE, fig.cap=Ref('fig','ff_deproles.shares','Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.'), fig.width=3, fig.height=2}
 
-withindicator$indicator.deprel <- factor(withindicator$indicator.deprel,levels=unique(names(sort(table(withindicator$indicator.deprel),d=T))))
-ggplot2::ggplot(withindicator, ggplot2::aes(x=indicator.deprel)) + ggplot2::geom_bar() + ggplot2::coord_flip() + ggthemes::theme_tufte()
+#Add a category called "other"
+withindicator.1s <- subset(withindicator,sentence_number==1)
+withindicator.1s$indicator.deprel <- as.character(withindicator.1s$indicator.deprel)
+withindicator.1s$indicator.deprel[withindicator.1s$indicator.deprel %in% names(table(withindicator.1s$indicator.deprel)[table(withindicator.1s$indicator.deprel)<10])] <- "Muu"
+withindicator.1s$indicator.deprel <- factor(withindicator.1s$indicator.deprel,levels=unique(names(sort(table(withindicator.1s$indicator.deprel),d=T))))
+ggplot2::ggplot(withindicator.1s, ggplot2::aes(x=indicator.deprel)) + ggplot2::geom_bar() + ggplot2::coord_flip() + ggthemes::theme_tufte()
+
+```
+
+Kuvion `r Ref('fig', 'ff_deproles.shares')` mukaan tavallisin asumista
+ilmaisevan topiikki-indikaattorin dependenssirooli on edellä kuvatulla tavalla
+rajatussa tutkimusaineistossa objekti (*dobj*). Jonkin verran muista kategorioista
+erottuvat myös predikaattiverbit (*root*) sekä tarkemmin määrittelemättömät
+adverbiaalit (*nmod*). Eri kategorioista tutkittaviksi valikoitujen tapausten
+määrä on esitetty taulukossa `r Ref('tab', 'tt_tutkittavat')`:
+
+```{r, echo=FALSE}
+
+tab <- as.data.frame(sort(table(withindicator.1s$indicator.deprel),dec=T))
+tab$sample <- round(tab$Freq/2)
+colnames(tab) <- c("Kategoria","Yht.","Otanta")
+knitr::kable(tab,caption=Ref('tab','tt_tutkittavat','Syntaktiset kategoriat ja satunnaisotannan koko'))
 
 ```
 

@@ -13,6 +13,8 @@ withindicator$head_of_indicator <- gsub(";.*","",withindicator$head_of_indicator
 withindicator$head_of_indicator_loc <- gsub(";.*","",withindicator$head_of_indicator_loc)
 withindicator$indicatorloc <- gsub(";.*","",withindicator$indicatorloc)
 withindicator$indicator_ratio  <- round(withindicator$indicatorwords / withindicator$words_total * 100,2)
+withindicator$indicator_ratio  <- round(withindicator$indicatorwords / withindicator$words_total * 100,2)
+withindicator$indicator.deprel <- factor(withindicator$asuminen_expressed,levels=unique(names(sort(table(withindicator$asuminen_expressed),d=T))))
 
 fsstats1$headverb_person_simple <- "--"
 fsstats1$headverb_person_simple[grepl("1",fsstats1$headverb_person)] <- "1p"
