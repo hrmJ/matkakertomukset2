@@ -33,6 +33,35 @@ johon loppuun syötät id:n, siis esimerkiksi
 
     https://puolukka.uta.fi/jhout/analyzer/index.php?id=110
 
+## R-ohjeita
+
+### Taulukoiden (data frame) siistiminen  ylimääräisistä sarakkaista
+
+```{r, echo=FALSE}
+
+alatopiikkiAnalyysi <- subset(otannat_analyysiin,select=c("sentence","paragraph","textid","indicatorword","indicator.deprel","headverb_lemma","headverb_person","words_total"))
+
+
+```
+
+### Datan siirtäminen suoraan Exceliin ja sieltä pois (ilman csv-välivaihetta)
+
+```{r, echo=FALSE}
+
+install.packages("openxlsx") #(Vain ekalla kerralla)
+library(openxlsx)
+
+#Excel-tiedoston kirjoittaminen
+write.xlsx(alatopiikkiAnalyysi,"data/alatopiikkianalyysi.xlsx")
+#Excel-tiedoston lukeminen
+alatopiikkiAnalyysi <- read.xlsx("data/alatopiikkianalyysi.xlsx")
+
+```
+
+
+
+
+
 ## Aputyökaluja:
 
 - [Markdown pad](http://www.markdownpad.com/download.html) Editori markdown-muotoisen tekstin (raakateksti, josta saa helposti taitettua tekstiä) kirjoittamiseen.
