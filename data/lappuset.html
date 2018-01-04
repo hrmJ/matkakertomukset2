@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"></meta> 
+
+<script src="/home/juho/homestead_improved/majakkaportaali/src/js/vendor/jquery-3.2.1.min.js"></script>
+
+
+<style type="text/css">
+
+div{
+    border-radius:10px;
+    border: 1px solid grey;
+    padding:1em;
+    margin:1em;
+    max-width:5cm;
+}
+
+
+section{
+    display:flex;
+    flex-flow:row wrap;
+        width:21cm;
+    break-before:always;
+}
+
+section:nth-child(1){
+    margin-bottom:3cm;
+}
+
+section:nth-child(2){
+    margin-bottom:5cm;
+}
+
+section:nth-child(3){
+    margin-bottom:9cm;
+}
+
+section:nth-child(4){
+    margin-bottom:3cm;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<article id="cont">
+    <table>
+    <colgroup>
+    <col width="100%" />
+    </colgroup>
+    <tbody>
+    <tr class="odd">
+    <td align="left">322 Asumisen hoidin vaihtareille tarkoitetun OeAD-järjestön kautta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">639 Yliopisto lähetti minulle hyvissä ajoin asuntotarjouksen.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">711 Asunnon olin hankkinut jo aiemmin Facebookin avulla yksityiseltä vuokranantajalta, mutta tarpeellist</td>
+    </tr>
+    <tr class="even">
+    <td align="left">565 Asunnon varasin paikallista vuokramarkkinaa hoitavan Kopparstaden-palvelun kautta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">254 Itse hankin asunnon jo Suomesta käsin, asuin College Courtissa joka sijaitsee aivan kampuksen kyljes</td>
+    </tr>
+    <tr class="even">
+    <td align="left">558 Kv. koordinaattori Maggy oli suuri apu asuntoa etsittäessä.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">459 Rupesin hyvissä ajoin kyselemään asuntoa asunnonvälittäjä Wendyltä.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">191 Etsin asunnon vasta paikan päällä, sillä minulla oli kaupungissa kavereita, joiden luona sain viettä</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">377 Asuntoa voi hakea BNU nettijärjestelmän kautta, johon saa ohjeet hyväksymispaketin kanssa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">732 Asuntoni sain vuokrattua Apartiksen( paikallinen TOAS) kautta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">438 Opiskelijoille asuminen oli organisoitu dormiin nimeltä Gonzaga hall. Sijainniltaan asuntola oli kam</td>
+    </tr>
+    <tr class="even">
+    <td align="left">720 Hain jo syksyllä asuntolapaikkaa ja sainkin paikan vaihtareille osoitetusta asuntolasta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">395 CUHKin hakuvaiheessa tulee laittaa järjestykseen asumisvaihtoehdot, jotka ovat international house,</td>
+    </tr>
+    <tr class="even">
+    <td align="left">493 Asunnon olin hommannut jo etukateen Suomesta kasin eraan valitysfirman kautta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">544 Asunnon hankin paikalliselta opiskelija-asuntosäätiöltä( CROUS) yliopiston ilmoittautumisen yhteydes</td>
+    </tr>
+    <tr class="even">
+    <td align="left">32 Saavuttuamme asuntolaamme, Avant-Garden:iin, huomasimme nopeasti mihin paholaisen loukkuun olimme pä</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">162 Asunnon hankin vasta paikan päältä.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">266 Asuntoa minun ei tarvinnut hankkia.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">476 Ensimmäiseksi neljäksi yöksi olin hankkinut huoneen Airbnb:stä, mutta pysyvän asunnon hommasin vasta</td>
+    </tr>
+    <tr class="even">
+    <td align="left">490 Yritin ennen lähtöäni katsoa netistä asuntoasiat kuntoon, mutta mielestäni nettisivut oli melko seka</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">73 Asunnon hankin yliopiston kautta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">117 Asuminen Kentissä on järjestetty niin että paikalliset ekavuotiset ja vaihtarit asuvat kampuksen opi</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">764 Aloin jo loppukeväästä katsella asuntomahdollisuuksia Prahasta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">272 Olin löytänyt asunnon ensimmäiseksi kuukaudeksi Airbnb:n kautta ennen Italiaan saapumista.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">112 Hankin asunnon yksityisiltä markkinoilta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">473 Löysin asunnon SiO:n eli Oslon opiskelijasäätiön kautta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">670 Asunnon hankin yksityiseltä vuokranantajalta, ja se oli valmiina saapuessani.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">187 Aloin katsella asuntoilmoituksia Suomessa vähän ennen lähtöäni, mutten varannut vielä mitään.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">361 Asuntoa oli hyvin vaikea saada vapailta markkinoilta etänä, sillä kukaan ei halunnut vuokrata minull</td>
+    </tr>
+    <tr class="even">
+    <td align="left">590 Yliopisto takaa asunnot kaikille vaihto-opiskelijoille.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">710 Asunnon sain jo ennen joulua, kun slovenialainen tyttö ilmoitti Facebookin Erasmus Ljubljana -ryhmäs</td>
+    </tr>
+    <tr class="even">
+    <td align="left">697 Saavuin Belgradiin hyvissä ajoin ennen harjoittelun alkua, jotta ehdin löytää asunnon.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">627 Asuntoa hain Studentendorfilta, joka tarjoaa Humboldtin opiskelijoille soluasuntoja sekä yksiöitä.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">785 Istanbulin teknillinen yliopisto ei pysty tarjoamaan asuntoa vaihto-opiskelijoille, eikä Istanbuliss</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">212 Olin katsonut Couch Surfing palvelut Renting rooms in Madrid( tai jokin vastaavan niminen) -palstalt</td>
+    </tr>
+    <tr class="even">
+    <td align="left">769 Ennen Prahaan lähtöä etsimme ystäväni kanssa netistä vuokra-asuntoja.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">810 Yliopisto tarjosi majoitusvaihtoehdoiksi asuntolaa, perhemajoitusta sekä apua oman vuokra-asunnon et</td>
+    </tr>
+    <tr class="even">
+    <td align="left">215 Itse löysin asunnon jo ennen vaihtoon lähtöä yliopiston sivujen vuokrailmoituksista, ja päätin luott</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">151 Hain asuntoa yliopistolta, mutta koska huomasin tarjouskirjeen vasta niin myöhään, myöhästyin yliopi</td>
+    </tr>
+    <tr class="even">
+    <td align="left">226 Asunnon olin katsonut jo etukäteen ja asuin kahden muun vaihtaritytön kanssa Sevillan keskustassa.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">676 Itse en saanut asuntoa Studierendenwerkiltä, joten jouduin etsimään sitä yksityisiltä markkinoilta,</td>
+    </tr>
+    <tr class="even">
+    <td align="left">314 Itse hankin asunnon jo etukäteen, ja paikallinen kaverini kävi sitä katsomassa ja hakemassa avaimen</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">52 Asuntoa minulla ei vielä ennen Brysseliin saapumista ollut, mutta olin sopinut muutamia näyttöjä jo</td>
+    </tr>
+    <tr class="even">
+    <td align="left">144 Vaihtoon haettaessa hain myös asuntolapaikkaa, ja sain valita itse mieluisimman asuntolan( tästä myö</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">625 Asunnon löysin sattuman kautta Facebookista.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">220 Asuntoa minulla ei ollut valmiiksi, mutta kämppäkaverit olivat.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">767 Päätimme vaihtoon lähtiessämme, ettemme halua asuntolamajoitusta, vaan hoidamme itsenäisesti välittä</td>
+    </tr>
+    <tr class="even">
+    <td align="left">387 Asuin yliopiston asuntolassa, Shaw collegessa.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">5 Asuin kevään The Student Hotellissa( thestudenthotel.com)</td>
+    </tr>
+    <tr class="even">
+    <td align="left">620 Vaihtoni ajan en asunut yliopiston asuntoloissa, vaan vuokrasin huoneen Augsburgin yliopiston opiske</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">306 Asuin OeAD:n soluasunnossa kiinalaisen kämppikseni kanssa koko vaihdon ajan.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">378 Asuin kansainvälisten opiskelijoiden asuntolassa, joka oli vain parin sadan metrin päässä omasta kou</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">859 Asuin aluksi isäntäperheeni luona muutaman viikon, jonka aikana etsin asunnon paikan päältä.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">293 Asuin Julius Raab Heimissä 10 minuutin kävelymatkan päässä kampuksesta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">835 Asuin koko vaihtoni ajan Raatuse 22 opiskelijasuntolan solussa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">120 Asuin yliopiston kampuksella ja asunnon olin hankkinut jo etukäteen yliopiston nettisivuilta, mikä o</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">850 Asuin vaihtoni ajan North Park Universityn kampuksella, Ohlson-asuntolassa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">260 Suurinosa vaihtareista asuu guest houseissa, jotka vapautuvat turistikauden päätyttyä 1.9.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">569 Suurin osa opiskelijoista asuu Ryd-nimisellä alueella, jossa on opiskelija-asuntoja.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">116 Asuin yliopiston asuntolassa, jonka olin varannut ja maksanut etukäteen.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">434 Asuin suomalaisen ystäväni kanssa kampuksella yliopiston asuntolassa eli dormissa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">409 Sairastelun lisäksi vaihtovuoden negatiivisin asia oli ehdottomasti asuminen.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">302 Hain asuntoa vaihto-opiskelijoille asuntoja järjestävän OeADin kautta varsin myöhään, kesäkuun puoli</td>
+    </tr>
+    <tr class="even">
+    <td align="left">699 Lähes kaikki Bratislavan kauppakorkeakoulun vaihto-opiskelijat asuivat Ekonom-nimisessä dormitoryssa</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">107 Asuminen, tai siis lähinnä asunnon hankkiminen, oli varmaankin vaihdon hankalin juttu.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">82 Asuin aluksi halvassa hotellissa yliopiston lähellä.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">829 Asuin yliopiston asuntolassa, kuten lähes kaikki muutkin vaihtarit.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">754 Asuin omassa asunnossa asuntolan sijaan, koska menin vaihtoon vaimoni kanssa.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">24 Asuimme kaikki kuusi Avantgarde-opiskelija-asuntolassa noin 10-15min pyörämatkan päässä yliopistolta</td>
+    </tr>
+    <tr class="even">
+    <td align="left">752 Asuin omassa asunnossa asuntolan sijaan, koska menin vaihtoon vaimoni kanssa.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">31 Asuimme kaupungin laidalla vaihtaritalossa nimeltä Avant Garde, jossa asui pari sataa vaihtaria ympä</td>
+    </tr>
+    <tr class="even">
+    <td align="left">88 Asuin elokuun lopusta marraskuun loppuun Araraquaran keskustassa sijaitsevassa kerrostaloasunnossa,</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">812 Asuin yliopiston legendaarisen päärakennuksen V-siivessä, kansainvälisille opiskelijoille tarkoitetu</td>
+    </tr>
+    <tr class="even">
+    <td align="left">71 Asuminen: Vuokrasin huoneen yliopiston omista asuntoloista.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">557 Vaihtoni aikana asuin Grandmontin asuntolassa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">44 Saavuttuani Buenos Airesiin asuin ensimmäisen viikon hostellissa.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">688 Asuin kymmenen neliömetrin asunnossa, jossa oli oma vessa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">405 Asuntolakseni määräytyi JC, eli kampuksen perimmäisessä nurkassa oleva 7-10 hengen asunnoista koostu</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">692 Jos asunnonhausta haluaa päästä helpolla, voi asuntoa hakea Studentenwerk Potsdamin kautta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">525 Olisin saanut paikalliselta opiskelija-asuntosäätiöltä asunnon, mutta sain siitä tiedon niin myöhään</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">79 Yksi Namurin vahvuuksia vaihtokohteena on ehdottomasti se, että lähes poikkeuksetta Erasmus-opiskeli</td>
+    </tr>
+    <tr class="even">
+    <td align="left">225 Minulla kävi hyvä tuuri asumisen kanssa, sillä minua odotti asunto valmiina Sevillassa.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">7 Monet Dameissa olevat vaihtarit varmasti kertovat asumiskokemuksistaan Uilenstede:n kampuksella, mut</td>
+    </tr>
+    <tr class="even">
+    <td align="left">844 Olimme jo Suomessa päättäneet olevamme hieman liian mukavuudenhaluisia ja suoraan sanottuna vanhoja</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">334 Mielestäni asuntolassa asuminen oli ihan viihtyisää.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">694 Olin saanut huoneen yliopiston kampuksen asuntolasta Egilolfstraßelta neljän hengen solusta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">286 Asuntoloista valitsin Julius Raab Heimin vanhojen matkakertomusten perusteella.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">391 Valitsin kolmesta hakuprosessin aikana tarjotuista asumisvaihtoehdosta I-Housen.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">298 Sitten pari sanaa asumisesta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">375 Oli tehnyt varauksen opiskelija-asuntolaan saatuani varmistuksen vaihtopaikasta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">831 Suurin osa Pietarin vaihtareista majoittuu samaan asuntolaan, legendaariseen ” kapitanskayaan ”, jok</td>
+    </tr>
+    <tr class="even">
+    <td align="left">624 Asunnon ja erityisesti vuokranantajan suhteen minulla kävi tuuri.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">722 Saavuin Ljubljanaan kielikurssin alkua edeltävällä viikolla, joten pääsin suoraan muuttamaan asuntol</td>
+    </tr>
+    <tr class="even">
+    <td align="left">532 Yliopisto ei juurikaan auta asumisjärjestelyissä eikä siellä muutenkaan vaihtareita avustettu samall</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">774 Yliopisto tarjosi kaikille vaihto-oppilaille paikan asuntolasta, joka oli aika kaukana keskusta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">20 Asunnosta muodostui kriittisin osa koko vaihtoa.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">61 Sain itselleni huoneen Kotmerckx-asuntolasta yliopiston kautta aivan keskuskampukselta, jossa kurssi</td>
+    </tr>
+    <tr class="even">
+    <td align="left">399 Orientation weekin lopussa muutettiin lopulliseen asuntolaan.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">126 Sain noin viikon sisällä siitä kun olin laittanut hakemuksen yliopiston asuntopalveluihin tarjouksen</td>
+    </tr>
+    <tr class="even">
+    <td align="left">317 Lensin Wieniin sunnuntaina ja lento-kentältä suuntasin suoraan asunnolleni.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">839 Itselläni kävi tuuri asunnon suhteen löytäessäni edullisen huoneen Chelseasta aivan Manhattanin kesk</td>
+    </tr>
+    <tr class="even">
+    <td align="left">731 Asunnonhaussa olin hyvissä ajoin liikkeellä( laitoin paperit eteenpäin ehkä päivä pari sen jälkeen,</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">517 Asunnon löytämisessä oli itselläni hieman ongelmia.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">270 Asunnon hankkimiseen liittyen yliopisto tarjosi palvelua, jossa paikallinen toimisto hankkii vaihtar</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">535 Asunnon hankkiminen oli ainoa vähänkään hankala tai työläs tehtävä ennen lähtöä tapahtuneista etukät</td>
+    </tr>
+    <tr class="even">
+    <td align="left">650 Muiden lomakkeiden lisäksi lähetin kesäkuussa vaihtoyliopistolta saamieni ohjeiden mukaisesti myös h</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">449 Asunnon hankkiminen oli helppoa vaihtareille tarkoitetun StayInAthens -järjestön kautta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">743 Asunnon hankkiminen Kööpenhaminassa on erittäin hankalaa ja vuokrataso on hyvin korkea.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">42 Suurlähetystön henkilökunta tarjosi resurssiensa puitteissa apuaan mm. maahantuloon, käytännön järje</td>
+    </tr>
+    <tr class="even">
+    <td align="left">22 Kaikkein vaikein asia oli asunnon löytäminen.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">595 Asunnon saaminen Uppsalassa ei ole itsestäänselvyys, joten kannattaa ottaa asunto, jota yliopisto ta</td>
+    </tr>
+    <tr class="even">
+    <td align="left">632 Myös asunnon hankkiminen sujui minun kohdallani kivuttomasti, sillä eräällä tuttavallani on yksiö Be</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">717 Yksi ainoista päänvaivaa tuottaneista asioista vaihdon aikana oli vaihdon alussa tammikuussa asunnon</td>
+    </tr>
+    <tr class="even">
+    <td align="left">494 Asunnon saaminen Krakovasta syyslukukaudeksi osoittautui erittäin helpoksi.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">292 Asunnon hakeminen oli todella helppoa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">135 Kesäkuun alussa sain Englannista sähköpostia asunnon hankkimiseen liittyen.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">860 Sitten asunnon hankkiminen.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">474 Asunnon saamisen hankaluudesta Trondheimissa oli jo etukäteen varoiteltu, joten en sinänsä yllättyny</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">455 Asunnon hakeminen oli naurettavan helppoa parin rasti ruutuun – sivun täyttämisen ansiosta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">369 ISEP:n sopimuksen mukaan vaihtomaksuun kuuluu asunto sekä Meal Plan, joten asunto oli valmiina kun s</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">606 Lähtiessäni Berliiniä kohti, minulla ei ollut pysyvää asuntoa tiedossa, mutta kuitenkin huone seuraa</td>
+    </tr>
+    <tr class="even">
+    <td align="left">441 Asuminen järjestyy varsin kivuttomasti ja suhteellisen edullisesti kampuksella sijaitsevasta asuntol</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">863 Asuminen tapahtui kampuksella asuntoloissa kahden henkilön huoneissa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">498 Saapuessani Varsovaan minulla oli onneksi jo asunto tiedossa.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">559 CROUS:lla on Rennesissä kaksi opiskelija-asuntolaa, Sévigné ja Patton, joista yleensä vaihtareille t</td>
+    </tr>
+    <tr class="even">
+    <td align="left">200 Ennen lähtöäni luin monesta paikasta, että asunto kannattaisi ehdottomasti hankkia vasta paikanpääll</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">422 Fudanin asuntola vaihto-opiskelijoille sijaitsee pohjoiskampuksen luoteisimmassa nurkassa, noin kilo</td>
+    </tr>
+    <tr class="even">
+    <td align="left">430 Asunnot olivat vaihtareille valmiina, mutta saimme muuttaa niihin sisään vasta juuri ennen lukukaude</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">84 Minulla ei ollut asuntoa valmiina, mutta minulla on ystäviä Brasiliasta, joten he järjestivät minull</td>
+    </tr>
+    <tr class="even">
+    <td align="left">125 Suurella perheellämme oli myös yhteinen asunto.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">100 Asuminen järjestyi yliopiston puolesta helposti, sain huoneen kampuksella olevasta Cwrt Mawr –nimise</td>
+    </tr>
+    <tr class="even">
+    <td align="left">147 Syy miksi saavuin Britteihin viikkoa ennen lukukauden alkua oli se, ettei minulla ollut vielä asunto</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">811 Viisikerroksinen asuntolani( dormitory 5; https :// www.hse .ru /en/ dormitory/ kib) sijaitsi paraat</td>
+    </tr>
+    <tr class="even">
+    <td align="left">691 Asuntoni oli valmiina heti saavuttuani paikalle.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">390 Asuminen tapahtuu pienessä huoneessa yhdessä kämppiksen tai kahden kanssa.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">666 Löysin itselleni asunnon internetistä sivustolta http: / / www.wg-gesucht.de.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">618 Soluasunnon itselleni hain Saksasta wg-gesuchtin nettisivujen kautta.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">448 Edellä mainitun lisäksi hoidin jo Suomessa ollessani itselleni asunnon Ateenasta.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">51 Asumisen osalta vaihtoehdot ovat asuntola ja yksityinen vuokranantaja, joilla kummallakin on puolens</td>
+    </tr>
+    <tr class="even">
+    <td align="left">619 Asunnon Augsburgista etsin itse.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">703 Asuntoni Sloveniassa oli lottovoitto.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">645 Jos halusi saada paikallisen opiskelija-asuntosäätiön asunnon, piti tehdä online-hakemus suoraan kys</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">119 Vuokrasin asunnon kampukselta Parkwoodista, jossa useimmat vaihto-opiskelijat asuivat.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">106 Ensimmäinen vinkkini asunnon etsintään: OLKAA AJOISSA LIIKKEELLÄ!</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">11 Vuokrasin asunnon <a href="SSH:lta" class="uri">SSH:lta</a>.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">760 Ainoa negatiiviseksi kokemani asia vastaanottavan yliopiston hakemusjärjestelyissä oli se, että vaih</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">318 Asunnon etsintä Wienissä vaatii jonkin verran aikaa ja vaivaa, mutta mikään mahdoton tehtävä se ei o</td>
+    </tr>
+    <tr class="even">
+    <td align="left">802 Sain vuokrattua asunnon tuttavani kautta ennen kuin muutin Unkariin.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">693 Olin hakupapereita ja muita lappuja täyttäessäni laittanut rastin ruutuun ja ilmoittanut haluavani a</td>
+    </tr>
+    <tr class="even">
+    <td align="left">26 Asumisratkaisumme oli kaupungin reunalla pellon laidalla sijaitseva opiskelija-asuntola Avant-Garde,</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">85 Asuminen Riossa ei ole kovinkaan edullista, eikä Ibmec tarjoa majoitusvaihtoehtoja opiskelijoille.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">341 Asuminen Tokiossa on aika kallista.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">817 Asuminen pääkampuksen asuntolassa oli edullista, ja Kelan opintotuki ulkomaille riitti muutenkin mai</td>
+    </tr>
+    <tr class="even">
+    <td align="left">224 Asumisjärjestelyt olivat vaihdon aikana paljon puhuttu sirkus, kun jatkuvasti joku muutti paikasta t</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">807 Ulkomaisille opiskelijoille tarkoitettu asuntola on vain kolme vuotta vanha ja täten melko moderni.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">534 Se oli kuitenkin erittäin hankalaa, sillä monet olivat jo syksyllä muuttaneet yhteen ja enää oli jäl</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">76 Koska kurssini olivat kaikki yliopiston keskustakampuksella ja yliopiston asuntola kahdeksan kilomet</td>
+    </tr>
+    <tr class="even">
+    <td align="left">806 Asuntolamme on uusi, rakennettu 2013 vuonna.</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">345 Asuntola on 3 asemaa Ikebukurosta, yhdestä Tokion isoimmista keskustoista, ja yliopisto vielä 2 asem</td>
+    </tr>
+    <tr class="even">
+    <td align="left">385 Luettuani edelliset matkakertomukset kuvittelin, että tulen asumaan pienessä huoneessa monien muiden</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">435 Kuten jo aiemmin mainitsin, päätin asua yliopiston asuntolassa, joka on kampuksen sisäpuolella.</td>
+    </tr>
+    <tr class="even">
+    <td align="left">363 Itse valitsin muualla kuin kampuksella asumisen, ja tein mielestäni siinä itselleni oikean päätöksen</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">263 Koska Reykjavikin vuokra- ja opiskelija-asuntotilanne on hyvin huono, vaihto-opiskelijat majoittuvat</td>
+    </tr>
+    <tr class="even">
+    <td align="left">838 Kielikurssin ajan asuin Maaülikoolin asuntolassa, joka on hieman kauempana keskustasta( kävelyetäisy</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">674 Halusin asua Mainzissa jaetussa kämpässä, ja hain soluhuonetta sekä Studierendenwerkiltä että yksity</td>
+    </tr>
+    <tr class="even">
+    <td align="left">204 Monella varmaan herää jo kysymys, entäs asuminen?</td>
+    </tr>
+    <tr class="odd">
+    <td align="left">319 Koska minulla on jo ennestään kavereita Wienissä, pystyin asumaan kaverini kanssa alivuokralaisena,</td>
+    </tr>
+    <tr class="even">
+    <td align="left">519 Olin hyvin onnekas ja löysin pitkän etsinnän jälkeen itselleni kimppakämpän Caenin keskustasta, miss</td>
+    </tr>
+    </tbody>
+    </table>
+</article>
+
+<script>
+
+$(document).ready(function(){
+
+    var $cont = $("<article>");
+    var i = 0;
+    var $section = undefined;
+    $("tr").each(function(){
+        if( i%21 === 0){
+            if(i > 0){
+                $section.appendTo($cont);
+            }
+            $section = $("<section>");
+        }
+        $("<div>").text($(this).text()).appendTo($section);
+        i++;
+    });
+
+    $("#cont").html("").append($cont);
+
+});
+
+</script>
+</body>
+</html>
