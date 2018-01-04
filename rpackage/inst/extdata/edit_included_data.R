@@ -47,3 +47,13 @@ otannat_analyysiin <- do.call("rbind", otannat_analyysiin)
 
 save(otannat_analyysiin, file="rpackage/data/otannat_analyysin.rda")
 
+
+#tarkempia tietoja:
+
+
+alatopiikkiAnalyysi <- subset(otannat_analyysiin,select=c("sentence","paragraph","textid","indicatorword","indicator.deprel","headverb_lemma","headverb_person","words_total"))
+alatopiikkiAnalyysi$edellinenkpl <- sapply(alatopiikkiAnalyysi$textid,function(x,d)d$previous_paragraph[d$textid==x] ,d=previous_pars)
+alatopiikkiAnalyysi$valiotsikko <- sapply(alatopiikkiAnalyysi$textid,function(x,d)d$chaptertitle[d$textid==x] ,d=chaptertitles)
+write.xlsx(alatopiikkiAnalyysi,"data/alatopiikkianalyysi.xlsx")
+
+
