@@ -1,0 +1,8 @@
+---
+Nimi: Erikoisryhmä 3
+Kuvaus: Outoja kompleksisia rakenteita
+textid:
+    - {id:61, side:x}
+    - {id:126, side:x}
+ylaotsikko: nämä vielä auki
+---

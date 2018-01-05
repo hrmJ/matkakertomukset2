@@ -1,0 +1,11 @@
+---
+Nimi: Erikoisryhmä 1
+Kuvaus: mm. Asuntoni Sloveniassa / Asunnon Augsburgista
+textid:
+    - {id:703, side:x}
+    - {id:619, side:x}
+    - {id:7, side:x}
+    - {id:395, side:otsikko}
+    - {id:559, side:otsikko}
+ylaotsikko: nämä vielä auki
+---

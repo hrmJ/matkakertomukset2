@@ -1,0 +1,13 @@
+---
+Nimi: yleistys
+Kuvaus: Jakaa lukijalle maailmantietoa käsiteltävästä asiasta.
+textid:
+    - {id:377, side: otsikko}
+    - {id:318, side: x}
+    - {id:743, side: x}
+    - {id:474, side: x}
+    - {id:117, side: x}
+    - {id:79, side: x}
+    - {id:595, side: x}
+ylaotsikko: arvioivat ja kuvailevat
+---

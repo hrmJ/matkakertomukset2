@@ -1,0 +1,10 @@
+---
+Nimi: ennakoivien ja predikoivien välimaasto
+Kuvaus: Ovat sekoitus ennakoivaa ja predikoivaa ryhmää
+textid:
+    - {id:767, side:x}
+    - {id:606, side:edelliseen}
+    - {id:44, side:otsikko}
+    - {id:498, side:otsikko}
+ylaotsikko: ei
+---

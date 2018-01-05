@@ -22,3 +22,10 @@ Output <- function(odir="output",fname="koko_artikkeli.Rmd"){
     render(fname,output_dir=odir, output_format=c("word_document", "pdf_document"))
 }
 
+#' Print some essential information  about an example based on text id
+#' @param textid id of the text
+#' @export
+
+GetInfo <- function(textid){
+    return(analysoitu_otanta[analysoitu_otanta$textid==textid,c("sentence","paragraph","edellinenkpl","väliotsikko","Ryhmä")])
+}

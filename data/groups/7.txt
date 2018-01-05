@@ -1,0 +1,33 @@
+---
+Nimi: Listamaiset
+Kuvaus: Asiaa käsitellään sekventiaalisesti, ikään kuin yhtenä monesta listan osasta.
+textid:
+    - {id:710, side:x}
+    - {id:266, side:check}
+    - {id:406, side:check}
+    - {id:618, side:edellinen}
+    - {id:670, side:edellinen}
+    - {id:52, side:edellinen}
+    - {id:226, side:otsikko}
+    - {id:544, side:otsikko}
+    - {id:162, side:otsikko}
+    - {id:191, side:otsikko}
+    - {id:220, side:otsikko}
+    - {id:73, side:x}
+    - {id:710, side:x}
+    - {id:625, side:x}
+    - {id:666, side:x}
+    - {id:731, side:x}
+    - {id:473, side:x}
+    - {id:732, side:x}
+    - {id:632, side:x}
+    - {id:322, side:x}
+    - {id:11, side:x}
+    - {id:493, side:x}
+    - {id:565, side:x}
+    - {id:119, side:x}
+    - {id:627, side:x}
+    - {id:151, side:x}
+    - {id:112, side:x}
+ylaotsikko: ei
+---

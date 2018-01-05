@@ -1,0 +1,23 @@
+---
+Nimi: Linkki
+Kuvaus: Indikaattorin merkitys on kiinnittynyt aikasempaan tekstiin (joko edelliseen tai sitä aikaisempaan kappaleeseen) 
+ylaotsikko: ei
+textid:
+    - {id:409, side: linkki}
+    - {id:125, side: linkki}
+    - {id:448, side: linkki}
+    - {id:147, side: linkki}
+    - {id:116, side: linkki}
+    - {id:85,  side: linkki}
+    - {id:286, side: linkki}
+    - {id:535, side: linkki}
+    - {id:688, side: linkki}
+---
+
+
+
+
+
+
+
+
