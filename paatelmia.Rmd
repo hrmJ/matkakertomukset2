@@ -8,3 +8,6 @@ Sitten:
 - mitä voidaan sanoa tekstilajista / kirjoittajista / yms.?
 
 - Testaa "valvottua klusterianalyysiä" käyttäen tässä tehtyä luokittelua pohjana
+    - Manuaalisen analyysin perusteella todella voidaan paitsi määrittää
+      ryhmät, joihin indikointitavat voi jakaa, myös opettaa algoritmi, joilla
+      muita tekstejä voisi ryhmitellä samoin perustein.
