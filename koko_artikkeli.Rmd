@@ -3,7 +3,7 @@ title: Sata ja yksi tapaa ilmaista topiikkia
 author: Kirsi Sandberg & Juho Härme
 output:
   pdf_document: 
-    toc: false
+    toc: true
     number_sections: true
     includes:
         in_header: formatting/preamble.tex
@@ -27,9 +27,9 @@ library(SataTapaa)
 
 `r knit_child('metodista.Rmd', quiet=T)`
 
-# Alatopiikkitapaukset syntaktisten kategorioiden mukaan ryhmiteltyinä
+# Yleiskuva
 
-`r knit_child('alatopiikkeja.Rmd', quiet=T)`
+# Zoomaus
 
 # Päätelmiä
 
