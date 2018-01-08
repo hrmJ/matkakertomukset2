@@ -45,13 +45,18 @@ https://github.com/hrmJ/100-tapaa-indikoida-topiikkia/blob/6217720ecda456708b4b2
 Satunnaisotannan painottamisella pyrittiin takaamaan, että analysoitava
 otos edustaa mahdollisimman kattavasti koko tutkimusaineistoa
 [satunnaisotantaan liittyvistä periaatteista ks. esim. @levshina2015, 8].
-Koska tutkimuksen tavoitteena oli nimenomaan mahdollisimman monen erilaisen 
-indikointitavan kartoittaminen, haluttiin myös satunnaisotoksesta saada
-rakenteeltaan niin heterogeeninen kuin mahdollista. Tämän mahdollistamiseksi
-otoksen lähdettä (kaikki `r nrow(withindicator)` tekstiä kattava korpus) 
-annotoitiin ensin automaattisesti niin pitkälle kuin mahdollista. 
-Tämä 
+Otoksen edustavuuden takaamiseksi kaikki `r nrow(withindicator)` tekstiä kattavaa korpusta
+rajattiin ja annotoitiin ensin automaattisesti niin pitkälle kuin mahdollista. 
+Tämä prosessi piti sisällään seuraavat vaiheet:
 
+1. Määriteltiin, että kaikista potentiaalisesti asumista indikoivista sanoista
+   otetaan mukaan ainoastaan varsinaiset asua-verbin johdokset, koska tämä oli
+   selvimmin rajattavissa oleva kategoria. Tarkasteltaessa
+   topiikki-indikaattoreita tarkasteltiin siis lopulta sitä, minkälaisissa rakenteissa
+   kunkin kappaleen ensimmäinen asua-johdos (kuten verbi *asua* tai substantiivit
+   *asuminen*, *asunto*, *asuntoasia*, *asuntomarkkinat*) esiintyi. 
+2. Huomio kohdistettiin vain niihin `r nrow(subset(withindicator,sentence_number==1))`
+   tapaukseen, joissa asua-johdos sijaitsee ensimmäisessä virkkeessä. (perusteluja)
 
 
 
