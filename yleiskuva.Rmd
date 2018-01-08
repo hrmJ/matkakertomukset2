@@ -1,0 +1,13 @@
+
+Tännne yleisiä havaintoja, esim.
+
+```{r, echo=FALSE}
+
+library(ggplot2)
+ggplot(analysoitu_otanta,aes(x=group)) + geom_bar() + coord_flip()
+
+
+```
+
+
+

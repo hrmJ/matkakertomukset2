@@ -29,7 +29,11 @@ library(SataTapaa)
 
 # Yleiskuva
 
+`r knit_child('yleiskuva.Rmd', quiet=T)`
+
 # Zoomaus
+
+`r knit_child('zoomaus.Rmd', quiet=T)`
 
 # Päätelmiä
 

@@ -33,5 +33,7 @@ textid:
     - {"id":405, "side":otsikko}
     - {"id":71, "side":otsikko}
     - {"id":26, "side":x}
+    - {"id":619, "side":x}
+    - {"id":61, "side":x}
 ylaotsikko: ei
 

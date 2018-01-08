@@ -17,5 +17,6 @@ textid:
     - {"id":692, "side":otsikko}
     - {"id":224, "side":x}
     - {"id":319, "side":x}
+    - {"id":703, "side":x}
 ylaotsikko: arvioivat ja kuvailevat
 

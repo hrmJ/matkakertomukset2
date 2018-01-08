@@ -1,6 +1,6 @@
 
-Nimi: Erikoisryhmä 2
-Kuvaus: Itse-tapaukset ja kävi tuuri -tapaukset
+Nimi: Kontrasti
+Kuvaus: Minä itse vs. muut tai muiden vastaavat kokemukset
 textid:
     - {"id":225, "side":x}
     - {"id":624, "side":x}
@@ -11,5 +11,6 @@ textid:
     - {"id":215, "side":x}
     - {"id":676, "side":x}
     - {"id":363, "side":x}
+    - {"id":7, "side":x}
 ylaotsikko: nämä vielä auki
 
