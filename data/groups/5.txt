@@ -20,5 +20,7 @@ textid:
     - {"id":212, "side":x}
     - {"id":490, "side":x}
     - {"id":802, "side":x}
+    - {"id":391, "side":edellinen}
+    - {"id":674, "side":x}
 ylaotsikko: ei
 

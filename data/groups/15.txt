@@ -8,5 +8,8 @@ textid:
     - {"id":32, "side":otsikko}
     - {"id":722, "side":x}
     - {"id":693, "side":edellinen}
+    - {"id":693, "side":edellinen}
+    - {"id":385, "side":otsikko}
+    - {"id":519, "side":otsikko}
 ylaotsikko: ei
 
