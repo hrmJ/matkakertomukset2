@@ -15,8 +15,8 @@ keskittyä *asumisesta* kertoviin kappaleisiin siitä syystä, että asumista
 käsiteltiin lähes jokaisessa analysoidussa näytetekstissä ja että asuminen
 aiheena havaittiin tavallisesti melko selvärajaiseksi. Koska tekstejä analysoi
 kaksi eri henkilöä (kumpikin 20 tekstiä), näyteaineiston avulla testattiin
-myös, kuinka samanlaisia tulkinnat kappaleiden aiheista olivat. (tähän joku
-maininta niistä tuloksista).
+myös, kuinka samanlaisia tulkinnat kappaleiden aiheista olivat. *(tähän joku
+maininta niistä tuloksista).*
 
 [^alkup_kpl]: Käyttäen kirjoittajien itsensä tekemeää  kappaleiden ortografista
 erottelua.
@@ -24,15 +24,56 @@ erottelua.
 
 Kun kaikki tekstit kattava varsinainen kappalekohtainen analyysi saatiin
 päätökseen, lopulliseksi aineistoksi muodostui  `r nrow(withindicator)`
-asumisesta kertovan kappaleen sisältävää tekstiä. Tekstit sinänsä ovat
+asumisesta kertovan kappaleen sisältävää tekstiä. Tekstit ovat
 keskimäärin `r round(mean(text_statistics$words))` sanaa pitkiä ja sisältävät
 kaiken kaikkiaan keskimäärin `r round(mean(text_statistics$paragraphs))`
 kappaletta, joista vähintään yhden topiikiksi on edellä kuvatussa
-tutkimusvaiheessa analysoitu asuminen. 
+tutkimusvaiheessa analysoitu asuminen. Tässä koottu tutkimusaineisto on siis
+kohtalaisen kokoinen, ja sitä voidaan mahdollisesti jatkossa käyttää erilaisten
+kvantitatiivisten päätelmien pohjana. Nyt käsillä olevaa tutkimusta varten päädyttiin
+kuitenkin hyödyntämään aineistoa ennen muuta kvalitatiivisesti. Tätä varten
+aineistosta eroteltiin tarkempaa analyysia silmällä pitäen
+käsiteltäväksi painotettu satunnaisotanta.[^tarkka_menetelma] 
+
+
+[^tarkka_menetelma]: Satunnaisotannan tekninen toteus dokumentoitiin
+git-versionhallintaan ja on nähtävillä osoitteessa
+https://github.com/hrmJ/100-tapaa-indikoida-topiikkia/blob/6217720ecda456708b4b228e166738602b6b8873/rpackage/inst/extdata/edit_included_data.R#L28
+(tarkistettu 8.1.2017) 
+
+
+Satunnaisotannan painottamisella pyrittiin takaamaan, että analysoitava
+otos edustaa mahdollisimman kattavasti koko tutkimusaineistoa
+[satunnaisotantaan liittyvistä periaatteista ks. esim. @levshina2015, 8].
+Koska tutkimuksen tavoitteena oli nimenomaan mahdollisimman monen erilaisen 
+indikointitavan kartoittaminen, haluttiin myös satunnaisotoksesta saada
+rakenteeltaan niin heterogeeninen kuin mahdollista. Tämän mahdollistamiseksi
+otoksen lähdettä (kaikki `r nrow(withindicator)` tekstiä kattava korpus) 
+annotoitiin ensin automaattisesti niin pitkälle kuin mahdollista. 
+Tämä 
+
+
+
+
+Koska tutkimuksen tarkoituksena on tarkastella nimenomaan sitä, miten uusi topiikki
+esitellään lukijalle, rajattiin varsinai
+*(tämän mainitseminen johdannossa)*
+
+Määriteltiin, että kaikista potentiaalisesti asumista indikoivista sanoista
+otetaan mukaan ainoastaan varsinaiset asua-verbin johdokset, koska tämä oli
+selvimmin rajattavissa oleva kategoria. Tarkasteltaessa
+topiikki-indikaattoreita tarkasteltiin siis sitä, minkälaisissa rakenteissa
+kunkin kappaleen ensimmäinen asua-johdos (kuten verbi *asua* tai substantiivit
+*asuminen*, *asunto*, *asuntoasia*, *asuntomarkkinat*) esiintyi. 
+
 
 Asumisesta kertovien kappaleiden syntaktisesta rakenteesta saatiin yleiskuva
 annotoimalla kappaleet koneellisesti dependenssijäsentimellä [ks.
-@haverinen2013tdt]. Koneellisesti tuotettu annotointi toimi lähtökohtana, kun
+@haverinen2013tdt]. 
+
+
+
+Koneellisesti tuotettu annotointi toimi lähtökohtana, kun
 kappaleita ryhdyttiin luokittelemaan eri ryhmiin sen mukaan, miten niissä
 indikoitiin asumistopiikkia. Luokittelu tapahtui seuraavien vaiheiden mukaisesti:
 
