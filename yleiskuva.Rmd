@@ -9,5 +9,14 @@ ggplot(analysoitu_otanta,aes(x=group)) + geom_bar() + coord_flip()
 
 ```
 
+Jos muuten rinnastelee vähän sitä, mitkä siteet linkittyvät
+mihinkin ryhmään:
+
+
+```{r, echo=FALSE}
+
+ggplot(analysoitu_otanta,aes(x=group,fill=side)) + geom_bar() + coord_flip()
+
+```
 
 
