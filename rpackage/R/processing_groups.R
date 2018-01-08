@@ -14,9 +14,11 @@ GetGroupsFromYaml <- function(otanta){
     }
     # ryhmien numeron merkkaaminen dataframeen
     otanta$group  <- ""
+    otanta$side  <- ""
     for(g in grouplist){
         for (textid in g$textid){
           otanta$group[otanta$textid==textid$id] <- g$Nimi
+          otanta$side[otanta$textid==textid$id] <- textid$side
         }
     }
     return(otanta)
