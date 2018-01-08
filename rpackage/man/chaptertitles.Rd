@@ -3,6 +3,7 @@
 \docType{data}
 \name{chaptertitles}
 \alias{chaptertitles}
+\alias{chaptertitles}
 \title{Ensimmäistä asumista käsittelevää kappaletta edeltävä välitosikko ja tekstin id}
 \format{A data frame with the following structure:
 \describe{
@@ -12,8 +13,13 @@
 }}
 \usage{
 chaptertitles
+
+chaptertitles
 }
 \description{
 Tällä vain täydennetään jo olemassaolevaa dataa
+
+Näihin siis merkitty jo, mikä manuaalisen ryhmittelyn tuloksena
+määritelty ryhmä on kyseessä.
 }
 \keyword{datasets}

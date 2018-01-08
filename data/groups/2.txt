@@ -1,19 +1,19 @@
----
+
 Nimi: oma kokemus
 Kuvaus: Jakaa lukijalle maailmantietoa käsiteltävästä asiasta kirjoittajan omana näkemyksenä.
 textid:
-    - {id:292, side:x}
-    - {id:22, side:x}
-    - {id:107, side:x}
-    - {id:20, side:x}
-    - {id:361, side:x}
-    - {id:717, side:x}
-    - {id:441, side:x}
-    - {id:494, side:x}
-    - {id:760, side:x}
-    - {id:449, side:x}
-    - {id:455, side:x}
-    - {id:334, side:otsikko}
-    - {id:692, side:otsikko}
+    - {"id":292, "side":x}
+    - {"id":22, "side":x}
+    - {"id":107, "side":x}
+    - {"id":20, "side":x}
+    - {"id":361, "side":x}
+    - {"id":717, "side":x}
+    - {"id":441, "side":x}
+    - {"id":494, "side":x}
+    - {"id":760, "side":x}
+    - {"id":449, "side":x}
+    - {"id":455, "side":x}
+    - {"id":334, "side":otsikko}
+    - {"id":692, "side":otsikko}
 ylaotsikko: arvioivat ja kuvailevat
----
+

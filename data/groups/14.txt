@@ -1,10 +1,10 @@
----
+
 Nimi: Suurin osa opiskelijoista
 Kuvaus: Kuvataan sitä, miten yleensä tehdään X tai suurin osa tekee X
 textid:
-    - {id:699, side:otsikko}
-    - {id:260, side:otsikko}
-    - {id:831, side:x}
-    - {id:569, side:otsikko}
+    - {"id":699, "side":otsikko}
+    - {"id":260, "side":otsikko}
+    - {"id":831, "side":x}
+    - {"id":569, "side":otsikko}
 ylaotsikko: ei
----
+

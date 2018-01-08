@@ -1,3 +1,22 @@
+#' Metatiedot ryhmistä
+#'
+#' Tässä dataframessa ovat tarkemmat tiedot eri ryhmistä
+#'
+"groups.meta"
+
+#' Analysoitu data satunnaisotannan jälkeen. 
+#'
+#' Tässä dataframessa ovat tapaukset, jotka on jo ryhmitelty satunnaisotannan perusteella tehdyn laadullisen analyysin tuloksena.
+#'
+#' @format A data frame with the following structure:
+#' \describe{
+#'   \item{textid}{Tekstin id}
+#'   \item{previous_paragraph}{Edellisen kappaleen teksti}
+#'   \item{sentence}{Virke, jossa indikaattori on}
+#'   ...
+#' }
+"analysoitu_otanta"
+
 #' Ensimmäistä asumista käsittelevää kappaletta edeltävä kappale ja tekstin id
 #'
 #' Tällä vain täydennetään jo olemassaolevaa dataa

@@ -1,10 +1,10 @@
----
+
 Nimi: Erikoisryhmä 4
 Kuvaus: Luokittelemattomat tapaukset
 textid:
-    - {id:391, side:edellinen}
-    - {id:369, side:otsikko}
-    - {id:71, side:otsikko}
-    - {id:144, side:otsikko}
+    - {"id":391, "side":edellinen}
+    - {"id":369, "side":otsikko}
+    - {"id":71, "side":otsikko}
+    - {"id":144, "side":otsikko}
 ylaotsikko: ei
----
+

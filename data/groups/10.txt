@@ -1,15 +1,13 @@
----
 Nimi: Yliopisto (maggy) tarjosi
 Kuvaus: huomio kohdistetaan johonkin ulkoiseen agenttiin
 textid:
-    - {id:42, side:otsikko}
-    - {id:810, side:x}
-    - {id:590, side:x}
-    - {id:774, side:x}
-    - {id:639, side:x}
-    - {id:100, side:otsikko}
-    - {id:558, side:otsikko}
-    - {id:532, side:otsikko}
-    - {id:785, side:otsikko}
-ylaotsikko: 
----
+    - {"id":42,  "side":otsikko}
+    - {"id":810, "side":x}
+    - {"id":590, "side":x}
+    - {"id":774, "side":x}
+    - {"id":639, "side":x}
+    - {"id":100, "side":otsikko}
+    - {"id":558, "side":otsikko}
+    - {"id":532, "side":otsikko}
+    - {"id":785, "side":otsikko}
+ylaotsikko: ei

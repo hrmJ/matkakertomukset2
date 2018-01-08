@@ -1,25 +1,27 @@
----
+
 Nimi: asuin paikassa x
 Kuvaus: topiikki indikoidaan predikaatilla
 textid:
-    - {id:812, side:orient}
-    - {id:850, side:orient}
-    - {id:82, side:orient}
-    - {id:5, side:otsikko}
-    - {id:557, side:otsikko }
-    - {id:88, side:otsikko }
-    - {id:859, side:otsikko }
-    - {id:24, side:otsikko }
-    - {id:829, side:otsikko }
-    - {id:620, side:x}
-    - {id:293, side:x}
-    - {id:745, side:x}
-    - {id:387, side:x}
-    - {id:31, side:x}
-    - {id:120, side:x}
-    - {id:434, side:x}
-    - {id:752, side:x}
-    - {id:835, side:x}
-    - {id:378, side:x}
-    - {id:306, side:x}
----
+    - {"id":812, "side":orient}
+    - {"id":850, "side":orient}
+    - {"id":82, "side":orient}
+    - {"id":5, "side":otsikko}
+    - {"id":557, "side":otsikko }
+    - {"id":88, "side":otsikko }
+    - {"id":859, "side":otsikko }
+    - {"id":24, "side":otsikko }
+    - {"id":829, "side":otsikko }
+    - {"id":620, "side":x}
+    - {"id":293, "side":x}
+    - {"id":745, "side":x}
+    - {"id":387, "side":x}
+    - {"id":31, "side":x}
+    - {"id":120, "side":x}
+    - {"id":434, "side":x}
+    - {"id":752, "side":x}
+    - {"id":835, "side":x}
+    - {"id":378, "side":x}
+    - {"id":306, "side":x}
+    - {"id":754, "side":x}
+ylaotsikko: ei
+

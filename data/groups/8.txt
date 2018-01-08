@@ -1,13 +1,13 @@
----
+
 Nimi: asunnon ja asumisen staattinen kuvailu
 Kuvaus: Kuvaavat staattisesti käsiteltävää aihetta, jotain sen ominaisuutta / sijaintia yms.
 textid:
-    - {id:430, side:x}
-    - {id:390, side:x}
-    - {id:438, side:x}
-    - {id:422, side:otsikko}
-    - {id:811, side:otsikko}
-    - {id:863, side:otsikko}
-    - {id:691, side:otsikko}
+    - {"id":430, "side":x}
+    - {"id":390, "side":x}
+    - {"id":438, "side":x}
+    - {"id":422, "side":otsikko}
+    - {"id":811, "side":otsikko}
+    - {"id":863, "side":otsikko}
+    - {"id":691, "side":otsikko}
 ylaotsikko: ei
----
+

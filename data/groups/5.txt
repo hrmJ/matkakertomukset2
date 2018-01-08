@@ -1,23 +1,24 @@
----
+
 Nimi: Ennakoivat
 Kuvaus: Ennakoidaan käsiteltävää asiaa, usein käytetään pluskvamperfektiä.
 textid:
-    - {id:187, side:otsikko}
-    - {id:272, side:edellinen}
-    - {id:200, side:edellinen}
-    - {id:525, side:edellinen}
-    - {id:844, side:otsikko}
-    - {id:302, side:otsikko}
-    - {id:720, side:otsikko}
-    - {id:697, side:otsikko}
-    - {id:694, side:otsikko}
-    - {id:476, side:x}
-    - {id:459, side:x}
-    - {id:645, side:x}
-    - {id:375, side:x}
-    - {id:769, side:x}
-    - {id:764, side:x}
-    - {id:212, side:x}
-    - {id:490, side:x}
+    - {"id":187, "side":otsikko}
+    - {"id":272, "side":edellinen}
+    - {"id":200, "side":edellinen}
+    - {"id":525, "side":edellinen}
+    - {"id":844, "side":otsikko}
+    - {"id":302, "side":otsikko}
+    - {"id":720, "side":otsikko}
+    - {"id":697, "side":otsikko}
+    - {"id":694, "side":otsikko}
+    - {"id":476, "side":x}
+    - {"id":459, "side":x}
+    - {"id":645, "side":x}
+    - {"id":375, "side":x}
+    - {"id":769, "side":x}
+    - {"id":764, "side":x}
+    - {"id":212, "side":x}
+    - {"id":490, "side":x}
+    - {"id":802, "side":x}
 ylaotsikko: ei
----
+

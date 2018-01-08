@@ -1,13 +1,13 @@
----
+
 Nimi: Erikoisryhmä 2
 Kuvaus: Itse-tapaukset ja kävi tuuri -tapaukset
 textid:
-    - {id:225, side:x}
-    - {id:624, side:x}
-    - {id:314, side:x}
-    - {id:254, side:x}
-    - {id:517, side:x}
-    - {id:839, side:x}
-    - {id:215, side:x}
+    - {"id":225, "side":x}
+    - {"id":624, "side":x}
+    - {"id":314, "side":x}
+    - {"id":254, "side":x}
+    - {"id":517, "side":x}
+    - {"id":839, "side":x}
+    - {"id":215, "side":x}
 ylaotsikko: nämä vielä auki
----
+

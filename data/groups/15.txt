@@ -1,11 +1,12 @@
----
+
 Nimi: Selkeät yksittäiseen tapahtumaan keskittyvät narratiivit
 Kuvaus: Johdatellaan aiheeseen kertomalla jokin konkreettinen tapahtuma tai episodi
 textid:
-    - {id:317, side:otsikko}
-    - {id:135, side:otsikko}
-    - {id:399, side:edellinen}
-    - {id:32, side:otsikko}
-    - {id:722, side:x}
+    - {"id":317, "side":otsikko}
+    - {"id":135, "side":otsikko}
+    - {"id":399, "side":edellinen}
+    - {"id":32, "side":otsikko}
+    - {"id":722, "side":x}
+    - {"id":693, "side":edellinen}
 ylaotsikko: ei
----
+

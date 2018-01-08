@@ -1,11 +1,11 @@
----
+
 Nimi: pari sanaa asumisesta
 Kuvaus: Jollain kielellisellä kliseellä johdatetaan, että tulee uusi aihe
 textid:
-    - {id:860, side:x}
-    - {id:270, side:x}
-    - {id:51, side:x}
-    - {id:106, side:x}
-    - {id:292, side:x}
+    - {"id":860, "side":x}
+    - {"id":270, "side":x}
+    - {"id":51, "side":x}
+    - {"id":106, "side":x}
+    - {"id":298, "side":x}
 ylaotsikko: ei
----
+

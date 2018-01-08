@@ -27,5 +27,5 @@ Output <- function(odir="output",fname="koko_artikkeli.Rmd"){
 #' @export
 
 GetInfo <- function(textid){
-    return(analysoitu_otanta[analysoitu_otanta$textid==textid,c("sentence","paragraph","edellinenkpl","väliotsikko","Ryhmä")])
+    return(analysoitu_otanta[analysoitu_otanta$textid==textid,c("sentence","paragraph","edellinenkpl","väliotsikko","group")])
 }
