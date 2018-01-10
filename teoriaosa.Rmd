@@ -1,10 +1,94 @@
-﻿Oppilaitoksissa ja korkeakouluissa opiskelee kasvava joukko kirjoittajia, jolla ei peruskoulun päättötodistuksesta huolimatta ole hallinnassaan opinnoissa menestymiseen tarvittavia tekstitaitoja ja riittävää repertuaaria kirjoitetulle ilmaisulle tyypillisiä rakenteita. Opiskeluun liittyvien tekstilajien ja ns. akateemisten genrejen hallinta tuottaa hankaluuksia sekä osalle suomalaisen peruskoulun suomi äidinkielenä -oppimäärän suorittaneita [@kuusela,2010] että opintonsa S2-oppimäärän mukaisesti (lähdeviite s2-kartoitukseen) suorittaneita. Aino Vuorijärvi [-@vuorijärvi2013, 15] kirjoittaakin, että uusissa institutionaalisissa tilanteissa ja näihin liittyvien tekstilajikonventioiden haltuunotossa ”kielenkäytön sosiokulttuuristen käytänteiden tuntemusta, tekstilajin tajua” tarvitsevat yhtäläisesti syntyperäiset kielenkäyttäjät. Vuorijärvellä on tässä lähdeviitteitä, muista tarkastaa vielä muotoilu.
+﻿Oppilaitoksissa ja korkeakouluissa opiskelee kasvava joukko kirjoittajia, jolla ei peruskoulun päättötodistuksesta huolimatta ole hallinnassaan opinnoissa menestymiseen tarvittavia tekstitaitoja ja riittävää repertuaaria kirjoitetulle ilmaisulle tyypillisiä rakenteita. Opiskeluun liittyvien tekstilajien ja ns. akateemisten genrejen hallinta tuottaa hankaluuksia sekä osalle suomalaisen peruskoulun suomi äidinkielenä -oppimäärän suorittaneita [@kuusela, 2010] että opintonsa S2-oppimäärän mukaisesti (lähdeviite s2-kartoitukseen) suorittaneita. Aino Vuorijärvi [-@vuorijärvi2013, 15] kirjoittaakin, että uusissa institutionaalisissa tilanteissa ja näihin liittyvien tekstilajikonventioiden haltuunotossa ”kielenkäytön sosiokulttuuristen käytänteiden tuntemusta, tekstilajin tajua” tarvitsevat yhtäläisesti syntyperäiset kielenkäyttäjät. Vuorijärvellä on tässä lähdeviitteitä, muista tarkastaa vielä muotoilu.
 
-2010-luvulla kielten ja kirjoittamisen opetuksessa korostuu tekstilähtöisyys ja funktionaalinen tapa tarkastella kieltä (ks esim. opsit & muita lähteitä). Tässä kehyksessä perinteinen, Suomenkin kontekstissa pääosin preskriptiivinen kuvaus [@komppa2012, 121) tekstikokonaisuuden ja -kappaleen rakentumisesta ei palvele tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen tiedonhakija ja tekstien tutkija, joka ei enää kysy, miten minun pitäisi tämä tehdä vaan miten eri tavoilla tämä on tehty. Tällä kirjoittajalla voi olla hallussaan monilukutaitojen harjoittelun myötä ymmärrystä tekstilajista, mutta repertuaarissa ei ole sopivaa rakennetta, jolla pystyisi itse tuottamaan tavoitemuotoisen tekstin. On tosin kirjoitettu (ja tämän vielä tarkistan), että ”tekstilajitietoisuuden ja tekstilajituntemuksen lisääntyessä yksilön ilmaisurepertuaari ja kielellinen valinnanvara laajenevat kattamaan myös yhteisön puhetavat (esim. Bruce 2008 5-6, Solin 2006, 82 samoin Luukka 2002b, 14, 27)”. Mutta on olemassa myös tästä poikkeavia näkemyksiä.
-
-
-Tutkimusperustaisen kirjoittamisenopetuksen tueksi tarvitaan nähdäksemme käyttöpohjaista, kuvailevaa tutkimusta. Yksi keskeinen kriteeri mm.  äidinkielen ylioppilaskokeen arvioinnissa on kappaleiden sujuva liittyminen toisiinsa (Ylioppilastutkintolautakunta 2017). Johanna Komppa tarkastelee suomi toisena kielenä -ylioppilaskirjoitusten kirjoitelmia tekstikokonaisuuksina, deskriptiivisestä näkökulmasta. Kansainväliseen kenttään verrattuna Suomessa ei koulukirjoittamista ole mainittavasti tutkittu [@komppa2012, 9-10]. Lisää tähän lähteeksi myös katsaus lukio-ikäisten kirjoittamisen tutkimukseen. Saatavilla on enemmän tietoa siitä, miten se pitäisi tehdä, kuin todellisesta kielenkäytöstä [@komppa2012, 121] [@chafe1994, 296]. 
+2010-luvulla kielten ja kirjoittamisen opetuksessa korostuu tekstilähtöisyys ja funktionaalinen tapa tarkastella kieltä (ks esim. opsit & parit ÄOL vuosikirjat, Kirsi lisää viitteitä tähän). Tässä kehyksessä perinteinen, Suomenkin kontekstissa pääosin preskriptiivinen kuvaus tekstikokonaisuuden ja -kappaleen rakentumisesta [@komppa2012, 121] ei palvele tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen tiedonhakija ja tekstien tutkija, joka ei enää kysy, miten minun pitäisi tämä tehdä vaan miten eri tavoilla tämä on tehty. Tällä kirjoittajalla voi olla hallussaan monilukutaitojen harjoittelun myötä ymmärrystä tekstilajista, mutta repertuaarissa ei ole sopivaa rakennetta, jolla pystyisi itse tuottamaan tavoitemuotoisen tekstin. On tosin kirjoitettu (ja tämän vielä tarkistan), että ”tekstilajitietoisuuden ja tekstilajituntemuksen lisääntyessä yksilön ilmaisurepertuaari ja kielellinen valinnanvara laajenevat kattamaan myös yhteisön puhetavat (esim. Bruce 2008 5-6, Solin 2006, 82 samoin Luukka 2002b, 14, 27)”. Mutta on olemassa myös tästä poikkeavia näkemyksiä.
 
 
-Lisää vielä tähän side EU-kartoitukseen ja tutkimustarpeeseen sovellusten kehittämistä varten.
+Tutkimusperustaisen kirjoittamisenopetuksen tueksi tarvitaan siis nähdäksemme käyttöpohjaista, kuvailevaa tutkimusta. Johanna Komppa tarkastelee suomi toisena kielenä -ylioppilaskirjoitusten kirjoitelmia tekstikokonaisuuksina, deskriptiivisestä näkökulmasta. Kansainväliseen kenttään verrattuna Suomessa ei koulukirjoittamista ole mainittavasti tutkittu [@komppa2012, 9-10]. Lisää tähän lähteeksi myös katsaus lukio-ikäisten kirjoittamisen tutkimukseen. Saatavilla on enemmän tietoa siitä, miten se pitäisi tehdä, kuin todellisesta kielenkäytöstä [@komppa2012, 121] [@chafe1994, 296]. Lisää vielä tähän side EU-kartoitukseen ja tutkimustarpeeseen sovellusten kehittämistä varten.
+
+
+Korkeakouluopiskelijat kirjoittavat paljon, ja opintojen aikana kirjoitetuilla teksteillä (luentopäiväkirjat, esseet, opinnäytteet jne.) on selkeä funktio. Tekstien muotoa ohjaa joukko konventioita. Vuorijärvi tiivistää tekstilajin käsitteestä ja sosiaalisesta luonteesta: "Tekstit eivät synny tyhjiössä, vaan pikemminkin ne liikkuvat laumoina ja ovat suhteessa toisiinsa monin tavoin" [-@vuorijärvi2013, 69]. Suomalaisissa oppilaitoksissa ja korkeakouluissa akateemiseen kirjoittamiseen ja tekstin tuottamiseen ei ole syvennytty samassa määrin kuin esim. USA:ssa, jossa akateemista kirjoittamista tyypillisesti opetetaan tehostetummin ja on myös tutkittu pitkään [@camp2012]. Kirjoittamisen opetus- ja opiskelukulttuurit eroavat siis huomattavasti toisistaan. Kuitenkin jotain jo on: Ammattikorkeakoulun opinnäytetyön diskussio-osan siirtotyyppien analyysillä Vuorijärvi on saanut selville joukon kielellisiä resursseja, joista kielenkäyttäjän on mahdollista valita sopivimmat. Vuorijärvi toteaa, että näitä valintoja ohjaa lähinnä tekstilaji, opinnäytetyö on sekä vakiintunut että dynaaminen (s. 213-214). ”Tämä työ asettuu monessa suhteessa myös erikoiskielten tutkimuksen kontekstiin, joissa motivaationa on hankkia deskriptiivistä tietoa akateemisista tai professionaalisista tekstilajeista. Näissä tuloksia ja sovelluksia mallinnetaan erityisesti L2-käyttäjien näkökulmasta, mutta aineisto on syntyperäisten tuottamaa. (Vuorijärvi 96.)”
+
+HUOM! Tästä liutaan vihdoin topiikkia kohti. Alku on liian pitkää löpinää, sen sijaan tutkimuskysymykset ja aineisto pitää saada aiemmaksi. Voisi sitten olla erikseen otsikko "kirjoittaminen korkeakoulussa tms., jossa tätä taustoittavaa tutkimusta avataan tarkemmin.
+
+
+Erityisesti englanninkielisessä kirjoittamisen opetuksen perinteessä on ollut tapana käyttää topic sentence -käsitettä kuvaamaan virkettä, jolla kirjoittaja ilmaisee kappaleen tärkeimmän ajatuksen. Suomeksi tämä kääntyy nykyisellään useimmiten ydinvirkkeeksi (tähän lähteitä). Ydinvirkkeiden todellisesta yleisyydestä ollaan tutkijoiden keskuudessa kuitenkin montaa mieltä. ks. Smith 2008). Tekstikappaleen ytimen tavoittelun sijaan tarkoituksenamme onkin tässä tutkimuksessa selvittää, minkälaisten vihjeiden avulla lukija johdatellaan kappaleen aiheeseen. Näitä vihjeitä nimitämme indikaattoreiksi. Tavoitteenamme oli siis kartoittaa rakenteet, joita varioimalla kirjoittajat indikoivat kappaleen topiikkia. Yksi keskeinen kriteeri mm.  äidinkielen ylioppilaskokeen arvioinnissa on kappaleiden sujuva liittyminen toisiinsa (Ylioppilastutkintolautakunta 2017). Lopputuloksena hahmottelemme asumiseen liittyvien topiikki-indikaattorien taksonomiaa
+
+Analyysin avulla haetaan vastausta seuraaviin tutkimuskysymyksiin: 
+1)	x
+2)	y
+
+(Tässä tutkimuksessa siis tarkastellaan, millä tavalla uudessa tekstikappaleessa indikoidaan kappaleen rakentamaan alatopiikkia. Yksi tyypillinen viestinnällinen tarve, joka uudella kirjoittajalla voisi olla, on tekstin diskurssitopiikin käsitteleminen ja jaottelu alatopiikkeihin. Miten tämä tehdään, miten rakenteita varioidaan?)
+
+
+Muutama sana johdannon loppuun aineistosta ja menetelmistä.Kö?
+
+*********************************************
+
+
+
+Tekstikappale tarkastelun kohteena (Olin ajatellut tätä teoriaosan alle, mutta eikös olekin yksi tulos jo se, millaisia tekstit ovat kokonaisrakenteeltaan...)
+
+Tutkimusaineisto rajautuu ulkoisesti raportin kirjoittamiseen annetun ohjeistuksen ja raporttien julkaisualustan perusteella. Tekstin kokonaisrakenteen analyysissä on tyypillistä erottaa toisaalta funktionaaliset jaksot ja toisaalta visuaaliset elementin, tekstikappale lukeutuu jälkimmäiseen. Tässä tutkimuksessa tarkastelun kohteeksi otettiin tekstikappaleet, joka ei ehkä ole se tyypillinen tapa lähestyä tekstiä. Tehty valinta perustui tutkimuksen ensimmäisessä vaiheessa tehtyihin havaintoihin. (Miten pitkästi avaamme tätä?) Vaihtoraportit ovat kokonaisrakenteeltaan pääosin topiikkipohjaisia - retorisen rakenteen teorian läpi tarkasteluna moniytimisiä. Näin ollen jokainen tekstikappale aloittaa uuden tekstikokonaisuuden, joka ei niinkään asetu hierakiseen suhteeseen edeltävien tekstikappaleiden kanssa, vaan ennemminkin on joko sekventiaalisesti tai listamaisesti jäsentynyt tekstin päätopiikin alle.
+
+Vuorijärvi käyttää käsitettä topiikkipohjainen rakenne, jonka alle eri tavalla rakentuneet opinnäytetyötekstit asettuvat (s. 75). Tekstin aihetta siis avataan osa kerrallaan. Topiikilla tarkoitetaan tässä yhteydessä sisältötopiikkia eli aihetta tai aihepiiriä, josta tekstissä sanotaan jotakin. Vuorijärvi esittelee (s. 75-76) Paltridgen 2002, 135 mukaisen skeeman 
+Johdanto
+Topiikki 1
+Topiikki 2
+Topiikki 3
+…..
+Päätelmät
+
+
+Tämän mallin rinnalla Vuorijärvi tarkastelee perinteistä, tutkimuslähtöistä mallia, jossa on osat: johdanto, menetelmä ja aineisto, tulokset ja pohdinta. Noin puolet Vuorijärven aineistosta asettuu tutkimuslähtöiseen malliin kategoriaan. (s. 81)
+
+Retorisen rakenteen teoriassa (Komppa) eritellään tekstin osat ja kartoitetaan näiden osien tyypillisesti hierakinen suhde (ydin & satelliitit). Tämän tutkimuksen aineisto sisältää pääosin tekstejä, joiden osat ovat moniytimisessä suhteessa, jolloin osat ovat ennemmin rinnasteisia, keskenään tasavertaisia, eikä yhtä voida asettaa toisten ytimeksi. Komppa s. 39 antaa esimerkin sarjasta sekvenssisuhteita, jos haluamme hyödyntää.
+
+ 
+
+JA sitten voisi jatkua Dik & alatopiikit tähän omaksi kokonaisuudekseen, mutta tämän kirjoittaminen lienee viisasta, kun tulososa on hahmollaan.
+
+Aineisto ja menetelmät
+
+- Akateemiset genret ovat kompleksisia (Bhatia 2012), ja siksi kirjoittamisprosessiin vaikuttaa aina lisäksi kirjoitettavan sisällön kompleksisuus. Tämä heijastuu väistämättä myös tekstin tuottamiseen (Bereiter and Scardamalia 1987; Camp 2012).  Tämä tutkimuksen aineistovalinnassa haluttiin etsiä analysoitavaksi tekstejä, joiden rakentumisessa tehtävän kuormittuvuus ei muodostuisi keskeiseksi tekijäksi. Vaihtoraporttien sisältö - kirjoittajan oma toiminta, kokemukset ja ajanjakson arviointi - on kirjoittajalle saavutettavissa vähäisin ponnistuksin ja tarjolla on seikkaperäiset ja havainnolliset ohjeet, tehtävä itsessään ei ole ollut kuormittava. 
+
+- Raportti ja raportointi eivät esiinny monialaisten yliopistojen akateemisen kirjoittamisen ohjeistuksissa (ks. esim. Kielijelppi, Opiskelijoiden tekstilajeja) samalla tavalla kuin ammattikorkeakoulujen ohjeistuksissa, joissa sekä opinnäytetyön raportointi että harjoitustöistä kirjoitettavat raportit ovat keskeisiä tekstejä (ks. esim. Jyväskylän ammattikorkeakoulu). Yliopiston dokumentaatiossa tekstejä nimetäänkin matkakertomuksiksi, mutta ohjeistuksessa annetut tukikysymykset viittaavat sisällöltään raportin kirjoittamiseen (ks. tarkemmin analyysiluvut). Myös tekstille eksplisiittisesti määritellyt tavoitteet, tukea vaihtoa harkitsevien päätöksentekoa ja auttaa valmistautumisessa, painottavat odotuksia raporttimaisen tekstin suuntaan.
+
+Miksi tämä aineisto?
+-Iso, keskenään yhtenäinen tekstiaineisto
+-Kirjoitettu johonkin funktioon
+-Ei ammattikirjoittajia tai editoituja tekstejä, mutta tottuneita kirjoittajia
+-Tutkimuslupa hankittu
+
+Käyttämämme menetelmä muistuttaa prosessina Vuorijärven analyysiprosessin vaiheita: sivut (116-117).
+
+
+
+
+
+
+Kirjoitusohjeet
+
+Matkakertomuksen kirjoittamisen tueksi on annettu selkeä ohjeistus. Tekstin tavoitteena on vaihtokokemusta kuvaileva ja arvioiva teksti, jonka keskeinen funktio on välittää tietoa ja kokemuksia opiskelijavaihtoa harkitseville ja suunnitteleville opiskelijoille. Vaikka ohjeistus on tarkoitettu kirjoittamisen tueksi ja opiskelijoille annetaan vapaat kädet kertomuksen rakentamisen suhteen, valtaosa pääty noudattelemaan annettua rakennetta ja vastaamaan ohjeessa asetettuihin kysymyksiin. Ohjeistuksessa on kahdeksan erillistä kohtaa, jotka koskettavat etukäteisjärjestelyjä, kohteeseen saapumista, asumista, opiskelua vaihtokohteessa jne. Taulukossa 1 on esitetty kohtien pääotsikot.
+
+TAULUKKO 1
+Etukäteisjärjestelyt Suomessa
+Kohdemaahan saapuminen
+Asuminen
+Opiskelu
+Muuta mainitsemisen arvoista
+Paluu kotikaupunkiin
+Merkityksellisyys
+Kritiikkiä ja/tai kiitoksia vaihtovuodesta
+
+
+
+Satunnaisesti valitun 30 tekstin otoksesta voi tehdä karkean luokittelun kolmeen erityyppiseen kokonaisrakenteeseen. Tyypittely on tehty kirjoittajan tekemän tekstikappalejaon perusteella. 
+
+Tyyppi 1	Kirjoittaja aloittaa tekstin vastaamalla ohjeistuksen ensimmäisen kohdan kysymyksiin. Jos lopussa on evaluoiva jakso, se jää irralliseksi.
+
+Tyyppi 2	Kirjoittaja aloittaa johdannolla ja sen jälkeen siirtyy vastaamaan kysymyksiin. Tekstikappaleet ovat kuitenkin irrallisia toisistaan ja muistuttavat avoimen kyselylomakkeen vastauksia. Lopun arviointi jää hiukan pinnalliseksi.
+
+
+Tyyppi 3	Kirjoittaja aloittaa johdannolla, ja raportoiva ote säilyy teksti läpi niin, että myös arvioiva jakso lopussa yhdistyy tekstiin luontevasti.
+
 
