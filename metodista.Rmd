@@ -6,24 +6,15 @@ dr  <- GetListOfDepRels()
 
 ```
 
-Tähän alkuun tarkemmin aineistosta:
+Tutkimuksen aineisto koostuu siis yliopisto-opiskelijoiden
+vaihtokokemuksestaan kirjoittamista matkakertomuksista.
+Kirjoittajien tehtävänä on ollut laatia kuvaileva ja arvioiva
+teksti, ja tehtävään on annettu melko tarkka ohjeistus, joka
+koostuu kahdeksasta eri alakohdasta (mm. *etukäteisjärjestelyt*,
+*asuminen* ja *merkityksellisyys*). (jotain arvioivaa siitä, miten
+ohjeet ehkä vaikuttaneet).
 
-
-Kirjoitusohjeet
-
-Matkakertomuksen kirjoittamisen tueksi on annettu selkeä ohjeistus. Tekstin tavoitteena on vaihtokokemusta kuvaileva ja arvioiva teksti, jonka keskeinen funktio on välittää tietoa ja kokemuksia opiskelijavaihtoa harkitseville ja suunnitteleville opiskelijoille. Vaikka ohjeistus on tarkoitettu kirjoittamisen tueksi ja opiskelijoille annetaan vapaat kädet kertomuksen rakentamisen suhteen, valtaosa pääty noudattelemaan annettua rakennetta ja vastaamaan ohjeessa asetettuihin kysymyksiin. Ohjeistuksessa on kahdeksan erillistä kohtaa, jotka koskettavat etukäteisjärjestelyjä, kohteeseen saapumista, asumista, opiskelua vaihtokohteessa jne. Taulukossa 1 on esitetty kohtien pääotsikot.
-
-TAULUKKO 1
-Etukäteisjärjestelyt Suomessa
-Kohdemaahan saapuminen
-Asuminen
-Opiskelu
-Muuta mainitsemisen arvoista
-Paluu kotikaupunkiin
-Merkityksellisyys
-Kritiikkiä ja/tai kiitoksia vaihtovuodesta
-
-
+Aineistoon valikoituneista teksteistä..
 
 Tutkimuksen ensimmäisessä vaiheessa aineistoon valikoidut tekstit analysoitiin
 kappaleittain[^alkup_kpl] siten, että jokaiselle kappaleelle merkittiin

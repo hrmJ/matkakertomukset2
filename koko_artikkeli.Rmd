@@ -21,6 +21,10 @@ library(SataTapaa)
 
 # Johdanto
 
+`r knit_child('johdanto.Rmd', quiet=T)`
+
+# Teoriaa (otsikko auki)
+
 `r knit_child('teoriaosa.Rmd', quiet=T)`
 
 # Tutkimusaineisto ja -metodi
