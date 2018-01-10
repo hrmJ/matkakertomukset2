@@ -12,6 +12,7 @@ for(x in fromlist){
     to <- c(to,x[c(2:length(x))])
 }
 edges <- data.frame(from =from, to = to)
+#edges <- data.frame(from =c(), to = c())
 
 visNetwork(test, edges, width = "100%", height="20cm") %>% 
       visGroups(groupname = "Listamaiset", color = "darkblue", shape = "circle", shadow = list(enabled = TRUE)) %>%
