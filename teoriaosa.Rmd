@@ -1,30 +1,10 @@
-﻿Pieni muutos
+﻿Oppilaitoksissa ja korkeakouluissa opiskelee kasvava joukko kirjoittajia, jolla ei peruskoulun päättötodistuksesta huolimatta ole hallinnassaan opinnoissa menestymiseen tarvittavia tekstitaitoja ja riittävää repertuaaria kirjoitetulle ilmaisulle tyypillisiä rakenteita. Opiskeluun liittyvien tekstilajien ja ns. akateemisten genrejen hallinta tuottaa hankaluuksia sekä osalle suomalaisen peruskoulun suomi äidinkielenä -oppimäärän suorittaneita [@kuusela,2010] että opintonsa S2-oppimäärän mukaisesti (lähdeviite s2-kartoitukseen) suorittaneita. Aino Vuorijärvi [-@vuorijärvi2013, 15] kirjoittaakin, että uusissa institutionaalisissa tilanteissa ja näihin liittyvien tekstilajikonventioiden haltuunotossa ”kielenkäytön sosiokulttuuristen käytänteiden tuntemusta, tekstilajin tajua” tarvitsevat yhtäläisesti syntyperäiset kielenkäyttäjät. Vuorijärvellä on tässä lähdeviitteitä, muista tarkastaa vielä muotoilu.
 
-Oppilaitoksissa ja korkeakouluissa opiskelee kasvava joukko kirjoittajia,
-jolla ei peruskoulun päättötodistuksesta huolimatta ole hallinnassaan
-opinnoissa menestymiseen tarvittavia tekstitaitoja ja riittävää
-repertuaaria kirjoitetulle ilmaisulle tyypillisiä rakenteita. Osa heistä
-on suorittanut opintonsa S2-oppimäärän mukaisesti, mutta opiskeluun
-liittyvien tekstilajien ja ns. akateemisten genrejen hallinta tuottaa
-hankaluuksia myös suomalaisen peruskoulun suomi äidinkielenä -oppimäärän
-suorittaneille  [ks. esim. @kuusela2010]. 2010-luvulla kielten ja
-kirjoittamisen opetuksessa korostuu tekstilähtöisyys ja funktionaalinen
-tapa tarkastella kieltä (ks esim. opsit & muita lähteitä). Tässä
-kehyksessä perinteinen, Suomenkin kontekstissa pääosin preskriptiivinen
-kuvaus [@komppa2012, 121] tekstikokonaisuuden ja -kappaleen rakentumisesta
-ei palvele tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen tiedonhakija
-ja tekstien tutkija, joka ei enää kysy, miten minun pitäisi tämä tehdä
-vaan miten eri tavoilla tämä on tehty. 
-
-Tutkimusperustaisen kirjoittamisenopetuksen tueksi tarvitaan
-käyttöpohjaista, kuvailevaa tutkimusta. Yksi keskeinen kriteeri mm.
-äidinkielen ylioppilaskokeen arvioinnissa on kappaleiden sujuva
-liittyminen toisiinsa (Ylioppilastutkintolautakunta 2017), mutta
-saatavilla on enemmän tietoa siitä, miten se pitäisi tehdä, kuin
-todellisesta kielenkäytöstä (Komppa sanoo tämän sivulla 121 ja viittaa
-[@chafe1994,  296]) 
+2010-luvulla kielten ja kirjoittamisen opetuksessa korostuu tekstilähtöisyys ja funktionaalinen tapa tarkastella kieltä (ks esim. opsit & muita lähteitä). Tässä kehyksessä perinteinen, Suomenkin kontekstissa pääosin preskriptiivinen kuvaus [@komppa2012, 121) tekstikokonaisuuden ja -kappaleen rakentumisesta ei palvele tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen tiedonhakija ja tekstien tutkija, joka ei enää kysy, miten minun pitäisi tämä tehdä vaan miten eri tavoilla tämä on tehty. Tällä kirjoittajalla voi olla hallussaan monilukutaitojen harjoittelun myötä ymmärrystä tekstilajista, mutta repertuaarissa ei ole sopivaa rakennetta, jolla pystyisi itse tuottamaan tavoitemuotoisen tekstin. On tosin kirjoitettu (ja tämän vielä tarkistan), että ”tekstilajitietoisuuden ja tekstilajituntemuksen lisääntyessä yksilön ilmaisurepertuaari ja kielellinen valinnanvara laajenevat kattamaan myös yhteisön puhetavat (esim. Bruce 2008 5-6, Solin 2006, 82 samoin Luukka 2002b, 14, 27)”. Mutta on olemassa myös tästä poikkeavia näkemyksiä.
 
 
+Tutkimusperustaisen kirjoittamisenopetuksen tueksi tarvitaan nähdäksemme käyttöpohjaista, kuvailevaa tutkimusta. Yksi keskeinen kriteeri mm.  äidinkielen ylioppilaskokeen arvioinnissa on kappaleiden sujuva liittyminen toisiinsa (Ylioppilastutkintolautakunta 2017). Johanna Komppa tarkastelee suomi toisena kielenä -ylioppilaskirjoitusten kirjoitelmia tekstikokonaisuuksina, deskriptiivisestä näkökulmasta. Kansainväliseen kenttään verrattuna Suomessa ei koulukirjoittamista ole mainittavasti tutkittu [@komppa2012, 9-10]. Lisää tähän lähteeksi myös katsaus lukio-ikäisten kirjoittamisen tutkimukseen. Saatavilla on enemmän tietoa siitä, miten se pitäisi tehdä, kuin todellisesta kielenkäytöstä [@komppa2012, 121] [@chafe1994, 296]. 
 
-Tarve syntaksin ja tekstin rajapinnan analyysille (lähdeviite,
-eu-kartoitus) -> sovellusmahdollisuudet
+
+Lisää vielä tähän side EU-kartoitukseen ja tutkimustarpeeseen sovellusten kehittämistä varten.
+
