@@ -2,32 +2,29 @@
 ```{r tietojen_lataus, echo=FALSE}
 
 library("SataTapaa")
-dr  <- GetListOfDepRels()
+
+samplestats <- list(
+                    difs=nrow(subset(ristiin_annotointi,(theme_j == "Asuminen" & theme_k != "Asuminen" | theme_k == "Asuminen" & theme_j != "Asuminen"))),
+                    sims=nrow(subset(ristiin_annotointi,(theme_j == "Asuminen" & theme_k == "Asuminen"))))
 
 ```
 
-Tutkimuksen aineisto koostuu siis yliopisto-opiskelijoiden
-vaihtokokemuksestaan kirjoittamista matkakertomuksista.
-Kirjoittajien tehtävänä on ollut laatia kuvaileva ja arvioiva
-teksti, ja tehtävään on annettu melko tarkka ohjeistus, joka
-koostuu kahdeksasta eri alakohdasta (mm. *etukäteisjärjestelyt*,
-*asuminen* ja *merkityksellisyys*). (jotain arvioivaa siitä, miten
-ohjeet ehkä vaikuttaneet).
-
-Aineistoon valikoituneista teksteistä..
-
-Tutkimuksen ensimmäisessä vaiheessa aineistoon valikoidut tekstit analysoitiin
+Tutkimuksen aineisto koostuu siis yliopisto-opiskelijoiden vaihtokokemuksestaan
+kirjoittamista matkakertomuksista, jotka ovat luonteeltaan sekä
+kuvailevia että arvioivia tekstejä.  Tehtävään oli annettu melko tarkka ohjeistus,
+joka koostui kahdeksasta eri alakohdasta (mm. *etukäteisjärjestelyt*,
+*asuminen* ja *merkityksellisyys*). Aineisto kattaa kaikkiaan `r nrow(withindicator)`
+tekstiä, jotka tutkimuksen ensimmäisessä vaiheessa annotoitiin
 kappaleittain[^alkup_kpl] siten, että jokaiselle kappaleelle merkittiin
-topiikki eli se, mistä kappale kertoo (vrt. Lambrechtin määritelmä). Yhteensä
-neljäkymmentä tekstiä[^tarkm] kattaneen kokeiluaineiston perusteella päätettiin
-keskittyä *asumisesta* kertoviin kappaleisiin siitä syystä, että asumista
-käsiteltiin lähes jokaisessa analysoidussa näytetekstissä ja että asuminen
-aiheena havaittiin tavallisesti melko selvärajaiseksi. Koska tekstejä analysoi
-kaksi eri henkilöä (kumpikin 20 tekstiä), näyteaineiston avulla testattiin
-myös, kuinka samanlaisia tulkinnat kappaleiden aiheista olivat. *(tähän joku
-maininta niistä tuloksista).*
+topiikki. Yhteensä kaksikymmentä tekstiä[^tarkm] kattaneen kokeiluaineiston
+perusteella päätettiin keskittyä *asumisesta* kertoviin kappaleisiin siitä
+syystä, että asumista käsiteltiin lähes jokaisessa analysoidussa näytetekstissä
+ja koska asuminen aiheena havaittiin tavallisesti melko selvärajaiseksi. Koska
+tekstit analysoi kaksi eri henkilöä, näyteaineiston
+avulla testattiin myös, kuinka samanlaisia tulkinnat kappaleiden aiheista
+olivat. 
 
-[^alkup_kpl]: Käyttäen kirjoittajien itsensä tekemeää  kappaleiden ortografista
+[^alkup_kpl]: Käyttäen kirjoittajien itsensä tekemää  kappaleiden ortografista
 erottelua.
 [^tarkm]: Tarkista määrä
 

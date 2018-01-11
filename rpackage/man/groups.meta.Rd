@@ -4,7 +4,7 @@
 \name{groups.meta}
 \alias{groups.meta}
 \title{Metatiedot ryhmistä}
-\format{An object of class \code{data.frame} with 16 rows and 3 columns.}
+\format{An object of class \code{data.frame} with 13 rows and 3 columns.}
 \usage{
 groups.meta
 }

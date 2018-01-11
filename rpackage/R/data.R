@@ -1,3 +1,10 @@
+#' Ristiinannotoinnin tulokset kappaleittain
+#'
+#' Tässä dataframessa ovat ne 322 kappaletta, jotka kirjoittajat molemmat tahoillaan annotoivat siten, että kumpikin merkitsi joka kappaleeseen sen aiheen, jota kappale kirjoittajan mielestä edusti.
+#'
+"ristiin_annotointi"
+
+
 #' Metatiedot ryhmistä
 #'
 #' Tässä dataframessa ovat tarkemmat tiedot eri ryhmistä
