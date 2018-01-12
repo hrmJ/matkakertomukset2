@@ -27,7 +27,7 @@ ja koska asuminen aiheena havaittiin tavallisesti melko selvärajaiseksi. Koska
 tekstit analysoi kaksi eri henkilöä (artikkelin tekijät), näyteaineiston
 avulla testattiin myös, kuinka samanlaisia tulkinnat kappaleiden aiheista
 olivat. Asumiskappaleiden osalta arvioijien tulkinnat olivat samoja `r test$sims`
-tapauksessa `r sum(test$difs,test$sims)`:sta. 
+tapauksessa `r sum(test$difs,test$sims)`:stä. 
 
 [^alkup_kpl]: Käyttäen kirjoittajien itsensä tekemää  kappaleiden ortografista
 erottelua.
@@ -44,13 +44,7 @@ kohtalaisen kokoinen, ja sitä voidaan mahdollisesti jatkossa käyttää erilais
 kvantitatiivisten päätelmien pohjana. Nyt käsillä olevaa tutkimusta varten päädyttiin
 kuitenkin hyödyntämään aineistoa ennen muuta kvalitatiivisesti. Tätä varten
 aineistosta eroteltiin tarkempaa analyysia silmällä pitäen
-käsiteltäväksi painotettu satunnaisotanta.[^tarkka_menetelma] 
-
-
-[^tarkka_menetelma]: Satunnaisotannan tekninen toteutus dokumentoitiin
-git-versionhallintaan ja on nähtävillä osoitteessa
-https://github.com/hrmJ/100-tapaa-indikoida-topiikkia/blob/6217720ecda456708b4b228e166738602b6b8873/rpackage/inst/extdata/edit_included_data.R#L28
-(tarkistettu 8.1.2017) 
+käsiteltäväksi painotettu satunnaisotanta.
 
 
 Satunnaisotannan painottamisella pyrittiin varmistamaan, että analysoitava
@@ -58,14 +52,15 @@ otos edustaa mahdollisimman kattavasti koko tutkimusaineistoa
 [satunnaisotantaan liittyvistä periaatteista ks. esim. @levshina2015, 8].
 Otoksen edustavuuden takaamiseksi kaikki `r nrow(withindicator)` tekstiä kattava korpus
 rajattiin ja annotoitiin ensin automaattisesti niin pitkälle kuin mahdollista. 
-Tämä prosessi piti sisällään seuraavat vaiheet:
+Prosessi piti sisällään seuraavat vaiheet:
 
-1. Määriteltiin, että kaikista potentiaalisesti asumistopiikkia indikoivista sanoista
-   otetaan mukaan ainoastaan varsinaiset *asua*-verbin johdokset, koska tämä oli
-   selvimmin rajattavissa oleva kategoria. Tarkasteltaessa
-   topiikki-indikaattoreita tarkasteltiin siis lopulta sitä, minkälaisissa rakenteissa
-   kunkin kappaleen ensimmäinen *asua*-johdos (kuten verbi *asua* tai substantiivit
-   *asuminen*, *asunto*, *asuntoasia*, *asuntomarkkinat*) esiintyi. 
+1. Määriteltiin, että analysoitavien kappaleiden topiikin asettavat
+   virkkeet luokitellaan sen perusteella, mikä sana toimii
+   *topiikki-indikaattorina* eli ensimmäisenä leksikaalisena vihjeenä kappaleen topiikista. 
+   Analysoitavien kappaleiden määrää rajattiin siten, että mukaan otettiin
+   ainoastaan sellaiset tapaukset, joissa topiikki-indikaattorina oli 
+   joskin *asua*-verbin johdos (kuten *asunto*, *asuntoasia* tai *asuminen*)
+   tai *asua*-verbi itse.
 2. Huomio kohdistettiin vain niihin `r nrow(subset(withindicator,sentence_number==1))`
    tapaukseen, joissa *asua*-johdos sijaitsee ensimmäisen asumisesta kertovan
    kappaleen ensimmäisessä virkkeessä. Tällä varmistettiin se, että tarkastelun kohteeksi
@@ -73,23 +68,55 @@ Tämä prosessi piti sisällään seuraavat vaiheet:
    todella siirtyy vanhasta topiikista uuteen.
 3. Mukaan valikoituneille kappaleille suoritettiin automaattinen syntaktinen ja
    morfologinen jäsennys sekä lemmatisointi hyödyntämällä Turun yliopistossa kehitettyä
-   TDT-jäsennintä [@haverinen2013tdt] ja siihen liittyviä komponentteja.
+   dependenssijäsennintä [@haverinen2013tdt] ja siihen liittyviä komponentteja.
 
-Jos tutkitaan niitä kategorioita, jotka syntaktinen jäsennin on merkinnyt
+Jos tutkitaan tarkemmin niitä kategorioita, jotka syntaktinen jäsennin on merkinnyt
 tutkimukseen valikoituneiden kappaleiden ensimmäisille *asua*-johdoksille,
-saadaan kuvion `r Ref('fig', 'ff_deproles')` mukainen jakauma:
+saadaan taulukon `r Ref('tab', 'tt_deproles')`  mukainen jakauma.
 
-```{r deproles, echo=FALSE, fig.cap=Ref('fig','ff_deproles','Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.'), fig.width=3, fig.height=2}
+```{r deproles, echo=FALSE, results='asis',fig.cap=Ref('fig','ff_deproles','Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.'), fig.width=3, fig.height=2}
 
-library(ggplot2)
-#Add a category called "other"
+library(pander)
+
 withindicator.1s <- subset(withindicator,sentence_number==1)
 withindicator.1s$indicator.deprel <- as.character(withindicator.1s$indicator.deprel)
-withindicator.1s$indicator.deprel[withindicator.1s$indicator.deprel %in% names(table(withindicator.1s$indicator.deprel)[table(withindicator.1s$indicator.deprel)<10])] <- "Muu"
-withindicator.1s$indicator.deprel <- factor(withindicator.1s$indicator.deprel,levels=unique(names(sort(table(withindicator.1s$indicator.deprel),d=T))))
-ggplot2::ggplot(withindicator.1s, ggplot2::aes(x=indicator.deprel)) + ggplot2::geom_bar() + ggplot2::coord_flip() + ggthemes::theme_tufte()
+withindicator.1s$indicator.deprel[withindicator.1s$indicator.deprel %in% names(table(withindicator.1s$indicator.deprel)[table(withindicator.1s$indicator.deprel)<10])] <- "muu"
+withindicator.1s$indicator.deprel <- factor(withindicator.1s$indicator.deprel,levels=rev(unique(names(sort(table(withindicator.1s$indicator.deprel),d=T)))))
+
+cols  <- list(
+    "Frekvenssi" = as.integer(sort(table(withindicator.1s$indicator.deprel),d=T)),
+    "Selitys"   = c("objekti","predikaattiverbi","luokittelematon adverbiaali","nominaalisen verbimuodon objekti", "subjekti","omistusrakenteen kohde","kopulalauseen subjekti","esim. infinitiivitäydennykset"),
+    "Esimerkki" = paste("*",c("Hankin asunnon","Asuin kerrostalossa","Asunnon suhteen","Asunnon hankkiminen", "Asuminen järjestyi","Asuntoloiden vuokrataso","Asuntola on uusi","Halusin asumaan paikallisten kanssa"),"*",sep=""),
+    "N" = round(as.integer(sort(table(withindicator.1s$indicator.deprel),d=T)) / 2)
+    )
+
+deprels <- matrix(c(unlist(cols)),ncol=length(cols),byrow=F,dimnames=
+             list(unique(names(sort(table(withindicator.1s$indicator.deprel),d=T))),names(cols)))
+
+panderOptions('table.split.table',400)
+panderOptions('table.alignment.default', function(df) ifelse(sapply(as.data.frame(df), is.numeric), 'right', 'left'))
+panderOptions('table.alignment.rownames', 'left')
+panderOptions('table.emphasize.rownames', F)
+panderOptions('table.caption.prefix', '')
+
+pander(rbind(deprels,matrix(c(sum(cols$Frekvenssi),rep("---",2),sum(cols$N)),nrow=1,dimnames=list(c("Yht."),names(cols)))),
+      caption=Ref('tab','tt_deproles','Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.'))
+#ggplot2::ggplot(withindicator.1s, ggplot2::aes(x=indicator.deprel)) + ggplot2::geom_bar() + ggplot2::coord_flip() + ggthemes::theme_tufte()
 
 ```
 
+Taulukon Frekvenssi-sarakkeesta nähdään paitsi se, että yhteensä
+edellä kuvattujen kolmen annotointi- ja rajausvaiheen jälkeen jäljelle jäi 
+`r sum(cols$Frekvenssi)` tekstiä, myös se, että selvästi tavallisimpia
+topiikki-indikaattoreita olivat objektina esiintyvät asua-johdokset.
+Kategoriat, joiden edustajia oli yhteensä alle kymmenen, niputettiin
+yhdeksi *muu*-kategoriaksi. Varsinainen satunnaisotanta tehtiin taulukossa esitettyjen
+kategorioiden perusteella siten, että jokaisesta taulukossa luetellusta
+ryhmästä (mukaan lukien *muu*-ryhmä) valittiin satunnaisesti 
+ryhmän kokonaisfrekvenssin puolikasta vastaava määrä tapauksia (ks. taulukon
+viimeinen sarake).[^tarkka_menetelma] Nämä `r sum(cols$N)` tapauksesta otettiin
+varsinaisen laadullisen analyysin kohteeksi.
 
+[^tarkka_menetelma]: Satunnaisotannan tekninen toteutus dokumentoitiin
+git-versionhallintaan ja on nähtävillä osoitteessa x (tarkistettu 8.1.2017) 
 
