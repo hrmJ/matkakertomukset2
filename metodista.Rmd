@@ -3,38 +3,43 @@
 
 library("SataTapaa")
 
-samplestats <- list(
-                    difs=nrow(subset(ristiin_annotointi,(theme_j == "Asuminen" & theme_k != "Asuminen" | theme_k == "Asuminen" & theme_j != "Asuminen"))),
-                    sims=nrow(subset(ristiin_annotointi,(theme_j == "Asuminen" & theme_k == "Asuminen"))))
+test <- list(difs=nrow(subset(ristiin_annotointi,(theme_j == "Asuminen" & theme_k != "Asuminen" | theme_k == "Asuminen" & theme_j != "Asuminen"))),
+             sims=nrow(subset(ristiin_annotointi,(theme_j == "Asuminen" & theme_k == "Asuminen"))))
 
 ```
 
-Tutkimuksen aineisto koostuu siis yliopisto-opiskelijoiden vaihtokokemuksestaan
-kirjoittamista matkakertomuksista, jotka ovat luonteeltaan sekä
-kuvailevia että arvioivia tekstejä.  Tehtävään oli annettu melko tarkka ohjeistus,
-joka koostui kahdeksasta eri alakohdasta (mm. *etukäteisjärjestelyt*,
-*asuminen* ja *merkityksellisyys*). Aineisto kattaa kaikkiaan `r nrow(withindicator)`
-tekstiä, jotka tutkimuksen ensimmäisessä vaiheessa annotoitiin
-kappaleittain[^alkup_kpl] siten, että jokaiselle kappaleelle merkittiin
-topiikki. Yhteensä kaksikymmentä tekstiä[^tarkm] kattaneen kokeiluaineiston
-perusteella päätettiin keskittyä *asumisesta* kertoviin kappaleisiin siitä
-syystä, että asumista käsiteltiin lähes jokaisessa analysoidussa näytetekstissä
-ja koska asuminen aiheena havaittiin tavallisesti melko selvärajaiseksi. Koska
-tekstit analysoi kaksi eri henkilöä, näyteaineiston
-avulla testattiin myös, kuinka samanlaisia tulkinnat kappaleiden aiheista
-olivat. 
+Nyt käsillä olevan tutkimuksen aineisto koostuu siis yliopisto-opiskelijoiden
+vaihtokokemuksestaan kirjoittamista teksteistä. Tarkka tehtävänanto tekstien laatimiseen
+oli annettu erillisissä ohjeissa, joissa opiskelijoita pyydetään kirjoittamaan
+"matkakertomus, jossa kuvaillaan ja arvioidaan opiskelua ulkomaisessa
+yliopistossa tai harjoittelua ulkomailla". Ohjeet sisältävät kahdeksankohtaisen
+listan mahdollisesti käsiteltävistä asioista (mm. *etukäteisjärjestelyt*,
+*asuminen* ja *merkityksellisyys*). Listaa kehotetaan tulkitsemaan toteamalla, että
+"seuraavat ohjeet eivät ole sitovia, mutta ne on hyvä lukea läpi ennen kirjoittamista".
 
+Tässä käsiteltävä lopullinen tutkimusaineisto kattaa kaikkiaan `r nrow(withindicator)`
+opiskelijoiden laatimaa tekstiä, jotka tutkimuksen ensimmäisessä vaiheessa annotoitiin
+kappaleittain[^alkup_kpl] siten, että jokaiselle kappaleelle merkittiin
+topiikki. Yhteensä kaksikymmentä tekstiä[^tarkm] käsittäneen kokeiluaineiston
+perusteella päätettiin keskittyä *asumisesta* kertoviin kappaleisiin siitä
+syystä, että asumisesta kirjoitettiin lähes jokaisessa analysoidussa näytetekstissä
+ja koska asuminen aiheena havaittiin tavallisesti melko selvärajaiseksi. Koska
+tekstit analysoi kaksi eri henkilöä (artikkelin tekijät), näyteaineiston
+avulla testattiin myös, kuinka samanlaisia tulkinnat kappaleiden aiheista
+olivat. Asumiskappaleiden osalta arvioijien tulkinnat olivat samoja `r test$sims`
+tapauksessa `r sum(test$difs,test$sims)`:sta. 
 [^alkup_kpl]: Käyttäen kirjoittajien itsensä tekemää  kappaleiden ortografista
 erottelua.
 [^tarkm]: Tarkista määrä
 
-Kun kaikki tekstit kattava varsinainen kappalekohtainen analyysi saatiin
+Kokeiluaineiston jälkeen koko tutkimusaineisto käytiin läpi siten, että
+teksteistä etsittiin vain kappaleita, joiden topiikki oli tulkittavissa asumiseksi. 
+Kun tämä kaikki tekstit kattava varsinainen annotointiprosessi saatiin
 päätökseen, lopulliseksi aineistoksi muodostui  `r nrow(withindicator)`
-asumisesta kertovan kappaleen sisältävää tekstiä. Tekstit ovat
+vähintään yhden asumisesta kertovan kappaleen sisältävää tekstiä. Tekstit ovat
 keskimäärin `r round(mean(text_statistics$words))` sanaa pitkiä ja sisältävät
 kaiken kaikkiaan keskimäärin `r round(mean(text_statistics$paragraphs))`
-kappaletta, joista vähintään yhden topiikiksi on edellä kuvatussa
-tutkimusvaiheessa analysoitu asuminen. Tässä koottu tutkimusaineisto on siis
+kappaletta. Prosessin tuloksena saatu tutkimusaineisto on siis
 kohtalaisen kokoinen, ja sitä voidaan mahdollisesti jatkossa käyttää erilaisten
 kvantitatiivisten päätelmien pohjana. Nyt käsillä olevaa tutkimusta varten päädyttiin
 kuitenkin hyödyntämään aineistoa ennen muuta kvalitatiivisesti. Tätä varten
@@ -42,7 +47,7 @@ aineistosta eroteltiin tarkempaa analyysia silmällä pitäen
 käsiteltäväksi painotettu satunnaisotanta.[^tarkka_menetelma] 
 
 
-[^tarkka_menetelma]: Satunnaisotannan tekninen toteus dokumentoitiin
+[^tarkka_menetelma]: Satunnaisotannan tekninen toteutus dokumentoitiin
 git-versionhallintaan ja on nähtävillä osoitteessa
 https://github.com/hrmJ/100-tapaa-indikoida-topiikkia/blob/6217720ecda456708b4b228e166738602b6b8873/rpackage/inst/extdata/edit_included_data.R#L28
 (tarkistettu 8.1.2017) 
