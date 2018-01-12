@@ -1,22 +1,32 @@
 
-Tännne yleisiä havaintoja, esim.
 
 ```{r, echo=FALSE}
 
-library(ggplot2)
-ggplot(analysoitu_otanta,aes(x=group)) + geom_bar() + coord_flip()
-
+#tulokset <- GetGroupsFromYaml(otannat_analyysiin)
 
 ```
 
-Jos muuten rinnastelee vähän sitä, mitkä siteet linkittyvät
-mihinkin ryhmään:
+Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
+`r nrow(analysoitu_otanta)` tekstiä jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
+ryhmään. Ryhmien yleisrakenne on kuvattu seuraavassa taulukossa:
 
 
-```{r, echo=FALSE}
+```{r deproles, echo=FALSE, results='asis'}
 
-ggplot(analysoitu_otanta,aes(x=group,fill=side)) + geom_bar() + coord_flip()
+library(pander)
+library(SataTapaa)
+
+panderOptions('table.split.table',400)
+panderOptions('table.alignment.default', function(df) ifelse(sapply(as.data.frame(df), is.numeric), 'right', 'left'))
+panderOptions('table.alignment.rownames', 'left')
+panderOptions('table.emphasize.rownames', F)
+panderOptions('table.caption.prefix', '')
+
+groups <- groups.meta[,-which(colnames(groups.meta)=="Yläotsikko")]
+
+rownames(groups) <- c(1:nrow(groups))
+
+pander(groups, caption=Ref('tab','tt_groups','Laadullisen analyysin tuloksena saadut ryhmät'))
 
 ```
-
 
