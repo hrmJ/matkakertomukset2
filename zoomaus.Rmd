@@ -1,3 +1,15 @@
-
+﻿
 
 Tänne ajatus siitä, että otetaan yksi tai useampi esimerkkilausetta ja käydään läpi vaihtoehtoisia ilmaisutapoja
+
+
+Tämän analyysin tarkoituksena oli ottaa muutama tyypillinen eri asteisesti listamainen tapaus ja sen jälkeen asettaa se rinnakkain samaa ilmiötä toteuttavien muunlaisten ratkaisutapojen kanssa. (olihan se näin?)
+
+
+1. tapaus: puhdas listatyyppinen (id732), asumista käsittelevä kappale on nyt tässä kokonaisuudessaan hetken aikaa.
+
+
+(Ennen tätä kappaletta kirjoittaja on käsitellyt ensin valistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoi omaa osaamistaan valitsemallaa kielikurssilla.)
+
+"Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta. Vaihtareille on varattu kaksi erillistä taloa, toinen (Beauregard) sijaitsee aivan kaupungin keskustassa juna-aseman ja yliopiston päärakennuksen vieressä ja toinen (Bellevue) puolestaan noin 20 minuutin kävelymatkan päässä keskustasta. Asuntohakemus toimitettiin myös kaikkien muiden hakemuspapereiden yhteydessä eli hakuprosessi oli siis senkin osalta tehty todella helpoksi. Itse asuin kolmen hengen solussa keskustan vaihtaritalossa, joka oli mielestäni sijaintiinsa nähden melko edullinen asunto, sillä vuokraan sisältyi vesi, sähkö ja nettiyhteys. Koin vaihtaritalossa asumisen minulle parhaana vaihtoehtona, sillä kaikki vaihtarikaverit asuivat lähellä, ja näin ollen illanviettoihin ja muihin oli todella helppoa osallistua. Sveitsin hintataso on yleisesti ottaen tietysti melko korkea, mutta näin suomalaiselle se ei kuitenkaan mielestäni kovin suurena shokkina tullut, joten sen vuoksi en missään nimessä jättäisi Sveitsiin lähtemättä. Kaupoista löytyvät yhtälailla halvemmat merkit hyvinä vaihtoehtoina aivan kuin Suomessakin."
+
