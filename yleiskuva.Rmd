@@ -11,7 +11,7 @@ Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
 ryhmään. Ryhmien yleisrakenne on kuvattu seuraavassa taulukossa:
 
 
-```{r deproles, echo=FALSE, results='asis'}
+```{r grouptab, echo=FALSE, results='asis'}
 
 library(pander)
 library(SataTapaa)
