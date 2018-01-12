@@ -20,7 +20,7 @@ listan mahdollisesti käsiteltävistä asioista (mm. *etukäteisjärjestelyt*,
 Tässä käsiteltävä lopullinen tutkimusaineisto kattaa kaikkiaan `r nrow(withindicator)`
 opiskelijoiden laatimaa tekstiä, jotka tutkimuksen ensimmäisessä vaiheessa annotoitiin
 kappaleittain[^alkup_kpl] siten, että jokaiselle kappaleelle merkittiin
-topiikki. Yhteensä kaksikymmentä tekstiä[^tarkm] käsittäneen kokeiluaineiston
+topiikki. Yhteensä kaksikymmentä tekstiä käsittäneen kokeiluaineiston
 perusteella päätettiin keskittyä *asumisesta* kertoviin kappaleisiin siitä
 syystä, että asumisesta kirjoitettiin lähes jokaisessa analysoidussa näytetekstissä
 ja koska asuminen aiheena havaittiin tavallisesti melko selvärajaiseksi. Koska
@@ -28,9 +28,9 @@ tekstit analysoi kaksi eri henkilöä (artikkelin tekijät), näyteaineiston
 avulla testattiin myös, kuinka samanlaisia tulkinnat kappaleiden aiheista
 olivat. Asumiskappaleiden osalta arvioijien tulkinnat olivat samoja `r test$sims`
 tapauksessa `r sum(test$difs,test$sims)`:sta. 
+
 [^alkup_kpl]: Käyttäen kirjoittajien itsensä tekemää  kappaleiden ortografista
 erottelua.
-[^tarkm]: Tarkista määrä
 
 Kokeiluaineiston jälkeen koko tutkimusaineisto käytiin läpi siten, että
 teksteistä etsittiin vain kappaleita, joiden topiikki oli tulkittavissa asumiseksi. 
@@ -53,60 +53,43 @@ https://github.com/hrmJ/100-tapaa-indikoida-topiikkia/blob/6217720ecda456708b4b2
 (tarkistettu 8.1.2017) 
 
 
-Satunnaisotannan painottamisella pyrittiin takaamaan, että analysoitava
+Satunnaisotannan painottamisella pyrittiin varmistamaan, että analysoitava
 otos edustaa mahdollisimman kattavasti koko tutkimusaineistoa
 [satunnaisotantaan liittyvistä periaatteista ks. esim. @levshina2015, 8].
-Otoksen edustavuuden takaamiseksi kaikki `r nrow(withindicator)` tekstiä kattavaa korpusta
+Otoksen edustavuuden takaamiseksi kaikki `r nrow(withindicator)` tekstiä kattava korpus
 rajattiin ja annotoitiin ensin automaattisesti niin pitkälle kuin mahdollista. 
 Tämä prosessi piti sisällään seuraavat vaiheet:
 
-1. Määriteltiin, että kaikista potentiaalisesti asumista indikoivista sanoista
-   otetaan mukaan ainoastaan varsinaiset asua-verbin johdokset, koska tämä oli
+1. Määriteltiin, että kaikista potentiaalisesti asumistopiikkia indikoivista sanoista
+   otetaan mukaan ainoastaan varsinaiset *asua*-verbin johdokset, koska tämä oli
    selvimmin rajattavissa oleva kategoria. Tarkasteltaessa
    topiikki-indikaattoreita tarkasteltiin siis lopulta sitä, minkälaisissa rakenteissa
-   kunkin kappaleen ensimmäinen asua-johdos (kuten verbi *asua* tai substantiivit
+   kunkin kappaleen ensimmäinen *asua*-johdos (kuten verbi *asua* tai substantiivit
    *asuminen*, *asunto*, *asuntoasia*, *asuntomarkkinat*) esiintyi. 
 2. Huomio kohdistettiin vain niihin `r nrow(subset(withindicator,sentence_number==1))`
-   tapaukseen, joissa asua-johdos sijaitsee ensimmäisessä virkkeessä. (perusteluja)
+   tapaukseen, joissa *asua*-johdos sijaitsee ensimmäisen asumisesta kertovan
+   kappaleen ensimmäisessä virkkeessä. Tällä varmistettiin se, että tarkastelun kohteeksi
+   tulee mahdollisimman paljon juuri niitä virkkeitä, joissa kirjoittaja 
+   todella siirtyy vanhasta topiikista uuteen.
+3. Mukaan valikoituneille kappaleille suoritettiin automaattinen syntaktinen ja
+   morfologinen jäsennys sekä lemmatisointi hyödyntämällä Turun yliopistossa kehitettyä
+   TDT-jäsennintä [@haverinen2013tdt] ja siihen liittyviä komponentteja.
+
+Jos tutkitaan niitä kategorioita, jotka syntaktinen jäsennin on merkinnyt
+tutkimukseen valikoituneiden kappaleiden ensimmäisille *asua*-johdoksille,
+saadaan kuvion `r Ref('fig', 'ff_deproles')` mukainen jakauma:
+
+```{r deproles, echo=FALSE, fig.cap=Ref('fig','ff_deproles','Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.'), fig.width=3, fig.height=2}
+
+library(ggplot2)
+#Add a category called "other"
+withindicator.1s <- subset(withindicator,sentence_number==1)
+withindicator.1s$indicator.deprel <- as.character(withindicator.1s$indicator.deprel)
+withindicator.1s$indicator.deprel[withindicator.1s$indicator.deprel %in% names(table(withindicator.1s$indicator.deprel)[table(withindicator.1s$indicator.deprel)<10])] <- "Muu"
+withindicator.1s$indicator.deprel <- factor(withindicator.1s$indicator.deprel,levels=unique(names(sort(table(withindicator.1s$indicator.deprel),d=T))))
+ggplot2::ggplot(withindicator.1s, ggplot2::aes(x=indicator.deprel)) + ggplot2::geom_bar() + ggplot2::coord_flip() + ggthemes::theme_tufte()
+
+```
 
 
 
-Koska tutkimuksen tarkoituksena on tarkastella nimenomaan sitä, miten uusi topiikki
-esitellään lukijalle, rajattiin varsinai
-*(tämän mainitseminen johdannossa)*
-
-Määriteltiin, että kaikista potentiaalisesti asumista indikoivista sanoista
-otetaan mukaan ainoastaan varsinaiset asua-verbin johdokset, koska tämä oli
-selvimmin rajattavissa oleva kategoria. Tarkasteltaessa
-topiikki-indikaattoreita tarkasteltiin siis sitä, minkälaisissa rakenteissa
-kunkin kappaleen ensimmäinen asua-johdos (kuten verbi *asua* tai substantiivit
-*asuminen*, *asunto*, *asuntoasia*, *asuntomarkkinat*) esiintyi. 
-
-
-Asumisesta kertovien kappaleiden syntaktisesta rakenteesta saatiin yleiskuva
-annotoimalla kappaleet koneellisesti dependenssijäsentimellä [ks.
-@haverinen2013tdt]. 
-
-
-
-Koneellisesti tuotettu annotointi toimi lähtökohtana, kun
-kappaleita ryhdyttiin luokittelemaan eri ryhmiin sen mukaan, miten niissä
-indikoitiin asumistopiikkia. Luokittelu tapahtui seuraavien vaiheiden mukaisesti:
-
-1. Määriteltiin, että kaikista potentiaalisesti asumista indikoivista sanoista
-   otetaan mukaan ainoastaan varsinaiset asua-verbin johdokset, koska tämä oli
-   selvimmin rajattavissa oleva kategoria. Tarkasteltaessa
-   topiikki-indikaattoreita tarkasteltiin siis sitä, minkälaisissa rakenteissa
-   kunkin kappaleen ensimmäinen asua-johdos (kuten verbi *asua* tai substantiivit
-   *asuminen*, *asunto*, *asuntoasia*, *asuntomarkkinat*) esiintyi. 
-2. Jokaisesta kategoriasta valittiin tarkasteltavaksi puolet (tai vähintään x)
-   Tätä kautta mukaan valikoitui eniten niitä, joita... yms.
-   Tämä joukko analysoitiin siten, että mukaan otettiin vain tapaukset, joissa
-   tulkintamme mukaan toteutettiin alatopiikin funktiota.
-3. Kun jokaisesta syntaktisesta kategoriasta oli saatu kategorian suhteellisen
-   koon mukainen (tai suurin mahdollinen) määrä alatopiikkitapauksia, nämä
-   analysoitiin tarkemmin ja ryhmiteltiin eri tapauksiksi.
-
-
-Analyysin varsinaiset tulokset kunkin syntaktisen kategorian osalta on kuvattu
-tarkemmin seuraavassa.
