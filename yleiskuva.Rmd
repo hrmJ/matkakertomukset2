@@ -4,29 +4,34 @@
 
 #tulokset <- GetGroupsFromYaml(otannat_analyysiin)
 
+ex <- list("Ks. esim. x alla", 774, 215, 699, 317, 455, 743,557,272,498,"Ks. esim. x alla",390,298)
+new.ex <- lapply(ex,function(x){
+                  if(is.numeric(x)){
+                      return(list(ex=unname(GetInfo(x)["sentence"])))
+                  }
+                  else{
+                      return(list(ex=x))
+                  }
+})
+
+names(new.ex) <- groups.meta$Nimi
+
+for(g in names(new.ex)){
+    new.ex[[g]]$amount <- nrow(subset(analysoitu_otanta,group==g))
+}
+
 ```
 
 Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
 `r nrow(analysoitu_otanta)` tekstiä jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
-ryhmään. Ryhmien yleisrakenne on kuvattu seuraavassa taulukossa:
+ryhmään. Kustakin ryhmästä on seuraavassa annettu yksi esimerkkivirke. Virkkeen lopussa
+on ilmoitettu, kuinka monta lausetta kuhunkin ryhmään kuuluu.
+
+(@ee_linkki) `r new.ex[[2]]["ex"]` (`r new.ex[[2]]$amount` kpl)
 
 
-```{r grouptab, echo=FALSE, results='asis'}
 
-library(pander)
-library(SataTapaa)
+Jäljempänä tarkasteltavien x-tapausten jälkeen suurimmat ryhmät
+olivat 
 
-panderOptions('table.split.table',400)
-panderOptions('table.alignment.default', function(df) ifelse(sapply(as.data.frame(df), is.numeric), 'right', 'left'))
-panderOptions('table.alignment.rownames', 'left')
-panderOptions('table.emphasize.rownames', F)
-panderOptions('table.caption.prefix', '')
-
-groups <- groups.meta[,-which(colnames(groups.meta)=="Yläotsikko")]
-
-rownames(groups) <- c(1:nrow(groups))
-
-pander(groups, caption=Ref('tab','tt_groups','Laadullisen analyysin tuloksena saadut ryhmät'))
-
-```
 
