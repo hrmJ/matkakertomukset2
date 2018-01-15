@@ -1,4 +1,4 @@
-
+﻿
 
 ```{r, echo=FALSE}
 
@@ -71,7 +71,7 @@ Tämän kyseisen esimerkin ympäristö
 
 Esimerkissä @ee_ennakoivat edellisessä kappaleessa jotain, muttei linkkiä
 
-Esimerkissä @ee_predikaatti väliotsikko
+Esimerkissä @ee_predikaatti väliotsikko jotain
 
 Esimerkissä @ee_valimaasto väliotsikko
 

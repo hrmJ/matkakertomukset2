@@ -12,7 +12,9 @@ Erityisesti englanninkielisessä kirjoittamisen opetuksen perinteessä on ollut 
 
 Tekstikappale tarkastelun kohteena (Olin ajatellut tätä teoriaosan alle, mutta eikös olekin yksi tulos jo se, millaisia tekstit ovat kokonaisrakenteeltaan...)
 
-Tutkimusaineisto rajautuu ulkoisesti raportin kirjoittamiseen annetun ohjeistuksen ja raporttien julkaisualustan perusteella. Tekstin kokonaisrakenteen analyysissä on tyypillistä erottaa toisaalta funktionaaliset jaksot ja toisaalta visuaaliset elementin, tekstikappale lukeutuu jälkimmäiseen. Tässä tutkimuksessa tarkastelun kohteeksi otettiin tekstikappaleet, joka ei ehkä ole se tyypillinen tapa lähestyä tekstiä. Tehty valinta perustui tutkimuksen ensimmäisessä vaiheessa tehtyihin havaintoihin. (Miten pitkästi avaamme tätä?) Vaihtoraportit ovat kokonaisrakenteeltaan pääosin topiikkipohjaisia - retorisen rakenteen teorian läpi tarkasteluna moniytimisiä. Näin ollen jokainen tekstikappale aloittaa uuden tekstikokonaisuuden, joka ei niinkään asetu hierakiseen suhteeseen edeltävien tekstikappaleiden kanssa, vaan ennemminkin on joko sekventiaalisesti tai listamaisesti jäsentynyt tekstin päätopiikin alle.
+Tutkimusaineisto rajautuu ulkoisesti raportin kirjoittamiseen annetun ohjeistuksen ja raporttien julkaisualustan perusteella. Tekstin kokonaisrakenteen analyysissä on tyypillistä erottaa toisaalta funktionaaliset jaksot ja toisaalta visuaaliset elementin, tekstikappale lukeutuu jälkimmäiseen. Tässä tutkimuksessa tarkastelun kohteeksi otettiin tekstikappaleet, joka ei ehkä ole se tyypillinen tapa lähestyä tekstiä. Tehty valinta perustui tutkimuksen ensimmäisessä vaiheessa tehtyihin havaintoihin. (Miten pitkästi avaamme tätä?) 
+
+Vaihtoraportit ovat kokonaisrakenteeltaan pääosin topiikkipohjaisia - retorisen rakenteen teorian läpi tarkasteluna moniytimisiä. Näin ollen jokainen tekstikappale aloittaa uuden tekstikokonaisuuden, joka ei niinkään asetu hierakiseen suhteeseen edeltävien tekstikappaleiden kanssa, vaan ennemminkin on joko sekventiaalisesti tai listamaisesti jäsentynyt tekstin päätopiikin alle.
 
 Vuorijärvi käyttää käsitettä topiikkipohjainen rakenne, jonka alle eri tavalla rakentuneet opinnäytetyötekstit asettuvat (s. 75). Tekstin aihetta siis avataan osa kerrallaan. Topiikilla tarkoitetaan tässä yhteydessä sisältötopiikkia eli aihetta tai aihepiiriä, josta tekstissä sanotaan jotakin. Vuorijärvi esittelee (s. 75-76) Paltridgen 2002, 135 mukaisen skeeman 
 Johdanto
@@ -31,17 +33,10 @@ Retorisen rakenteen teoriassa (Komppa) eritellään tekstin osat ja kartoitetaan
 
 JA sitten voisi jatkua Dik & alatopiikit tähän omaksi kokonaisuudekseen, mutta tämän kirjoittaminen lienee viisasta, kun tulososa on hahmollaan.
 
-Aineisto ja menetelmät
 
-- Akateemiset genret ovat kompleksisia (Bhatia 2012), ja siksi kirjoittamisprosessiin vaikuttaa aina lisäksi kirjoitettavan sisällön kompleksisuus. Tämä heijastuu väistämättä myös tekstin tuottamiseen (Bereiter and Scardamalia 1987; Camp 2012).  Tämä tutkimuksen aineistovalinnassa haluttiin etsiä analysoitavaksi tekstejä, joiden rakentumisessa tehtävän kuormittuvuus ei muodostuisi keskeiseksi tekijäksi. Vaihtoraporttien sisältö - kirjoittajan oma toiminta, kokemukset ja ajanjakson arviointi - on kirjoittajalle saavutettavissa vähäisin ponnistuksin ja tarjolla on seikkaperäiset ja havainnolliset ohjeet, tehtävä itsessään ei ole ollut kuormittava. 
 
 - Raportti ja raportointi eivät esiinny monialaisten yliopistojen akateemisen kirjoittamisen ohjeistuksissa (ks. esim. Kielijelppi, Opiskelijoiden tekstilajeja) samalla tavalla kuin ammattikorkeakoulujen ohjeistuksissa, joissa sekä opinnäytetyön raportointi että harjoitustöistä kirjoitettavat raportit ovat keskeisiä tekstejä (ks. esim. Jyväskylän ammattikorkeakoulu). Yliopiston dokumentaatiossa tekstejä nimetäänkin matkakertomuksiksi, mutta ohjeistuksessa annetut tukikysymykset viittaavat sisällöltään raportin kirjoittamiseen (ks. tarkemmin analyysiluvut). Myös tekstille eksplisiittisesti määritellyt tavoitteet, tukea vaihtoa harkitsevien päätöksentekoa ja auttaa valmistautumisessa, painottavat odotuksia raporttimaisen tekstin suuntaan.
 
-Miksi tämä aineisto?
--Iso, keskenään yhtenäinen tekstiaineisto
--Kirjoitettu johonkin funktioon
--Ei ammattikirjoittajia tai editoituja tekstejä, mutta tottuneita kirjoittajia
--Tutkimuslupa hankittu
 
 Käyttämämme menetelmä muistuttaa prosessina Vuorijärven analyysiprosessin vaiheita: sivut (116-117).
 
