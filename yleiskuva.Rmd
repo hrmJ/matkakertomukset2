@@ -4,7 +4,7 @@
 
 #tulokset <- GetGroupsFromYaml(otannat_analyysiin)
 
-ex <- list("Ks. esim. x alla", 774, 215, 699, 317, 455, 743,557,272,498,"Ks. esim. x alla",390,298)
+ex <- list(341, 774, 215, 699, 317, 455, 341,557,272,498,"Ks. esim. x alla",390,298)
 new.ex <- lapply(ex,function(x){
                   if(is.numeric(x)){
                       return(list(ex=unname(GetInfo(x)["sentence"])))
@@ -27,9 +27,10 @@ Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
 ryhmään. Kustakin ryhmästä on seuraavassa annettu yksi esimerkkivirke. Virkkeen lopussa
 on ilmoitettu, kuinka monta lausetta kuhunkin ryhmään kuuluu.
 
-(@ee_linkki) `r new.ex[[2]]["ex"]` (`r new.ex[[2]]$amount` kpl)
+(@ee_yleistys) `r new.ex[[7]]["ex"]` (`r new.ex[[7]]$amount` kpl)
 
 
+Esimerkissä @ee_yleistys kirjoittaja 
 
 Jäljempänä tarkasteltavien x-tapausten jälkeen suurimmat ryhmät
 olivat 
