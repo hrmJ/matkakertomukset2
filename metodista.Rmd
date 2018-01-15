@@ -120,3 +120,18 @@ varsinaisen laadullisen analyysin kohteeksi.
 [^tarkka_menetelma]: Satunnaisotannan tekninen toteutus dokumentoitiin
 git-versionhallintaan ja on nähtävillä osoitteessa x (tarkistettu 8.1.2017) 
 
+
+Laadullisen analyysin tavoitteena oli ryhmitellä aineistosta erotellut `r nrow(analysoitu_otanta)` 
+tekstiä siten, että yhteen ryhmään päätyisivät aina ne tavat asettaa topiikki, jotka
+syntaktisilta tai funktionaalisilta ominaisuuksiltaan muistuttavat toisiaan.
+Jokaista topiikkia asettavaa virkettä tutkittiin erikseen laajemmassa tekstiyhteydessään,
+minkä jälkeen sitä verrattiin muihin virkkeisiin ja määriteltiin, oliko kyseessä jokin 
+uusi, muista erottuva tapausjoukko vai ennemminkin jokin jo muodostettuun joukkoon kuuluva
+tapaus. Tapauksia ei siis ryhmitelty minkään ennalta määriteltyjen kriteerien pohjalta,
+vaan sillä perusteella, mitkä tapaukset muistuttivat toisiaan. 
+
+
+ ....toinen kappale ryhmittelyn perusteista ja siitä, ettei semant. kriteerejä käytetty...
+
+
+
