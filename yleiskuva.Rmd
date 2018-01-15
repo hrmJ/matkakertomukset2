@@ -4,29 +4,81 @@
 
 #tulokset <- GetGroupsFromYaml(otannat_analyysiin)
 
+# [1] "Linkki"
+# [2] "Yliopisto (maggy) tarjosi"
+# [3] "Kontrasti"
+# [4] "Suurin osa opiskelijoista"
+# [5] "Selkeät yksittäiseen tapahtumaan keskittyvät narratiivit"
+# [6] "oma kokemus"
+# [7] "yleistys"
+# [8] "asuin paikassa x"
+# [9] "Ennakoivat"
+#[10] "ennakoivien ja predikoivien välimaasto"
+#[11] "Listamaiset"
+#[12] "asunnon ja asumisen staattinen kuvailu"
+#[13] "pari sanaa asumisesta"
+#
+ex <- list(286, 42, 314, 699, 399, 107, 341,557,272,498,732,390,298)
+new.ex <- lapply(ex,function(x){
+                  if(is.numeric(x)){
+                      return(list(ex=unname(GetInfo(x)["sentence"])))
+                  }
+                  else{
+                      return(list(ex=x))
+                  }
+})
+
+names(new.ex) <- groups.meta$Nimi
+
+for(g in names(new.ex)){
+    new.ex[[g]]$amount <- nrow(subset(analysoitu_otanta,group==g))
+}
+
 ```
 
 Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
 `r nrow(analysoitu_otanta)` tekstiä jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
-ryhmään. Ryhmien yleisrakenne on kuvattu seuraavassa taulukossa:
+ryhmään. Kustakin ryhmästä on seuraavassa annettu yksi edustava esimerkkivirke. 
+Esimerkkien tarkempiin konteksteihin pureudutaan alempana yksityiskohtaisemmin. Jo tässä vaiheessa
+on syytä huoomauttaa, että osassa tapauksista asumisesta kertovaa kappaletta
+edelsi väliotsikko.
 
 
-```{r grouptab, echo=FALSE, results='asis'}
+(@ee_lista) `r new.ex[[11]]["ex"]` (`r new.ex[[11]]$amount` kpl)
+(@ee_narratiivi) `r new.ex[[5]]["ex"]` (`r new.ex[[5]]$amount` kpl)
+(@ee_predikaatti) `r new.ex[[8]]["ex"]` (`r new.ex[[8]]$amount` kpl)
+(@ee_parisanaa) `r new.ex[[13]]["ex"]` (`r new.ex[[13]]$amount` kpl)
+(@ee_linkki) `r new.ex[[1]]["ex"]` (`r new.ex[[1]]$amount` kpl)
+(@ee_yleistys) `r new.ex[[7]]["ex"]` (`r new.ex[[7]]$amount` kpl)
+(@ee_ennakoivat) `r new.ex[[9]]["ex"]` (`r new.ex[[9]]$amount` kpl)
+(@ee_valimaasto) `r new.ex[[10]]["ex"]` (`r new.ex[[10]]$amount` kpl)
+(@ee_omakokemus) `r new.ex[[6]]["ex"]` (`r new.ex[[6]]$amount` kpl)
+(@ee_maggytarjosi) `r new.ex[[2]]["ex"]` (`r new.ex[[2]]$amount` kpl)
+(@ee_suurionsa) `r new.ex[[4]]["ex"]` (`r new.ex[[4]]$amount` kpl)
+(@ee_kontrasti) `r new.ex[[3]]["ex"]` (`r new.ex[[3]]$amount` kpl)
+(@ee_staattinen) `r new.ex[[12]]["ex"]` (`r new.ex[[12]]$amount` kpl)
 
-library(pander)
-library(SataTapaa)
 
-panderOptions('table.split.table',400)
-panderOptions('table.alignment.default', function(df) ifelse(sapply(as.data.frame(df), is.numeric), 'right', 'left'))
-panderOptions('table.alignment.rownames', 'left')
-panderOptions('table.emphasize.rownames', F)
-panderOptions('table.caption.prefix', '')
+Esimerkissä @ee_yleistys indikaattorina on koko lauseen ensimmäisena sijaitseva
+*asuminen*-sana. Tämän ryhmän teksteille tyypillisesti esimerkki 
+esittää yleisen tason huomioita asumisesta (tai paikasta) -- esimerkiksi 
+hinnoista, asumisen hankkimisen helppoudesta tai vaikeudesta *yleensä*.
+Rakenteellisesti tarkasteltuna.... y.3.p
+Tämän kyseisen esimerkin ympäristö
 
-groups <- groups.meta[,-which(colnames(groups.meta)=="Yläotsikko")]
 
-rownames(groups) <- c(1:nrow(groups))
 
-pander(groups, caption=Ref('tab','tt_groups','Laadullisen analyysin tuloksena saadut ryhmät'))
 
-```
+Esimerkissä @ee_ennakoivat edellisessä kappaleessa jotain, muttei linkkiä
+
+Esimerkissä @ee_predikaatti väliotsikko
+
+Esimerkissä @ee_valimaasto väliotsikko
+
+Vertaa esimerkkiä @ee_omakokemus esimerkkiin @ee_yleistys
+
+
+Jäljempänä tarkasteltavien x-tapausten jälkeen suurimmat ryhmät
+olivat 
+
 
