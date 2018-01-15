@@ -52,6 +52,8 @@ edges <- Link2Groups("Yliopisto (maggy) tarjosi","yleistys")
 edges <- Link2Groups(61, "Yliopisto (maggy) tarjosi",TRUE)
 edges <- Link2Groups(624, "Listamaiset",TRUE)
 edges <- Link2Groups(517, "oma kokemus",TRUE)
+edges <- Link2Groups(829,"Suurin osa opiskelijoista",TRUE)
+edges <- Link2Groups(341,"Listamaiset",TRUE)
 
 mynetwork  <- visNetwork(test, edges, width = "100%", height="20cm") %>% 
               visClusteringByGroup(groups = unique(test$group),label="") %>%
@@ -60,5 +62,5 @@ mynetwork  <- visNetwork(test, edges, width = "100%", height="20cm") %>%
               visPhysics(stabilization = TRUE)
 mynetwork
 
-visSave(mynetwork,file="visualisaatio.html")
+#visSave(mynetwork,file="visualisaatio.html")
 
