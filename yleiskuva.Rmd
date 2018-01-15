@@ -38,9 +38,11 @@ for(g in names(new.ex)){
 
 Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
 `r nrow(analysoitu_otanta)` tekstiä jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
-ryhmään. Kustakin ryhmästä on seuraavassa annettu yksi edustava esimerkkivirke. Virkkeen lopussa
-on ilmoitettu, kuinka monta lausetta kuhunkin ryhmään kuuluu. Virkkeet
-analysoidaan tarkemmin kohta.
+ryhmään. Kustakin ryhmästä on seuraavassa annettu yksi edustava esimerkkivirke. 
+Esimerkkien tarkempiin konteksteihin pureudutaan alempana yksityiskohtaisemmin. Jo tässä vaiheessa
+on syytä huoomauttaa, että osassa tapauksista asumisesta kertovaa kappaletta
+edelsi väliotsikko.
+
 
 (@ee_lista) `r new.ex[[11]]["ex"]` (`r new.ex[[11]]$amount` kpl)
 (@ee_narratiivi) `r new.ex[[5]]["ex"]` (`r new.ex[[5]]$amount` kpl)
@@ -56,7 +58,16 @@ analysoidaan tarkemmin kohta.
 (@ee_kontrasti) `r new.ex[[3]]["ex"]` (`r new.ex[[3]]$amount` kpl)
 (@ee_staattinen) `r new.ex[[12]]["ex"]` (`r new.ex[[12]]$amount` kpl)
 
-Esimerkissä @ee_yleistys kirjoittaja 
+
+Esimerkissä @ee_yleistys indikaattorina on koko lauseen ensimmäisena sijaitseva
+*asuminen*-sana. Tämän ryhmän teksteille tyypillisesti esimerkki 
+esittää yleisen tason huomioita asumisesta (tai paikasta) -- esimerkiksi 
+hinnoista, asumisen hankkimisen helppoudesta tai vaikeudesta *yleensä*.
+Rakenteellisesti tarkasteltuna.... y.3.p
+Tämän kyseisen esimerkin ympäristö
+
+
+
 
 Esimerkissä @ee_ennakoivat edellisessä kappaleessa jotain, muttei linkkiä
 
