@@ -67,6 +67,15 @@ Rakenteellisesti tarkasteltuna.... y.3.p
 Tämän kyseisen esimerkin ympäristö
 
 
+Esimerkissä @ee_lista indikaattorina on *asuntoni*-sana. Tämän ryhmän tekstit muodostavat aineiston määrällisesti laajimman ryhmän ja leimallista indikaattorin sisältäville lauseille on, että indikaattori on useimmiten lauseen objekti ja hyvin usein myös lauseen ensimmäinen sana. Tämän ryhmän teksteissä indikaattori edustaa yleensä kontekstissaan ns. uutta tietoa, eli asumiseen, asuntoon, asuntolaan tms. ei ole viitattu edeltävässä tekstissä. Tätä esimerkkiä edeltävässä tekstissä kirjoittaja on käsitellyt ensin valimistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoi omaa osaamistaan valitsemallaa kielikurssilla. Pitää vielä lisätä, minkä verran tässä ryhmässä on väliotsikoita. Hiukan kesken siis on.
+
+Esimerkissä @ee-narratiivi indikaattorina on nönnönöö. Tämän ryhmän teksteille tyyppiliisesti nönnönnnöö. tilastoja tms. rakenteesta yms.
+Kyseisen esimerkin ympäristö
+
+Esimerkissä @ee_linkki indikaattorina on nönnönnöö. Tämän ryhmän teksteille tyypillisesti nönnönnöö. tilastoja tms. rakenteesta yms.
+Kyseisen esimerkin ympäristö. Tämän ryhmän tekstit sijoittuvat toissijaisesti myös johonkin alaryhmään, mutta ovat erottuneet omasta alaryhmästään kontekstin tarkastelun vaiheessa. Eli kirjoittaja on edeltävässä tekstissään kirjoittanut sisään asumisen tavalla tai toisella ja jollakin lailla monimutkaisemmin kuin vain maininnut sen.
+
+
 
 
 Esimerkissä @ee_ennakoivat edellisessä kappaleessa jotain, muttei linkkiä
