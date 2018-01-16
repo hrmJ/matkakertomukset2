@@ -25,8 +25,20 @@ GetGroupsFromYaml <- function(otanta){
 }
 
 
-SetMissingGroup <- function(){
-    
-    unlist(groups.meta$Nimi)
+#' Antaa nopeasti tietoa jonkin klusterin ominaisuuksista
+#' @param textid esimerkin teksti-id
+#' @export
 
+MoreInfo <- function(textid){
+    info  <- GetInfo(textid)
+    ss <- subset(analysoitu_otanta, group==info$group)
+    siteet <- table(ss$side)
+    return(list(sentence = info$sentence,
+                group=info$group,
+                total=nrow(ss),
+                otsikkosuhde = paste(round(siteet["otsikko"]/nrow(ss)*100,2),"%"),
+                otsikoita = unname(siteet["otsikko"]),
+                suht.koko = paste(fn(100*nrow(ss)/nrow(analysoitu_otanta)),"%")
+                )
+                )
 }

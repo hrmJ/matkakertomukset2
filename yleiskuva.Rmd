@@ -2,37 +2,8 @@
 
 ```{r, echo=FALSE}
 
-#tulokset <- GetGroupsFromYaml(otannat_analyysiin)
-
-# [1] "Linkki"
-# [2] "Yliopisto (maggy) tarjosi"
-# [3] "Kontrasti"
-# [4] "Suurin osa opiskelijoista"
-# [5] "Selkeät yksittäiseen tapahtumaan keskittyvät narratiivit"
-# [6] "oma kokemus"
-# [7] "yleistys"
-# [8] "asuin paikassa x"
-# [9] "Ennakoivat"
-#[10] "ennakoivien ja predikoivien välimaasto"
-#[11] "Listamaiset"
-#[12] "asunnon ja asumisen staattinen kuvailu"
-#[13] "pari sanaa asumisesta"
-#
-ex <- list(286, 42, 314, 699, 317, 107, 341,557,272,498,732,390,298)
-new.ex <- lapply(ex,function(x){
-                  if(is.numeric(x)){
-                      return(list(ex=unname(GetInfo(x)["sentence"])))
-                  }
-                  else{
-                      return(list(ex=x))
-                  }
-})
-
-names(new.ex) <- groups.meta$Nimi
-
-for(g in names(new.ex)){
-    new.ex[[g]]$amount <- nrow(subset(analysoitu_otanta,group==g))
-}
+ex.ids <- c(286, 42, 314, 699, 317, 107, 341,557,272,498,732,390,298)
+esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
 
 ```
 
@@ -44,34 +15,65 @@ on syytä huoomauttaa, että osassa tapauksista asumisesta kertovaa kappaletta
 edelsi väliotsikko.
 
 
-(@ee_lista) `r new.ex[[11]]["ex"]` (`r new.ex[[11]]$amount` kpl)
-(@ee_narratiivi) `r new.ex[[5]]["ex"]` (`r new.ex[[5]]$amount` kpl)
-(@ee_predikaatti) `r new.ex[[8]]["ex"]` (`r new.ex[[8]]$amount` kpl)
-(@ee_parisanaa) `r new.ex[[13]]["ex"]` (`r new.ex[[13]]$amount` kpl)
-(@ee_linkki) `r new.ex[[1]]["ex"]` (`r new.ex[[1]]$amount` kpl)
-(@ee_yleistys) `r new.ex[[7]]["ex"]` (`r new.ex[[7]]$amount` kpl)
-(@ee_ennakoivat) `r new.ex[[9]]["ex"]` (`r new.ex[[9]]$amount` kpl)
-(@ee_valimaasto) `r new.ex[[10]]["ex"]` (`r new.ex[[10]]$amount` kpl)
-(@ee_omakokemus) `r new.ex[[6]]["ex"]` (`r new.ex[[6]]$amount` kpl)
-(@ee_maggytarjosi) `r new.ex[[2]]["ex"]` (`r new.ex[[2]]$amount` kpl)
-(@ee_suurionsa) `r new.ex[[4]]["ex"]` (`r new.ex[[4]]$amount` kpl)
-(@ee_kontrasti) `r new.ex[[3]]["ex"]` (`r new.ex[[3]]$amount` kpl)
-(@ee_staattinen) `r new.ex[[12]]["ex"]` (`r new.ex[[12]]$amount` kpl)
+(@ee_lista) `r esim[[11]]["sentence"]` (`r esim[[11]]$total` kpl)
+(@ee_narratiivi) `r esim[[5]]["sentence"]` (`r esim[[5]]$total` kpl)
+(@ee_predikaatti) `r esim[[8]]["sentence"]` (`r esim[[8]]$total` kpl)
+(@ee_parisanaa) `r esim[[13]]["sentence"]` (`r esim[[13]]$total` kpl)
+(@ee_linkki) `r esim[[1]]["sentence"]` (`r esim[[1]]$total` kpl)
+(@ee_yleistys) `r esim[[7]]["sentence"]` (`r esim[[7]]$total` kpl)
+(@ee_ennakoivat) `r esim[[9]]["sentence"]` (`r esim[[9]]$total` kpl)
+(@ee_valimaasto) `r esim[[10]]["sentence"]` (`r esim[[10]]$total` kpl)
+(@ee_omakokemus) `r esim[[6]]["sentence"]` (`r esim[[6]]$total` kpl)
+(@ee_maggytarjosi) `r esim[[2]]["sentence"]` (`r esim[[2]]$total` kpl)
+(@ee_suurionsa) `r esim[[4]]["sentence"]` (`r esim[[4]]$total` kpl)
+(@ee_kontrasti) `r esim[[3]]["sentence"]` (`r esim[[3]]$total` kpl)
+(@ee_staattinen) `r esim[[12]]["sentence"]` (`r esim[[12]]$total` kpl)
 
 
 Esimerkissä @ee_yleistys indikaattorina on koko lauseen ensimmäisena sijaitseva
-*asuminen*-sana. Tämän ryhmän teksteille tyypillisesti esimerkki 
-esittää yleisen tason huomioita asumisesta (tai paikasta) -- esimerkiksi 
-hinnoista, asumisen hankkimisen helppoudesta tai vaikeudesta *yleensä*.
-Rakenteellisesti tarkasteltuna.... y.3.p
-Tämän kyseisen esimerkin ympäristö
+*asuminen*-sana. Tämän ryhmän teksteille tyypillisesti esimerkki asettaa
+uuden topiikin esittämällä 
+yleisen tason huomioita käsiteltävästä ilmiöstä. Toisin kuin esimerkin 
+@ee_omakokemus tapauksessa, kirjoittaja ei siis lähde liikkeelle omista
+kokemuksistaan, vaan käsittelee tilannetta laajemmin, tavoitteenaan eräässä
+mielessä jakaa maailmantietoa lukijalleen. Esimerkin @ee_yleistys edustama
+ryhmä kattaa kaikkiaan 
+`r esim[["yleistys"]]$total` tapausta (`r esim[["yleistys"]]$suht.koko` koko aineistosta),
+joista `r esim[["yleistys"]]$otsikoita`:ssa (mukaan lukien esimerkki @ee_yleistys)
+asumisesta kertovaa kappaletta edeltää väliotsikko *Asuminen*. 
 
 
-Esimerkissä @ee_lista indikaattorina on *asuntoni*-sana. Tämän ryhmän tekstit muodostavat aineiston määrällisesti laajimman ryhmän ja leimallista indikaattorin sisältäville lauseille on, että indikaattori on useimmiten lauseen objekti ja hyvin usein myös lauseen ensimmäinen sana. Tämän ryhmän teksteissä indikaattori edustaa yleensä kontekstissaan ns. uutta tietoa, eli asumiseen, asuntoon, asuntolaan tms. ei ole viitattu edeltävässä tekstissä. Tätä esimerkkiä edeltävässä tekstissä kirjoittaja on käsitellyt ensin valimistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoi omaa osaamistaan valitsemallaa kielikurssilla. Pitää vielä lisätä, minkä verran tässä ryhmässä on väliotsikoita. Hiukan kesken siis on.
+Rakenteellisesti tarkasteltuna.... y.3.p Tämän kyseisen esimerkin ympäristö
 
-Esimerkissä @ee-narratiivi indikaattorina on *asuntolaan*-sana. Tämän ryhmän teksteissä asuminen raportoidaan kertovan tekstityypin avulla, joka käy tästä esimerkistä esiin erityisen selvästi, koska kirjoittaja on käyttänyt ajan ilmausta. Aikamuoto näissä tapauksissa on tyypillisesti imperfekti. Kesken tämäkin.
 
-Esimerkissä @ee_linkki indikaattorina on *asuntoloista*-sana. Ilman kontekstia tarkasteluna tapaus vaikuttaa samalta kuin listamainen esimerkki, mutta laajemman analyysin tuloksena selvisi, että kirjoittaja on jo aiempana, kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan saapumisesta, rakentanut kuvaa paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. Tämän ryhmän tekstit sijoittuvatkin toissijaisesti myös johonkin toiseen alaryhmään, mutta ovat erottuneet omasta alaryhmästään kontekstin tarkastelun vaiheessa. Eli kirjoittaja on edeltävässä tekstissään kirjoittanut sisään asumisen tavalla tai toisella ja jollakin lailla monimutkaisemmin kuin vain maininnut sen. Kesken tämänkin, siirsin jo kokeeksi kumminkin.
+Esimerkissä @ee_lista indikaattorina on *asuntoni*-sana. Tämän ryhmän tekstit
+muodostavat aineiston määrällisesti laajimman ryhmän ja leimallista
+indikaattorin sisältäville lauseille on, että indikaattori on useimmiten
+lauseen objekti ja hyvin usein myös lauseen ensimmäinen sana. Tämän ryhmän
+teksteissä indikaattori edustaa yleensä kontekstissaan ns. uutta tietoa, eli
+asumiseen, asuntoon, asuntolaan tms. ei ole viitattu edeltävässä tekstissä.
+Tätä esimerkkiä edeltävässä tekstissä kirjoittaja on käsitellyt ensin
+valimistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti,
+vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä
+reflektoi omaa osaamistaan valitsemallaa kielikurssilla. Pitää vielä lisätä,
+minkä verran tässä ryhmässä on väliotsikoita. Hiukan kesken siis on.
+
+Esimerkissä @ee_narratiivi indikaattorina on *asuntolaan*-sana. Tämän ryhmän
+teksteissä asuminen raportoidaan kertovan tekstityypin avulla, joka käy tästä
+esimerkistä esiin erityisen selvästi, koska kirjoittaja on käyttänyt ajan
+ilmausta. Aikamuoto näissä tapauksissa on tyypillisesti imperfekti. Kesken
+tämäkin.
+
+Esimerkissä @ee_linkki indikaattorina on *asuntoloista*-sana. Ilman kontekstia
+tarkasteluna tapaus vaikuttaa samalta kuin listamainen esimerkki, mutta
+laajemman analyysin tuloksena selvisi, että kirjoittaja on jo aiempana,
+kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan saapumisesta, rakentanut
+kuvaa paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. Tämän
+ryhmän tekstit sijoittuvatkin toissijaisesti myös johonkin toiseen alaryhmään,
+mutta ovat erottuneet omasta alaryhmästään kontekstin tarkastelun vaiheessa.
+Eli kirjoittaja on edeltävässä tekstissään kirjoittanut sisään asumisen tavalla
+tai toisella ja jollakin lailla monimutkaisemmin kuin vain maininnut sen.
+Kesken tämänkin, siirsin jo kokeeksi kumminkin.
 
 
 
