@@ -1,15 +1,50 @@
-﻿
-
-Tänne ajatus siitä, että otetaan yksi tai useampi esimerkkilausetta ja käydään läpi vaihtoehtoisia ilmaisutapoja
+﻿Tämän analyysin tarkoituksena oli ottaa muutama tyypillinen eri asteisesti listamainen tapaus ja sen jälkeen asettaa se rinnakkain samaa ilmiötä toteuttavien muunlaisten ratkaisutapojen kanssa. Tässä on nyt kuitenkin yleistä tekstien rakenteen hahmottelua, ehkei mahdu/haluta lopulliseen, mutta ajatusten järjestelemiseksi ainakin tässä vaiheessa. 
 
 
-Tämän analyysin tarkoituksena oli ottaa muutama tyypillinen eri asteisesti listamainen tapaus ja sen jälkeen asettaa se rinnakkain samaa ilmiötä toteuttavien muunlaisten ratkaisutapojen kanssa. (olihan se näin?)
 
 
-1. tapaus: puhdas listatyyppinen (id732), asumista käsittelevä kappale on nyt tässä kokonaisuudessaan hetken aikaa.
+
+1. tapaus: puhdas listatyyppinen (id732)
 
 
-(Ennen tätä kappaletta kirjoittaja on käsitellyt ensin valistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoi omaa osaamistaan valitsemallaa kielikurssilla.)
+Ennen tätä kappaletta kirjoittaja on käsitellyt valmistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoi omaa osaamistaan valitsemallaan kielikurssilla. Näiden alatopiikkien (?) jälkeen kirjoittaja alkaa uuden tekstikappaleen seuraavasti:
 
-"Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta. Vaihtareille on varattu kaksi erillistä taloa, toinen (Beauregard) sijaitsee aivan kaupungin keskustassa juna-aseman ja yliopiston päärakennuksen vieressä ja toinen (Bellevue) puolestaan noin 20 minuutin kävelymatkan päässä keskustasta. Asuntohakemus toimitettiin myös kaikkien muiden hakemuspapereiden yhteydessä eli hakuprosessi oli siis senkin osalta tehty todella helpoksi. Itse asuin kolmen hengen solussa keskustan vaihtaritalossa, joka oli mielestäni sijaintiinsa nähden melko edullinen asunto, sillä vuokraan sisältyi vesi, sähkö ja nettiyhteys. Koin vaihtaritalossa asumisen minulle parhaana vaihtoehtona, sillä kaikki vaihtarikaverit asuivat lähellä, ja näin ollen illanviettoihin ja muihin oli todella helppoa osallistua. Sveitsin hintataso on yleisesti ottaen tietysti melko korkea, mutta näin suomalaiselle se ei kuitenkaan mielestäni kovin suurena shokkina tullut, joten sen vuoksi en missään nimessä jättäisi Sveitsiin lähtemättä. Kaupoista löytyvät yhtälailla halvemmat merkit hyvinä vaihtoehtoina aivan kuin Suomessakin."
+Esimerkki x.x
 
+Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta. Vaihtareille on varattu kaksi erillistä taloa, toinen (Beauregard) sijaitsee aivan kaupungin keskustassa juna-aseman ja yliopiston päärakennuksen vieressä ja toinen (Bellevue) puolestaan noin 20 minuutin kävelymatkan päässä keskustasta. Asuntohakemus toimitettiin myös kaikkien muiden hakemuspapereiden yhteydessä eli hakuprosessi oli siis senkin osalta tehty todella helpoksi. -- 
+
+
+Shoren (2008, 42) sanoin tätä tapausta voisi kuvailla niin, että tekstin teemankulun hahmottaminen perustuu tietoihin, jotka "eivät ole tekstissä ilmipantuja vaan lähinnä kielenulkoista tietoa (viite). Teema on siis tekstin etenemisen kannalta  (enemmäin tai vähemmän uusi): se ei perustu selkeisiin merkityssuhteisiin vaan kehyksiin, skeemoihin. yms. pääteltävä teema siis." Tällä kirjoittajalla tuntuu olevan sama strategia koko ajan, koska jatkaa topiikeilla 'vaihtarit' ja 'asuntohakemus'. Lukijan kannalta tekstin koherennssi perustuu siis siihen, että opiskelijavaihdon kehys on lähtökohtaisesti tuttu tai lukija on lukenut joko raportin ohjeistuksen tai tutustunut muihin samalla alustalla julkaistuihin teksteihin.
+
+Tekstin kokonaisrakenne tällä, kuten usealla muullakin aineiston kirjoittajalla, on Vuorijärven termiä käyttäen topiikkipohjainen. Raportissa käsitellään sisältö topiikki kerrallaan, eivätkä nämä sekvenssit ole hierarkkisessa suhteessa keskenään. (ks. myös Komppa). JA TULISIKO TÄHÄN LINKKI YLEISKUVAN TULOKSIIN, ELI ETTÄ USEIN LAUSEENALKUINEN OBJEKTI ON SE SYNTAKTINEN RAKENNE, JOTA HYÖDYNNETÄÄN? 
+
+Jos tekisimme näin, niin sitten tästä voisi jatkua suoraan jonkinlainen kuvio ja esimerkit, millaisia muita funktioita samalla rakenteella tehtään. (Tämä olisi ehkä jopa mielekäs kohta sille.)
+
+
+Hiearkkisen rakenteen sijaan aineistosta löytyy kuitenkin kirjoittajia, jotka rakentavat tekstinsä temporaalisten sekvenssien avulla. Tämän strategian käyttö luo raportiin narratiivin.
+
+Esimerkki x.x. (id 399, linkitetty & narratiivinen)
+
+"Hong Kongiin saavuttuani kaikki sujui täysin mutkattomasti ja haluan antaa CUHK:lle täyden kympin vaihtaritoiminnan hyvästä hoitamisesta. Saapuessani yliopistolle kaikki vaihtarit majoitettiin ensimmäisen viikon ajaksi samaan collegeen, jotta meidän olisi mahdollisimman helppo tutustua toisiimme ja jotta vaihtarien tapahtumien koordinointi olisi mahdollisimman helppoa. Ensimmäinen viikko oli niin kutsuttu Orientation week, joka oli täynnä kevyitä luentoja koskien mm. yliopiston tai asuntolan ”pelisääntöjä” tai kuinka selvitä hengissä Hong Kongissa. Lisäksi kv-toimisto oli järjestänyt meille joinain iltoina ohjelmaa, kuten esimerkiksi Tervetuliaisillallisen. Ensimmäinen viikko on siis täydellinen tilaisuus tutustua uusiin vaihtareihin ja päästä nauttimaan vaihtokokemuksesta jo heti ensimmäisestä päivästä lähtien.
+
+Orientation weekin lopussa muutettiin lopulliseen asuntolaan. Minä päädyin ennalta tekemieni valintojen pohjalta (no mandatory meal etc.) Shaw Collegen I-house 2:seen, johon liittyy paljon hyviä ja huonoja puolia. Ensinäkin yliopistolla asuminen on ylivoimaisen käytännöllistä ja halpaa yksityisen asunnon vuokraamiseen verrattuna. -- "
+
+
+Tässä topiikkia indikoi 'asuntola', joka on lauseessa täydennyksenä toimiva paikan adverbiaali. Lause linkittyy edelliseen kappaleeseen (Shoren sanoin, mutta meille Dikin käsittein, kun teoriaosa on kirjoitettu) orientoivana sivuteemana toimivan ajan adverbiaalin avulla. Edellisessä kappaleessa on kuitenkin puhuttu orientaatioviikosta ja majoittamisestakin, eli tämä kirjoittaja ei ensimmäisen esimerkin tavoin nojaa tekstin ulkopuoliseen tietoon, vaan itse kirjoittamaansa edeltävään tekstijaksoon.
+
+
+Ja vielä kolmas esimerkki, joka asettuisi tulkintani mukaan jollakin jatkumolla näiden kahden välimaastoon.
+
+
+Esimerkki x.x tekstin id 618
+
+
+Kirjoittaja on edellisessä kappaleessa kuvannut saapumistaan kohdemaahan ja järjestelyjä siihen liittyen. Kappaleessa on yksi maininta asumisjärjestelyistä, mutta se tulee esille yleisen aikatauluttamisen yhteydessä, joten se ei sinänsä orientoi millään tavalla seuraavan kappaleen topiikkia.
+
+"Soluasunnon itselleni hain Saksasta wg-gesuchtin nettisivujen kautta. Saksalaisen perheen vuokraamassa solussa asui lisäkseni kolme muuta. Vaikkei kämppiksien kanssa yhteiselo aina ilman ongelmia onnistunutkaan, suosittelen ehdottomasti ainakin harkitsemaan opiskelija-asuntolan sijaan soluasunnossa asumista.--"
+
+
+
+
+
+ 

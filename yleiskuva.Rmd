@@ -18,7 +18,7 @@
 #[12] "asunnon ja asumisen staattinen kuvailu"
 #[13] "pari sanaa asumisesta"
 #
-ex <- list(286, 42, 314, 699, 399, 107, 341,557,272,498,732,390,298)
+ex <- list(286, 42, 314, 699, 317, 107, 341,557,272,498,732,390,298)
 new.ex <- lapply(ex,function(x){
                   if(is.numeric(x)){
                       return(list(ex=unname(GetInfo(x)["sentence"])))
