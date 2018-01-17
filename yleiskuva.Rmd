@@ -11,7 +11,7 @@ Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
 `r nrow(analysoitu_otanta)` tekstiä jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
 ryhmään. Kustakin ryhmästä on seuraavassa annettu yksi edustava esimerkkivirke. 
 Esimerkkien tarkempiin konteksteihin pureudutaan alempana yksityiskohtaisemmin. Jo tässä vaiheessa
-on syytä huoomauttaa, että osassa tapauksista asumisesta kertovaa kappaletta
+on syytä huomauttaa, että osassa tapauksista asumisesta kertovaa kappaletta
 edelsi väliotsikko.
 
 
@@ -57,9 +57,12 @@ edustama ryhmä kattaa kaikkiaan `r esim[["yleistys"]]$total` tapausta
 `r esim[["yleistys"]]$otsikoita`:ssa (mukaan lukien esimerkki @ee_yleistys)
 asumisesta kertovaa kappaletta edeltää väliotsikko *Asuminen*. 
 
-
-
-Rakenteellisesti tarkasteltuna.... y.3.p Tämän kyseisen esimerkin ympäristö
+Oman, selvästi muista erottuvan ryhmänsä muodostavat ne esimerkin @ee_parisanaa
+edustamat `r esim[["pari sanaa asumisesta"]]$total` tapausta, joissa kirjoittaja
+eksplisiittisesti ilmaisee siirtyvänsä käsittelemään asumista. *Sitten pari sanaa asumisesta* -tyyppisten
+johdantovirkkeiden voisi ajatella jossain määrin korvaavan väliotsikoita tekstissä,
+vaikka yksi tähän ryhmään luokiteltu virke
+(*Monella varmaan herää jo kysymys, entäs asuminen?*) tekeekin poikkeuksen.
 
 
 Esimerkissä @ee_lista indikaattorina on *asuntoni*-sana. Tämän ryhmän tekstit
@@ -92,8 +95,6 @@ tai toisella ja jollakin lailla monimutkaisemmin kuin vain maininnut sen.
 Kesken tämänkin, siirsin jo kokeeksi kumminkin.
 
 
-
-
 Esimerkissä @ee_ennakoivat edellisessä kappaleessa jotain, muttei linkkiä
 
 Esimerkissä @ee_predikaatti väliotsikko jotain
@@ -102,8 +103,5 @@ Esimerkissä @ee_valimaasto väliotsikko
 
 Vertaa esimerkkiä @ee_omakokemus esimerkkiin @ee_yleistys
 
-
-Jäljempänä tarkasteltavien x-tapausten jälkeen suurimmat ryhmät
-olivat 
 
 

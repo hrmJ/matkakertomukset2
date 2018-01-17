@@ -31,7 +31,7 @@ library(SataTapaa)
 
 `r knit_child('metodista.Rmd', quiet=T)`
 
-# Yleiskuva
+# Yleiskatsaus eri tavoista asettaa topiikki
 
 `r knit_child('yleiskuva.Rmd', quiet=T)`
 
