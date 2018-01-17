@@ -1,5 +1,11 @@
 ﻿
+Korkeakoulun tekstilajit ja niiden hallinta (voisiko olla yläotsikko?)
 
+Tekstin kokonaisrakenne (alaotsikko)
+
+Tekstikappaleet (alaotsikko)
+
+Topiikin asettaminen (alaotsikko)
 
 Korkeakouluopiskelijat kirjoittavat paljon, ja opintojen aikana kirjoitetuilla teksteillä (luentopäiväkirjat, esseet, opinnäytteet jne.) on selkeä funktio. Tekstien muotoa ohjaa joukko konventioita. Vuorijärvi tiivistää tekstilajin käsitteestä ja sosiaalisesta luonteesta: "Tekstit eivät synny tyhjiössä, vaan pikemminkin ne liikkuvat laumoina ja ovat suhteessa toisiinsa monin tavoin" [-@vuorijärvi2013, 69]. Suomalaisissa oppilaitoksissa ja korkeakouluissa akateemiseen kirjoittamiseen ja tekstin tuottamiseen ei ole syvennytty samassa määrin kuin esim. USA:ssa, jossa akateemista kirjoittamista tyypillisesti opetetaan tehostetummin ja on myös tutkittu pitkään [@camp2012]. Kirjoittamisen opetus- ja opiskelukulttuurit eroavat siis huomattavasti toisistaan. Kuitenkin jotain jo on: Ammattikorkeakoulun opinnäytetyön diskussio-osan siirtotyyppien analyysillä Vuorijärvi on saanut selville joukon kielellisiä resursseja, joista kielenkäyttäjän on mahdollista valita sopivimmat. Vuorijärvi toteaa, että näitä valintoja ohjaa lähinnä tekstilaji, opinnäytetyö on sekä vakiintunut että dynaaminen (s. 213-214). ”Tämä työ asettuu monessa suhteessa myös erikoiskielten tutkimuksen kontekstiin, joissa motivaationa on hankkia deskriptiivistä tietoa akateemisista tai professionaalisista tekstilajeista. Näissä tuloksia ja sovelluksia mallinnetaan erityisesti L2-käyttäjien näkökulmasta, mutta aineisto on syntyperäisten tuottamaa. (Vuorijärvi 96.)”
 
@@ -45,13 +51,5 @@ Käyttämämme menetelmä muistuttaa prosessina Vuorijärven analyysiprosessin v
 
 
 
-Satunnaisesti valitun 30 tekstin otoksesta voi tehdä karkean luokittelun kolmeen erityyppiseen kokonaisrakenteeseen. Tyypittely on tehty kirjoittajan tekemän tekstikappalejaon perusteella. 
-
-Tyyppi 1	Kirjoittaja aloittaa tekstin vastaamalla ohjeistuksen ensimmäisen kohdan kysymyksiin. Jos lopussa on evaluoiva jakso, se jää irralliseksi.
-
-Tyyppi 2	Kirjoittaja aloittaa johdannolla ja sen jälkeen siirtyy vastaamaan kysymyksiin. Tekstikappaleet ovat kuitenkin irrallisia toisistaan ja muistuttavat avoimen kyselylomakkeen vastauksia. Lopun arviointi jää hiukan pinnalliseksi.
-
-
-Tyyppi 3	Kirjoittaja aloittaa johdannolla, ja raportoiva ote säilyy teksti läpi niin, että myös arvioiva jakso lopussa yhdistyy tekstiin luontevasti.
 
 
