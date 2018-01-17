@@ -30,17 +30,33 @@ edelsi väliotsikko.
 (@ee_staattinen) `r esim[[12]]["sentence"]` (`r esim[[12]]$total` kpl)
 
 
+Esimerkki @ee_omakokemus edustaa ryhmää, johon kuuluvissa teksteissä 
+topiikki asetetaan luonnehtimalla jotenkin kirjoittajan henkilökohtaista kokemusta
+aiheesta. Tähän valitussa virkkeessä topiikkia indikoi *asuminen*, mikä ryhmään
+luokitelluilla kaikkiaan `r esim[["oma kokemus"]]$total` tapauksella 
+(`r esim[["oma kokemus"]]$suht.koko` koko aineistosa) onkin tyypillistä:
+kenties suoraviivaisin tapa kuvailla omaa kokemusta jostakin varsinaisen
+diskurssitopiikin osa-alueesta on niputtaa kokemus nominalisoituun
+verbimuotoon ja luonnehtia tätä predikatiivilauseella. Näissä tapauksissa
+kuvataan, miten *asunnon hakeminen oli helppoa* tai miten *kaikkein vaikeinta
+oli asunnon löytäminen*. Kirjoittajan näkökulma onkin usein koko tekstin ja diskurssitopiikinkin
+tasolla subjektiivinen -- strategiana on kertoa käsiteltävästä asiasta
+sen kautta, miten asiat ovat sujuneet, omia onnistumisia ja epäonnistumisia
+arvioiden. Kovinkaan monessa tämän ryhmän tapauksessa asumisesta kertovaa
+kappaletta ei edellä otsikko (yhteensä `r esim[["oma kokemus"]]$otsikoita` tapausta).
+
+
 Esimerkissä @ee_yleistys indikaattorina on koko lauseen ensimmäisena sijaitseva
-*asuminen*-sana. Tämän ryhmän teksteille tyypillisesti esimerkki asettaa
-uuden topiikin esittämällä 
-yleisen tason huomioita käsiteltävästä ilmiöstä. Toisin kuin esimerkin 
-@ee_omakokemus tapauksessa, kirjoittaja ei siis lähde liikkeelle omista
-kokemuksistaan, vaan käsittelee tilannetta laajemmin, tavoitteenaan eräässä
-mielessä jakaa maailmantietoa lukijalleen. Esimerkin @ee_yleistys edustama
-ryhmä kattaa kaikkiaan 
-`r esim[["yleistys"]]$total` tapausta (`r esim[["yleistys"]]$suht.koko` koko aineistosta),
-joista `r esim[["yleistys"]]$otsikoita`:ssa (mukaan lukien esimerkki @ee_yleistys)
+*asuminen*-sana. Tämän ryhmän teksteille tyypillisesti esimerkki asettaa uuden
+topiikin esittämällä yleisen tason huomioita käsiteltävästä ilmiöstä. Toisin
+kuin esimerkin @ee_omakokemus tapauksessa, kirjoittaja ei siis lähde liikkeelle
+omista kokemuksistaan, vaan käsittelee tilannetta laajemmin, tavoitteenaan
+eräässä mielessä jakaa maailmantietoa lukijalleen. Esimerkin @ee_yleistys
+edustama ryhmä kattaa kaikkiaan `r esim[["yleistys"]]$total` tapausta 
+(`r esim[["yleistys"]]$suht.koko` koko aineistosta), joista 
+`r esim[["yleistys"]]$otsikoita`:ssa (mukaan lukien esimerkki @ee_yleistys)
 asumisesta kertovaa kappaletta edeltää väliotsikko *Asuminen*. 
+
 
 
 Rakenteellisesti tarkasteltuna.... y.3.p Tämän kyseisen esimerkin ympäristö
