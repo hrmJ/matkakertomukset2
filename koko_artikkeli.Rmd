@@ -1,5 +1,5 @@
 ---
-title: Sata ja yksi tapaa ilmaista topiikkia
+title: Pari sanaa asumisesta -- miten yliopisto-opiskelijoiden kirjoittamissa vaihtoraporteissa asetetaan asuminen tekstikappaleen topiikiksi?
 author: Kirsi Sandberg & Juho Härme
 output:
   pdf_document: 
