@@ -101,7 +101,6 @@ Esimerkissä @ee_predikaatti väliotsikko jotain
 
 Esimerkissä @ee_valimaasto väliotsikko
 
-Vertaa esimerkkiä @ee_omakokemus esimerkkiin @ee_yleistys
 
 
 
