@@ -97,7 +97,7 @@ Kesken tämänkin, siirsin jo kokeeksi kumminkin.
 
 Esimerkissä @ee_ennakoivat edellisessä kappaleessa jotain, muttei linkkiä
 
-Esimerkissä @ee-narratiivi indikaattorina on *asuntolaan*-sana. Tämän ryhmän teksteissä asuminen raportoidaan kertovan tekstityypin avulla, joka käy tästä esimerkistä esiin erityisen selvästi, koska kirjoittaja on käyttänyt ajan ilmausta. Aikamuoto näissä tapauksissa on tyypillisesti imperfekti. Kesken tämäkin.
+Esimerkissä @ee_narratiivi indikaattorina on *asuntolaan*-sana. Tämän ryhmän teksteissä asuminen raportoidaan kertovan tekstityypin avulla, joka käy tästä esimerkistä esiin erityisen selvästi, koska kirjoittaja on käyttänyt ajan ilmausta. Aikamuoto näissä tapauksissa on tyypillisesti imperfekti. Kesken tämäkin.
 
 Esimerkissä @ee_predikaatti väliotsikko jotain
 
