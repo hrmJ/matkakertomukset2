@@ -16,6 +16,62 @@ yliopistossa tai harjoittelua ulkomailla". Ohjeet sisältävät kahdeksankohtais
 listan mahdollisesti käsiteltävistä asioista (mm. *etukäteisjärjestelyt*,
 *asuminen* ja *merkityksellisyys*). Listaa kehotetaan tulkitsemaan toteamalla, että
 "seuraavat ohjeet eivät ole sitovia, mutta ne on hyvä lukea läpi ennen kirjoittamista".
+Vaikka ohjeet eivät siis velvoita noudattamaan juuri tiettyä sisältörakennetta,
+ylivoimaisesti suurin osa teksteistä on rakennettu juuri ohjetekstin
+ehdottaman aiherajauksen perusteella. Tekstien rakenne 
+on siis kuvion `r Ref('fig', 'ff_chart')` kaltainen: niiden 
+diskurssitopiikkina on vaihtokokemus ylipäätään, ja tätä
+ylemmän tason topiikkia käsitellään jakamalla se alatopiikkeihin, 
+joista tavallisimmat on lueteltu kuviossa.
+
+
+
+```{r text_structure_plot, echo=FALSE}
+
+if(!file.exists("output/figure/chart.png")){
+    library(DiagrammeR)
+    library(trelliscope)
+    alatopiikit <- c(
+        "Vaihtokokemus",
+        "Etukäteisjärjestelyt",
+        "Kielikurssi",
+        "Kohdemaahan saapuminen",
+        "Asuminen",
+        "Opiskelu",
+        "Paluu ",
+        "Merkityksellisyys",
+        "Kritiikkiä/kiitoksia vaihtovuodesta?")
+
+    edges <- data.frame(from=rep(1,length(alatopiikit)-1),to=c(2:length(alatopiikit)))
+
+    nodes <- data.frame(id=c(1:length(alatopiikit)),test=alatopiikit)
+
+    p  <- create_graph(
+                       ) %>%
+      add_nodes_from_table(
+        table = nodes,
+        label_col = test,
+        )  %>%
+      add_edges_from_table(
+        table = edges,
+        from_col = from,
+        to_col = to,
+        from_to_map = id_external) %>% render_graph(layout = "nicely",
+        )
+
+
+      #p
+
+    widgetThumbnail(p, "output/figure/chart.png")
+}
+
+
+#p %>% get_node_df()
+
+```
+
+![`r Ref('fig','ff_chart','Matkakertomustekstien diskurssitopiikki ja alatopiikit')`](output/figure/chart.png)
+
 
 Tässä käsiteltävä lopullinen tutkimusaineisto kattaa kaikkiaan `r nrow(withindicator)`
 opiskelijoiden laatimaa tekstiä, jotka tutkimuksen ensimmäisessä vaiheessa annotoitiin
@@ -130,8 +186,25 @@ uusi, muista erottuva tapausjoukko vai ennemminkin jokin jo muodostettuun joukko
 tapaus. Tapauksia ei siis ryhmitelty minkään ennalta määriteltyjen kriteerien pohjalta,
 vaan sillä perusteella, mitkä tapaukset muistuttivat toisiaan. 
 
+Metodimme muistuttaa jonkin verran Vuorijärven [-@vuorijarvi2013, 116] mainitsemaa
+korpuslingvistisessä tekstianalyysissä käytettyä menetelmää [ks. @biber07], jossa
+analyysiin otettavat tekstit käydään ensin yksitellen läpi, minkä jälkeen
+kukin teksti pyritään pilkkomaan tiettyä viestitätarkoitusta toteuttaviin, erikseen
+nimettäviin jaksoihin. On kuitenkin olennaista huomata se lähtökohtaero, ettei
+nyt käsillä olevassa tutkimuksessa niinkään etsitä eri tekstijaksojen
+viestintätarkoituksia, vaan liikutaan puhtaasti topiikkien tasolla kysymällä, miten
+jokin uusi aihe esitellään lukijalle. Toinen ero on siinä, että tarkasteltavien
+tekstijaksojen rajauksessa lähtökohtana pidetään kirjoittajan itsensä tekemää 
+ortografista kappalejakoa -- kirjoittajan omaa näkemystä siitä, milloin tekstissä
+siirrytään sellaiseen uuteen jaksoon, joka ansaitsee tulla erotetuksi edeltävästä 
+tekstistä. Kolmanneksi tämän tutkimuksen metodin erottaa edellä mainituista se,
+ettei analyysin tuloksena syntyneitä ryhmiä pyritä nimeämään [vrt.
+@vuorijarvi2013, 117], vaan ne määritellään ainoastaan suhteessa
+toisiin teksteihin. 
 
- ....toinen kappale ryhmittelyn perusteista ja siitä, ettei semant. kriteerejä käytetty...
+
+
+ ....vielä kappale ryhmittelyn perusteista ja siitä, ettei semant. kriteerejä käytetty...
 
 
 
