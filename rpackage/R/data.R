@@ -1,3 +1,9 @@
+#' Pari yleistilastoa koko aineistosta
+#'
+#' Ennen kaikkea kaikkien tekstien määrä (niidenkin, joissa ei asumiskpl)
+#'
+"overall_stats"
+
 #' Ristiinannotoinnin tulokset kappaleittain
 #'
 #' Tässä dataframessa ovat ne 322 kappaletta, jotka kirjoittajat molemmat tahoillaan annotoivat siten, että kumpikin merkitsi joka kappaleeseen sen aiheen, jota kappale kirjoittajan mielestä edusti.

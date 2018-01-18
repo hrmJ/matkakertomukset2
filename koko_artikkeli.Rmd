@@ -8,6 +8,7 @@ output:
     includes:
         in_header: formatting/preamble.tex
   word_document: default
+  md_document: default
 bibliography: bibliography.bib
 csl: formatting/utaltl.csl
 ---

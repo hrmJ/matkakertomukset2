@@ -47,14 +47,24 @@ MoreInfo <- function(textid){
 #' Muotoilee analysoitua dataa niin, että sitä on helppo käyttää tilastollisessa analyysissa
 #' 
 #' @importFrom stringi stri_trans_tolower
+#' @param numericalgroups käytetäänkö ryhmien niminä numeroita
 #' @export
 
-FormatForStatisticalAnalysis <- function(){
+FormatForStatisticalAnalysis <- function(numericalgroups=F){
+
 
     stats <- subset(analysoitu_otanta,select=c("group","indicator.deprel","headverb_person","side","textid"))
-    stats$group <- stri_trans_tolower(gsub("\\s+","",substr(stats$group,1,5)))
-    stats$group[stats$group=="Selke"] <- "narr"
 
+    if(numericalgroups){
+        ex.ids <- c(286, 42, 314, 699, 317, 107, 341,557,272,498,732,390,298)
+        esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
+        totals <- sort(sapply(esim,function(x)x$total),dec=T)
+        stats$group <- sapply(stats$group,function(x)which(names(totals)==x))
+    }
+    else{
+        stats$group <- stri_trans_tolower(gsub("\\s+","",substr(stats$group,1,5)))
+        stats$group[stats$group=="Selke"] <- "narr"
+    }
 
     #Muotoillaan vähän sijaintitilastoja
     stats$location <- as.factor(sapply(stats$textid,function(tid){

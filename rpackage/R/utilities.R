@@ -19,7 +19,7 @@ fn <- function(n,numbers=2){
 #' @export
 
 Output <- function(odir="output",fname="koko_artikkeli.Rmd"){
-    render(fname,output_dir=odir, output_format=c("word_document", "pdf_document"))
+    render(fname,output_dir=odir, output_format=c("word_document", "pdf_document","md_document"))
 }
 
 #' Print some essential information  about an example based on text id

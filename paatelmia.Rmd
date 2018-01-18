@@ -1,13 +1,19 @@
 
-Ensin: edellä tehdyn analyysin perusteella saadut ryhmät kootusti
 
-Sitten:
+1. Kirjoittamisen opetuksen kannalta ajateltuna. Työkaluja nimenomaan sen
+   listaamiseen, *miten on tehty*. HUOM>> oppilaalle itselleen arvioitavaksi,
+   mikä sopii tekstilajiin ja omaan tyyliin ja kulloinkin käsiteltävään
+   aiheeseen.
 
-- Kuinka monta eri tapaa oikeasti löydettiin?
-- mihin tällaista voisi soveltaa?
-- mitä voidaan sanoa tekstilajista / kirjoittajista / yms.?
+Tähän analyysia siitä, miksi tietyt rakenteet vallitsevia. Kertooko esim siitä,
+ettei tietoisesti rakenneta, vaan vedetään assosiatiivisesti?
 
-- Testaa "valvottua klusterianalyysiä" käyttäen tässä tehtyä luokittelua pohjana
-    - Manuaalisen analyysin perusteella todella voidaan paitsi määrittää
-      ryhmät, joihin indikointitavat voi jakaa, myös opettaa algoritmi, joilla
-      muita tekstejä voisi ryhmitellä samoin perustein.
+
+-- Mitä hyötyä sitten siitä, että voi jostain kuulla erilaisista tavoista aloittaa
+kappale?
+
+2. Konkreettinen sovellus fraasipankissa tms.
+
+
+
+

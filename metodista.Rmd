@@ -73,7 +73,7 @@ if(!file.exists("output/figure/chart.png")){
 ![`r Ref('fig','ff_chart','Matkakertomustekstien diskurssitopiikki ja alatopiikit')`](output/figure/chart.png)
 
 
-Tässä käsiteltävä lopullinen tutkimusaineisto kattaa kaikkiaan `r nrow(withindicator)`
+Tässä käsiteltävä lopullinen tutkimusaineisto kattaa kaikkiaan `r overall_stats$tekstit`
 opiskelijoiden laatimaa tekstiä, jotka tutkimuksen ensimmäisessä vaiheessa annotoitiin
 kappaleittain[^alkup_kpl] siten, että jokaiselle kappaleelle merkittiin
 topiikki. Yhteensä kaksikymmentä tekstiä käsittäneen kokeiluaineiston

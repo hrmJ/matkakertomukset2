@@ -55,8 +55,9 @@ edges <- Link2Groups(517, "oma kokemus",TRUE)
 edges <- Link2Groups(829,"Suurin osa opiskelijoista",TRUE)
 edges <- Link2Groups(341,"Listamaiset",TRUE)
 
+
 mynetwork  <- visNetwork(test, edges, width = "100%", height="20cm") %>% 
-              visClusteringByGroup(groups = unique(test$group),label="") %>%
+              visClusteringByGroup(groups = unique(test$group),label="",shape="circle") %>%
              #visLegend() %>%   visLayout(randomSeed = 12, improvedLayout=T) %>%
               visOptions(highlightNearest = FALSE, selectedBy = "side", manipulation = TRUE) %>%
               visPhysics(stabilization = TRUE)
@@ -64,3 +65,17 @@ mynetwork
 
 #visSave(mynetwork,file="visualisaatio.html")
 
+shades <- data.frame(group=unique(test$group),color=gray.colors(length(unique(test$group))))
+test$color <- sapply(test$group,function(g)shades$color[shades$group==g])
+#ex.ids <- c(286, 42, 314, 699, 317, 107, 341,557,272,498,732,390,298)
+#esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
+#TODO: nimien tilalla numerot?
+
+
+mynetwork  <- visNetwork(test, edges, width = "100%", height="20cm") %>% 
+              visClusteringByGroup(groups = unique(test$group),label="",shape="circle") %>%
+             #visLegend() %>%   visLayout(randomSeed = 12, improvedLayout=T) %>%
+              visOptions(highlightNearest = FALSE) %>%
+              visPhysics(stabilization = TRUE)
+
+visExport(mynetwork, type = "png", name = "network")
