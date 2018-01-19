@@ -1,27 +1,11 @@
-﻿Tämän analyysin tarkoituksena oli ottaa muutama tyypillinen eri asteisesti listamainen tapaus ja sen jälkeen asettaa se rinnakkain samaa ilmiötä toteuttavien muunlaisten ratkaisutapojen kanssa. Tässä on nyt kuitenkin yleistä tekstien rakenteen hahmottelua, ehkei mahdu/haluta lopulliseen, mutta ajatusten järjestelemiseksi ainakin tässä vaiheessa. 
+﻿
+Kuviot 3 ja 4 virittivät myös tällaisia jatkomahdollisuusajatuksia:
+
+Kuten kohdassa x totesimme, matkakertomukset osoittautuivat tyypilliseltä kokonaisrakenteeltaan topiikkipohjaisiksi, keskenään sekventiaalisessa tai temporaalisessa suhteessa olevista jaksoista koostuviksi teksteiksi. Tämän tyyppisiä rakenteita on esim. retorisen teorian piirissä tarkasteltu ja käsitteellistetty vähäisesti (Komppa), tämän tutkimuksen lisäksi esim. Vuorijärven aineistossa tekstejä esiintyi kuitenkin runsaasti (jotenkin huonosti ilmaistu). Raportti ja opinnäytetyö ovat molemmat keskeisiä opiskelun, osin myös työelämän tekstejä, joten tarkennamme tässä luvussa hieman siihen, miten topiikkipohjainen teksti rakentuu.(??)
 
 
 
-
-
-1. tapaus: puhdas listatyyppinen (id732)
-
-
-Ennen tätä kappaletta kirjoittaja on käsitellyt valmistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoi omaa osaamistaan valitsemallaan kielikurssilla. Näiden alatopiikkien (?) jälkeen kirjoittaja alkaa uuden tekstikappaleen seuraavasti:
-
-Esimerkki x.x
-
-Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta. Vaihtareille on varattu kaksi erillistä taloa, toinen (Beauregard) sijaitsee aivan kaupungin keskustassa juna-aseman ja yliopiston päärakennuksen vieressä ja toinen (Bellevue) puolestaan noin 20 minuutin kävelymatkan päässä keskustasta. Asuntohakemus toimitettiin myös kaikkien muiden hakemuspapereiden yhteydessä eli hakuprosessi oli siis senkin osalta tehty todella helpoksi. -- 
-
-
-Shoren (2008, 42) sanoin tätä tapausta voisi kuvailla niin, että tekstin teemankulun hahmottaminen perustuu tietoihin, jotka "eivät ole tekstissä ilmipantuja vaan lähinnä kielenulkoista tietoa (viite). Teema on siis tekstin etenemisen kannalta  (enemmäin tai vähemmän uusi): se ei perustu selkeisiin merkityssuhteisiin vaan kehyksiin, skeemoihin. yms. pääteltävä teema siis." Tällä kirjoittajalla tuntuu olevan sama strategia koko ajan, koska jatkaa topiikeilla 'vaihtarit' ja 'asuntohakemus'. Lukijan kannalta tekstin koherennssi perustuu siis siihen, että opiskelijavaihdon kehys on lähtökohtaisesti tuttu tai lukija on lukenut joko raportin ohjeistuksen tai tutustunut muihin samalla alustalla julkaistuihin teksteihin.
-
-Tekstin kokonaisrakenne tällä, kuten usealla muullakin aineiston kirjoittajalla, on Vuorijärven termiä käyttäen topiikkipohjainen. Raportissa käsitellään sisältö topiikki kerrallaan, eivätkä nämä sekvenssit ole hierarkkisessa suhteessa keskenään. (ks. myös Komppa). JA TULISIKO TÄHÄN LINKKI YLEISKUVAN TULOKSIIN, ELI ETTÄ USEIN LAUSEENALKUINEN OBJEKTI ON SE SYNTAKTINEN RAKENNE, JOTA HYÖDYNNETÄÄN? 
-
-Jos tekisimme näin, niin sitten tästä voisi jatkua suoraan jonkinlainen kuvio ja esimerkit, millaisia muita funktioita samalla rakenteella tehtään. (Tämä olisi ehkä jopa mielekäs kohta sille.)
-
-
-Hiearkkisen rakenteen sijaan aineistosta löytyy kuitenkin kirjoittajia, jotka rakentavat tekstinsä temporaalisten sekvenssien avulla. Tämän strategian käyttö luo raportiin narratiivin.
+Artikkelin alkupuolella nimesimme tekstit lajiltaan ennemmin matkakertomuksiksi kuin tyypillisiksi raporteiksi, koska aineistolle on tyypillistä esim. se, että tekstin rakentaminen temporaalisten sekvenssien avulla. Tämän strategian käyttö luo raportiin narratiivin. Kertovasta tekstityypistä voi kirjoittaa enemmänkin, jos tämä jää tähän. Esimerkissä topiikkia indikoi 'asuntola', joka on lauseessa täydennyksenä toimiva paikan adverbiaali. 
 
 Esimerkki x.x. (id 399, linkitetty & narratiivinen)
 
@@ -30,7 +14,27 @@ Esimerkki x.x. (id 399, linkitetty & narratiivinen)
 Orientation weekin lopussa muutettiin lopulliseen asuntolaan. Minä päädyin ennalta tekemieni valintojen pohjalta (no mandatory meal etc.) Shaw Collegen I-house 2:seen, johon liittyy paljon hyviä ja huonoja puolia. Ensinäkin yliopistolla asuminen on ylivoimaisen käytännöllistä ja halpaa yksityisen asunnon vuokraamiseen verrattuna. -- "
 
 
-Tässä topiikkia indikoi 'asuntola', joka on lauseessa täydennyksenä toimiva paikan adverbiaali. Lause linkittyy edelliseen kappaleeseen (Shoren sanoin, mutta meille Dikin käsittein, kun teoriaosa on kirjoitettu) orientoivana sivuteemana toimivan ajan adverbiaalin avulla. Edellisessä kappaleessa on kuitenkin puhuttu orientaatioviikosta ja majoittamisestakin, eli tämä kirjoittaja ei ensimmäisen esimerkin tavoin nojaa tekstin ulkopuoliseen tietoon, vaan itse kirjoittamaansa edeltävään tekstijaksoon.
+Lause linkittyy edelliseen kappaleeseen (Shoren sanoin, mutta meille kai Dikin käsittein, kun teoriaosa on kirjoitettu) orientoivana sivuteemana toimivan ajan adverbiaalin avulla. Edellisessä kappaleessa on lisäksi puhuttu orientaatioviikosta ja majoittamisestakin, eli kirjoittaja rakentaa edeltävään tekstijaksoon tukeutuen. Tämän tyyppinen sidosteisuus nostetaan esiin usein myös oppaissa.
+
+
+Aineistossa esiintyy kuitenkin huomattavasti enemmän tapauksia, joissa tekstikappaleen topiikkia ei johdeta edeltävän esimerkin tapaan edeltävästä tekstistä. Ryhmän 1 kaltaiset tapaukset, joissa indikaattori sijaitsee lauseen alussa, ovat hyvä esimerkki tästä ja kytkeytyvät topiikkipohjaiseen kirjoittamiseen selkeästi. Annamme seuraavassa esimerkin. Ennen esimerkin x tekstikappaletta kirjoittaja on käsitellyt valmistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoi omaa osaamistaan valitsemallaan kielikurssilla. Näiden alatopiikkien jälkeen kirjoittaja alkaa uuden tekstikappaleen seuraavasti:
+
+Esimerkki x.x puhdas listatyyppinen (id732)
+
+Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta. Vaihtareille on varattu kaksi erillistä taloa, toinen (Beauregard) sijaitsee aivan kaupungin keskustassa juna-aseman ja yliopiston päärakennuksen vieressä ja toinen (Bellevue) puolestaan noin 20 minuutin kävelymatkan päässä keskustasta. Asuntohakemus toimitettiin myös kaikkien muiden hakemuspapereiden yhteydessä eli hakuprosessi oli siis senkin osalta tehty todella helpoksi. -- 
+
+Shoren (2008, 42) sanoin tätä tapausta voisi kuvailla joko niin, että tekstin teemankulun hahmottaminen perustuu tietoihin, jotka "eivät ole tekstissä ilmipantuja vaan lähinnä kielenulkoista tietoa (viite). Teema on siis tekstin etenemisen kannalta  (enemmäin tai vähemmän uusi): se ei perustu selkeisiin merkityssuhteisiin vaan kehyksiin, skeemoihin. yms. pääteltävä teema siis." Tällä kirjoittajalla tuntuu olevan sama strategia koko ajan, koska jatkaa topiikeilla 'vaihtarit' ja 'asuntohakemus'. Lukijan kannalta tekstin koherennssi perustuu siis siihen, että opiskelijavaihdon kehys on lähtökohtaisesti tuttu tai lukija on lukenut joko raportin ohjeistuksen tai tutustunut muihin samalla alustalla julkaistuihin teksteihin. Toisaalta, ajatella voi myös niin, että nämä ovat merkityssuhteessa (esim. osa-kokonaisuus) opiskelijavaihtoon, ja ovatkin tuttuja. Minusta tämä ei kuitenkaan ole tällainen tapaus. Lähdemmekö lainkaan tälle tielle tässä tekstissä, vai olisiko ihan oma juttunsa joskus toisaalla?
+
+Jos mennään, niin ehkäpä Prince sanoittaisi tilanteen Shorea paremmin puhuessaan käyttämättömistä (unused) ennemmin kuin aivan uusista. Tästähän on puhuttu, Lambrechtilla (hot news = brand new, unanchored)) oli tähän myös sanat, eikös?
+
+
+
+
+***********************************
+
+
+Voisimmeko tähän ottaa sen esitelmässä olleen skeeman vai mikä nyt onkaan. Rakenteen tason synonymiaa tilanteisiin, joissa topiikkipohjainen teksti & unused-teema??
+
 
 
 Ja vielä kolmas esimerkki, joka asettuisi tulkintani mukaan jollakin jatkumolla näiden kahden välimaastoon.
