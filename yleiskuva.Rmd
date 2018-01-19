@@ -177,6 +177,7 @@ Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan kuvata s
 ```{r, echo=FALSE, fig.cap=Ref('fig','ff_tree','Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna')}
 
 library(rpart)
+library(rpart.plot)
 set.seed(204)
 stats <- FormatForStatisticalAnalysis(T)
 puu <- rpart(group ~ side + location + dep + pers + pos,stats)
