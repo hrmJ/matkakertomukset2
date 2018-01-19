@@ -35,25 +35,35 @@ edges <- data.frame(from =from, to = to)
 edges$hidden <- TRUE
 edges$dashes <- FALSE
 
-#Manuaalisia linkityksiä
-edges <- Link2Groups("ennakoivien ja predikoivien välimaasto","Ennakoivat")
-edges <- Link2Groups("ennakoivien ja predikoivien välimaasto","asuin paikassa x")
-edges <- Link2Groups("ennakoivien ja predikoivien välimaasto","Narratiivit")
-edges <- Link2Groups("Kontrasti","Suurin osa opiskelijoista")
-edges <- Link2Groups("yleistys","asunnon ja asumisen staattinen kuvailu")
 edges <- Link2Groups("yleistys","oma kokemus")
-edges <- Link2Groups("Suurin osa opiskelijoista","yleistys")
-edges <- Link2Groups(688, "asuin paikassa x",TRUE)
-edges <- Link2Groups(811, 422, TRUE)
-edges <- Link2Groups(76, 263, TRUE)
-edges <- Link2Groups(263, 319, TRUE)
-edges <- Link2Groups(100, "oma kokemus", TRUE)
-edges <- Link2Groups("Yliopisto (maggy) tarjosi","yleistys")
-edges <- Link2Groups(61, "Yliopisto (maggy) tarjosi",TRUE)
-edges <- Link2Groups(624, "Listamaiset",TRUE)
-edges <- Link2Groups(517, "oma kokemus",TRUE)
-edges <- Link2Groups(829,"Suurin osa opiskelijoista",TRUE)
-edges <- Link2Groups(341,"Listamaiset",TRUE)
+edges <- Link2Groups("yleistys","asunnon ja asumisen staattinen kuvailu")
+edges <- Link2Groups("yleistys","Suurin osa opiskelijoista")
+edges <- Link2Groups("yleistys","Yliopisto (maggy) tarjosi")
+
+edges <- Link2Groups("oma kokemus","Kontrasti")
+edges <- Link2Groups("oma kokemus","Yliopisto (maggy) tarjosi")
+
+edges <- Link2Groups("","Yliopisto (maggy) tarjosi")
+
+#Manuaalisia linkityksiä
+#edges <- Link2Groups("ennakoivien ja predikoivien välimaasto","Ennakoivat")
+#edges <- Link2Groups("ennakoivien ja predikoivien välimaasto","asuin paikassa x")
+#edges <- Link2Groups("ennakoivien ja predikoivien välimaasto","Narratiivit")
+#edges <- Link2Groups("Kontrasti","Suurin osa opiskelijoista")
+#edges <- Link2Groups("yleistys","asunnon ja asumisen staattinen kuvailu")
+#edges <- Link2Groups("yleistys","oma kokemus")
+#edges <- Link2Groups("Suurin osa opiskelijoista","yleistys")
+#edges <- Link2Groups(688, "asuin paikassa x",TRUE)
+#edges <- Link2Groups(811, 422, TRUE)
+#edges <- Link2Groups(76, 263, TRUE)
+#edges <- Link2Groups(263, 319, TRUE)
+#edges <- Link2Groups(100, "oma kokemus", TRUE)
+#edges <- Link2Groups("Yliopisto (maggy) tarjosi","yleistys")
+#edges <- Link2Groups(61, "Yliopisto (maggy) tarjosi",TRUE)
+#edges <- Link2Groups(624, "Listamaiset",TRUE)
+#edges <- Link2Groups(517, "oma kokemus",TRUE)
+#edges <- Link2Groups(829,"Suurin osa opiskelijoista",TRUE)
+#edges <- Link2Groups(341,"Listamaiset",TRUE)
 
 
 mynetwork  <- visNetwork(test, edges, width = "100%", height="20cm") %>% 
@@ -65,17 +75,17 @@ mynetwork
 
 #visSave(mynetwork,file="visualisaatio.html")
 
-shades <- data.frame(group=unique(test$group),color=gray.colors(length(unique(test$group))))
-test$color <- sapply(test$group,function(g)shades$color[shades$group==g])
+#shades <- data.frame(group=unique(test$group),color=gray.colors(length(unique(test$group))))
+#test$color <- sapply(test$group,function(g)shades$color[shades$group==g])
 #ex.ids <- c(286, 42, 314, 699, 317, 107, 341,557,272,498,732,390,298)
 #esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
 #TODO: nimien tilalla numerot?
 
 
-mynetwork  <- visNetwork(test, edges, width = "100%", height="20cm") %>% 
-              visClusteringByGroup(groups = unique(test$group),label="",shape="circle") %>%
-             #visLegend() %>%   visLayout(randomSeed = 12, improvedLayout=T) %>%
-              visOptions(highlightNearest = FALSE) %>%
-              visPhysics(stabilization = TRUE)
+#mynetwork  <- visNetwork(test, edges, width = "100%", height="20cm") %>% 
+#              visClusteringByGroup(groups = unique(test$group),label="",shape="circle") %>%
+#             #visLegend() %>%   visLayout(randomSeed = 12, improvedLayout=T) %>%
+#              visOptions(highlightNearest = FALSE) %>%
+#              visPhysics(stabilization = TRUE)
 
-visExport(mynetwork, type = "png", name = "network")
+#visExport(mynetwork, type = "png", name = "network")
