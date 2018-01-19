@@ -32,15 +32,22 @@ library(SataTapaa)
 
 `r knit_child('metodista.Rmd', quiet=T)`
 
-# Yleiskatsaus eri tavoista asettaa topiikki
+# Tulokset
+
+## Yleiskatsaus tavoista asettaa topiikki
 
 `r knit_child('yleiskuva.Rmd', quiet=T)`
 
-# Zoomaus
 
-`r knit_child('zoomaus.Rmd', quiet=T)`
+## Puu
 
-# Päätelmiä
+`r knit_child('puu.Rmd', quiet=T)`
+
+## Kirjoittajan näkökulma
+
+`r knit_child('nakokulma.Rmd', quiet=T)`
+
+# Päätelmät
 
 `r knit_child('paatelmia.Rmd', quiet=T)`
 

@@ -135,78 +135,8 @@ topiikin asettamistapoja edustavat ryhmät on muodostettu
 sijoittamalla aina toisaan muistuttavat tapaukset samaan kategoriaan. Ryhmien
 väliset rajat eivät luonnollisestikaan ole suoraviivaisia, ja jaottelun
 olis voinut tehdä muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän
-tai vähemmän läheisessä yhteydessä toisiinsa. Ryhmien keskinäisiä
-suhteita on kuvattu tarkemmin suraavalla kuviolla, jossa
-ryhmien on esitetty muodostavan keskinäisejä linkkejä sisältävän
-verkoston:
+tai vähemmän läheisessä yhteydessä toisiinsa. 
 
-![`r Ref('fig','ff_network','Topiikin asettamistapojen muodostamat ryhmät verkostona')`](output/figure/network.png)
-
-Kuviossa `r Ref('fig', 'ff_network')` ympyröiden koko on suhteessa ryhmän kokoon, mutta
-eri noodien välinen fyysinen etäisyys ei ole merkitsevä. Kuten jo huomautettu, esimerkkien 
-@ee_narratiivi ja @ee_ennakoivat edustamien ryhmien välillä on selvä yhteys, samoin...
-
-Kustakin edellä esitellystä ryhmästä  voidaan löytää jonkin verran 
-ryhmälle leimallisia syntaktisia tai tekstin rakenteeseen liittyviä piirteitä.
-Tarkempi tilastollinen analyysi kuitenkin osoittaa, ettei ryhmien muodostamista
-ole varsinaisesti ohjanneet mitkään selvästi eroteltavissa olevat yksittäiset tekijät.
-Tämä voidaan havaita esimerkiksi kuviossa `r Ref('fig', 'ff_tree')` 
-kuvattua luokittelupuuta (viite) hyödyntäen. Luokittelupuussa 
-kutakin aineiston topiikkia asettavaa virkettä ja sille edellä kuvatussa 
-laadullisessa analyysissä määriteltyä ryhmää on tarkasteltu
-seuraavien viiden muuttujan valossa. 
-
-1. *Topiikki-indikaattorin dependenssirooli.* Tämän muuttujan avulla määriteltiin
-   alkuperäinen satunnaisotanta. Sen arvoina ovat taulukossa `r Ref('tab', 'tt_deproles')` 
-   luetellut dependenssiroolit.
-2.  *Topiikki-indikaattorin sijainti virkkeessä*. Tämä muuttuja jakaa aineiston
-    kahteen luokkaan: tapauksiin, joissa topiikki-indikaattori on koko virkkeen ensimmäisenä 
-    ja muihin tapauksiin.
-3. *Lauseen predikaattiverbin persoona*. Myös tälle muuttujalle määriteltiin kaksi kategoriaa:
-   tapaukset, joissa predikaattiverbi on ensimmäisessä persoonassa ja muut tapaukset.
-4. *Side muuhun tekstiin*. Tällä muuttujalla on kolme kategoriaa: tapaukset, joissa
-   asumistopiikkia on pohjustettu jo edellisessä kappaleessa muttei niin selvästi, että 
-   kyseessä olisi linkkitapaus; tapaukset, joissa topiikki asetetaan viittaamalla
-   selkeästi johonkin edellä muodostettuun linkkiin; tapaukset, joissa asumiskappaletta
-   edeltää väliotsikko; tapaukset, joissa mitään edellä kuvatuista siteistä ei ole.
-5. *Topiikki-indikaattorin morfologinen rakenne*. Tämä muuttuja erottelee toisistaan finiittiverbit,
-   infintiivimuodot (mukaan lukien minen-johdokset) ja substantiivit.
-
-Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan kuvata seuraavasti:
-
-```{r, echo=FALSE, fig.cap=Ref('fig','ff_tree','Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna')}
-
-library(rpart)
-library(rpart.plot)
-set.seed(204)
-stats <- FormatForStatisticalAnalysis(T)
-puu <- rpart(group ~ side + location + dep + pers + pos,stats)
-rpart.plot(puu,box.palette=0,extra=100,fallen.leaves=T,type=4)
-
-```
-
-Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen rakenne -muuttujan
-perusteella: jos topiikki-indikaattorina on finiittiverbi, kyseessä on useimmiten 
-esimerkin 2 edustama ryhmä (tapaukset, joissa on finiittiverbi ja joiden ryhmä
-on 2 kattavat 15 % aineistosta). Toinen selkeä jako voidaan luonnollisesti
-tehdä sillä perusteella, onko kyseessä esimerkin @ee_linkki kaltainen
-edelliseen kontekstiin ankkuroiva tapaus  vai ei (ei--finiittiset tapaukset, joiden
-siteeksi on merkitty *linkki*  ja ryhmäksi 5 kattavat 5 % aineistosta).
-Loput tapaukset jakautuvat selkeimmin sen perusteella, onko topiikki-indikaattori
-virkkeen alussa vai ei. Jos indikaattori on lauseen alussa ja lauseen predikaatti
-ensimmäisessä persoonassa, tuloksena on usein esimerkin @ee_lista edustama ryhmä.
-Melko selkeän joukon muodostavat myös tapaukset, joissa indikaattorin syntaktinen
-rooli on subjekti ja joissa indikaattori ei sijaitse lauseen alussa -- nämä
-ovat analyysissa päätyneet tyypillisesti esimerkin @ee_staattinen edustamaan ryhmään.
-
-
-Kaiken kaikkiaan voidaan todeta, että vaikka tietyistä tapauksista olisi ollut
-mahdollista melko selkeästi ennustaa, mihin ryhmään ne päätyvät, ei analyysissa
-ole toimittu mekaanisesti vain tiettyjä tekstin tai virkkeen rakenteeseen
-liittyviä piirteitä tarkastellen. Toisaalta se, että muodostettuja ryhmiä
-voidaan jossain määrin määritellä rakenteellisten piirteiden perusteella,
-antaisi mahdollisuuksia tulevaisuudessa käyttää nyt luotua jaottelua pohjana
-jonkin vastaavan aineiston automaattiseen luokitteluun.
 
 
 

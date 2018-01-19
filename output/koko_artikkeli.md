@@ -465,8 +465,11 @@ suhteessa toisiin teksteihin.
 ....vielä kappale ryhmittelyn perusteista ja siitä, ettei semant.
 kriteerejä käytetty...
 
-Yleiskatsaus eri tavoista asettaa topiikki
-==========================================
+Tulokset
+========
+
+Yleiskatsaus tavoista asettaa topiikki
+--------------------------------------
 
 Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut 168
 tekstiä jaoteteltiin 13 ryhmään, joista kustakin on seuraavassa annettu
@@ -600,24 +603,17 @@ topiikin asettamistapoja edustavat ryhmät on muodostettu sijoittamalla
 aina toisaan muistuttavat tapaukset samaan kategoriaan. Ryhmien väliset
 rajat eivät luonnollisestikaan ole suoraviivaisia, ja jaottelun olis
 voinut tehdä muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän tai
-vähemmän läheisessä yhteydessä toisiinsa. Ryhmien keskinäisiä suhteita
-on kuvattu tarkemmin suraavalla kuviolla, jossa ryhmien on esitetty
-muodostavan keskinäisejä linkkejä sisältävän verkoston:
+vähemmän läheisessä yhteydessä toisiinsa.
 
-![Kuvio 3: Topiikin asettamistapojen muodostamat ryhmät
-verkostona](output/figure/network.png)
-
-Kuviossa 3 ympyröiden koko on suhteessa ryhmän kokoon, mutta eri noodien
-välinen fyysinen etäisyys ei ole merkitsevä. Kuten jo huomautettu,
-esimerkkien 10 ja 3 edustamien ryhmien välillä on selvä yhteys,
-samoin...
+Puu
+---
 
 Kustakin edellä esitellystä ryhmästä voidaan löytää jonkin verran
 ryhmälle leimallisia syntaktisia tai tekstin rakenteeseen liittyviä
 piirteitä. Tarkempi tilastollinen analyysi kuitenkin osoittaa, ettei
 ryhmien muodostamista ole varsinaisesti ohjanneet mitkään selvästi
 eroteltavissa olevat yksittäiset tekijät. Tämä voidaan havaita
-esimerkiksi kuviossa 4 kuvattua luokittelupuuta (viite) hyödyntäen.
+esimerkiksi kuviossa 3 kuvattua luokittelupuuta (viite) hyödyntäen.
 Luokittelupuussa kutakin aineiston topiikkia asettavaa virkettä ja sille
 edellä kuvatussa laadullisessa analyysissä määriteltyä ryhmää on
 tarkasteltu seuraavien viiden muuttujan valossa.
@@ -641,11 +637,12 @@ tarkasteltu seuraavien viiden muuttujan valossa.
 5.  *Topiikki-indikaattorin morfologinen rakenne*. Tämä muuttuja
     erottelee toisistaan finiittiverbit, infintiivimuodot (mukaan lukien
     minen-johdokset) ja substantiivit.
+6.  Aikamuoto
 
 Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan
 kuvata seuraavasti:
 
-![Kuvio 4: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
+![Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
 tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
 Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen
@@ -673,108 +670,14 @@ rakenteellisten piirteiden perusteella, antaisi mahdollisuuksia
 tulevaisuudessa käyttää nyt luotua jaottelua pohjana jonkin vastaavan
 aineiston automaattiseen luokitteluun.
 
-Zoomaus
-=======
+Kirjoittajan näkökulma
+----------------------
 
-Tämän analyysin tarkoituksena oli ottaa muutama tyypillinen eri
-asteisesti listamainen tapaus ja sen jälkeen asettaa se rinnakkain samaa
-ilmiötä toteuttavien muunlaisten ratkaisutapojen kanssa. Tässä on nyt
-kuitenkin yleistä tekstien rakenteen hahmottelua, ehkei mahdu/haluta
-lopulliseen, mutta ajatusten järjestelemiseksi ainakin tässä vaiheessa.
+"Lingvististen piirteiden tanssi"
 
-1.  tapaus: puhdas listatyyppinen (id732)
+Tänne Kirsin ajatus kolmijaosta (writer oriented etc.)
 
-Ennen tätä kappaletta kirjoittaja on käsitellyt valmistelujaan kotoa
-käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille
-järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoi omaa
-osaamistaan valitsemallaan kielikurssilla. Näiden alatopiikkien (?)
-jälkeen kirjoittaja alkaa uuden tekstikappaleen seuraavasti:
-
-Esimerkki x.x
-
-Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta.
-Vaihtareille on varattu kaksi erillistä taloa, toinen (Beauregard)
-sijaitsee aivan kaupungin keskustassa juna-aseman ja yliopiston
-päärakennuksen vieressä ja toinen (Bellevue) puolestaan noin 20 minuutin
-kävelymatkan päässä keskustasta. Asuntohakemus toimitettiin myös
-kaikkien muiden hakemuspapereiden yhteydessä eli hakuprosessi oli siis
-senkin osalta tehty todella helpoksi. --
-
-Shoren (2008, 42) sanoin tätä tapausta voisi kuvailla niin, että tekstin
-teemankulun hahmottaminen perustuu tietoihin, jotka "eivät ole tekstissä
-ilmipantuja vaan lähinnä kielenulkoista tietoa (viite). Teema on siis
-tekstin etenemisen kannalta (enemmäin tai vähemmän uusi): se ei perustu
-selkeisiin merkityssuhteisiin vaan kehyksiin, skeemoihin. yms.
-pääteltävä teema siis." Tällä kirjoittajalla tuntuu olevan sama
-strategia koko ajan, koska jatkaa topiikeilla 'vaihtarit' ja
-'asuntohakemus'. Lukijan kannalta tekstin koherennssi perustuu siis
-siihen, että opiskelijavaihdon kehys on lähtökohtaisesti tuttu tai
-lukija on lukenut joko raportin ohjeistuksen tai tutustunut muihin
-samalla alustalla julkaistuihin teksteihin.
-
-Tekstin kokonaisrakenne tällä, kuten usealla muullakin aineiston
-kirjoittajalla, on Vuorijärven termiä käyttäen topiikkipohjainen.
-Raportissa käsitellään sisältö topiikki kerrallaan, eivätkä nämä
-sekvenssit ole hierarkkisessa suhteessa keskenään. (ks. myös Komppa). JA
-TULISIKO TÄHÄN LINKKI YLEISKUVAN TULOKSIIN, ELI ETTÄ USEIN
-LAUSEENALKUINEN OBJEKTI ON SE SYNTAKTINEN RAKENNE, JOTA HYÖDYNNETÄÄN?
-
-Jos tekisimme näin, niin sitten tästä voisi jatkua suoraan jonkinlainen
-kuvio ja esimerkit, millaisia muita funktioita samalla rakenteella
-tehtään. (Tämä olisi ehkä jopa mielekäs kohta sille.)
-
-Hiearkkisen rakenteen sijaan aineistosta löytyy kuitenkin kirjoittajia,
-jotka rakentavat tekstinsä temporaalisten sekvenssien avulla. Tämän
-strategian käyttö luo raportiin narratiivin.
-
-Esimerkki x.x. (id 399, linkitetty & narratiivinen)
-
-"Hong Kongiin saavuttuani kaikki sujui täysin mutkattomasti ja haluan
-antaa CUHK:lle täyden kympin vaihtaritoiminnan hyvästä hoitamisesta.
-Saapuessani yliopistolle kaikki vaihtarit majoitettiin ensimmäisen
-viikon ajaksi samaan collegeen, jotta meidän olisi mahdollisimman helppo
-tutustua toisiimme ja jotta vaihtarien tapahtumien koordinointi olisi
-mahdollisimman helppoa. Ensimmäinen viikko oli niin kutsuttu Orientation
-week, joka oli täynnä kevyitä luentoja koskien mm. yliopiston tai
-asuntolan ”pelisääntöjä” tai kuinka selvitä hengissä Hong Kongissa.
-Lisäksi kv-toimisto oli järjestänyt meille joinain iltoina ohjelmaa,
-kuten esimerkiksi Tervetuliaisillallisen. Ensimmäinen viikko on siis
-täydellinen tilaisuus tutustua uusiin vaihtareihin ja päästä nauttimaan
-vaihtokokemuksesta jo heti ensimmäisestä päivästä lähtien.
-
-Orientation weekin lopussa muutettiin lopulliseen asuntolaan. Minä
-päädyin ennalta tekemieni valintojen pohjalta (no mandatory meal etc.)
-Shaw Collegen I-house 2:seen, johon liittyy paljon hyviä ja huonoja
-puolia. Ensinäkin yliopistolla asuminen on ylivoimaisen käytännöllistä
-ja halpaa yksityisen asunnon vuokraamiseen verrattuna. -- "
-
-Tässä topiikkia indikoi 'asuntola', joka on lauseessa täydennyksenä
-toimiva paikan adverbiaali. Lause linkittyy edelliseen kappaleeseen
-(Shoren sanoin, mutta meille Dikin käsittein, kun teoriaosa on
-kirjoitettu) orientoivana sivuteemana toimivan ajan adverbiaalin avulla.
-Edellisessä kappaleessa on kuitenkin puhuttu orientaatioviikosta ja
-majoittamisestakin, eli tämä kirjoittaja ei ensimmäisen esimerkin tavoin
-nojaa tekstin ulkopuoliseen tietoon, vaan itse kirjoittamaansa
-edeltävään tekstijaksoon.
-
-Ja vielä kolmas esimerkki, joka asettuisi tulkintani mukaan jollakin
-jatkumolla näiden kahden välimaastoon.
-
-Esimerkki x.x tekstin id 618
-
-Kirjoittaja on edellisessä kappaleessa kuvannut saapumistaan kohdemaahan
-ja järjestelyjä siihen liittyen. Kappaleessa on yksi maininta
-asumisjärjestelyistä, mutta se tulee esille yleisen aikatauluttamisen
-yhteydessä, joten se ei sinänsä orientoi millään tavalla seuraavan
-kappaleen topiikkia.
-
-"Soluasunnon itselleni hain Saksasta wg-gesuchtin nettisivujen kautta.
-Saksalaisen perheen vuokraamassa solussa asui lisäkseni kolme muuta.
-Vaikkei kämppiksien kanssa yhteiselo aina ilman ongelmia onnistunutkaan,
-suosittelen ehdottomasti ainakin harkitsemaan opiskelija-asuntolan
-sijaan soluasunnossa asumista.--"
-
-Päätelmiä
+Päätelmät
 =========
 
 1.  Kirjoittamisen opetuksen kannalta ajateltuna. Työkaluja nimenomaan
