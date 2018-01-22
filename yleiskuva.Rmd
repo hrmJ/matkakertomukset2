@@ -8,33 +8,68 @@ esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
 totals <- sort(sapply(esim,function(x)x$total),dec=T)
 esim.ordered <- lapply(names(totals),function(x)esim[[x]])
 esim.print <- sapply(esim.ordered,function(x)x$sentence)
-```
-
-
-```{r, echo=FALSE}
-
 #Tulostetaan esimerkit suuruusjärjestyksessä niin, että kukin on nimetty loogisesti
 ex.names <- data.frame(group=c("Listamaiset","Selkeät yksittäiseen tapahtumaan keskittyvät narratiivit","asuin paikassa x","pari sanaa asumisesta","Linkki","yleistys","Ennakoivat","ennakoivien ja predikoivien välimaasto","oma kokemus","Yliopisto (maggy) tarjosi","Suurin osa opiskelijoista","Kontrasti","asunnon ja asumisen staattinen kuvailu"),
                        label=c("@ee_lista", "@ee_narratiivi", "@ee_predikaatti", "@ee_parisanaa", "@ee_linkki", "@ee_yleistys", "@ee_ennakoivat", "@ee_valimaasto", "@ee_omakokemus", "@ee_maggytarjosi", "@ee_suurionsa", "@ee_kontrasti", "@ee_staattinen"))
 print.labels <- as.character(sapply(names(totals),function(x)ex.names$label[ex.names$group==x]))
 print.names <- paste0("(",print.labels,")")
 examples <- setNames(paste(print.names,esim.print,"\n"),gsub("@ee_","",ex.names$label))
+for (e.name in names(esim)){
+    e.name2 <- gsub("@ee_","",ex.names$label[ex.names$group==e.name])
+    esim[[e.name]]$esimerkki  <- examples[[e.name2]]
+}
 
 ```
 
-`r examples["lista"]`
+```{r, include=FALSE}
+attach(esim[["Listamaiset"]])
+```
 
-Esimerkissä @ee_lista indikaattorina on *asuntoni*-sana. Tämän ryhmän tekstit
-muodostavat aineiston määrällisesti laajimman ryhmän ja leimallista
-indikaattorin sisältäville lauseille on, että indikaattori on useimmiten
-lauseen objekti ja hyvin usein myös lauseen ensimmäinen sana. Tämän ryhmän
-teksteissä indikaattori edustaa yleensä kontekstissaan ns. uutta tietoa, eli
-asumiseen, asuntoon, asuntolaan tms. ei ole viitattu edeltävässä tekstissä.
-Tätä esimerkkiä edeltävässä tekstissä kirjoittaja on käsitellyt ensin
-valimistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti,
-vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä
-reflektoi omaa osaamistaan valitsemallaa kielikurssilla. Pitää vielä lisätä,
-minkä verran tässä ryhmässä on väliotsikoita. Hiukan kesken siis on.
+Käymme tässä alaluvussa laadullisen analyysin tuloksena syntyneet ryhmät läpi niiden
+koon mukaisessa järjestyksessä suurimmasta pienimpään. Aineiston laajimman
+ryhmän, kaikkiaan `r total` tapausta, muodostavat esimerkin @ee_lista kaltaiset
+topiikkia asettavat virkkeet. 
+
+`r gsub("\\( "," \\(",esimerkki)`
+
+Esimerkin @ee_lista topiikki-indikaattorina on *asuntoni*-sana, joka tälle
+ryhmälle leimallisesti on lauseen alussa sijaitseva objekti.
+Asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa, vaan topiikkia
+asettava virke on samalla ensimmäinen maininta itse topiikista: esimerkkiä
+@ee_lista edeltävässä tekstissä kirjoittaja on käsitellyt ensin valmistelujaan
+kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille
+järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoinut omaa osaamistaan
+valitsemallaan kielikurssilla. 
+Informaatiorakenteellisesti tarkasteltuna esimerkin @ee_lista *asuntoni*
+voidaan nähdä alatopiikkina (ks. osio x.x edellä),
+vaikka esimerkissä @ee_lista ei täyty Dikin [-@dik1989, 275]
+ kuvailema ehto siitä, että varsinainen ylätopiikki olisi
+erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110]. Kirjoittaja kuitenkin operoi tässä ja useimmissa
+ryhmän @ee_lista[^ryhmanum] tapauksissa niin selkeästi tehtävänannossa ehdotetun rakenteen
+puitteissa, että hän olettaa lukijan automaattisesti jakavan käsityksen siitä,
+mitä  aiheita tekstin diskurssitopiikkiin, vaihtokokemukseen, liittyvien
+asioiden joukko pitää sisällään. Asunto tai asuminen nähdään toisin sanoen
+lukijan käytettävissä olevana entiteettinä [vrt. @chafe1987, 29;  @lambrecht1996, 99].
+
+
+
+Ryhmässä @ee_lista on jonkin verran tekstejä 
+(`r otsikoita` kpl / `r otsikkosuhde`), joissa varsinaista asumisesta kertovaa
+kappaletta tai kappaleita edeltää aiheeseen johdattava väliotsikko kuten
+*Asuminen* tai *Asuminen Istanbulissa* -- näin ei kuitenkaan ole tässä esitetyn
+virkkeen tapauksessa. 
+
+[^ryhmanum]: Viitaamme jatkossa ryhmiin tässä esitettyjen esimerkkien numeron
+perusteella.
+
+
+```{r, include=FALSE}
+detach(esim[["Listamaiset"]])
+attach(esim[["asuin paikassa x"]])
+```
+
+
+`r esimerkki`
 
 Toiseksi suurimman ryhmän (`r esim[["oma kokemus"]]$total` tapausta)
 aineistossa muodostavat esimerkin @ee_predikaatti kaltaiset topiikkia asettavat
@@ -43,6 +78,9 @@ on persoonamuotoinen *asua*-verbi, ja virkkeiden pääasiallinen sisältö
 on yleensä informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut.
 Tässä ryhmässä erilliset väliotsikot ovat melko harvinaisia, sillä
 niitä esiintyy vain `r esim[["oma kokemus"]]$otsikkosuhde` tapauksia.
+
+
+
 
 Esimerkin @ee_ennakoivat edustamat virkkeet ovat ajallisesti 
 muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla

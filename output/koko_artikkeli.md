@@ -482,20 +482,41 @@ jaoteltu kirjoittajan näkökulman perusteella.
 Yleiskatsaus tavoista asettaa topiikki
 --------------------------------------
 
-1.  Asuntoni sain vuokrattua Apartiksen( paikallinen TOAS) kautta.
+Käymme tässä alaluvussa laadullisen analyysin tuloksena syntyneet ryhmät
+läpi niiden koon mukaisessa järjestyksessä suurimmasta pienimpään.
+Aineiston laajimman ryhmän, kaikkiaan 31 tapausta, muodostavat esimerkin
+1 kaltaiset topiikkia asettavat virkkeet.
 
-Esimerkissä 1 indikaattorina on *asuntoni*-sana. Tämän ryhmän tekstit
-muodostavat aineiston määrällisesti laajimman ryhmän ja leimallista
-indikaattorin sisältäville lauseille on, että indikaattori on useimmiten
-lauseen objekti ja hyvin usein myös lauseen ensimmäinen sana. Tämän
-ryhmän teksteissä indikaattori edustaa yleensä kontekstissaan ns. uutta
-tietoa, eli asumiseen, asuntoon, asuntolaan tms. ei ole viitattu
-edeltävässä tekstissä. Tätä esimerkkiä edeltävässä tekstissä kirjoittaja
-on käsitellyt ensin valimistelujaan kotoa käsin, sitten kielikurssia
-melko seikkaperäisesti, vaihto-opiskelijoille järjestettyä vapaa-ajan
-ohjelmaa ja lopuksi vielä reflektoi omaa osaamistaan valitsemallaa
-kielikurssilla. Pitää vielä lisätä, minkä verran tässä ryhmässä on
-väliotsikoita. Hiukan kesken siis on.
+1.  Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta.
+
+Esimerkin 1 topiikki-indikaattorina on *asuntoni*-sana, joka tälle
+ryhmälle leimallisesti on lauseen alussa sijaitseva objekti. Asumiseen
+tai asuntoon ei ole viitattu edeltävissä kappaleissa, vaan topiikkia
+asettava virke on samalla ensimmäinen maininta itse topiikista:
+esimerkkiä 1 edeltävässä tekstissä kirjoittaja on käsitellyt ensin
+valmistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti,
+vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä
+reflektoinut omaa osaamistaan valitsemallaan kielikurssilla.
+Informaatiorakenteellisesti tarkasteltuna esimerkin 1 *asuntoni* voidaan
+nähdä alatopiikkina (ks. osio x.x edellä), vaikka esimerkissä 1 ei täyty
+Dikin (1989: 275) kuvailema ehto siitä, että varsinainen ylätopiikki
+olisi erikseen esitelty lukijalle (vrt. myös Guijarro 2001: 110).
+Kirjoittaja kuitenkin operoi tässä ja useimmissa ryhmän 1[3] tapauksissa
+niin selkeästi tehtävänannossa ehdotetun rakenteen puitteissa, että hän
+olettaa lukijan automaattisesti jakavan käsityksen siitä, mitä aiheita
+tekstin diskurssitopiikkiin, vaihtokokemukseen, liittyvien asioiden
+joukko pitää sisällään. Asunto tai asuminen nähdään toisin sanoen
+lukijan käytettävissä olevana entiteettinä (vrt. Chafe 1987: 29;
+Lambrecht 1996: 99).
+
+Ryhmässä 1 on jonkin verran tekstejä (7 kpl / 22.58 %), joissa
+varsinaista asumisesta kertovaa kappaletta tai kappaleita edeltää
+aiheeseen johdattava väliotsikko kuten *Asuminen* tai *Asuminen
+Istanbulissa* -- näin ei kuitenkaan ole tässä esitetyn virkkeen
+tapauksessa.
+
+1.  Olin löytänyt asunnon ensimmäiseksi kuukaudeksi Airbnb:n kautta
+    ennen Italiaan saapumista.
 
 Toiseksi suurimman ryhmän (16 tapausta) aineistossa muodostavat
 esimerkin (<span class="citeproc-not-found"
@@ -506,24 +527,18 @@ pääasiallinen sisältö on yleensä informaatio siitä, missä kirjoittaja on
 vaihtonsa aikana asunut. Tässä ryhmässä erilliset väliotsikot ovat melko
 harvinaisia, sillä niitä esiintyy vain 12.5 % tapauksia.
 
-Esimerkin (<span class="citeproc-not-found"
-data-reference-id="ee_ennakoivat">**???**</span>) edustamat virkkeet
-ovat ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen
-topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa,
-jolle varsinainen käsiteltävä topiikki sijoittuu. Esimerkin (<span
-class="citeproc-not-found"
-data-reference-id="ee_ennakoivat">**???**</span>) tapauksessa luodaan
-pieni jännite: jos kerran ensimmäiseksi kuukaudeksi oli löydetty
-AirBnb-asunto, miten asumisasia lopullisesti ratkaistiin? Avausvirkkeen
-jälkeen kappaleessa selviää, että AirBnb-ratkaisusta muodostuikin
-lopulta asunto koko vaihdon ajaksi. Kappaleen loppuosassa kirjoittaja
-kuvailee tarkemmin asunnon yksityiskohtia: sijaintia, kulkuyhteyksiä ja
-tyypillisyyttä kohdekulttuurissa. Esimerkin (<span
-class="citeproc-not-found"
-data-reference-id="ee_ennakoivat">**???**</span>) kaltaiset tapaukset on
-melko usein (7 tapausta 16:stä) eroteltu muusta tekstistä väliotsikolla.
-Ryhmä muistuttaa jossain määrin esimerkin (<span
-class="citeproc-not-found"
+Esimerkin 2 edustamat virkkeet ovat ajallisesti muita monitasoisempia.
+Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on
+tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki
+sijoittuu. Esimerkin 2 tapauksessa luodaan pieni jännite: jos kerran
+ensimmäiseksi kuukaudeksi oli löydetty AirBnb-asunto, miten asumisasia
+lopullisesti ratkaistiin? Avausvirkkeen jälkeen kappaleessa selviää,
+että AirBnb-ratkaisusta muodostuikin lopulta asunto koko vaihdon ajaksi.
+Kappaleen loppuosassa kirjoittaja kuvailee tarkemmin asunnon
+yksityiskohtia: sijaintia, kulkuyhteyksiä ja tyypillisyyttä
+kohdekulttuurissa. Esimerkin 2 kaltaiset tapaukset on melko usein (7
+tapausta 16:stä) eroteltu muusta tekstistä väliotsikolla. Ryhmä
+muistuttaa jossain määrin esimerkin (<span class="citeproc-not-found"
 data-reference-id="ee_narratiivi">**???**</span>) edustamaa ryhmää.
 
 Esimerkki (<span class="citeproc-not-found"
@@ -649,7 +664,7 @@ Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan
 kuvata seuraavasti:
 
 ![Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
-tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
 Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen
 rakenne -muuttujan perusteella: jos topiikki-indikaattorina on
@@ -709,9 +724,21 @@ Biber, Douglas, Ulla Connor & Thomas A. Upton 2007. *Discourse on the
 move: Using corpus analysis to describe discourse structure* Vsk. 28.
 John Benjamins Publishing.
 
+Chafe, Wallace 1987. Cognitive constraints on information flow.
+Teoksessa: Russell S. Tomlin (ed.) *Coherence and Grounding in Discourse
+: Outcome of a Symposium, Eugene, Oregon, June 1984.* John Benjamins
+Publishing Company.
+
 Chafe, Wallace 1994. *Discourse, consciousness, and time: The flow and
 displacement of conscious experience in speaking and writing*.
 University of Chicago Press.
+
+Dik, Simon C. 1989. *The Theory of Functional Grammar, Part I: The
+Structure of the Clause, Vol. 9 of Functional Grammar Series*.
+Dordrecht: Foris Publications.
+
+Guijarro, A. Jesús Moya 2001. Topicality chains in two discourse genres.
+*Estudios Ingleses de la Universidad Complutense* 9: 103–128.
 
 Haverinen, Katri, Jenna Nyblom, Timo Viljanen, Veronika Laippala, Samuel
 Kohonen, Anna Missilä, Stina Ojala, Tapio Salakoski & Filip Ginter 2014.
@@ -721,6 +748,10 @@ Treebank. *Language Resources and Evaluation* 48:3, 1–39.
 Komppa, Johanna 2012. Retorisen rakenteen teoria suomi toisena
 kielenä-ylioppilaskokeen kirjoitelman kokonaisrakenteen ja kappalejaon
 tarkastelussa.
+
+Lambrecht, Knud 1996. *Information structure and sentence form: Topic,
+focus, and the mental representations of discourse referents*. Cambridge
+studies in linguistics vol. 71. Cambridge: Cambridge university press.
 
 Levshina, Natalia 2015. *How to do linguistics with R: Data exploration
 and statistical analysis*. John Benjamins Publishing Company.
@@ -734,3 +765,6 @@ erottelua.
 [2] Satunnaisotannan tekninen toteutus dokumentoitiin
 git-versionhallintaan ja on nähtävillä osoitteessa x (tarkistettu
 8.1.2017)
+
+[3] Viitaamme jatkossa ryhmiin tässä esitettyjen esimerkkien numeron
+perusteella.
