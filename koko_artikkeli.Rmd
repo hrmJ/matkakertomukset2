@@ -34,7 +34,21 @@ library(SataTapaa)
 
 # Tulokset
 
+Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
+`r nrow(analysoitu_otanta)` tekstiä jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
+ryhmään. Osiossa 4.1. kutakin ryhmää luonnehditaan yleisellä tasolla tarkastelemalla
+lähemmin yhtä edustavaa esimerkkiä. Vaikka varsinainen ryhmäjako on tehty
+puhtaan laadullisin perustein pohjaamalla tapausten keskinäiseen
+samankaltaisuuteen, tulkitaan osiossa 4.2. analyysin tulosta eli 
+itse jaottelua määrällisten ominaisuuksien pohjalta. Osio 4.3
+peilaa tässä tehtyä ryhmittelyä aiempiin tutkimuksiin ja siihen, miten tässä
+funktionaalisin perustein tehty jaottelu  osuu yksiin sen kanssa, miten tekstejä
+on toisaalla jaoteltu kirjoittajan näkökulman perusteella.
+
+
 ## Yleiskatsaus tavoista asettaa topiikki
+
+
 
 `r knit_child('yleiskuva.Rmd', quiet=T)`
 
