@@ -616,22 +616,35 @@ selittää sitä, että peräti 58.33 % ryhmän 6 tapauksista (ei kuitenkaan
 tässä esitetty esimerkki) sisältää asumiskappaletta edeltävän
 väliotsikon.
 
-Esimerkki (<span class="citeproc-not-found"
-data-reference-id="ee_kontrasti">**???**</span>)
+Esimerkki 7 edustaa kaikkiaan 10 tapausta käsittävää ryhmää, jonka
+ominaispiirteenä on kirjottajan itsensä vertailu muihin vaihdossa
+olleisiin.
 
-Esimerkissä (<span class="citeproc-not-found"
-data-reference-id="ee_yleistys">**???**</span>) indikaattorina on koko
-lauseen ensimmäisena sijaitseva *asuminen*-sana. Tämän ryhmän teksteille
-tyypillisesti esimerkki asettaa uuden topiikin esittämällä yleisen tason
-huomioita käsiteltävästä ilmiöstä. Toisin kuin esimerkin 4 tapauksessa,
-kirjoittaja ei siis lähde liikkeelle omista kokemuksistaan, vaan
-käsittelee tilannetta laajemmin, tavoitteenaan eräässä mielessä jakaa
-maailmantietoa lukijalleen. Esimerkin (<span class="citeproc-not-found"
-data-reference-id="ee_yleistys">**???**</span>) edustama ryhmä kattaa
-kaikkiaan 10 tapausta (5,95 % koko aineistosta), joista 2:ssa (mukaan
-lukien esimerkki (<span class="citeproc-not-found"
-data-reference-id="ee_yleistys">**???**</span>)) asumisesta kertovaa
-kappaletta edeltää väliotsikko *Asuminen*.
+1.  Itselläni kävi tuuri asunnon suhteen löytäessäni edullisen huoneen
+    Chelseasta aivan Manhattanin keskeltä.
+
+Informaatiorakenteeltaan ryhmän 7 tapaukset ovat nekin tyypillisesti
+alatopiikkeja, ja olettavat indikaattorisanan implikoiman topiikin
+jossain määrin esimerkin 1 kaltaisesti jo asetetuksi. Toisaalta
+esimerkissä 7 on samoja piirteitä kuin esimerkissä 4: myös esimerkissä 7
+reflektoidaan sitä, mikä omassa kokemuksessa oli helppoa ja mikä
+vaikeaa. Yhdessäkään ryhmän 7 tapauksessa ei ole asumiseen viittaavaa
+väliotsikkoa.
+
+Samoin kuin esimerkissä 4, myös esimerkissä 8 topiikki-indikaattorina on
+koko lauseen ensimmäisena sijaitseva *asuminen*-sana. Erona näiden
+esimerkkien välillä on, että siinä missä esimerkki 4 on
+informaatiorakenteen kannalta omasta vaihtokokemuksesta lohkaistu
+alatopiikki, ankkuroituu esimerkki 8 siihen fyysiseen paikkaan, jossa
+vaihto tapahtui:
+
+1.  Asuminen Tokiossa on aika kallista.
+
+Ryhmän 8 kirjoittajat eivät lähde liikkeelle omista kokemuksistaan, vaan
+käsittelevät tilannetta laajemmin, tavoitteenaan eräässä mielessä jakaa
+maailmantietoa lukijalleen. Esimerkin 8 edustama ryhmä kattaa kaikkiaan
+10 tapausta, joista 2:ssa (mukaan lukien esimerkki 8) asumisesta
+kertovaa kappaletta edeltää väliotsikko *Asuminen*.
 
 Esimerkki (<span class="citeproc-not-found"
 data-reference-id="ee_maggytarjosi">**???**</span>)
@@ -703,7 +716,7 @@ Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan
 kuvata seuraavasti:
 
 ![Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
-tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-11-1.png)
 
 Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen
 rakenne -muuttujan perusteella: jos topiikki-indikaattorina on
