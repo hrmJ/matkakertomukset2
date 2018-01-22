@@ -2,7 +2,7 @@
 
 ```{r, echo=FALSE}
 
-ex.ids <- c(286, 42, 314, 699, 317, 107, 341,557,272,498,732,807,298)
+ex.ids <- c(286, 42, 839, 699, 317, 107, 341,557,272,498,732,807,298)
 esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
 #Järjestetään esimerkit koon mukaan
 totals <- sort(sapply(esim,function(x)x$total),dec=T)
@@ -172,12 +172,37 @@ detach(esim.ordered[[5]])
 attach(esim.ordered[[6]])
 ```
 
+`r esimerkki`
+
+Esimerkissä @ee_staattinen kirjoittaja esittelee uuden topiikin lähtemällä
+liikkeelle konkreettisesti asuntonsa luonnehtimisesta (vrt. esimerkki
+@ee_omakokemus, jossa luonnehditaan kirjoittajan kokemusta). Vastaavia
+asuntolaa tai asumista staattisesti kuvaavia topiikin asettavia virkkeitä on
+kaikkiaan `r total` kappaletta. Informaatiorakenteeltaan nämä tapaukset ovat
+monesti lähellä ryhmää @ee_predikaatti, sillä molemmissa kappaleen ensimmäinen
+virke esittelee lukijalle sen, minkä yksityiskohtaiseen kuvailuun koko
+loppukappale keskittyy. Esimerkissä @ee_staattinen topiikki asetetaan kuitenkin
+jossain määrin implisiittisemmin, ja hyppäys edellisestä aiheesta (esimerkin
+@ee_staattinen tapauksessa HIV-testin teettäminen) on tyypillisesti rajumpi.
+Tämä selittää sitä, että peräti `r otsikkosuhde` ryhmän @ee_staattinen
+tapauksista (ei kuitenkaan tässä esitetty esimerkki) sisältää asumiskappaletta
+edeltävän väliotsikon.
+
+```{r, include=FALSE}
+detach(esim.ordered[[6]])
+attach(esim.ordered[[7]])
+```
+
+Esimerkki @ee_kontrasti edustaa kaikkiaan `r total` tapausta käsittävää
+ryhmää, jonka ominaispiirteenä on kirjottajan itsensä vertailu
+muihin vaihdossa olleisiin.
 
 `r esimerkki`
 
-Esimerkki @ee_staattinen
+Informaatiorakenteeltaan ryhmän @ee_kontrasti tapaukset ovat nekin tyypillisesti 
+alatopiikkeja, ja olettavat indikaattorisanan implikoiman topiikin jossain määrin
+esimerkin @ee_lista kaltaisesti jo asetetuksi.
 
-Esimerkki @ee_kontrasti
 
 Esimerkissä @ee_yleistys indikaattorina on koko lauseen ensimmäisena sijaitseva
 *asuminen*-sana. Tämän ryhmän teksteille tyypillisesti esimerkki asettaa uuden
@@ -189,6 +214,7 @@ edustama ryhmä kattaa kaikkiaan `r esim[["yleistys"]]$total` tapausta
 (`r esim[["yleistys"]]$suht.koko` koko aineistosta), joista 
 `r esim[["yleistys"]]$otsikoita`:ssa (mukaan lukien esimerkki @ee_yleistys)
 asumisesta kertovaa kappaletta edeltää väliotsikko *Asuminen*. 
+
 
 
 Esimerkki @ee_maggytarjosi

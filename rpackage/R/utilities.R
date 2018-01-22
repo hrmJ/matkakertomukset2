@@ -27,5 +27,25 @@ Output <- function(odir="output",fname="koko_artikkeli.Rmd"){
 #' @export
 
 GetInfo <- function(textid){
-    return(analysoitu_otanta[analysoitu_otanta$textid==textid,c("sentence","paragraph","edellinenkpl","väliotsikko","group")])
+    return(analysoitu_otanta[analysoitu_otanta$textid==textid,c("sentence","paragraph","edellinenkpl","väliotsikko","group","side")])
+}
+
+#' Antaa nopeasti tietoa jonkin klusterin ominaisuuksista
+#' @param textid esimerkin teksti-id
+#' @export
+
+MoreInfo <- function(textid){
+    info  <- GetInfo(textid)
+    ss <- subset(analysoitu_otanta, group==info$group)
+    siteet <- table(ss$side)
+    return(list(sentence = info$sentence,
+                group=info$group,
+                side=info$side,
+                otsikko=info[["väliotsikko"]],
+                total=nrow(ss),
+                otsikkosuhde = paste(round(siteet["otsikko"]/nrow(ss)*100,2),"%"),
+                otsikoita = unname(siteet["otsikko"]),
+                suht.koko = paste(fn(100*nrow(ss)/nrow(analysoitu_otanta)),"%")
+                )
+                )
 }

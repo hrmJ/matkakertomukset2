@@ -485,7 +485,11 @@ Yleiskatsaus tavoista asettaa topiikki
 Käymme tässä alaluvussa laadullisen analyysin tuloksena syntyneet ryhmät
 läpi niiden koon mukaisessa järjestyksessä suurimmasta pienimpään.
 Aineiston laajimman ryhmän, kaikkiaan 31 tapausta, muodostavat esimerkin
-1 kaltaiset topiikkia asettavat virkkeet.
+1 kaltaiset topiikkia asettavat virkkeet. Ryhmässä on jonkin verran
+tekstejä (7 kpl / 22.58 %), joissa varsinaista asumisesta kertovaa
+kappaletta tai kappaleita edeltää aiheeseen johdattava väliotsikko kuten
+*Asuminen* tai *Asuminen Istanbulissa* -- näin ei kuitenkaan ole tässä
+esitetyn virkkeen tapauksessa.
 
 1.  Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta.
 
@@ -507,73 +511,110 @@ olettaa lukijan automaattisesti jakavan käsityksen siitä, mitä aiheita
 tekstin diskurssitopiikkiin, vaihtokokemukseen, liittyvien asioiden
 joukko pitää sisällään. Asunto tai asuminen nähdään toisin sanoen
 lukijan käytettävissä olevana entiteettinä (vrt. Chafe 1987: 29;
-Lambrecht 1996: 99).
+Lambrecht 1996: 99), mikä mahdollistaa sen tuomisen tekstiin ilman
+ennakkomainintoja tai esittelyjä. Voisi jopa sanoa, että esimerkin 1
+kaltaiset tapaukset eivät niinkään aseta topiikkia, vaan ennemmin
+käyttävät jo asetetetuksi oletettua topiikkia.
 
-Ryhmässä 1 on jonkin verran tekstejä (7 kpl / 22.58 %), joissa
-varsinaista asumisesta kertovaa kappaletta tai kappaleita edeltää
-aiheeseen johdattava väliotsikko kuten *Asuminen* tai *Asuminen
-Istanbulissa* -- näin ei kuitenkaan ole tässä esitetyn virkkeen
-tapauksessa.
+Toiseksi suurimman laadullisen analyysin tuloksena syntyneistä ryhmistä
+muodostavat esimerkin 2 kaltaiset tapaukset, joita tutkimusaineistossa
+on 21 kappaletta. Esimerkkiä 2 samoin kuin 6 muuta tämän ryhmän virkettä
+(yht. 33.33 % ryhmän tapauksista) edeltää asumiseen viittaava
+väliotsikko.
+
+1.  Vaihtoni aikana asuin Grandmontin asuntolassa.
+
+Kaikissa ryhmän 2 tapauksista topiikki-indikaattorina on
+persoonamuotoinen *asua*-verbi, ja virkkeiden pääasiallinen sisältö on
+yleensä informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut.
+Tämän ryhmän tapaukset ovat edellistä ryhmää selkeämmin nimenomaan
+johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin 2
+lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin
+teknisessä merkityksessä) uuden topiikin (1989: 269). Vastaavat *asuin
+paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*,
+josta tällaisella virkkeellä alkava kappale kertoo. Esimerkin 2
+tapauksessa kirjoittaja jatkaa kappalettaan kuvailemalla asuntonsa
+sisustuksen, kämppäkaverit ja vuokran suuruuden.
+
+Esimerkin 3 kaltaisten tapausten muodostama ryhmä on täsmalleen
+samankokoinen kuin ryhmä 2 (21 tapausta) -- sattumalta myös otsikoitujen
+kappaleiden määrä on identtinen (7 kappaletta).
 
 1.  Olin löytänyt asunnon ensimmäiseksi kuukaudeksi Airbnb:n kautta
     ennen Italiaan saapumista.
 
-Toiseksi suurimman ryhmän (16 tapausta) aineistossa muodostavat
-esimerkin (<span class="citeproc-not-found"
-data-reference-id="ee_predikaatti">**???**</span>) kaltaiset topiikkia
-asettavat virkkeet. Kaikissa tämän ryhmän tapauksissa
-topiikki-indikaattorina on persoonamuotoinen *asua*-verbi, ja virkkeiden
-pääasiallinen sisältö on yleensä informaatio siitä, missä kirjoittaja on
-vaihtonsa aikana asunut. Tässä ryhmässä erilliset väliotsikot ovat melko
-harvinaisia, sillä niitä esiintyy vain 12.5 % tapauksia.
-
-Esimerkin 2 edustamat virkkeet ovat ajallisesti muita monitasoisempia.
+Esimerkin 3 edustamat virkkeet ovat ajallisesti muita monitasoisempia.
 Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on
 tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki
-sijoittuu. Esimerkin 2 tapauksessa luodaan pieni jännite: jos kerran
+sijoittuu. Esimerkin 3 tapauksessa luodaan pieni jännite: jos kerran
 ensimmäiseksi kuukaudeksi oli löydetty AirBnb-asunto, miten asumisasia
 lopullisesti ratkaistiin? Avausvirkkeen jälkeen kappaleessa selviää,
 että AirBnb-ratkaisusta muodostuikin lopulta asunto koko vaihdon ajaksi.
 Kappaleen loppuosassa kirjoittaja kuvailee tarkemmin asunnon
 yksityiskohtia: sijaintia, kulkuyhteyksiä ja tyypillisyyttä
-kohdekulttuurissa. Esimerkin 2 kaltaiset tapaukset on melko usein (7
-tapausta 16:stä) eroteltu muusta tekstistä väliotsikolla. Ryhmä
-muistuttaa jossain määrin esimerkin (<span class="citeproc-not-found"
-data-reference-id="ee_narratiivi">**???**</span>) edustamaa ryhmää.
+kohdekulttuurissa. Informaatiorakenteeltaan ryhmä 3 onkin hyvin
+samanlainen kuin edellinen ryhmä: koko kappaleen topiikkina oleva
+*asunto* esitellään uutena topiikkina ensimmäisessä virkkeessä.
 
-Esimerkki (<span class="citeproc-not-found"
-data-reference-id="ee_omakokemus">**???**</span>) edustaa ryhmää, johon
-kuuluvissa teksteissä topiikki asetetaan luonnehtimalla jotenkin
-kirjoittajan henkilökohtaista kokemusta aiheesta. Tähän valitussa
-virkkeessä topiikkia indikoi *asuminen*, mikä ryhmään luokitelluilla
-kaikkiaan 16 tapauksella (9,52 % koko aineistosa) onkin tyypillistä:
-kenties suoraviivaisin tapa kuvailla omaa kokemusta jostakin varsinaisen
+Neljäntenä ryhmänä tarkastellaan seuraavanlaisia tapauksia, joissa
+topiikki asetetaan luonnehtimalla jotenkin kirjoittajan henkilökohtaista
+kokemusta aiheesta:
+
+1.  Asuminen, tai siis lähinnä asunnon hankkiminen, oli varmaankin
+    vaihdon hankalin juttu.
+
+Esimerkissä 4 topiikkia indikoi *asuminen*, mikä tähän ryhmään
+luokitelluilla kaikkiaan 16 tapauksella onkin tyypillistä: kenties
+suoraviivaisin tapa kuvailla omaa kokemusta jostakin varsinaisen
 diskurssitopiikin osa-alueesta on niputtaa kokemus nominalisoituun
 verbimuotoon ja luonnehtia tätä predikatiivilauseella. Näissä
 tapauksissa kuvataan, miten *asunnon hakeminen oli helppoa* tai miten
 *kaikkein vaikeinta oli asunnon löytäminen*. Kirjoittajan näkökulma
 onkin usein koko tekstin ja diskurssitopiikinkin tasolla subjektiivinen
 -- strategiana on kertoa käsiteltävästä asiasta sen kautta, miten asiat
-ovat sujuneet, omia onnistumisia ja epäonnistumisia arvioiden. Kovinkaan
-monessa tämän ryhmän tapauksessa asumisesta kertovaa kappaletta ei
-edellä otsikko (yhteensä 2 tapausta).
+ovat sujuneet, omia onnistumisia ja epäonnistumisia arvioiden.
+Informaatiorakenteen kannalta nämä tapaukset ovat monesti ryhmän 1
+tapaan alatopiikkeja. Esimerkki 4 on kuitenkin esimerkkiä 1 selvemmin
+topiikkia asettava virke, sillä siinä asumisen rooli yhtenä
+vaihtokokemuksen osana on ilmaistu eksplisiittisesti. Vain kahdessa
+ryhmän 4 tapauksessa asumisesta kertovaa kappaletta edeltää väliotsikko.
 
-Esimerkissä (<span class="citeproc-not-found"
-data-reference-id="ee_linkki">**???**</span>) indikaattorina on
-*asuntoloista*-sana. Ilman kontekstia tarkasteltuna tapaus vaikuttaa
-samalta kuin listamainen esimerkki, mutta laajemman analyysin tuloksena
-selvisi, että kirjoittaja on jo aiempana, kirjoittaessaan
-etukäteisjärjestelyistä ja kohdemaahan saapumisesta, rakentanut kuvaa
-paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. Tämän
-ryhmän tekstit sijoittuvatkin toissijaisesti myös johonkin toiseen
-alaryhmään, mutta ovat erottuneet omasta alaryhmästään kontekstin
-tarkastelun vaiheessa. Eli kirjoittaja on edeltävässä tekstissään
-kirjoittanut sisään asumisen tavalla tai toisella ja jollakin lailla
-monimutkaisemmin kuin vain maininnut sen. Kesken tämänkin, siirsin jo
-kokeeksi kumminkin.
+Esimerkissä 5 indikaattorina on *asuntoloista*-sana. Ilman kontekstia
+tarkasteltuna tämäkin tapaus vaikuttaa samalta kuin listamainen
+esimerkki, mutta laajemman analyysin tuloksena selvisi, että kirjoittaja
+on jo aiempana, kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan
+saapumisesta, rakentanut kuvaa paikallisista asuntolavaihtoehdoista ja
+asuntolassa elämisestä. Tämän ryhmän tekstit sijoittuvatkin
+toissijaisesti myös johonkin toiseen alaryhmään, mutta ovat erottuneet
+omasta alaryhmästään kontekstin tarkastelun vaiheessa.
 
-Esimerkki (<span class="citeproc-not-found"
-data-reference-id="ee_staattinen">**???**</span>)
+1.  Asuntoloista valitsin Julius Raab Heimin vanhojen matkakertomusten
+    perusteella.
+
+Esimerkin 5 kaltaisia aiempaan kontekstiin tietoisesti sidottuja
+tapauksia on aineistossa 14 kappaletta. Näissä tapauksissa kyse on
+virketasolla tarkasteltuna joko annetuista topiikeista -- jos
+kontekstuaalinen linkki on muodostettu suhteellisen lähellä tässä
+käsiteltävää varsinaista asumiskappaletta -- tai, jos edellinen maininta
+on selvästi kauempana, palautetuista topiikeista (Dik 1989: 270--271).
+X:ssä tämän ryhmän virkkeessä kappaletta edeltää välitotsikko.
+
+1.  Ulkomaisille opiskelijoille tarkoitettu asuntola on vain kolme
+    vuotta vanha ja täten melko moderni.
+
+Esimerkissä 6 kirjoittaja esittelee uuden topiikin lähtemällä liikkeelle
+konkreettisesti asuntonsa luonnehtimisesta (vrt. esimerkki 4, jossa
+luonnehditaan kirjoittajan kokemusta). Vastaavia asuntolaa tai asumista
+staattisesti kuvaavia topiikin asettavia virkkeitä on kaikkiaan 12
+kappaletta. Informaatiorakenteeltaan nämä tapaukset ovat monesti lähellä
+ryhmää 2, sillä molemmissa kappaleen ensimmäinen virke esittelee
+lukijalle sen, minkä yksityiskohtaiseen kuvailuun koko loppukappale
+keskittyy. Esimerkissä 6 topiikki asetetaan kuitenkin jossain määrin
+implisiittisemmin, ja hyppäys edellisestä aiheesta (esimerkin 6
+tapauksessa HIV-testin teettäminen) on tyypillisesti rajumpi. Tämä
+selittää sitä, että peräti 58.33 % ryhmän 6 tapauksista (ei kuitenkaan
+tässä esitetty esimerkki) sisältää asumiskappaletta edeltävän
+väliotsikon.
 
 Esimerkki (<span class="citeproc-not-found"
 data-reference-id="ee_kontrasti">**???**</span>)
@@ -582,9 +623,7 @@ Esimerkissä (<span class="citeproc-not-found"
 data-reference-id="ee_yleistys">**???**</span>) indikaattorina on koko
 lauseen ensimmäisena sijaitseva *asuminen*-sana. Tämän ryhmän teksteille
 tyypillisesti esimerkki asettaa uuden topiikin esittämällä yleisen tason
-huomioita käsiteltävästä ilmiöstä. Toisin kuin esimerkin (<span
-class="citeproc-not-found"
-data-reference-id="ee_omakokemus">**???**</span>) tapauksessa,
+huomioita käsiteltävästä ilmiöstä. Toisin kuin esimerkin 4 tapauksessa,
 kirjoittaja ei siis lähde liikkeelle omista kokemuksistaan, vaan
 käsittelee tilannetta laajemmin, tavoitteenaan eräässä mielessä jakaa
 maailmantietoa lukijalleen. Esimerkin (<span class="citeproc-not-found"
@@ -664,26 +703,23 @@ Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan
 kuvata seuraavasti:
 
 ![Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
-tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-9-1.png)
 
 Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen
 rakenne -muuttujan perusteella: jos topiikki-indikaattorina on
 finiittiverbi, kyseessä on useimmiten esimerkin 2 edustama ryhmä
 (tapaukset, joissa on finiittiverbi ja joiden ryhmä on 2 kattavat 15 %
 aineistosta). Toinen selkeä jako voidaan luonnollisesti tehdä sillä
-perusteella, onko kyseessä esimerkin (<span class="citeproc-not-found"
-data-reference-id="ee_linkki">**???**</span>) kaltainen edelliseen
-kontekstiin ankkuroiva tapaus vai ei (ei--finiittiset tapaukset, joiden
-siteeksi on merkitty *linkki* ja ryhmäksi 5 kattavat 5 % aineistosta).
-Loput tapaukset jakautuvat selkeimmin sen perusteella, onko
+perusteella, onko kyseessä esimerkin 5 kaltainen edelliseen kontekstiin
+ankkuroiva tapaus vai ei (ei--finiittiset tapaukset, joiden siteeksi on
+merkitty *linkki* ja ryhmäksi 5 kattavat 5 % aineistosta). Loput
+tapaukset jakautuvat selkeimmin sen perusteella, onko
 topiikki-indikaattori virkkeen alussa vai ei. Jos indikaattori on
 lauseen alussa ja lauseen predikaatti ensimmäisessä persoonassa,
 tuloksena on usein esimerkin 1 edustama ryhmä. Melko selkeän joukon
 muodostavat myös tapaukset, joissa indikaattorin syntaktinen rooli on
 subjekti ja joissa indikaattori ei sijaitse lauseen alussa -- nämä ovat
-analyysissa päätyneet tyypillisesti esimerkin (<span
-class="citeproc-not-found"
-data-reference-id="ee_staattinen">**???**</span>) edustamaan ryhmään.
+analyysissa päätyneet tyypillisesti esimerkin 6 edustamaan ryhmään.
 
 Kaiken kaikkiaan voidaan todeta, että vaikka tietyistä tapauksista olisi
 ollut mahdollista melko selkeästi ennustaa, mihin ryhmään ne päätyvät,
