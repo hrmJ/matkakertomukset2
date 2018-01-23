@@ -67,7 +67,7 @@ FormatForStatisticalAnalysis <- function(numericalgroups=F){
     stats$tense[grepl("Tense=Past",stats$feat)] <- "imp"
     stats$tense[grepl("Tense=Pres",stats$feat)] <- "prees"
     stats$sent <- analysoitu_otanta$sentence
-    stats$tense[grepl("PartForm=Past\\|VerbForm=Part",stats$feat)] <- "pl.perf/perf"
+    stats$tense[grepl("PartForm=Past\\|VerbForm=Part",stats$feat)] <- "pp"
 
     sent <- c( "Kv. koordinaattori Maggy oli suuri apu asuntoa etsittäessä.", "Asuntoa voi hakea BNU nettijärjestelmän kautta, johon saa ohjeet hyväksymispaketin kanssa.", "Asuntoa minun ei tarvinnut hankkia.", "Asuntoa oli hyvin vaikea saada vapailta markkinoilta etänä, sillä kukaan ei halunnut vuokrata minulle huonetta ainoastaan neljäksi kuukaudeksi tapaamatta kasvotusten.", "Vaihtoon haettaessa hain myös asuntolapaikkaa, ja sain valita itse mieluisimman asuntolan( tästä myöhemmin lisää) .", "Sairastelun lisäksi vaihtovuoden negatiivisin asia oli ehdottomasti asuminen.", "Hain asuntoa vaihto-opiskelijoille asuntoja järjestävän OeADin kautta varsin myöhään, kesäkuun puolivälissä.", "Asuminen, tai siis lähinnä asunnon hankkiminen, oli varmaankin vaihdon hankalin juttu.", "Asuminen: Vuokrasin huoneen yliopiston omista asuntoloista.", "Jos asunnonhausta haluaa päästä helpolla, voi asuntoa hakea Studentenwerk Potsdamin kautta.", "Mielestäni asuntolassa asuminen oli ihan viihtyisää.", "Sitten pari sanaa asumisesta.", "Asunnon hankkiminen oli ainoa vähänkään hankala tai työläs tehtävä ennen lähtöä tapahtuneista etukäteisjärjestelyistä, kaikki muu oli hyvin helppoa.", "Asunnon hankkiminen oli helppoa vaihtareille tarkoitetun StayInAthens -järjestön kautta.", "Asunnon hankkiminen Kööpenhaminassa on erittäin hankalaa ja vuokrataso on hyvin korkea.", "Kaikkein vaikein asia oli asunnon löytäminen.", "Asunnon saaminen Uppsalassa ei ole itsestäänselvyys, joten kannattaa ottaa asunto, jota yliopisto tarjoaa.", "Asunnon hakeminen oli todella helppoa.", "Sitten asunnon hankkiminen.", "Asumisen osalta vaihtoehdot ovat asuntola ja yksityinen vuokranantaja, joilla kummallakin on puolensa.", "Jos halusi saada paikallisen opiskelija-asuntosäätiön asunnon, piti tehdä online-hakemus suoraan kyseiselle taholle( Studentenwerk) .", "Ensimmäinen vinkkini asunnon etsintään: OLKAA AJOISSA LIIKKEELLÄ!", "Asumisratkaisumme oli kaupungin reunalla pellon laidalla sijaitseva opiskelija-asuntola Avant-Garde, jossa jokaisella oli yksiö vessalla ja suihkulla.", "Asuminen Riossa ei ole kovinkaan edullista, eikä Ibmec tarjoa majoitusvaihtoehtoja opiskelijoille.", "Asuminen Tokiossa on aika kallista.", "Asuminen pääkampuksen asuntolassa oli edullista, ja Kelan opintotuki ulkomaille riitti muutenkin mainiosti kattamaan käytännössä kaikki kuluni Moskovassa.", "Asumisjärjestelyt olivat vaihdon aikana paljon puhuttu sirkus, kun jatkuvasti joku muutti paikasta toiseen erinäisistä syistä.", "Ulkomaisille opiskelijoille tarkoitettu asuntola on vain kolme vuotta vanha ja täten melko moderni.", "Se oli kuitenkin erittäin hankalaa, sillä monet olivat jo syksyllä muuttaneet yhteen ja enää oli jäljellä vain kalliimmat opiskelija-asuntolat.", "Koska kurssini olivat kaikki yliopiston keskustakampuksella ja yliopiston asuntola kahdeksan kilometrin päässä laitakaupungin Sart Tilman–kampuksella, oli järkevintä etsiä asunto yksityiseltä vuokranantajalta.", "Asuntolamme on uusi, rakennettu 2013 vuonna.", "Asuntola on 3 asemaa Ikebukurosta, yhdestä Tokion isoimmista keskustoista, ja yliopisto vielä 2 asemaa Ikebukurosta.", "Kielikurssin ajan asuin Maaülikoolin asuntolassa, joka on hieman kauempana keskustasta( kävelyetäisyydellä silti) .", "Olin hyvin onnekas ja löysin pitkän etsinnän jälkeen itselleni kimppakämpän Caenin keskustasta, missä asuin kahden ranskalaisen lääkisopiskelijan kanssa.")
     tense <- c( "imp", "prees", "imp", "imp", "imp", "imp", "imp", "imp", "imp", "prees", "imp", "--", "imp", "imp", "prees", "imp", "prees", "imp", "--", "prees", "imp", "--", "imp", "prees", "prees", "imp", "imp", "prees", "imp", "imp", "imp", "prees", "imp", "imp")
@@ -85,12 +85,34 @@ FormatForStatisticalAnalysis <- function(numericalgroups=F){
     stats$tense[grepl("Asuminen Kentissä on järjestetty",stats$sent)] <- "prees"
 
 
+
     stats$pers  <- stats$headverb_person
 
     #TODO: fix this
     stats$side[stats$side=="check"] <- "x"
     stats$side[stats$side=="orient"] <- "edellinen"
     stats <- stats[,-which(names(stats) %in%c("headverb_person","indicator.deprel"))]
+
+
+
+    stats$dep <- EditNames(stats$dep,read.csv(text="
+                     old,new
+                     root,r
+                     nmod,nm
+                     nmod:x,nm+
+                     subj,s
+                     dobj,o
+                     Muu,?"))
+    stats$side <- EditNames(stats$side,read.csv(text="
+                     old,new
+                     x,x
+                     otsikko,ots
+                     check,x
+                     orient,x
+                     edellinen,ed
+                     linkki,ln"))
+
+
 
     #Muotoillaan vähän sanaluokkatilastoja
     stats$pos <- as.factor(sapply(stats$textid,function(tid){

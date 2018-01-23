@@ -778,8 +778,11 @@ tarkasteltu seuraavien viiden muuttujan valossa.
 Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan
 kuvata seuraavasti:
 
-![Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
-tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-16-1.png)
+<img src="/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-16-1.png" alt="Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna" angle=90 />
+<p class="caption">
+Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
+tarkasteltuna
+</p>
 
 Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen
 rakenne -muuttujan perusteella: jos topiikki-indikaattorina on

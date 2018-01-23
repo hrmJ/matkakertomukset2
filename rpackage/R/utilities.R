@@ -49,3 +49,17 @@ MoreInfo <- function(textid){
                 )
                 )
 }
+
+
+#' muokkaa nopeasti nimiä
+#' @param oldnames muokattava vektori
+#' @param namedf data frame, jossa vanhat nimet (old) ja uudet (new)
+#' @export
+
+EditNames <- function(oldnames,namedf) {
+    ndf <- apply(namedf,1,trimws)
+    return(sapply(oldnames,function(on,nd)nd["new",which(nd["old",]==on)],nd=ndf))
+}
+
+
+

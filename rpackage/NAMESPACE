@@ -3,6 +3,7 @@
 export(ClassifyVerbs)
 export(ClassifyWords)
 export(ClearReferences)
+export(EditNames)
 export(FormatForStatisticalAnalysis)
 export(GetGroupsFromYaml)
 export(GetInfo)

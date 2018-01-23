@@ -28,17 +28,33 @@ seuraavien viiden muuttujan valossa.
 
 Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan kuvata seuraavasti:
 
-```{r, echo=FALSE, fig.cap=Ref('fig','ff_tree','Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna')}
+```{r, echo=FALSE, out.extra='angle=90', fig.width=14,fig.height=10,fig.cap=Ref('fig','ff_tree','Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna')}
 
 library(party)
 set.seed(204)
 stats <- FormatForStatisticalAnalysis(T)
 puu <- ctree(group ~ side + location + dep + pers + pos + tense,stats)
-plot(puu,          # no terminal plots
+
+#plot(puu,controls = ctree_control(maxsurrogate = 1))
+
+#plot(puu, type="simple")
+
+#plot(puu, terminal_panel)
+#plot(puu, terminal_panel = node_terminal)
+plot(puu,         
   inner_panel=node_inner(puu,
-       abbreviate = TRUE,            # short variable names
-       pval = FALSE,                 # no p-values
-       id = FALSE)   )
+       abbreviate = FALSE,            
+       pval = F, 
+       id = FALSE),
+     terminal_panel=node_barplot(puu,id=F,beside=T,ylines=1.2,gap=0,ymax=1))
+     #terminal_panel=NULL
+     #terminal_panel=node_terminal(puu, 
+     #  abbreviate = TRUE,
+     #  digits = 1,                   # few digits on numbers
+     #  fill = c("white"),            # make box white not grey
+     #  id = FALSE)
+
+#plot(puu, tp_args = list(id = FALSE))
 
 ```
 
