@@ -202,7 +202,7 @@ muihin vaihdossa olleisiin.
 Informaatiorakenteeltaan ryhmän @ee_kontrasti tapaukset ovat nekin tyypillisesti 
 alatopiikkeja, ja olettavat indikaattorisanan implikoiman topiikin jossain määrin
 esimerkin @ee_lista kaltaisesti jo asetetuksi. Toisaalta esimerkissä @ee_kontrasti
-on samoja piirteitä kuin esimerkissä @ee_omakokemus: myös esimerkissä @ee_kontrasti
+on samoja piirteitä kuin esimerkissä @ee_omakokemus: myös tässä
 reflektoidaan sitä, mikä omassa kokemuksessa oli helppoa ja mikä vaikeaa. Yhdessäkään
 ryhmän @ee_kontrasti tapauksessa ei ole asumiseen viittaavaa väliotsikkoa.
 
@@ -225,7 +225,7 @@ Ryhmän @ee_yleistys kirjoittajat eivät lähde liikkeelle
 omista kokemuksistaan, vaan käsittelevät tilannetta laajemmin, tavoitteenaan
 eräässä mielessä jakaa maailmantietoa lukijalleen. Esimerkin @ee_yleistys
 edustama ryhmä kattaa kaikkiaan `r total` tapausta, joista 
-`r otsikoita`:ssa (mukaan lukien esimerkki @ee_yleistys)
+kahdessa (mukaan lukien esimerkki @ee_yleistys)
 asumisesta kertovaa kappaletta edeltää väliotsikko *Asuminen*. 
 
 
@@ -236,17 +236,17 @@ attach(esim.ordered[[9]])
 
 Yleistys kirjoittajan oman kokemuspiirin ulkopuolelle voidaan
 kuitenkin tehdä myös toisella tavalla. Esimerkissä
-@ee_maggytarjosi ja `r total-1` muussa tapauksessa tämä tapahtuu 
+@ee_maggytarjosi ja kahdeksassa muussa tapauksessa tämä tapahtuu 
 keskittymällä johonkin ulkoiseen agenttiin, jonka toimet
 vaikuttavat kirjoittajaan yleisesti ja asumisen järjestymiseen
 erityisesti:
 
 `r esimerkki`
 
-Esimerkissä @ee_maggytarjosi tarjosi on informaatiorakenteen kannalta 
+Esimerkissä @ee_maggytarjosi  on informaatiorakenteen kannalta 
 katsottuna kyse esimerkkien @ee_predikaatti, @ee_ennakoivat ja @ee_staattinen
 tapaan uudesta topiikista, mutta sen esittely toteutetaan hyödyntämällä
-jotakin tekstin kannalta keskeistä toimijaa, esimerkissä @ee_maggytarjosi
+jotakin tekstin kannalta keskeistä toimijaa, tässä tapauksessa
 suurlähetystön henkilökuntaa. Kuten ryhmän @ee_kontrasti kohdalla, 
 myös ryhmässä @ee_maggytarjosi yli puolessa tapauksia (`r otsikkosuhde`) 
 asumisesta kertovaa kappaletta edeltää väliotsikko.
@@ -264,35 +264,93 @@ kirjoittaja on käyttänyt ajan ilmausta.
 
 Aikamuoto ryhmän @ee_narratiivi virkkeissä on tyypillisesti imperfekti.
 Näissäkin tapauksissa topiikki-indikaattori on informaatiorakenteen kannalta
-uusi topiikki, joka esimerkin narritiivisuuden vuoksi tulee asetetuksi
+uusi topiikki, joka esimerkin narratiivisuuden vuoksi tulee asetetuksi
 muita tässä tarkasteltuja uuden topiikin sisältäviä ryhmiä
 implisiittisemmin.  Kaikkiaan ryhmään @ee_narratiivi kuuluu
 `r total` tapausta, joista niistäkin suurin osa (`r otsikoita` kpl)
 sisältää väliotsikon.
 
+```{r, include=FALSE}
+detach(esim.ordered[[10]])
+attach(esim.ordered[[11]])
+```
 Oman, selvästi muista erottuvan ryhmänsä muodostavat ne esimerkin @ee_parisanaa
-edustamat `r esim[["pari sanaa asumisesta"]]$total` tapausta, joissa kirjoittaja
+edustamat `r total` tapausta, joissa kirjoittaja
 eksplisiittisesti ilmaisee siirtyvänsä käsittelemään asumista.
+
+`r esimerkki`
+
 *Sitten pari sanaa asumisesta* -tyyppisten
 johdantovirkkeiden voisi ajatella jossain määrin korvaavan väliotsikoita tekstissä,
 vaikka yksi tähän ryhmään luokiteltu virke
 (*Monella varmaan herää jo kysymys, entäs asuminen?*) tekeekin poikkeuksen.
+Nämä `r total` esimerkkiä edustavat Dikin jaottelussa uusia topiikkeja [-@dik1989, 268], ja
+ovat aiheeseen johdattamisen implisiittisyys--eksplisiittisyys-asteikon
+eksplisiittisessä ääripäässä (vrt. päinvastaisessa ääripäässä sijaitseva ryhmä @ee_lista).
 
 
-Esimerkissä @ee_valimaasto väliotsikko
+```{r, include=FALSE}
+detach(esim.ordered[[11]])
+attach(esim.ordered[[12]])
+```
 
-Pienin ryhmä...
+Laadullisessa analyysissa luokiteltiin omaksi pieneksi ryhmäkseen 
+myös esimerkin @ee_valimaasto kaltaiset `r total` tapausta:
 
 
-Esimerkissä @ee_suurionsa 
+`r esimerkki`
 
 
-Kuten edellä metodin kuvauksen yhteydessä todettiin, edellä kuvatut eri
+Nämä topiikkia asettavat tapaukset sijoittuvat ryhmien @ee_predikaatti,
+@ee_ennakoivat ja @ee_narratiivi välimaastoon. Kuten mainituissa ryhmissä,
+myös näissä tapauksissa kyseessä on varsinainen aiheeseen johdattava
+virke, jossa kappaleen topiikki esitellään uutena avausvirkkeen
+loppupuolella. Myös ryhmässä @ee_valimaasto 
+kuvataan ajallinen jännite, mutta se esitetään usein eri järjestyksessä
+kuin ryhmässä @ee_ennakoivat. Siinä missä esimerkki @ee_ennakoivat
+esitti kappaleen alussa avoimen tilanteen ja myöhemmässä kappaleessa tilanteen
+ratkaisun, aloittaa esimerkki @ee_valimaasto ratkaisusta (saavuttaessa asunto
+oli jo löydetty) ja käyttää lopun kappaleen takaumamaisesti sen kuvailuun,
+miten ratkaisuun päästiin (kirjoittaja oli etsinyt asuntoa valmiiksi Facebookin
+kautta).
+
+```{r, include=FALSE}
+detach(esim.ordered[[12]])
+attach(esim.ordered[[13]])
+```
+
+Pienimmän mutta silti tarkastelemisen arvoisen ryhmän aineistossamme muodostivat
+esimerkki @ee_suurionsa ja kolme muuta vastaavaa tapausta:
+
+`r esimerkki`
+
+Nämä topiikkia asettavat virkkeet ovat lähellä ryhmää @ee_kontrasti, johon luetuissa
+tapauksissa oleellista on kirjoittajan itsensä vertailu muihin. Ryhmässä
+@ee_suurionsa kirjoittaja lähtee liikkeelle siitä, miten yleensä
+tehdään tai miten suurin osa tekee. Tämä voitaisiin esittää 
+vastakohtana omalla kokemukselle, mutta ryhmän @ee_suurionsa tapauksille on
+tyypillistä, että myös kirjoittaja noudattaa kuvailtua ennemmistön toimintatapaa.
+Virke @ee_suurionsa on todella vain keino johdattaa lukija kappaleen varsinaiseen
+aiheeseen, *Ekonom*-nimiseen asuntolaan (uusi topiikki), jonka sijainnista, vuokratasosta
+ja muista ominaisuuksista kappale kertoo. Yhtä lukuun ottamatta 
+kaikki tämän ryhmän tapaukset sisältävät myös asumiseen viittaavan
+väliotsikon.
+
+
+Kuten edellä metodin kuvauksen yhteydessä todettiin, tässä kuvatut eri
 topiikin asettamistapoja edustavat ryhmät on muodostettu
 sijoittamalla aina toisaan muistuttavat tapaukset samaan kategoriaan. Ryhmien
 väliset rajat eivät luonnollisestikaan ole suoraviivaisia, ja jaottelun
-olis voinut tehdä muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän
-tai vähemmän läheisessä yhteydessä toisiinsa. 
+olisi voinut tehdä muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän
+tai vähemmän läheisessä yhteydessä toisiinsa, ja näitä linkkejä
+on tässä esitetyssä kuvauksessa pyritty osoittamaan. Seuraavaksi 
+nyt esiteltyjen ryhmien rakenteellisia tyyppipiirteitä tutkitaan tarkemmin
+määrällisestä näkökulmasta. Argumenttimme on, että vaikka ryhmät on muodostettu
+puhtaasti tulkitsemalla eri tekstien välisiä samankaltaisuuksia,
+on suurimmalle osalle ryhmistä melko yksinkertaista antaa
+myös muodolliset, lähinnä rakenteeseen perustuvat määritelmät,
+joiden soveltaminen voi joillekin kirjoittajille tai opettajulle olla abstrakteja
+funktionaalisten ominaisuuksien kuvailuja helpompaa.
 
 
 

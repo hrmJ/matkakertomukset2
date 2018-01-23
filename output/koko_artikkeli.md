@@ -626,7 +626,7 @@ olleisiin.
 Informaatiorakenteeltaan ryhmän 7 tapaukset ovat nekin tyypillisesti
 alatopiikkeja, ja olettavat indikaattorisanan implikoiman topiikin
 jossain määrin esimerkin 1 kaltaisesti jo asetetuksi. Toisaalta
-esimerkissä 7 on samoja piirteitä kuin esimerkissä 4: myös esimerkissä 7
+esimerkissä 7 on samoja piirteitä kuin esimerkissä 4: myös tässä
 reflektoidaan sitä, mikä omassa kokemuksessa oli helppoa ja mikä
 vaikeaa. Yhdessäkään ryhmän 7 tapauksessa ei ole asumiseen viittaavaa
 väliotsikkoa.
@@ -643,40 +643,103 @@ vaihto tapahtui:
 Ryhmän 8 kirjoittajat eivät lähde liikkeelle omista kokemuksistaan, vaan
 käsittelevät tilannetta laajemmin, tavoitteenaan eräässä mielessä jakaa
 maailmantietoa lukijalleen. Esimerkin 8 edustama ryhmä kattaa kaikkiaan
-10 tapausta, joista 2:ssa (mukaan lukien esimerkki 8) asumisesta
+10 tapausta, joista kahdessa (mukaan lukien esimerkki 8) asumisesta
 kertovaa kappaletta edeltää väliotsikko *Asuminen*.
 
-Esimerkki (<span class="citeproc-not-found"
-data-reference-id="ee_maggytarjosi">**???**</span>)
+Yleistys kirjoittajan oman kokemuspiirin ulkopuolelle voidaan kuitenkin
+tehdä myös toisella tavalla. Esimerkissä 9 ja kahdeksassa muussa
+tapauksessa tämä tapahtuu keskittymällä johonkin ulkoiseen agenttiin,
+jonka toimet vaikuttavat kirjoittajaan yleisesti ja asumisen
+järjestymiseen erityisesti:
 
-Esimerkissä (<span class="citeproc-not-found"
-data-reference-id="ee_narratiivi">**???**</span>) indikaattorina on
-*asuntolaan*-sana. Tämän ryhmän teksteissä asuminen raportoidaan
-kertovan tekstityypin avulla, joka käy tästä esimerkistä esiin erityisen
-selvästi, koska kirjoittaja on käyttänyt ajan ilmausta. Aikamuoto näissä
-tapauksissa on tyypillisesti imperfekti. Kesken tämäkin.
+1.  Suurlähetystön henkilökunta tarjosi resurssiensa puitteissa
+    apuaan mm. maahantuloon, käytännön järjestelyihin sekä asunnon
+    löytämiseen liittyvissä asioissa.
 
-Oman, selvästi muista erottuvan ryhmänsä muodostavat ne esimerkin (<span
-class="citeproc-not-found"
-data-reference-id="ee_parisanaa">**???**</span>) edustamat 6 tapausta,
-joissa kirjoittaja eksplisiittisesti ilmaisee siirtyvänsä käsittelemään
-asumista. *Sitten pari sanaa asumisesta* -tyyppisten johdantovirkkeiden
-voisi ajatella jossain määrin korvaavan väliotsikoita tekstissä, vaikka
-yksi tähän ryhmään luokiteltu virke (*Monella varmaan herää jo kysymys,
-entäs asuminen?*) tekeekin poikkeuksen.
+Esimerkissä 9 on informaatiorakenteen kannalta katsottuna kyse
+esimerkkien 2, 3 ja 6 tapaan uudesta topiikista, mutta sen esittely
+toteutetaan hyödyntämällä jotakin tekstin kannalta keskeistä toimijaa,
+tässä tapauksessa suurlähetystön henkilökuntaa. Kuten ryhmän 7 kohdalla,
+myös ryhmässä 9 yli puolessa tapauksia (55.56 %) asumisesta kertovaa
+kappaletta edeltää väliotsikko.
 
-Esimerkissä (<span class="citeproc-not-found"
-data-reference-id="ee_valimaasto">**???**</span>) väliotsikko
+Esimerkin 10 edustamassa ryhmässä asumisesta raportoidaan kertovan
+tekstityypin avulla, mikä käy tästä esimerkistä esiin erityisen
+selvästi, koska kirjoittaja on käyttänyt ajan ilmausta.
 
-Esimerkissä (<span class="citeproc-not-found"
-data-reference-id="ee_suurionsa">**???**</span>)
+1.  Lensin Wieniin sunnuntaina ja lento-kentältä suuntasin suoraan
+    asunnolleni.
 
-Kuten edellä metodin kuvauksen yhteydessä todettiin, edellä kuvatut eri
+Aikamuoto ryhmän 10 virkkeissä on tyypillisesti imperfekti. Näissäkin
+tapauksissa topiikki-indikaattori on informaatiorakenteen kannalta uusi
+topiikki, joka esimerkin narratiivisuuden vuoksi tulee asetetuksi muita
+tässä tarkasteltuja uuden topiikin sisältäviä ryhmiä implisiittisemmin.
+Kaikkiaan ryhmään 10 kuuluu 9 tapausta, joista niistäkin suurin osa (5
+kpl) sisältää väliotsikon.
+
+Oman, selvästi muista erottuvan ryhmänsä muodostavat ne esimerkin 11
+edustamat 6 tapausta, joissa kirjoittaja eksplisiittisesti ilmaisee
+siirtyvänsä käsittelemään asumista.
+
+1.  Sitten pari sanaa asumisesta.
+
+*Sitten pari sanaa asumisesta* -tyyppisten johdantovirkkeiden voisi
+ajatella jossain määrin korvaavan väliotsikoita tekstissä, vaikka yksi
+tähän ryhmään luokiteltu virke (*Monella varmaan herää jo kysymys, entäs
+asuminen?*) tekeekin poikkeuksen. Nämä 6 esimerkkiä edustavat Dikin
+jaottelussa uusia topiikkeja (1989: 268), ja ovat aiheeseen
+johdattamisen implisiittisyys--eksplisiittisyys-asteikon
+eksplisiittisessä ääripäässä (vrt. päinvastaisessa ääripäässä sijaitseva
+ryhmä 1).
+
+Laadullisessa analyysissa luokiteltiin omaksi pieneksi ryhmäkseen myös
+esimerkin 12 kaltaiset 5 tapausta:
+
+1.  Saapuessani Varsovaan minulla oli onneksi jo asunto tiedossa.
+
+Nämä topiikkia asettavat tapaukset sijoittuvat ryhmien 2, 3 ja 10
+välimaastoon. Kuten mainituissa ryhmissä, myös näissä tapauksissa
+kyseessä on varsinainen aiheeseen johdattava virke, jossa kappaleen
+topiikki esitellään uutena avausvirkkeen loppupuolella. Myös ryhmässä 12
+kuvataan ajallinen jännite, mutta se esitetään usein eri järjestyksessä
+kuin ryhmässä 3. Siinä missä esimerkki 3 esitti kappaleen alussa avoimen
+tilanteen ja myöhemmässä kappaleessa tilanteen ratkaisun, aloittaa
+esimerkki 12 ratkaisusta (saavuttaessa asunto oli jo löydetty) ja
+käyttää lopun kappaleen takaumamaisesti sen kuvailuun, miten ratkaisuun
+päästiin (kirjoittaja oli etsinyt asuntoa valmiiksi Facebookin kautta).
+
+Pienimmän mutta silti tarkastelemisen arvoisen ryhmän aineistossamme
+muodostivat esimerkki 13 ja kolme muuta vastaavaa tapausta:
+
+1.  Lähes kaikki Bratislavan kauppakorkeakoulun vaihto-opiskelijat
+    asuivat Ekonom-nimisessä dormitoryssa.
+
+Nämä topiikkia asettavat virkkeet ovat lähellä ryhmää 7, johon luetuissa
+tapauksissa oleellista on kirjoittajan itsensä vertailu muihin. Ryhmässä
+13 kirjoittaja lähtee liikkeelle siitä, miten yleensä tehdään tai miten
+suurin osa tekee. Tämä voitaisiin esittää vastakohtana omalla
+kokemukselle, mutta ryhmän 13 tapauksille on tyypillistä, että myös
+kirjoittaja noudattaa kuvailtua ennemmistön toimintatapaa. Virke 13 on
+todella vain keino johdattaa lukija kappaleen varsinaiseen aiheeseen,
+*Ekonom*-nimiseen asuntolaan (uusi topiikki), jonka sijainnista,
+vuokratasosta ja muista ominaisuuksista kappale kertoo. Yhtä lukuun
+ottamatta kaikki tämän ryhmän tapaukset sisältävät myös asumiseen
+viittaavan väliotsikon.
+
+Kuten edellä metodin kuvauksen yhteydessä todettiin, tässä kuvatut eri
 topiikin asettamistapoja edustavat ryhmät on muodostettu sijoittamalla
 aina toisaan muistuttavat tapaukset samaan kategoriaan. Ryhmien väliset
-rajat eivät luonnollisestikaan ole suoraviivaisia, ja jaottelun olis
+rajat eivät luonnollisestikaan ole suoraviivaisia, ja jaottelun olisi
 voinut tehdä muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän tai
-vähemmän läheisessä yhteydessä toisiinsa.
+vähemmän läheisessä yhteydessä toisiinsa, ja näitä linkkejä on tässä
+esitetyssä kuvauksessa pyritty osoittamaan. Seuraavaksi nyt esiteltyjen
+ryhmien rakenteellisia tyyppipiirteitä tutkitaan tarkemmin määrällisestä
+näkökulmasta. Argumenttimme on, että vaikka ryhmät on muodostettu
+puhtaasti tulkitsemalla eri tekstien välisiä samankaltaisuuksia, on
+suurimmalle osalle ryhmistä melko yksinkertaista antaa myös muodolliset,
+lähinnä rakenteeseen perustuvat määritelmät, joiden soveltaminen voi
+joillekin kirjoittajille tai opettajulle olla abstrakteja
+funktionaalisten ominaisuuksien kuvailuja helpompaa.
 
 Puu
 ---
@@ -716,7 +779,7 @@ Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan
 kuvata seuraavasti:
 
 ![Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
-tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+tarkasteltuna](/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-16-1.png)
 
 Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen
 rakenne -muuttujan perusteella: jos topiikki-indikaattorina on
