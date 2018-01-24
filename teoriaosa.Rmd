@@ -1,58 +1,34 @@
-﻿(muistissa tässä vain itsellä: nämä eivät ole ns. konventionaalisen raportin muotoisia, raportti ei monialaisen yliopiston repertuaarissa ole keskeinen, sen sijaan tekstit ovat keskenään saman muotoisia ja funktioltaan samanlaisia, joten niitä voisi nimetä omaksi tekstilajikseen, vaihtoraportiksi tai vaihtokertomukseksi.)
+﻿Tekstikappale ja sen topiikki
 
+Tämä tutkimus on soveltava ja jo lähtökohdiltaan tähtää kirjoittamisen oppimisen ja opettamisen kehittämiseen sekä sovellusmahdollisuuksiin. Se asettuu erikoiskielten kontekstiin, mutta lähestyy ennemminkin tekstin, kielen rakenteiden ja leksikon jakamia rajapintoja kuin tekstin kokonaisuutta tai tekstilajin muodostumista sinänsä. Samasta lähtökohdasta on myös valittu keskeinen analyysiyksikkö - tekstikappale - joka on toistaiseksi harvakseltaan ollut tutkimuksen kohteena (ks. kuitenkin x ja y) mutta jonka roolista tekstikokonaisuudessa annetaan toistuvasti ohjeita oppikirjoissa ja kirjoittamisoppaissa. Paltridge (2002) on verrannut tutkielmaoppaita ja todellisten tutkielmien rakennetta ja toteaa, että yhtä mallia esitetään ja todellisuudessa variaatiota on huimasti. Voinee olettaa, että myös tekstikappaleiden tarkastelu tarjoaa kiinnostavaa aineistoa ohjeiden ja toteutusten välisestä todellisuudesta.
 
-Usein puhutaan tekstin makro- ja mikrotasosta. Vaikka tarkastelemme tekstikappaleita ja rajaamme vieläkin pienempään eli avausvirkkeeseen, tutkimuskysymyksemme on ennemmin makro- kuin mikrotasolla. Nimittäin, teksti on jakautunut myös topiikkiin, ylätopiikki jakautuu alatopiikkeihin sisällönkin puolesta, ei ainoastaan funktioiden. Ja kirjoittaja voi yhtäläisesti rakentaa tekstiä niiden avulla. Ja tarvita konkreettista ohjeistusta siihen, miten tämä kielen tasolla tehdään. )
+Tekstilingvistisessä tekstin kokonaisrakenteen analyysissä usein erotetaan tekstin funktionaaliset jaksot ja visuaaliset elementit, tekstikappale lukeutuu jälkimmäisiin. Näin niitä lähestytään lähinnä ortografisina merkkeinä, jotka eivät itsessään ole merkitseviä tekstin rakentumisen kannalta. Kirjoittajan kannalta kappalejako on kuitenkin nähdäksemme hyvin konkreettinen käytännön muovaama työkalu ja funktionaalinen kielenyksikkö. Kirjoittamisoppaissa ja ohjeistuksissa annetaan kuvauksia siitä, millä tavalla teksti rakentuu kappaleistaan, ja millaisia kappaleiden – sisällön ja funktion tasolla – olisi hyvä olla. Lisäksi kappaleiden koherentti toisiinsa sitominen on tyypillisesti arviointikriteeri, esim. ylioppilaskirjoituksissa (viite). 
 
+Erityisesti englanninkielisessä kirjoittamisen opetuksen perinteessä on ollut tapana käyttää topic sentence -käsitettä kuvaamaan virkettä, jolla kirjoittaja ilmaisee kappaleen tärkeimmän ajatuksen. Suomeksi tämä kääntyy nykyisellään useimmiten ydinvirkkeeksi (tähän lähteitä). Ydinvirkkeiden todellisesta yleisyydestä ollaan tutkijoiden keskuudessa kuitenkin montaa mieltä (ks. Smith 2008). Tekstinosan ydin voi sijaita yhtä lailla ortografisen kappaleen alussa kuin muualla (Komppa,) ja kuten Juvonen sanoo, eri tekstityyppejä yhdistellen voi päästä samaan lopputulokseen, jolloin emme voi myöskään rakentaa mitään tiettyyn tekstilajiin soveltuvaa kaavaa. (Tuo pitää muotoilla tarkemmin, löperösti sanottu). Tekstikappaleen ensimmäinen lause tai virke ei yksinään paljastakaan mitään siitä, millaisessa asemassa kappale hierakkisesti on tekstin kokonaisrakenteen kannalta. Kappaleiden välinen sidosteisuus, koheesio ja/tai koherenssi on kuitenkin saatava aikaan jollain tavalla, ja olemassa olevan tutkimuksen perustella voimme olettaa (kenties?) että tekstin sisältö saattaa olla jopa keskeisempi tekijä kuin tekstin kokonaisrakenne. 
 
-
-Korkeakoulun tekstilajit ja niiden hallinta (voisiko olla yläotsikko?)
-
-Tekstikappaleet ja niiden väliset suhteet (alaotsikko)
-
-Tämä tutkimus on alusta alkaen rakennettu tähdäten opiskelun ja opettamisen sovellusmahdollisuuksiin. Samasta lähtökohdasta on myös valittu keskeinen analyysiyksikkö, joka on siis tekstikappale. 
-Tekstin kokonaisrakenteen analyysissä on tyypillistä erottaa toisaalta funktionaaliset jaksot ja toisaalta visuaaliset elementin, tekstikappale lukeutuu jälkimmäiseen. Valintamme poikkeaa useimmista lähestymistavoista, sillä tyypillisesti tekstikappaleita ei tarkastella itsenäisinä kokonaisuuksina tekstilingvistisessä siirtoanalyysissä (pari lähdettä) eikä retorisen rakenteen analyysissä (pari lähdettä), jotka Suomen kontekstissa ovat keskeisimmät lähestymistavat opiskelutekstien analyysiin. Toisin sanoen tekstikappaleita pidetään lähinnä ortografisina merkkeinä, jotka eivät itsessään ole merkitseviä tekstin rakentumisen kannalta.
-
-Kirjoittajan kannalta kappalejako on kuitenkin hyvin konkreettinen ja käytännön sanelema työkalu. Kirjoittamisoppaissa ja ohjeistuksissa annetaan kuvauksia siitä, millä tavalla teksti rakentuu kappaleistaan, ja millaisia kappaleiden – sisällön ja funktion tasolla – olisi hyvä olla. Lisäksi kappaleiden koherentti toisiinsa sitominen on tyypillisesti arviointikriteeri, esim. ylioppilaskirjoituksissa (viite). Kirjoittamisprosessin kuluessa kirjoittaja voi kirjoittaa sisältöä eri topiikeista ja vasta esim. editointivaiheessa rakentaa tekstiä hierarkkiseksi kokonaisuudeksi. ”Tämä työ asettuu monessa suhteessa myös erikoiskielten tutkimuksen kontekstiin, joissa motivaationa on hankkia deskriptiivistä tietoa akateemisista tai professionaalisista tekstilajeista. Näissä tuloksia ja sovelluksia mallinnetaan erityisesti L2-käyttäjien näkökulmasta, mutta aineisto on syntyperäisten tuottamaa. (Vuorijärvi 96.)”
-
-
-Vuorijärvi on siirtotyyppien analyysillä saanut selville joukon kielellisiä resursseja, joista kielenkäyttäjän on mahdollista valita sopivimmat ja hänen mukaansa näitä valintoja ohjaa lähinnä tekstilaji, tässä tapauksessa opinnäytetyö(s. 213-214). Vuorijärvi tarkastelee työssään ammattikorkeakoulun opinnäytetyöiden tekstuaalista rakentumista, erityisesti diskussio-osiota. Hän kuvaa perinteisen, tutkimuslähtöisen mallin, jossa on osat: johdanto, menetelmä ja aineisto, tulokset ja pohdinta. Noin puolet Vuorijärven aineistosta asettuu tutkimuslähtöiseen malliin kategoriaan. (s. 81). Lisäksi Vuorijärvi esittelee Paltridgeä mukaillen topiikkipohjaisen rakenteen (me siis jatkossa myös)(s. 75). Tekstin aihetta siis avataan osa kerrallaan. Topiikilla tarkoitetaan tässä yhteydessä sisältötopiikkia eli aihetta tai aihepiiriä, josta tekstissä sanotaan jotakin. Vuorijärvi esittelee (s. 75-76) Paltridgen 2002, 135 mukaisen skeeman 
-Johdanto
-Topiikki 1
-Topiikki 2
-Topiikki 3
-…..
-Päätelmät
-
-(tällaiseen skeemaan yliopiston antama ohjekin kevyesti ohjaa, tosin johdantoa ja päätelmiä ei mainita, mutta ne ovat ikään kuin läsnä annetuissa topiikeissa)
-
-
-Myös retorisen rakenteen teoriassa pyritään pääsemään käsiksi tekstinosien välisiin suhteisiin, ja teoria rakentuu oletukselle, että tekstinosat ovat hierakkisessa suhteessa toisiinsa. Tässä tutkimuksessa ei kuitenkaan ole tutkittu tekstinosien välisiä suhteita, vaan liikutaan topiikkien tasolla. Kuten Komppakin kirjoittaa, tekstinosa ydin voi sijaita yhtälailla ortografisen kappaleen alussa tai muualla ja kuten Juvonen sanoo, eri tekstityyppejä yhdistellen voi päästä samaan lopputulokseen, ei oletuksemme voi olla, että ortografisen kappaleen ensimmäinen lause tai virke yksinään paljastaisikaan mitään siitä, millaisessa asemassa kappale hierakkisesti on tekstin kokonaisrakenteen kannalta. Yhtälaisesti kuin että mitä tekstissäni seuraavaksi teen, kirjoittajalla voi olla ajatus siitä, mistä asiasta, eli topiikista haluaisi seuraavaksi kirjoittaa. Hän siis tarvitsee myös sisällölisen linkin, joka on mukana rakentamassa tekstin kokonaiskoherenssia. Lähdemme siis oletuksesta, että topiikit eivät ole sidoksissa vaiheisiin, jaksoihin tai muihin tekstin rakenteen kannalta keskeisiin osiin.
-
-
-Vaihtoraportit ovat kokonaisrakenteeltaan pääosin topiikkipohjaisia - retorisen rakenteen teorian läpi tarkasteluna moniytimisiä. Näin ollen jokainen tekstikappale aloittaa uuden tekstikokonaisuuden, joka ei niinkään asetu hierakiseen suhteeseen edeltävien tekstikappaleiden kanssa, vaan ennemminkin on joko sekventiaalisesti tai listamaisesti jäsentynyt tekstin päätopiikin alle.
-Tämän tutkimuksen aineisto sisältää pääosin tekstejä, joiden osat ovat moniytimisessä suhteessa, jolloin osat ovat ennemmin rinnasteisia, keskenään tasavertaisia, eikä yhtä voida asettaa toisten ytimeksi. Komppa s. 39 antaa esimerkin sarjasta sekvenssisuhteita, jos haluamme hyödyntää.  
+Tekstikappaleen ytimen tavoittelun sijaan selvitämmekin, minkälaisten kielellisten (?) vihjeiden avulla lukija johdatellaan kappaleen aiheeseen. Näitä vihjeitä nimitämme indikaattoreiksi, joiden avulla kirjoittaja asettaa topiikin (indikaattoreista tarkemmin kohdassa x). Kartoitamme laajahkosta aineistosta lekseemit ja rakenteet, joita varioimalla eri kirjoittajat asettavat samaa tekstikappaleen topiikkia. Topiikin määritelmä palautuu Herra Dikin funktionaaliseen kielioppiin (?), jonka ytimenä ovat koherentit tekstit, jotka itsessään ja joiden sisältämät osat puhuvat aina jostakin aiheesta, eli niillä on topiikki. Kokonaisella tekstillä on siis topiikki, josta käytämme tässä termiä diskurssitopiikki, samoin tekstinosilla (kappaleilla, lauseilla, virkkeillä) on omat topiikkinsa. 
+Tekstin topiikit ketjuttuvat (topical chains, ks. myös Givon) ja ilmiötä voisi kuvat käsitteellä aiheisuus (aboutness). Aiheisuus ei suoraan ota kantaa tekstin informaatiorakenteeseen tai teemankulkuun, vaan on askelta ylemmän tason käsite (keskustelua aiheesta ja eri tavoista käsitteellistää ilmiötä ks. Shore 2008). Meitä kiinnostaa eritoten ketjun alkupää eli se, millä tavalla kappaleen topiikki saa alkunsa. Dik erottaa  mallissaan alalajeja, joiden avulla on mahdollista kuvata ketjujen alkuja ja topiikin ketjuttumista: lajit newtop, givtop, xtop.  
 
 
 
 
-(Lopeta tämä kappale tähän) Suomalaisissa oppilaitoksissa ja korkeakouluissa akateemiseen kirjoittamiseen ja tekstin tuottamiseen ei ole syvennytty samassa määrin kuin esim. USA:ssa, jossa akateemista kirjoittamista tyypillisesti opetetaan tehostetummin ja on myös tutkittu pitkään [@camp2012].  
+Minä haluaisin ottaa tähän sitten tarkemmin tämän, ihan oma kappaleensa?
+Yleensä subtop kuvataan tapana jatkaa topiikkiketjua eikä alkaa sitä. (ks. artikkeli topical chains drivessä)
+Subtopissa voi nähdä yhteyden esim. tekstin implisittiseen teemaan, Shore)
+
+1)	johdantotopiikki, kun tämä on esitelty, framille tulee 2) mainittu/given-topiikki (meillä ainoastaan linkkitapaukset) 3) alatopiikki s. 275 (lista) 
+
+Miten alemman tason topiikista siirrytään seuraavaan.   (kts. Dik 270)
 
 
 
-Topiikin asettaminen (alaotsikko)
 
 
-Erityisesti englanninkielisessä kirjoittamisen opetuksen perinteessä on ollut tapana käyttää topic sentence -käsitettä kuvaamaan virkettä, jolla kirjoittaja ilmaisee kappaleen tärkeimmän ajatuksen. Suomeksi tämä kääntyy nykyisellään useimmiten ydinvirkkeeksi (tähän lähteitä). Ydinvirkkeiden todellisesta yleisyydestä ollaan tutkijoiden keskuudessa kuitenkin montaa mieltä. ks. Smith 2008). 
+Retorisen rakenteen teoria (ks. esim. Komppa ja jokin kv-lähde) rakentuu oletukselle, että tekstinosat ovat hierakkisessa suhteessa toisiinsa. Tästä huolimatta aineistopohjaisissa tutkimuksissa on paikallistettu huomattava joukko hierarkkisten tekstien rinnalla esiintyviä ns. moniytimisiä tekstejä, joiden osat ovat ennemmin rinnasteisia, keskenään tasavertaisia, eikä yhtä voida asettaa toisten ytimeksi (Komppa, ainakin s. 39). Vuorijärvi on päätynyt samanlaisiin löydöksiin siirtoanalyysin avulla. Vuorijärvi esittelee Paltridgeä (2002, 135) mukaillen topiikkipohjaisen rakenteen, jossa tekstin aihetta avataan ikään kuin osa kerrallaan. (Vuorijärvi. 75). Tämä topiikkipohjainen skeema kuvaa hyvin aineistonamme olevien matkaraporttien tekstilajia, ja käytämmekin topiikin käsitettä mukaillen mainittuja lähteitä. Toisin sanoen puhumme sisältötopiikista eli aiheesta tai aihepiiristä, josta tekstissä sanotaan jotakin. 
 
+Johdanto, Topiikki 1, Topiikki 2, Topiikki 3  ….. Päätelmät
 
-
-Tekstikappaleen ytimen tavoittelun sijaan tarkoituksenamme onkin tässä tutkimuksessa selvittää, minkälaisten vihjeiden avulla lukija johdatellaan kappaleen aiheeseen. Näitä vihjeitä nimitämme indikaattoreiksi. Tavoitteenamme oli siis kartoittaa rakenteet, joita varioimalla kirjoittajat indikoivat kappaleen topiikkia. Yksi keskeinen kriteeri mm.  äidinkielen ylioppilaskokeen arvioinnissa on kappaleiden sujuva liittyminen toisiinsa (Ylioppilastutkintolautakunta 2017). Lopputuloksena hahmottelemme asumiseen liittyvien topiikki-indikaattorien taksonomiaa
-
-
-Samoin Paltridge (2002) on verranut tutkielmaoppaita ja todellisten tutkielmien rakennetta ja toteaa, että yhtä mallia esitetään ja todellisuudessa variaatiota on huimasti. Tässä meidän tapauksessamme jo yliopiston antama ohjeistus ohjaa kirjoittajaa Paltridgen kuvaamaan topiikkipohjaiseen jäsennykseen (jota myös Komppa ja Vuorijärvi ovat löytäneet) sen sijaan, että odotukseksi asetettaisiin konventiaalisen raportin malli, johon ohjataan esim. ammattikorkeakoulujen kirjoitusoppaissa (ks. esim. viiten Jyväskylän yliopiston sivuille, viite olemassa jo.)
-
-JA sitten voisi jatkua Dik & alatopiikit tähän omaksi kokonaisuudekseen, mutta tämän kirjoittaminen lienee viisasta, kun tulososa on hahmollaan.
-
+Yliopiston antama kirjoitusohje kevyesti ohjaa tällaiseen tekstin rakentamiseen ja on näin mukana rakentamassa tutkimuksessa tarkasteltua tekstilajia. Jokainen tekstikappale aloittaa uuden tekstikokonaisuuden, joka ei niinkään asetu hierakiseen suhteeseen edeltävien tekstikappaleiden kanssa, vaan ennemminkin on joko sekventiaalisesti tai listamaisesti jäsentynyt tekstin diskiurssitopiikin alle. Ja tästä sitten voisimme nostaa yleiselle kirjoitustaiton tasoa kuvaavalle scenelle, jossa puhutaan kirjoittajan näkökulmista. Mutta tämä sitten, kun olen saanut sen osion valmiiksi.
 
 
 
