@@ -24,7 +24,7 @@ library(SataTapaa)
 
 `r knit_child('johdanto.Rmd', quiet=T)`
 
-# Teoriaa (otsikko auki)
+# Tekstikappale ja sen topiikki
 
 `r knit_child('teoriaosa.Rmd', quiet=T)`
 
