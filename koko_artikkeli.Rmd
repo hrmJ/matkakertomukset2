@@ -40,26 +40,19 @@ ryhmään. Osiossa 4.1. kutakin ryhmää luonnehditaan yleisellä tasolla tarkas
 lähemmin yhtä edustavaa esimerkkiä. Vaikka varsinainen ryhmäjako on tehty
 puhtaan laadullisin perustein pohjaamalla tapausten keskinäiseen
 samankaltaisuuteen, tulkitaan osiossa 4.2. analyysin tulosta eli 
-itse jaottelua määrällisten ominaisuuksien pohjalta. Osio 4.3
-peilaa tässä tehtyä ryhmittelyä aiempiin tutkimuksiin ja siihen, miten tässä
-funktionaalisin perustein tehty jaottelu  osuu yksiin sen kanssa, miten tekstejä
-on toisaalla jaoteltu kirjoittajan näkökulman perusteella.
+itse jaottelua määrällisten ominaisuuksien pohjalta. 
 
 
-## Yleiskatsaus tavoista asettaa topiikki
+## Laadullinen analyysi
 
 
 
 `r knit_child('yleiskuva.Rmd', quiet=T)`
 
 
-## Puu
+## Määrällinen analyysi
 
 `r knit_child('puu.Rmd', quiet=T)`
-
-## Kirjoittajan näkökulma
-
-`r knit_child('nakokulma.Rmd', quiet=T)`
 
 # Päätelmät
 

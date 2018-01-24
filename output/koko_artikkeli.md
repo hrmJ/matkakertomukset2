@@ -134,26 +134,30 @@ jollain tavalla, ja olemassa olevan tutkimuksen perustella voimme
 olettaa (kenties?) että tekstin sisältö saattaa olla jopa keskeisempi
 tekijä kuin tekstin kokonaisrakenne.
 
-Tekstikappaleen ytimen tavoittelun sijaan selvitämmekin, minkälaisten
-kielellisten (?) vihjeiden avulla lukija johdatellaan kappaleen
-aiheeseen. Näitä vihjeitä nimitämme indikaattoreiksi, joiden avulla
-kirjoittaja asettaa topiikin (indikaattoreista tarkemmin kohdassa x).
-Kartoitamme laajahkosta aineistosta lekseemit ja rakenteet, joita
-varioimalla eri kirjoittajat asettavat samaa tekstikappaleen topiikkia.
-Topiikin määritelmä palautuu Herra Dikin funktionaaliseen kielioppiin
-(?), jonka ytimenä ovat koherentit tekstit, jotka itsessään ja joiden
-sisältämät osat puhuvat aina jostakin aiheesta, eli niillä on topiikki.
-Kokonaisella tekstillä on siis topiikki, josta käytämme tässä termiä
-diskurssitopiikki, samoin tekstinosilla (kappaleilla, lauseilla,
-virkkeillä) on omat topiikkinsa. Tekstin topiikit ketjuttuvat (topical
-chains, ks. myös Givon) ja ilmiötä voisi kuvat käsitteellä aiheisuus
-(aboutness). Aiheisuus ei suoraan ota kantaa tekstin
-informaatiorakenteeseen tai teemankulkuun, vaan on askelta ylemmän tason
-käsite (keskustelua aiheesta ja eri tavoista käsitteellistää ilmiötä ks.
-Shore 2008). Meitä kiinnostaa eritoten ketjun alkupää eli se, millä
-tavalla kappaleen topiikki saa alkunsa. Dik erottaa mallissaan
-alalajeja, joiden avulla on mahdollista kuvata ketjujen alkuja ja
-topiikin ketjuttumista: lajit newtop, givtop, xtop.
+Tekstikappaleen ytimen tavoittelun sijaan kohdistammekin huomiomme
+siihen, miten kirjoittaja toteuttaa siirtymän aiheesta toiseen.
+Nimitämme siirtymän toteuttavia virkkeitä Juvosta (XX) mukaillen
+*topiikkia asettaviksi*. Tutkimuksemme kartoittaa eri tapoja asettaa
+topiikkia tarkastelemalla laajahkosta aineistosta sitä, miten eri
+kirjoittavat ovat siirtyneet yhteen ja samaan topiikkiin.
+
+Käyttämämme topiikin määritelmä perustuu Simon Dikin esitykseen
+kielioppiin lekseemit ja rakenteet, joita varioimalla eri kirjoittajat
+asettavat samaa tekstikappaleen topiikkia. Topiikin määritelmä palautuu
+Herra Dikin funktionaaliseen kielioppiin (?), jonka ytimenä ovat
+koherentit tekstit, jotka itsessään ja joiden sisältämät osat puhuvat
+aina jostakin aiheesta, eli niillä on topiikki. Kokonaisella tekstillä
+on siis topiikki, josta käytämme tässä termiä diskurssitopiikki, samoin
+tekstinosilla (kappaleilla, lauseilla, virkkeillä) on omat topiikkinsa.
+
+Tekstin topiikit ketjuttuvat (topical chains, ks. myös Givon) ja ilmiötä
+voisi kuvat käsitteellä aiheisuus (aboutness). Aiheisuus ei suoraan ota
+kantaa tekstin informaatiorakenteeseen tai teemankulkuun, vaan on
+askelta ylemmän tason käsite (keskustelua aiheesta ja eri tavoista
+käsitteellistää ilmiötä ks. Shore 2008). Meitä kiinnostaa eritoten
+ketjun alkupää eli se, millä tavalla kappaleen topiikki saa alkunsa. Dik
+erottaa mallissaan alalajeja, joiden avulla on mahdollista kuvata
+ketjujen alkuja ja topiikin ketjuttumista: lajit newtop, givtop, xtop.
 
 Minä haluaisin ottaa tähän sitten tarkemmin tämän, ihan oma kappaleensa?
 Yleensä subtop kuvataan tapana jatkaa topiikkiketjua eikä alkaa sitä.
@@ -410,13 +414,10 @@ luonnehditaan yleisellä tasolla tarkastelemalla lähemmin yhtä edustavaa
 esimerkkiä. Vaikka varsinainen ryhmäjako on tehty puhtaan laadullisin
 perustein pohjaamalla tapausten keskinäiseen samankaltaisuuteen,
 tulkitaan osiossa 4.2. analyysin tulosta eli itse jaottelua määrällisten
-ominaisuuksien pohjalta. Osio 4.3 peilaa tässä tehtyä ryhmittelyä
-aiempiin tutkimuksiin ja siihen, miten tässä funktionaalisin perustein
-tehty jaottelu osuu yksiin sen kanssa, miten tekstejä on toisaalla
-jaoteltu kirjoittajan näkökulman perusteella.
+ominaisuuksien pohjalta.
 
-Yleiskatsaus tavoista asettaa topiikki
---------------------------------------
+Laadullinen analyysi
+--------------------
 
 Käymme tässä alaluvussa laadullisen analyysin tuloksena syntyneet ryhmät
 läpi niiden koon mukaisessa järjestyksessä suurimmasta pienimpään.
@@ -677,8 +678,8 @@ lähinnä rakenteeseen perustuvat määritelmät, joiden soveltaminen voi
 joillekin kirjoittajille tai opettajulle olla abstrakteja
 funktionaalisten ominaisuuksien kuvailuja helpompaa.
 
-Puu
----
+Määrällinen analyysi
+--------------------
 
 Tekstuaalisia funktioita ja ja kappaletason elementtejä kuvattaessa on
 usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa". Jos opettaja haluaa
@@ -846,13 +847,6 @@ Taulukko 2: Kvantitatiivisesti pääteltävissä olevat ryhmät
 Taulukossa 2 on esitetty... Lisäksi...
 
 Huomaa: sijainnilla ei tässä puussa merkitystä..
-
-Kirjoittajan näkökulma
-----------------------
-
-"Lingvististen piirteiden tanssi"
-
-Tänne Kirsin ajatus kolmijaosta (writer oriented etc.)
 
 Päätelmät
 =========
