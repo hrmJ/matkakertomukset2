@@ -7,7 +7,8 @@ output:
     number_sections: true
     includes:
         in_header: formatting/preamble.tex
-  word_document: default
+  word_document: 
+        reference_docx: tyyliohje.docx
   md_document: default
 bibliography: bibliography.bib
 csl: formatting/utaltl.csl
@@ -42,10 +43,7 @@ puhtaan laadullisin perustein pohjaamalla tapausten keskinäiseen
 samankaltaisuuteen, tulkitaan osiossa 4.2. analyysin tulosta eli 
 itse jaottelua määrällisten ominaisuuksien pohjalta. 
 
-
 ## Laadullinen analyysi
-
-
 
 `r knit_child('yleiskuva.Rmd', quiet=T)`
 
@@ -57,5 +55,3 @@ itse jaottelua määrällisten ominaisuuksien pohjalta.
 # Päätelmät
 
 `r knit_child('paatelmia.Rmd', quiet=T)`
-
-# Lähteet

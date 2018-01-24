@@ -47,8 +47,7 @@ kategoriaan.
 
 Näiden muuttujien perusteella rakennettiin päätöksentekopuu R-ohjelmiston
 *party*-kirjastoon kuuluvaa *ctree*-funktiota [@party] käyttäen. 
-Analyysin tulos on esitetty kuviossa `r Ref('fig', 'ff_tree')` (tilan
-säästämiseksi kuvio on esitetty kierrettynä vaakatasoon).
+Analyysin tulos on esitetty kuviossa `r Ref('fig', 'ff_tree')`.
 
 ```{r, echo=FALSE, out.extra='angle=90', fig.width=14,fig.height=10,fig.cap=Ref('fig','ff_tree','Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna')}
 
@@ -72,8 +71,8 @@ plot(puu,
 Kuviossa `r Ref('fig', 'ff_tree')` tutkimusaineisto
 on jaettu kymmeneen ryhmään (kuvion alimmalla rivillä esitetyt
 pylväskaaviot) edellä kuvattujen selittävien muuttujien perusteella.
-Kuvio esittää eri selittävien muuttujien vaikutuksen selitettävään 
-muuttujaan sarjana päätöksiä (kuvan ympyränmuotoiset noodit), jotka on numeroitu
+Kuvio esittää selittävien muuttujien vaikutuksen 
+sarjana päätöksiä (kuvion ympyränmuotoiset noodit), jotka on numeroitu
 yhdestä 19:ään, esimerkiksi: *jos jonkin tapauksen dependenssirooli
 on predikaatti (noodi 1) ja pääverbin persoona ensimmäinen (noodi 15) ja jos lisäksi
 tapausta ei edellä väliotsikko, kyseessä on aina ryhmään @ee_predikaatti
@@ -89,12 +88,14 @@ kustakin ryhmästä annettiin edellä funktionaalinen kuvaus, on ryhmiä
 mahdollista kuvailla melko pitkälle myös rakenteellisten ominaisuuksien
 valossa. Karkeasti ottaen voidaan todeta, että suurin osa laadullisen analyysin
 tuloksena laadituista kolmestatoista ryhmästä  pystytään päättelemään
-hyödyntämällä kolmea yksinkertaista rakenteellisen mikrotason muuttujaa:
+hyödyntämällä kolmea[^sijaintihom] yksinkertaista rakenteellisen mikrotason muuttujaa:
 verbin persoonaa, aikamuotoa ja indikaattorisanan dependenssiroolia.
 Taulukossa `r Ref('tab', 'tt_ryhmatpuusta')` on tiivistetty
 näiden muuttujien vaikutus topiikkia asettavan virkkeen päätymiseen
-johonkin laadullisessa analyysissa määritellyistä ryhmistä:
+johonkin laadullisessa analyysissa määritellyistä ryhmistä. 
 
+[^sijaintihom]: Päätöksentekopuun tuottaneessa algoritmissa indikaattorin sijainti osoittautui
+hieman yllättäenkin merkityksettömäksi.
 
 ```{r, echo=FALSE, results="asis"}
 library(pander)
@@ -111,15 +112,21 @@ pander(tab, caption=Ref('tab','tt_ryhmatpuusta','Kvantitatiivisesti pääteltäv
 ```
 
 
-Taulukossa `r Ref('tab', 'tt_ryhmatpuusta')` on esitetty...
-Lisäksi...
+Taulukon mukaan ryhmä @ee_lista voidaan rakenteiden tasolla määritellä siten, että
+siinä on nominaalinen topiikki-indikaattori, jonka pääverbi esiintyy ensimmäisessä
+persoonassa ja imperfektissä. Ryhmän @ee_omakokemus puolestaan erottaa 
+muista se, että asumisaiheeseen viitataan siinä jollakin kompleksisella
+lausekkeella, kuten *asunnon hankinta* tai *asumisen järjestäminen*. Ryhmä @ee_ennakoivat
+taas voidaan määritellä ennen kaikkea aikamuodon pohjalta: siihen 
+kuuluvat tapaukset, joissa verbi on pluskvamperfektissä.
+Ainoastaan ryhmien @ee_narratiivi, @ee_parisanaa ja @ee_valimaasto  osalta ei tässä esitetyn
+päätöksentekopuun perusteella voida esittää selkeitä piirteitä, jotka johtaisivat
+tapauksen sijoittamiseen juuri näihin ryhmiin. Lisäksi on huomattava,
+että esimerkin sijoittaminen ryhmään @ee_linkki on perustunut täysin 
+artikkelin kirjoittajien tulkintaan: se, että tulevaa topiikkia
+on eksplisiittisesti pohjustettu aiemmassa tekstissä, ei ole pääteltävissä
+siitä, minkälaisia rakenteita topiikkia asettavassa virkkeessä
+on käytetty.
 
-Huomaa: sijainnilla ei tässä puussa merkitystä.. 
 
-
-```{r, echo=FALSE}
-
-
-
-```
-
+Päätelmäluvun puolelle se, miä tästä kaikesta seuraa.

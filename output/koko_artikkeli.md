@@ -730,8 +730,7 @@ selittävien muuttujien avulla.
 
 Näiden muuttujien perusteella rakennettiin päätöksentekopuu
 R-ohjelmiston *party*-kirjastoon kuuluvaa *ctree*-funktiota (Hothorn ym.
-2006) käyttäen. Analyysin tulos on esitetty kuviossa 3 (tilan
-säästämiseksi kuvio on esitetty kierrettynä vaakatasoon).
+2006) käyttäen. Analyysin tulos on esitetty kuviossa 3.
 
 <img src="/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-16-1.png" alt="Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna" angle=90 />
 <p class="caption">
@@ -741,15 +740,14 @@ tarkasteltuna
 
 Kuviossa 3 tutkimusaineisto on jaettu kymmeneen ryhmään (kuvion
 alimmalla rivillä esitetyt pylväskaaviot) edellä kuvattujen selittävien
-muuttujien perusteella. Kuvio esittää eri selittävien muuttujien
-vaikutuksen selitettävään muuttujaan sarjana päätöksiä (kuvan
-ympyränmuotoiset noodit), jotka on numeroitu yhdestä 19:ään,
-esimerkiksi: *jos jonkin tapauksen dependenssirooli on predikaatti
-(noodi 1) ja pääverbin persoona ensimmäinen (noodi 15) ja jos lisäksi
-tapausta ei edellä väliotsikko, kyseessä on aina ryhmään 2 kuuluva
-tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti (noodi 1),
-joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on kyseessä
-useimmiten ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat
+muuttujien perusteella. Kuvio esittää selittävien muuttujien vaikutuksen
+sarjana päätöksiä (kuvion ympyränmuotoiset noodit), jotka on numeroitu
+yhdestä 19:ään, esimerkiksi: *jos jonkin tapauksen dependenssirooli on
+predikaatti (noodi 1) ja pääverbin persoona ensimmäinen (noodi 15) ja
+jos lisäksi tapausta ei edellä väliotsikko, kyseessä on aina ryhmään 2
+kuuluva tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti
+(noodi 1), joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on
+kyseessä useimmiten ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat
 mahdollisia. Jokaisen noodin kohdalle on myös merkitty p-arvo (tästä
 tarkemmin).
 
@@ -759,11 +757,11 @@ perusteella ja kustakin ryhmästä annettiin edellä funktionaalinen
 kuvaus, on ryhmiä mahdollista kuvailla melko pitkälle myös
 rakenteellisten ominaisuuksien valossa. Karkeasti ottaen voidaan todeta,
 että suurin osa laadullisen analyysin tuloksena laadituista
-kolmestatoista ryhmästä pystytään päättelemään hyödyntämällä kolmea
+kolmestatoista ryhmästä pystytään päättelemään hyödyntämällä kolmea[5]
 yksinkertaista rakenteellisen mikrotason muuttujaa: verbin persoonaa,
 aikamuotoa ja indikaattorisanan dependenssiroolia. Taulukossa 2 on
 tiivistetty näiden muuttujien vaikutus topiikkia asettavan virkkeen
-päätymiseen johonkin laadullisessa analyysissa määritellyistä ryhmistä:
+päätymiseen johonkin laadullisessa analyysissa määritellyistä ryhmistä.
 
 <table>
 <colgroup>
@@ -844,9 +842,23 @@ päätymiseen johonkin laadullisessa analyysissa määritellyistä ryhmistä:
 
 Taulukko 2: Kvantitatiivisesti pääteltävissä olevat ryhmät
 
-Taulukossa 2 on esitetty... Lisäksi...
+Taulukon mukaan ryhmä 1 voidaan rakenteiden tasolla määritellä siten,
+että siinä on nominaalinen topiikki-indikaattori, jonka pääverbi
+esiintyy ensimmäisessä persoonassa ja imperfektissä. Ryhmän 4 puolestaan
+erottaa muista se, että asumisaiheeseen viitataan siinä jollakin
+kompleksisella lausekkeella, kuten *asunnon hankinta* tai *asumisen
+järjestäminen*. Ryhmä 3 taas voidaan määritellä ennen kaikkea aikamuodon
+pohjalta: siihen kuuluvat tapaukset, joissa verbi on
+pluskvamperfektissä. Ainoastaan ryhmien 10, 11 ja 12 osalta ei tässä
+esitetyn päätöksentekopuun perusteella voida esittää selkeitä piirteitä,
+jotka johtaisivat tapauksen sijoittamiseen juuri näihin ryhmiin. Lisäksi
+on huomattava, että esimerkin sijoittaminen ryhmään 5 on perustunut
+täysin artikkelin kirjoittajien tulkintaan: se, että tulevaa topiikkia
+on eksplisiittisesti pohjustettu aiemmassa tekstissä, ei ole
+pääteltävissä siitä, minkälaisia rakenteita topiikkia asettavassa
+virkkeessä on käytetty.
 
-Huomaa: sijainnilla ei tässä puussa merkitystä..
+Päätelmäluvun puolelle se, miä tästä kaikesta seuraa.
 
 Päätelmät
 =========
@@ -863,9 +875,6 @@ siitä, ettei tietoisesti rakenneta, vaan vedetään assosiatiivisesti?
 tavoista aloittaa kappale?
 
 1.  Konkreettinen sovellus fraasipankissa tms.
-
-Lähteet
-=======
 
 Biber, Douglas, Ulla Connor & Thomas A. Upton 2007. *Discourse on the
 move: Using corpus analysis to describe discourse structure* Vsk. 28.
@@ -926,3 +935,6 @@ perusteella.
 [4] Perfektitapauksia aineistossa oli vain yksi ja sekin
 konditionaalissa, joten molemmat suomen liittoaikamuodot yhdistettiin
 samaan kategoriaan.
+
+[5] Päätöksentekopuun tuottaneessa algoritmissa indikaattorin sijainti
+osoittautui hieman yllättäenkin merkityksettömäksi.
