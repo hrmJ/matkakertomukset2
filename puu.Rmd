@@ -5,10 +5,12 @@ Jos opettaja haluaa konkretisoida eri tekstistrategioita,
 hänen on tavallisesti turvauduttava vain abstrakteihin määritelmiin.
 Yhtenä tämän tutkimuksen tarkoituksena on kuitenkin tuottaa myös
 toisenlaista, rakenteiden tason tietoa...
-Tätä tietoa on kerätty seuraavan ehdollisen luokittelupuuanalyysin 
-avulla.
+Tätä tietoa on kerätty seuraavassa soveltamalla 
+laadullisen analyysin tuloksena saatuun ryhmäjakoon
+määrällisiä menetelmiä, tarkemmin ottaen ehdollisia päätöksentekopuita
+(*conditional inference trees*).
 
-Ehdollisissa luokittelupuissa (*conditional inference tree*) ajatuksena on, että
+Ehdollisissa päätöksentekopuissa  ajatuksena on, että
 [@levshina2015, x] . Analyysissa määritellään yksi selitettävä muuttuja [vrt. @ketokivi2015, x]
 ja (tavallisesti useita) selittäviä muuttujia, joiden avulla jonkin tapauksen
 päätymistä johonkin luokkaan pyritään ennustamaan. Nyt käsillä olevassa tutkimuksessa
@@ -43,7 +45,7 @@ muuttujien avulla.
 konditionaalissa, joten molemmat suomen liittoaikamuodot yhdistettiin samaan
 kategoriaan.
 
-Näiden muuttujien perusteella rakennettiin luokittelupuu R-ohjelmiston
+Näiden muuttujien perusteella rakennettiin päätöksentekopuu R-ohjelmiston
 *party*-kirjastoon kuuluvaa *ctree*-funktiota [@party] käyttäen. 
 Analyysin tulos on esitetty kuviossa `r Ref('fig', 'ff_tree')` (tilan
 säästämiseksi kuvio on esitetty kierrettynä vaakatasoon).
@@ -72,37 +74,39 @@ on jaettu kymmeneen ryhmään (kuvion alimmalla rivillä esitetyt
 pylväskaaviot) edellä kuvattujen selittävien muuttujien perusteella.
 Kuvio esittää eri selittävien muuttujien vaikutuksen selitettävään 
 muuttujaan sarjana päätöksiä (kuvan ympyränmuotoiset noodit), jotka on numeroitu
-yhdestä 19:ään, esimerkiksi: *jos jonkin aineiston tapauksen dependenssirooli
-on predikaatti (noodi 1) ja verbin persoona ensimmäinen (noodi 15) ja jos lisäksi
+yhdestä 19:ään, esimerkiksi: *jos jonkin tapauksen dependenssirooli
+on predikaatti (noodi 1) ja pääverbin persoona ensimmäinen (noodi 15) ja jos lisäksi
 tapausta ei edellä väliotsikko, kyseessä on aina ryhmään @ee_predikaatti
 kuuluva tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti (noodi 1),
 joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on kyseessä useimmiten
 ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat mahdollisia.
 Jokaisen noodin kohdalle on myös merkitty p-arvo (tästä tarkemmin).
 
-```{r, echo=FALSE}
 
-gft <- read.csv(system.file("extdata", "groups_from_tree.csv", package="SataTapaa"),sep="\t")
+Oleellista tässä esitetyssä päätöksentekopuussa on, että vaikka itse luokittelu
+ryhmiin tehtiin puhtaasti artikkelin kirjoittajien tulkinnan perusteella ja
+kustakin ryhmästä annettiin edellä funktionaalinen kuvaus, on ryhmiä
+mahdollista kuvailla melko pitkälle myös rakenteellisten ominaisuuksien
+valossa. Karkeasti ottaen voidaan todeta, että suurin osa laadullisen analyysin
+tuloksena laadituista kolmestatoista ryhmästä  pystytään päättelemään
+hyödyntämällä kolmea yksinkertaista rakenteellisen mikrotason muuttujaa:
+verbin persoonaa, aikamuotoa ja indikaattorisanan dependenssiroolia.
+Taulukossa `r Ref('tab', 'tt_ryhmatpuusta')` on tiivistetty
+näiden muuttujien vaikutus topiikkia asettavan virkkeen päätymiseen
+johonkin laadullisessa analyysissa määritellyistä ryhmistä:
 
-```
-
-Oleellista tässä esitetyssä luokitteluanalyysissä on, että vaikka itse 
-luokittelu ryhmiin tehtiin puhtaasti kirjoittajien tulkinnan
-perusteella ja kustakin ryhmästä annettiin edellä funktionaalinen kuvaus,
-on ryhmäiä mahdollista kuvailla melko pitkälle myös suoraviivaisten
-rakenteellisten ominaisuuksien valossa. Karkeasti ottaen 
-voidaan todeta, että laadullisen analyysin tuloksena laadituista
-kolmestatoista ryhmästä `r nrow(gft)` pystytään päättelemään
-myös  indikaattorisanaan ja sen ympäristöön liittyvien
-rakenteellisten ominaisuuksien perusteella.
-Nämä ryhmät ja niihin johtavat päättelyketjut on
-esitetty taulukossa `r Ref('tab', 'tt_ryhmatpuusta')`:
 
 ```{r, echo=FALSE, results="asis"}
 library(pander)
 
+gft <- read.csv(system.file("extdata", "groups_from_tree.csv", package="SataTapaa"),sep="\t")
 gft[,1] <- as.factor(gft[,1])
-pander(gft, caption=Ref('tab','tt_deproles','Kvantitatiivisesti pääteltävissä olevat ryhmät'))
+tab <- t(as.matrix(rbind(apply(gft,1,function(x)ifelse(x=="--",x,paste0("*",x,"*"))))))
+for(i in c(4,5)){
+    tab[,i] <- gsub("\\*","",tab[,i])
+}
+colnames(tab) <- sapply(names(gft),function(x)gsub("\\."," ",x))
+pander(tab, caption=Ref('tab','tt_ryhmatpuusta','Kvantitatiivisesti pääteltävissä olevat ryhmät'))
 
 ```
 
@@ -110,6 +114,7 @@ pander(gft, caption=Ref('tab','tt_deproles','Kvantitatiivisesti pääteltäviss�
 Taulukossa `r Ref('tab', 'tt_ryhmatpuusta')` on esitetty...
 Lisäksi...
 
+Huomaa: sijainnilla ei tässä puussa merkitystä.. 
 
 
 ```{r, echo=FALSE}

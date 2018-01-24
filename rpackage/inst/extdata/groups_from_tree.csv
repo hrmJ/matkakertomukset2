@@ -1,8 +1,9 @@
-ryhmä	päättelyketju	luokittelupuun loppunoodit
-1	Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti  → dependenssirooli ei subj → verbi 1. pers	7
-2	Indikaattorisana predikaattiverbi → verbi 1.pers	17 ja 18
-3	Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → liittoaikamuoto 	12
-4	Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti → indikaattorisana osa kompleksista lauseketta (dependenssirooli nmod:x)	9
-6	Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti → indikaattorisana subjektina	11
-8	Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto preesens	13
-13	Indikaattorisana predikaattiverbi → verbi muu kuin 1.pers	19
+Verbin persoona	Verbin aikamuoto	Indikaattorisanan dependenssirooli	ryhmä	luokittelupuun loppunoodit
+1.	imperfekti	ei predikaatti	1	7
+1.	--	predikaatti	2	17 ja 18
+--	pl.perf/perf.	--	3	12
+muu kuin 1.	imperfekti	osa kompleksista lauseketta	4	9
+--	imperfekti	subjekti	6	11
+--	preesens	ei predikaatti	8	13
+muu kuin 1.	--	predikaatti	13	19
+muu kuin 1.	imperfekti	ei predikaatti, ei subjekti, ei osana kompleksista lauseketta	7 ja 9	10

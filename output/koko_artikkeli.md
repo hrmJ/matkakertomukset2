@@ -749,18 +749,20 @@ usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa". Jos opettaja haluaa
 konkretisoida eri tekstistrategioita, hänen on tavallisesti
 turvauduttava vain abstrakteihin määritelmiin. Yhtenä tämän tutkimuksen
 tarkoituksena on kuitenkin tuottaa myös toisenlaista, rakenteiden tason
-tietoa... Tätä tietoa on kerätty seuraavan ehdollisen
-luokittelupuuanalyysin avulla.
+tietoa... Tätä tietoa on kerätty seuraavassa soveltamalla laadullisen
+analyysin tuloksena saatuun ryhmäjakoon määrällisiä menetelmiä,
+tarkemmin ottaen ehdollisia päätöksentekopuita (*conditional inference
+trees*).
 
-Ehdollisissa luokittelupuissa (*conditional inference tree*) ajatuksena
-on, että (Levshina 2015, x) . Analyysissa määritellään yksi selitettävä
-muuttuja (vrt. Ketokivi 2015, x) ja (tavallisesti useita) selittäviä
-muuttujia, joiden avulla jonkin tapauksen päätymistä johonkin luokkaan
-pyritään ennustamaan. Nyt käsillä olevassa tutkimuksessa selitettävän
-muuttujan muodostavat laadullisen analyysin tuloksena luodut topiikin
-asetustapojen 13 ryhmää. Yksittäisen matkakertomuksen päätymistä
-johonkin näistä ryhmistä on suorittamassamme luokittelupuuanalyysissä
-tarkasteltu seuraavien selittävien muuttujien avulla.
+Ehdollisissa päätöksentekopuissa ajatuksena on, että (Levshina 2015, x)
+. Analyysissa määritellään yksi selitettävä muuttuja (vrt. Ketokivi
+2015, x) ja (tavallisesti useita) selittäviä muuttujia, joiden avulla
+jonkin tapauksen päätymistä johonkin luokkaan pyritään ennustamaan. Nyt
+käsillä olevassa tutkimuksessa selitettävän muuttujan muodostavat
+laadullisen analyysin tuloksena luodut topiikin asetustapojen 13 ryhmää.
+Yksittäisen matkakertomuksen päätymistä johonkin näistä ryhmistä on
+suorittamassamme luokittelupuuanalyysissä tarkasteltu seuraavien
+selittävien muuttujien avulla.
 
 1.  *Topiikki-indikaattorin dependenssirooli.* Tämän muuttujan avulla
     määriteltiin alkuperäinen satunnaisotanta. Sen arvojen pohjana ovat
@@ -789,10 +791,10 @@ tarkasteltu seuraavien selittävien muuttujien avulla.
 6.  *Aikamuoto*-muuttuja pitää sisällään arvot *preesens*, *imperfekti*,
     *pluskvamperfekti/perferkti*[4] ja *ellipsi* (--).
 
-Näiden muuttujien perusteella rakennettiin luokittelupuu R-ohjelmiston
-*party*-kirjastoon kuuluvaa *ctree*-funktiota (Hothorn ym. 2006)
-käyttäen. Analyysin tulos on esitetty kuviossa 3 (tilan säästämiseksi
-kuvio on esitetty kierrettynä vaakatasoon).
+Näiden muuttujien perusteella rakennettiin päätöksentekopuu
+R-ohjelmiston *party*-kirjastoon kuuluvaa *ctree*-funktiota (Hothorn ym.
+2006) käyttäen. Analyysin tulos on esitetty kuviossa 3 (tilan
+säästämiseksi kuvio on esitetty kierrettynä vaakatasoon).
 
 <img src="/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-16-1.png" alt="Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna" angle=90 />
 <p class="caption">
@@ -805,80 +807,109 @@ alimmalla rivillä esitetyt pylväskaaviot) edellä kuvattujen selittävien
 muuttujien perusteella. Kuvio esittää eri selittävien muuttujien
 vaikutuksen selitettävään muuttujaan sarjana päätöksiä (kuvan
 ympyränmuotoiset noodit), jotka on numeroitu yhdestä 19:ään,
-esimerkiksi: *jos jonkin aineiston tapauksen dependenssirooli on
-predikaatti (noodi 1) ja verbin persoona ensimmäinen (noodi 15) ja jos
-lisäksi tapausta ei edellä väliotsikko, kyseessä on aina ryhmään 2
-kuuluva tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti
-(noodi 1), joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on
-kyseessä useimmiten ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat
+esimerkiksi: *jos jonkin tapauksen dependenssirooli on predikaatti
+(noodi 1) ja pääverbin persoona ensimmäinen (noodi 15) ja jos lisäksi
+tapausta ei edellä väliotsikko, kyseessä on aina ryhmään 2 kuuluva
+tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti (noodi 1),
+joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on kyseessä
+useimmiten ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat
 mahdollisia. Jokaisen noodin kohdalle on myös merkitty p-arvo (tästä
 tarkemmin).
 
-Oleellista tässä esitetyssä luokitteluanalyysissä on, että vaikka itse
-luokittelu ryhmiin tehtiin puhtaasti kirjoittajien tulkinnan perusteella
-ja kustakin ryhmästä annettiin edellä funktionaalinen kuvaus, on ryhmäiä
-mahdollista kuvailla melko pitkälle myös suoraviivaisten rakenteellisten
-ominaisuuksien valossa. Karkeasti ottaen voidaan todeta, että
-laadullisen analyysin tuloksena laadituista kolmestatoista ryhmästä 7
-pystytään päättelemään myös indikaattorisanaan ja sen ympäristöön
-liittyvien rakenteellisten ominaisuuksien perusteella. Nämä ryhmät ja
-niihin johtavat päättelyketjut on esitetty taulukossa :
+Oleellista tässä esitetyssä päätöksentekopuussa on, että vaikka itse
+luokittelu ryhmiin tehtiin puhtaasti artikkelin kirjoittajien tulkinnan
+perusteella ja kustakin ryhmästä annettiin edellä funktionaalinen
+kuvaus, on ryhmiä mahdollista kuvailla melko pitkälle myös
+rakenteellisten ominaisuuksien valossa. Karkeasti ottaen voidaan todeta,
+että suurin osa laadullisen analyysin tuloksena laadituista
+kolmestatoista ryhmästä pystytään päättelemään hyödyntämällä kolmea
+yksinkertaista rakenteellisen mikrotason muuttujaa: verbin persoonaa,
+aikamuotoa ja indikaattorisanan dependenssiroolia. Taulukossa 2 on
+tiivistetty näiden muuttujien vaikutus topiikkia asettavan virkkeen
+päätymiseen:
 
-<table style="width:93%;">
+<table>
 <colgroup>
-<col width="11%" />
-<col width="43%" />
-<col width="38%" />
+<col width="16%" />
+<col width="17%" />
+<col width="30%" />
+<col width="8%" />
+<col width="26%" />
 </colgroup>
 <thead>
 <tr class="header">
+<th align="left">Verbin persoona</th>
+<th align="left">Verbin aikamuoto</th>
+<th align="left">Indikaattorisanan dependenssirooli</th>
 <th align="left">ryhmä</th>
-<th align="left">päättelyketju</th>
-<th align="left">luokittelupuun.loppunoodit</th>
+<th align="left">luokittelupuun loppunoodit</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left"><em>1.</em></td>
+<td align="left"><em>imperfekti</em></td>
+<td align="left"><em>ei predikaatti</em></td>
 <td align="left">1</td>
-<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti → dependenssirooli ei subj → verbi 1. pers</td>
 <td align="left">7</td>
 </tr>
 <tr class="even">
+<td align="left"><em>1.</em></td>
+<td align="left">--</td>
+<td align="left"><em>predikaatti</em></td>
 <td align="left">2</td>
-<td align="left">Indikaattorisana predikaattiverbi → verbi 1.pers</td>
 <td align="left">17 ja 18</td>
 </tr>
 <tr class="odd">
+<td align="left">--</td>
+<td align="left"><em>pl.perf/perf.</em></td>
+<td align="left">--</td>
 <td align="left">3</td>
-<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → liittoaikamuoto</td>
 <td align="left">12</td>
 </tr>
 <tr class="even">
+<td align="left"><em>muu kuin 1.</em></td>
+<td align="left"><em>imperfekti</em></td>
+<td align="left"><em>osa kompleksista lauseketta</em></td>
 <td align="left">4</td>
-<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti → indikaattorisana osa kompleksista lauseketta (dependenssirooli nmod:x)</td>
 <td align="left">9</td>
 </tr>
 <tr class="odd">
+<td align="left">--</td>
+<td align="left"><em>imperfekti</em></td>
+<td align="left"><em>subjekti</em></td>
 <td align="left">6</td>
-<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti → indikaattorisana subjektina</td>
 <td align="left">11</td>
 </tr>
 <tr class="even">
+<td align="left">--</td>
+<td align="left"><em>preesens</em></td>
+<td align="left"><em>ei predikaatti</em></td>
 <td align="left">8</td>
-<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto preesens</td>
 <td align="left">13</td>
 </tr>
 <tr class="odd">
+<td align="left"><em>muu kuin 1.</em></td>
+<td align="left">--</td>
+<td align="left"><em>predikaatti</em></td>
 <td align="left">13</td>
-<td align="left">Indikaattorisana predikaattiverbi → verbi muu kuin 1.pers</td>
 <td align="left">19</td>
+</tr>
+<tr class="even">
+<td align="left"><em>muu kuin 1.</em></td>
+<td align="left"><em>imperfekti</em></td>
+<td align="left"><em>ei predikaatti, ei subjekti, ei osana kompleksista lauseketta</em></td>
+<td align="left">7 ja 9</td>
+<td align="left">10</td>
 </tr>
 </tbody>
 </table>
 
-Taulukko 1: Kvantitatiivisesti pääteltävissä olevat ryhmät
+Taulukko 2: Kvantitatiivisesti pääteltävissä olevat ryhmät
 
-Taulukossa on esitetty... Lisäksi...
+Taulukossa 2 on esitetty... Lisäksi...
+
+Huomaa: sijainnilla ei tässä puussa merkitystä..
 
 Kirjoittajan näkökulma
 ----------------------
