@@ -744,39 +744,55 @@ funktionaalisten ominaisuuksien kuvailuja helpompaa.
 Puu
 ---
 
-Kustakin edellä esitellystä ryhmästä voidaan löytää jonkin verran
-ryhmälle leimallisia syntaktisia tai tekstin rakenteeseen liittyviä
-piirteitä. Tarkempi tilastollinen analyysi kuitenkin osoittaa, ettei
-ryhmien muodostamista ole varsinaisesti ohjanneet mitkään selvästi
-eroteltavissa olevat yksittäiset tekijät. Tämä voidaan havaita
-esimerkiksi kuviossa 3 kuvattua luokittelupuuta (viite) hyödyntäen.
-Luokittelupuussa kutakin aineiston topiikkia asettavaa virkettä ja sille
-edellä kuvatussa laadullisessa analyysissä määriteltyä ryhmää on
-tarkasteltu seuraavien viiden muuttujan valossa.
+Tekstuaalisia funktioita ja ja kappaletason elementtejä kuvattaessa on
+usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa". Jos opettaja haluaa
+konkretisoida eri tekstistrategioita, hänen on tavallisesti
+turvauduttava vain abstrakteihin määritelmiin. Yhtenä tämän tutkimuksen
+tarkoituksena on kuitenkin tuottaa myös toisenlaista, rakenteiden tason
+tietoa... Tätä tietoa on kerätty seuraavan ehdollisen
+luokittelupuuanalyysin avulla.
+
+Ehdollisissa luokittelupuissa (*conditional inference tree*) ajatuksena
+on, että (Levshina 2015, x) . Analyysissa määritellään yksi selitettävä
+muuttuja (vrt. Ketokivi 2015, x) ja (tavallisesti useita) selittäviä
+muuttujia, joiden avulla jonkin tapauksen päätymistä johonkin luokkaan
+pyritään ennustamaan. Nyt käsillä olevassa tutkimuksessa selitettävän
+muuttujan muodostavat laadullisen analyysin tuloksena luodut topiikin
+asetustapojen 13 ryhmää. Yksittäisen matkakertomuksen päätymistä
+johonkin näistä ryhmistä on suorittamassamme luokittelupuuanalyysissä
+tarkasteltu seuraavien selittävien muuttujien avulla.
 
 1.  *Topiikki-indikaattorin dependenssirooli.* Tämän muuttujan avulla
-    määriteltiin alkuperäinen satunnaisotanta. Sen arvoina ovat
-    taulukossa 1 luetellut dependenssiroolit.
-2.  *Topiikki-indikaattorin sijainti virkkeessä*. Tämä muuttuja jakaa
-    aineiston kahteen luokkaan: tapauksiin, joissa topiikki-indikaattori
-    on koko virkkeen ensimmäisenä ja muihin tapauksiin.
-3.  *Lauseen predikaattiverbin persoona*. Myös tälle muuttujalle
-    määriteltiin kaksi kategoriaa: tapaukset, joissa predikaattiverbi on
-    ensimmäisessä persoonassa ja muut tapaukset.
-4.  *Side muuhun tekstiin*. Tällä muuttujalla on kolme kategoriaa:
-    tapaukset, joissa asumistopiikkia on pohjustettu jo edellisessä
-    kappaleessa muttei niin selvästi, että kyseessä olisi linkkitapaus;
+    määriteltiin alkuperäinen satunnaisotanta. Sen arvojen pohjana ovat
+    taulukossa 1 luetellut dependenssiroolit, joita kuitenkin
+    lavennettiin siten, että arvot *nsubj* ja *nsubj:cop* yhdistettiin
+    yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss* sekä
+    *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin
+    kompleksisiin nominaalirakenteisiin (*asunnon hankinta*, *asumisen
+    järjestäminen*).
+2.  *Topiikki-indikaattorin sijainti virkkeessä* jakaa aineiston kahteen
+    luokkaan: tapauksiin, joissa topiikki-indikaattori on koko virkkeen
+    ensimmäisenä ja muihin tapauksiin.
+3.  Myös *lauseen predikaattiverbin persoona* jaettiin kahteen
+    kategoriaan: tapauksiin, joissa predikaattiverbi on ensimmäisessä
+    persoonassa ja muihin tapauksiin.
+4.  *Side muuhun tekstiin* -muuttujalla on kolme kategoriaa: tapaukset,
+    joissa asumistopiikkia on pohjustettu jo edellisessä kappaleessa
+    muttei niin selvästi, että kyseessä olisi linkkitapaus (*edel.*);
     tapaukset, joissa topiikki asetetaan viittaamalla selkeästi johonkin
-    edellä muodostettuun linkkiin; tapaukset, joissa asumiskappaletta
-    edeltää väliotsikko; tapaukset, joissa mitään edellä kuvatuista
-    siteistä ei ole.
-5.  *Topiikki-indikaattorin morfologinen rakenne*. Tämä muuttuja
-    erottelee toisistaan finiittiverbit, infintiivimuodot (mukaan lukien
-    minen-johdokset) ja substantiivit.
-6.  Aikamuoto
+    edellä muodostettuun linkkiin (*linkki*); tapaukset, joissa
+    asumiskappaletta edeltää väliotsikko (*ots*) sekä tapaukset, joissa
+    mitään edellä kuvatuista siteistä ei ole (*x*).
+5.  *Topiikki-indikaattorin morfologinen rakenne* erottelee toisistaan
+    finiittiverbit, infintiivimuodot (mukaan lukien minen-johdokset) ja
+    substantiivit.
+6.  *Aikamuoto*-muuttuja pitää sisällään arvot *preesens*, *imperfekti*,
+    *pluskvamperfekti/perferkti*[4] ja *ellipsi* (--).
 
-Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan
-kuvata seuraavasti:
+Näiden muuttujien perusteella rakennettiin luokittelupuu R-ohjelmiston
+*party*-kirjastoon kuuluvaa *ctree*-funktiota (Hothorn ym. 2006)
+käyttäen. Analyysin tulos on esitetty kuviossa 3 (tilan säästämiseksi
+kuvio on esitetty kierrettynä vaakatasoon).
 
 <img src="/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-16-1.png" alt="Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna" angle=90 />
 <p class="caption">
@@ -784,30 +800,85 @@ Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
 tarkasteltuna
 </p>
 
-Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen
-rakenne -muuttujan perusteella: jos topiikki-indikaattorina on
-finiittiverbi, kyseessä on useimmiten esimerkin 2 edustama ryhmä
-(tapaukset, joissa on finiittiverbi ja joiden ryhmä on 2 kattavat 15 %
-aineistosta). Toinen selkeä jako voidaan luonnollisesti tehdä sillä
-perusteella, onko kyseessä esimerkin 5 kaltainen edelliseen kontekstiin
-ankkuroiva tapaus vai ei (ei--finiittiset tapaukset, joiden siteeksi on
-merkitty *linkki* ja ryhmäksi 5 kattavat 5 % aineistosta). Loput
-tapaukset jakautuvat selkeimmin sen perusteella, onko
-topiikki-indikaattori virkkeen alussa vai ei. Jos indikaattori on
-lauseen alussa ja lauseen predikaatti ensimmäisessä persoonassa,
-tuloksena on usein esimerkin 1 edustama ryhmä. Melko selkeän joukon
-muodostavat myös tapaukset, joissa indikaattorin syntaktinen rooli on
-subjekti ja joissa indikaattori ei sijaitse lauseen alussa -- nämä ovat
-analyysissa päätyneet tyypillisesti esimerkin 6 edustamaan ryhmään.
+Kuviossa 3 tutkimusaineisto on jaettu kymmeneen ryhmään (kuvion
+alimmalla rivillä esitetyt pylväskaaviot) edellä kuvattujen selittävien
+muuttujien perusteella. Kuvio esittää eri selittävien muuttujien
+vaikutuksen selitettävään muuttujaan sarjana päätöksiä (kuvan
+ympyränmuotoiset noodit), jotka on numeroitu yhdestä 19:ään,
+esimerkiksi: *jos jonkin aineiston tapauksen dependenssirooli on
+predikaatti (noodi 1) ja verbin persoona ensimmäinen (noodi 15) ja jos
+lisäksi tapausta ei edellä väliotsikko, kyseessä on aina ryhmään 2
+kuuluva tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti
+(noodi 1), joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on
+kyseessä useimmiten ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat
+mahdollisia. Jokaisen noodin kohdalle on myös merkitty p-arvo (tästä
+tarkemmin).
 
-Kaiken kaikkiaan voidaan todeta, että vaikka tietyistä tapauksista olisi
-ollut mahdollista melko selkeästi ennustaa, mihin ryhmään ne päätyvät,
-ei analyysissa ole toimittu mekaanisesti vain tiettyjä tekstin tai
-virkkeen rakenteeseen liittyviä piirteitä tarkastellen. Toisaalta se,
-että muodostettuja ryhmiä voidaan jossain määrin määritellä
-rakenteellisten piirteiden perusteella, antaisi mahdollisuuksia
-tulevaisuudessa käyttää nyt luotua jaottelua pohjana jonkin vastaavan
-aineiston automaattiseen luokitteluun.
+Oleellista tässä esitetyssä luokitteluanalyysissä on, että vaikka itse
+luokittelu ryhmiin tehtiin puhtaasti kirjoittajien tulkinnan perusteella
+ja kustakin ryhmästä annettiin edellä funktionaalinen kuvaus, on ryhmäiä
+mahdollista kuvailla melko pitkälle myös suoraviivaisten rakenteellisten
+ominaisuuksien valossa. Karkeasti ottaen voidaan todeta, että
+laadullisen analyysin tuloksena laadituista kolmestatoista ryhmästä 7
+pystytään päättelemään myös indikaattorisanaan ja sen ympäristöön
+liittyvien rakenteellisten ominaisuuksien perusteella. Nämä ryhmät ja
+niihin johtavat päättelyketjut on esitetty taulukossa :
+
+<table style="width:93%;">
+<colgroup>
+<col width="11%" />
+<col width="43%" />
+<col width="38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">ryhmä</th>
+<th align="left">päättelyketju</th>
+<th align="left">luokittelupuun.loppunoodit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1</td>
+<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti → dependenssirooli ei subj → verbi 1. pers</td>
+<td align="left">7</td>
+</tr>
+<tr class="even">
+<td align="left">2</td>
+<td align="left">Indikaattorisana predikaattiverbi → verbi 1.pers</td>
+<td align="left">17 ja 18</td>
+</tr>
+<tr class="odd">
+<td align="left">3</td>
+<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → liittoaikamuoto</td>
+<td align="left">12</td>
+</tr>
+<tr class="even">
+<td align="left">4</td>
+<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti → indikaattorisana osa kompleksista lauseketta (dependenssirooli nmod:x)</td>
+<td align="left">9</td>
+</tr>
+<tr class="odd">
+<td align="left">6</td>
+<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto imperfekti → indikaattorisana subjektina</td>
+<td align="left">11</td>
+</tr>
+<tr class="even">
+<td align="left">8</td>
+<td align="left">Indikaattorisana ei predikaattiverbi → ei eksplisiisiittistä sidosta edeltävään tekstiin → aikamuoto preesens</td>
+<td align="left">13</td>
+</tr>
+<tr class="odd">
+<td align="left">13</td>
+<td align="left">Indikaattorisana predikaattiverbi → verbi muu kuin 1.pers</td>
+<td align="left">19</td>
+</tr>
+</tbody>
+</table>
+
+Taulukko 1: Kvantitatiivisesti pääteltävissä olevat ryhmät
+
+Taulukossa on esitetty... Lisäksi...
 
 Kirjoittajan näkökulma
 ----------------------
@@ -860,6 +931,13 @@ Kohonen, Anna Missilä, Stina Ojala, Tapio Salakoski & Filip Ginter 2014.
 Building the essential resources for Finnish: the Turku Dependency
 Treebank. *Language Resources and Evaluation* 48:3, 1–39.
 
+Hothorn, Torsten, Kurt Hornik & Achim Zeileis 2006. Unbiased Recursive
+Partitioning: A Conditional Inference Framework. *Journal of
+Computational and Graphical Statistics* 15:3, 651–674.
+
+Ketokivi, Mikko 2015. *Tilastollinen päättely ja tieteellinen
+argumentointi* 2. laaj. laitos. Helsinki: Gaudeamus.
+
 Komppa, Johanna 2012. Retorisen rakenteen teoria suomi toisena
 kielenä-ylioppilaskokeen kirjoitelman kokonaisrakenteen ja kappalejaon
 tarkastelussa.
@@ -883,3 +961,7 @@ git-versionhallintaan ja on nähtävillä osoitteessa x (tarkistettu
 
 [3] Viitaamme jatkossa ryhmiin tässä esitettyjen esimerkkien numeron
 perusteella.
+
+[4] Perfektitapauksia aineistossa oli vain yksi ja sekin
+konditionaalissa, joten molemmat suomen liittoaikamuodot yhdistettiin
+samaan kategoriaan.

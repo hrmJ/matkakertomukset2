@@ -33,7 +33,7 @@ GetGroupsFromYaml <- function(otanta){
 #' @param numericalgroups käytetäänkö ryhmien niminä numeroita
 #' @export
 
-FormatForStatisticalAnalysis <- function(numericalgroups=F){
+FormatForStatisticalAnalysis <- function(numericalgroups=F,simplenames=F){
 
 
     stats <- subset(analysoitu_otanta,select=c("group","indicator.deprel","headverb_person","side","textid"))
@@ -94,23 +94,27 @@ FormatForStatisticalAnalysis <- function(numericalgroups=F){
     stats <- stats[,-which(names(stats) %in%c("headverb_person","indicator.deprel"))]
 
 
+    if(simplenames){
+    
+        stats$dep <- EditNames(stats$dep,read.csv(text="
+                         old,new
+                         root,r
+                         nmod,nm
+                         nmod:x,nm+
+                         subj,s
+                         dobj,o
+                         Muu,?"))
+        stats$side <- EditNames(stats$side,read.csv(text="
+                         old,new
+                         x,x
+                         otsikko,ots
+                         check,x
+                         orient,x
+                         edellinen,ed
+                         linkki,ln"))
 
-    stats$dep <- EditNames(stats$dep,read.csv(text="
-                     old,new
-                     root,r
-                     nmod,nm
-                     nmod:x,nm+
-                     subj,s
-                     dobj,o
-                     Muu,?"))
-    stats$side <- EditNames(stats$side,read.csv(text="
-                     old,new
-                     x,x
-                     otsikko,ots
-                     check,x
-                     orient,x
-                     edellinen,ed
-                     linkki,ln"))
+    
+    }
 
 
 

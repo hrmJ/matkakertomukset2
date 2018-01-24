@@ -1,83 +1,120 @@
 
-Kustakin edellä esitellystä ryhmästä  voidaan löytää jonkin verran 
-ryhmälle leimallisia syntaktisia tai tekstin rakenteeseen liittyviä piirteitä.
-Tarkempi tilastollinen analyysi kuitenkin osoittaa, ettei ryhmien muodostamista
-ole varsinaisesti ohjanneet mitkään selvästi eroteltavissa olevat yksittäiset tekijät.
-Tämä voidaan havaita esimerkiksi kuviossa `r Ref('fig', 'ff_tree')` 
-kuvattua luokittelupuuta (viite) hyödyntäen. Luokittelupuussa 
-kutakin aineiston topiikkia asettavaa virkettä ja sille edellä kuvatussa 
-laadullisessa analyysissä määriteltyä ryhmää on tarkasteltu
-seuraavien viiden muuttujan valossa. 
+Tekstuaalisia funktioita ja  ja kappaletason elementtejä kuvattaessa 
+on usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa".
+Jos opettaja haluaa konkretisoida eri tekstistrategioita,
+hänen on tavallisesti turvauduttava vain abstrakteihin määritelmiin.
+Yhtenä tämän tutkimuksen tarkoituksena on kuitenkin tuottaa myös
+toisenlaista, rakenteiden tason tietoa...
+Tätä tietoa on kerätty seuraavan ehdollisen luokittelupuuanalyysin 
+avulla.
+
+Ehdollisissa luokittelupuissa (*conditional inference tree*) ajatuksena on, että
+[@levshina2015, x] . Analyysissa määritellään yksi selitettävä muuttuja [vrt. @ketokivi2015, x]
+ja (tavallisesti useita) selittäviä muuttujia, joiden avulla jonkin tapauksen
+päätymistä johonkin luokkaan pyritään ennustamaan. Nyt käsillä olevassa tutkimuksessa
+selitettävän muuttujan muodostavat laadullisen analyysin tuloksena
+luodut topiikin asetustapojen `r length(unique(analysoitu_otanta$group))`
+ryhmää. Yksittäisen matkakertomuksen päätymistä johonkin näistä ryhmistä
+on suorittamassamme luokittelupuuanalyysissä tarkasteltu seuraavien selittävien
+muuttujien avulla.
 
 1. *Topiikki-indikaattorin dependenssirooli.* Tämän muuttujan avulla määriteltiin
-   alkuperäinen satunnaisotanta. Sen arvoina ovat taulukossa `r Ref('tab', 'tt_deproles')` 
-   luetellut dependenssiroolit.
-2.  *Topiikki-indikaattorin sijainti virkkeessä*. Tämä muuttuja jakaa aineiston
-    kahteen luokkaan: tapauksiin, joissa topiikki-indikaattori on koko virkkeen ensimmäisenä 
-    ja muihin tapauksiin.
-3. *Lauseen predikaattiverbin persoona*. Myös tälle muuttujalle määriteltiin kaksi kategoriaa:
-   tapaukset, joissa predikaattiverbi on ensimmäisessä persoonassa ja muut tapaukset.
-4. *Side muuhun tekstiin*. Tällä muuttujalla on kolme kategoriaa: tapaukset, joissa
+   alkuperäinen satunnaisotanta. Sen arvojen pohjana ovat taulukossa `r Ref('tab', 'tt_deproles')` 
+   luetellut dependenssiroolit, joita kuitenkin lavennettiin siten, että arvot *nsubj* ja
+   *nsubj:cop* yhdistettiin yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss*
+   sekä *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin 
+   kompleksisiin nominaalirakenteisiin (*asunnon hankinta*, *asumisen järjestäminen*).
+2.  *Topiikki-indikaattorin sijainti virkkeessä* jakaa aineiston
+    kahteen luokkaan: tapauksiin, joissa topiikki-indikaattori on koko virkkeen
+    ensimmäisenä ja muihin tapauksiin.
+3. Myös *lauseen predikaattiverbin persoona*  jaettiin kahteen kategoriaan:
+   tapauksiin, joissa predikaattiverbi on ensimmäisessä persoonassa ja muihin tapauksiin.
+4. *Side muuhun tekstiin* -muuttujalla on kolme kategoriaa: tapaukset, joissa
    asumistopiikkia on pohjustettu jo edellisessä kappaleessa muttei niin selvästi, että 
-   kyseessä olisi linkkitapaus; tapaukset, joissa topiikki asetetaan viittaamalla
-   selkeästi johonkin edellä muodostettuun linkkiin; tapaukset, joissa asumiskappaletta
-   edeltää väliotsikko; tapaukset, joissa mitään edellä kuvatuista siteistä ei ole.
-5. *Topiikki-indikaattorin morfologinen rakenne*. Tämä muuttuja erottelee toisistaan finiittiverbit,
+   kyseessä olisi linkkitapaus (*edel.*); tapaukset, joissa topiikki asetetaan viittaamalla
+   selkeästi johonkin edellä muodostettuun linkkiin (*linkki*); tapaukset, joissa asumiskappaletta
+   edeltää väliotsikko (*ots*) sekä tapaukset, joissa mitään edellä kuvatuista siteistä ei ole (*x*).
+5. *Topiikki-indikaattorin morfologinen rakenne*  erottelee toisistaan finiittiverbit,
    infintiivimuodot (mukaan lukien minen-johdokset) ja substantiivit.
-6. Aikamuoto
+6. *Aikamuoto*-muuttuja pitää sisällään arvot *preesens*, *imperfekti*,
+   *pluskvamperfekti/perferkti*[^perft] ja *ellipsi* (--).
 
-Tässä kuvattujen muuttujien selitysvoima eri ryhmien kannalta voidaan kuvata seuraavasti:
+[^perft]: Perfektitapauksia aineistossa oli vain yksi ja sekin
+konditionaalissa, joten molemmat suomen liittoaikamuodot yhdistettiin samaan
+kategoriaan.
+
+Näiden muuttujien perusteella rakennettiin luokittelupuu R-ohjelmiston
+*party*-kirjastoon kuuluvaa *ctree*-funktiota [@party] käyttäen. 
+Analyysin tulos on esitetty kuviossa `r Ref('fig', 'ff_tree')` (tilan
+säästämiseksi kuvio on esitetty kierrettynä vaakatasoon).
 
 ```{r, echo=FALSE, out.extra='angle=90', fig.width=14,fig.height=10,fig.cap=Ref('fig','ff_tree','Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna')}
 
 library(party)
 set.seed(204)
-stats <- FormatForStatisticalAnalysis(T)
+stats <- FormatForStatisticalAnalysis(T,F)
+stats$side <- as.character(stats$side)
+stats$side[stats$side=="otsikko"] <- "ots."
+stats$side[stats$side=="edellinen"] <- "ed."
+stats$side <- as.factor(stats$side)
 puu <- ctree(group ~ side + location + dep + pers + pos + tense,stats)
-
-#plot(puu,controls = ctree_control(maxsurrogate = 1))
-
-#plot(puu, type="simple")
-
-#plot(puu, terminal_panel)
-#plot(puu, terminal_panel = node_terminal)
 plot(puu,         
   inner_panel=node_inner(puu,
        abbreviate = FALSE,            
-       pval = F, 
-       id = FALSE),
-     terminal_panel=node_barplot(puu,id=F,beside=T,ylines=1.2,gap=0,ymax=1))
-     #terminal_panel=NULL
-     #terminal_panel=node_terminal(puu, 
-     #  abbreviate = TRUE,
-     #  digits = 1,                   # few digits on numbers
-     #  fill = c("white"),            # make box white not grey
-     #  id = FALSE)
-
-#plot(puu, tp_args = list(id = FALSE))
+       pval = T, 
+       id = T),
+     terminal_panel=node_barplot(puu,id=T,beside=T,ylines=1.2,gap=0,ymax=1))
 
 ```
 
-Luokittelupuussa algoritmi on jakanut tapaukset ensin morfologinen rakenne -muuttujan
-perusteella: jos topiikki-indikaattorina on finiittiverbi, kyseessä on useimmiten 
-esimerkin 2 edustama ryhmä (tapaukset, joissa on finiittiverbi ja joiden ryhmä
-on 2 kattavat 15 % aineistosta). Toinen selkeä jako voidaan luonnollisesti
-tehdä sillä perusteella, onko kyseessä esimerkin @ee_linkki kaltainen
-edelliseen kontekstiin ankkuroiva tapaus  vai ei (ei--finiittiset tapaukset, joiden
-siteeksi on merkitty *linkki*  ja ryhmäksi 5 kattavat 5 % aineistosta).
-Loput tapaukset jakautuvat selkeimmin sen perusteella, onko topiikki-indikaattori
-virkkeen alussa vai ei. Jos indikaattori on lauseen alussa ja lauseen predikaatti
-ensimmäisessä persoonassa, tuloksena on usein esimerkin @ee_lista edustama ryhmä.
-Melko selkeän joukon muodostavat myös tapaukset, joissa indikaattorin syntaktinen
-rooli on subjekti ja joissa indikaattori ei sijaitse lauseen alussa -- nämä
-ovat analyysissa päätyneet tyypillisesti esimerkin @ee_staattinen edustamaan ryhmään.
+Kuviossa `r Ref('fig', 'ff_tree')` tutkimusaineisto
+on jaettu kymmeneen ryhmään (kuvion alimmalla rivillä esitetyt
+pylväskaaviot) edellä kuvattujen selittävien muuttujien perusteella.
+Kuvio esittää eri selittävien muuttujien vaikutuksen selitettävään 
+muuttujaan sarjana päätöksiä (kuvan ympyränmuotoiset noodit), jotka on numeroitu
+yhdestä 19:ään, esimerkiksi: *jos jonkin aineiston tapauksen dependenssirooli
+on predikaatti (noodi 1) ja verbin persoona ensimmäinen (noodi 15) ja jos lisäksi
+tapausta ei edellä väliotsikko, kyseessä on aina ryhmään @ee_predikaatti
+kuuluva tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti (noodi 1),
+joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on kyseessä useimmiten
+ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat mahdollisia.
+Jokaisen noodin kohdalle on myös merkitty p-arvo (tästä tarkemmin).
+
+```{r, echo=FALSE}
+
+gft <- read.csv(system.file("extdata", "groups_from_tree.csv", package="SataTapaa"),sep="\t")
+
+```
+
+Oleellista tässä esitetyssä luokitteluanalyysissä on, että vaikka itse 
+luokittelu ryhmiin tehtiin puhtaasti kirjoittajien tulkinnan
+perusteella ja kustakin ryhmästä annettiin edellä funktionaalinen kuvaus,
+on ryhmäiä mahdollista kuvailla melko pitkälle myös suoraviivaisten
+rakenteellisten ominaisuuksien valossa. Karkeasti ottaen 
+voidaan todeta, että laadullisen analyysin tuloksena laadituista
+kolmestatoista ryhmästä `r nrow(gft)` pystytään päättelemään
+myös  indikaattorisanaan ja sen ympäristöön liittyvien
+rakenteellisten ominaisuuksien perusteella.
+Nämä ryhmät ja niihin johtavat päättelyketjut on
+esitetty taulukossa `r Ref('tab', 'tt_ryhmatpuusta')`:
+
+```{r, echo=FALSE, results="asis"}
+library(pander)
+
+gft[,1] <- as.factor(gft[,1])
+pander(gft, caption=Ref('tab','tt_deproles','Kvantitatiivisesti pääteltävissä olevat ryhmät'))
+
+```
 
 
-Kaiken kaikkiaan voidaan todeta, että vaikka tietyistä tapauksista olisi ollut
-mahdollista melko selkeästi ennustaa, mihin ryhmään ne päätyvät, ei analyysissa
-ole toimittu mekaanisesti vain tiettyjä tekstin tai virkkeen rakenteeseen
-liittyviä piirteitä tarkastellen. Toisaalta se, että muodostettuja ryhmiä
-voidaan jossain määrin määritellä rakenteellisten piirteiden perusteella,
-antaisi mahdollisuuksia tulevaisuudessa käyttää nyt luotua jaottelua pohjana
-jonkin vastaavan aineiston automaattiseen luokitteluun.
+Taulukossa `r Ref('tab', 'tt_ryhmatpuusta')` on esitetty...
+Lisäksi...
+
+
+
+```{r, echo=FALSE}
+
+
+
+```
 
