@@ -10,14 +10,9 @@ esim.ordered <- lapply(names(totals),function(x)esim[[x]])
 esim.print <- sapply(esim.ordered,function(x)x$sentence)
 ```
 
-Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
-`r nrow(analysoitu_otanta)` tekstiä jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
-ryhmään, joista kustakin on seuraavassa annettu yksi edustava esimerkkivirke. 
-Ryhmäkohtaiset esimerkit on lueteltu suuruusjärjestyksessä suurimmasta ryhmästä 
-alkaen, ja jokaisen esimerkin tarkempiin konteksteihin pureudutaan alempana
-yksityiskohtaisemmin. Jo tässä vaiheessa on syytä huomauttaa, että osassa
-tapauksista asumisesta kertovaa kappaletta
-edelsi väliotsikko.
+Tutkittavaksi valikoituneet
+`r nrow(analysoitu_otanta)` tekstiä jaoteltiin  `r length(unique(analysoitu_otanta$group))`
+ryhmään, ja osiossa 4.1. kutakin ryhmää luonnehditaan edustavan esimerkin avulla. Vaikka varsinainen ryhmäjako perustuu tapausten laadulliseen samankaltaisuuteen, tulkitaan osiossa 4.2. analyysin tulosta eli itse jaottelua dependenssisuhteisiin perustuva tilastollisen mallin(ko??) avulla.
 
 ```{r, echo=FALSE,results="asis"}
 
