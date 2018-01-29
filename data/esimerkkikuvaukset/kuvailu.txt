@@ -1,3 +1,14 @@
-Siirtymä alatopiikin avulla, vaikka ylätopiikkia ei ole ilmpipantua.
-Siirtymä tapahtuu esittelytopiikin avulla. Lauseiden predikaattina on asua-verbi. Välittää informaatiota siitä, missä kirjoittaja on asunut.
-Esimerkin 3lA blaal;
+Siirtymä alatopiikin avulla, vaikka ylätopiikkia ei ole ilmipantu.
+Siirtymä esittelytopiikin avulla. Lauseiden predikaattina on asua-verbi. Välittää informaatiota siitä, missä kirjoittaja on asunut.
+Siirtymä uuden topiikin esittelyn kautta, mutta aikarakenteltaan monitasoisempi kuin ryhmä 3.
+Siirtymä diskurssista johdetulla alatopiikilla, jota indikoi usein deverbaalisubstantiivi. Luonnehtii kirjoittajan subjektiivista kokemusta.
+Siirtymä edeltävässä kappaleessa annetun tai hiukan kauempaa palautetun topiikin avulla. Kuuluvat toissijaisesti johonkin toiseen alaryhmään.
+Siirtymät muistuttavat 2. ryhmän tapauksia, mutta kytkös tyypillisesti implisiittisempi, luotu väliotsikon avulla. Uusi topiikki asetetaan ja kuvataan sen ominaisuuksia.
+Siirtymä alatopiikin avulla. Muistuttaa topiikin asettamisessa 1. ryhmää, mutta sisältönä verrataan omia kokemuksia toisten kokemuksiin. Ei väliotsikoita.
+Siirtymä 4. ryhmän tapaan, mutta jakaen maailmantietoa, ei eksplikoiden omia kokemuksia.
+Siirtymä uuden topiikin avulla, mutta kirjoittaja ei ole agentiivinen toimija. Fokuksessa joku muu keskeinen toimija.
+Siirtymä edellisiä implisiitisempi, kuitenkin uuden topiikin avulla. Kertova tekstityyppi ja aikamuoto yleensä imperfekti. Narraatio.
+Siirtymä metatekstin kautta. Uusi topiikki, joka tuodaan tekstiin eksplisiittisesti.
+Siirtymä uuden topiikin avulla, joka avausvirkkeen loppupuolella. Ajallinen jännite, katsotaan kuvatusta aikapisteestä taaksepäin.
+Siirtymä 7. ryhmän tapaan, mutta samaistuen, ei kontrastoiden muiden vaihto-opiskelijoiden toimintaan. Alaotsikko tyypillinen.
+
