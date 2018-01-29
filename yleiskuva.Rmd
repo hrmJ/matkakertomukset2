@@ -25,9 +25,9 @@ for(idx in c(1:length(esim.ordered))){
 attach(esim.ordered[[1]])
 ```
 
-Käymme tässä alaluvussa laadullisen analyysin tuloksena syntyneet ryhmät läpi niiden
-koon mukaisessa järjestyksessä suurimmasta pienimpään. Aineiston laajimman
-ryhmän, kaikkiaan `r total` tapausta, muodostavat esimerkin @ee_lista kaltaiset
+Taulukkoon xxx olemme koonneet edustavat esimerkit kustakin alaryhmästä. Niiden rinnalla on hyvin tiiviis kuvaus topiikin asettamisen tavoista ja lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Käytännön syistä johtuen syvennymme seuraavassa vain ryhmiin x, x, x niitä edustavien esimerkkien tarkemman analyysin kautta.
+
+Aineiston isoimman ryhmän, kaikkiaan `r total` tapausta, muodostavat esimerkin @ee_lista kaltaiset
 topiikkia asettavat virkkeet. 
 Ryhmässä on jonkin verran tekstejä 
 (`r otsikoita` kpl / `r otsikkosuhde`), joissa varsinaista asumisesta kertovaa
