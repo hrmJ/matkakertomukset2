@@ -25,7 +25,7 @@ for(idx in c(1:length(esim.ordered))){
 attach(esim.ordered[[1]])
 ```
 
-Taulukkoon xxx olemme koonneet edustavat esimerkit kustakin alaryhmästä. Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Rajallisesta sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain ryhmiin x, x, x, jotka osoittautuivat  kirjoittamisen näkökulmasta erityisen kiinnostaviksi. 
+Taulukkoon xxx olemme koonneet edustavat esimerkit kustakin alaryhmästä. Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Rajallisesta sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain ryhmiin x, x, x, jotka osoittautuivat  kirjoittamisen näkökulmasta erityisen kiinnostaviksi. Tarkemman käsittelyn tässä saavat esimerkit on taulukossa merkitty bbbb-merkillä.
 
 Aineiston isoimman ryhmän muodostavat esimerkin @ee_lista kaltaiset
 topiikkia asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana. Se on siis tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. Vaikka esimerkissä @ee_lista ei täyty Dikin [-@dik1989, 275] kuvailema ehto siitä, että varsinainen ylätopiikki olisi erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110], *asuntoni* on tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä). Kirjoittaja nimittäin vaikuttaa operoineen tässä, kuten useimmissa muissakin ryhmän @ee_lista[^ryhmanum] tapauksissa, yksinomaan tehtävänannon tarjoaman kysymyspatteriston ja saatavilla olevien mallitekstien puitteissa. Tästä seuraa, että asunto tai asuminen oletetaan lukijan käytettävissä olevaksi entiteetiksi [vrt. @chafe1987, 29;  @lambrecht1996, 99], ja se on tuotu tekstiin ilman ennakkomainintoja tai esittelyjä. Voisi jopa sanoa, että esimerkin @ee_lista kaltaiset tapaukset eivät niinkään aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia (vrt. implisiittinen teema @Shore2008).
@@ -33,67 +33,19 @@ topiikkia asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana
 [^ryhmanum]: Viitaamme jatkossa ryhmiin tässä esitettyjen esimerkkien numeron
 perusteella.
 
-```{r, include=FALSE}
-detach(esim.ordered[[1]])
-attach(esim.ordered[[2]])
-```
-
 Seuraavan kiinnostavan ryhmän muodostavat esimerkin @ee_predikaatti kaltaiset tapaukset, joissa topiikki-indikaattorina on persoonamuotoinen *asua*-verbi. Virkkeiden pääasiallinen sisältö on yleensä
-informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. 
+informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. Tapaukset ovat edellistä ryhmää selkeämmin johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin @ee_predikaatti lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä alkava kappale kertoo. 
 
-Ryhmän tapaukset ovat edellistä ryhmää selkeämmin nimenomaan johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin @ee_predikaatti lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä alkava kappale kertoo. 
+Kertominen ja kertova tekstityyppi ovatkin aineiston tekstilajille tyypillistä, mikä näkyy useammassakin alaryhmässä. Esimerkin @ee_narratiivi edustamassa ryhmässä asumisesta raportoidaan kertovan
+tekstityypin avulla, mikä käy annetusta esimerkistä esiin erityisen selvästi, koska
+kirjoittaja on käyttänyt ajan ilmausta. Aikamuoto ryhmän @ee_narratiivi virkkeissä on tyypillisesti imperfekti. Esimerkin @ee_ennakoivat edustamat virkkeet ovat ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki sijoittuu. 
 
-```{r, include=FALSE}
-detach(esim.ordered[[2]])
-attach(esim.ordered[[3]])
-```
-
-Esimerkin @ee_ennakoivat kaltaisten tapausten muodostama ryhmä on täsmalleen
-samankokoinen kuin ryhmä @ee_predikaatti (`r total` tapausta) -- sattumalta myös otsikoitujen
-kappaleiden määrä on identtinen (`r otsikoita` kappaletta).
-
-`r esimerkki`
-
-Esimerkin @ee_ennakoivat edustamat virkkeet ovat ajallisesti 
-muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla
-jotakin, mikä on tapahtunut ennen sitä ajanjaksoa, jolle varsinainen
-käsiteltävä topiikki sijoittuu. Esimerkin @ee_ennakoivat tapauksessa
-luodaan pieni jännite: jos kerran ensimmäiseksi kuukaudeksi oli löydetty
-AirBnb-asunto, miten asumisasia lopullisesti ratkaistiin?
-Avausvirkkeen jälkeen kappaleessa selviää, että AirBnb-ratkaisusta
-muodostuikin lopulta asunto koko vaihdon ajaksi. 
-Kappaleen loppuosassa kirjoittaja kuvailee tarkemmin asunnon yksityiskohtia: sijaintia, 
-kulkuyhteyksiä ja tyypillisyyttä kohdekulttuurissa. Informaatiorakenteeltaan ryhmä @ee_ennakoivat
-onkin hyvin samanlainen kuin edellinen ryhmä: koko kappaleen topiikkina
-oleva *asunto* esitellään uutena topiikkina ensimmäisessä virkkeessä.
-
-```{r, include=FALSE}
-detach(esim.ordered[[3]])
-attach(esim.ordered[[4]])
-```
-
-Neljäntenä ryhmänä tarkastellaan seuraavanlaisia tapauksia, joissa 
-topiikki asetetaan luonnehtimalla jotenkin kirjoittajan henkilökohtaista kokemusta
-aiheesta:
-
-`r esimerkki`
-
-Esimerkissä @ee_omakokemus topiikkia indikoi *asuminen*, mikä tähän ryhmään
-luokitelluilla kaikkiaan `r total` tapauksella 
-onkin tyypillistä:
-kenties suoraviivaisin tapa kuvailla omaa kokemusta jostakin varsinaisen
-diskurssitopiikin osa-alueesta on niputtaa kokemus nominalisoituun
-verbimuotoon ja luonnehtia tätä predikatiivilauseella. Näissä tapauksissa
-kuvataan, miten *asunnon hakeminen oli helppoa* tai miten *kaikkein vaikeinta
-oli asunnon löytäminen*. Kirjoittajan näkökulma onkin usein koko tekstin ja diskurssitopiikinkin
-tasolla subjektiivinen -- strategiana on kertoa käsiteltävästä asiasta
-sen kautta, miten asiat ovat sujuneet, omia onnistumisia ja epäonnistumisia
-arvioiden. Informaatiorakenteen kannalta 
+Yhtälailla ryhmittelystämme on löydettävissä erilaisia tapoja aloittaa luonnehtimalla omia kokemuksiaan. Esimerkissä @ee_omakokemus topiikkia indikoi *asuminen*, mikä tähän ryhmään luokitelluille onkin varsin tyypillistä: jostakin varsinaisen diskurssitopiikin osa-alueelta tiivistetään oma kokemus kompleksiseen deverbaalijohdokseen, jota luonnehditaan predikatiivilauseella. Näissä tapauksissa kuvataan, miten *asunnon hakeminen oli helppoa* tai miten *kaikkein vaikeinta
+oli asunnon löytäminen*. Strategiana on itsestään käsin kertoa, miten asiat ovat sujuneet, omia onnistumisia ja epäonnistumisia arvioiden. Informaatiorakenteen kannalta 
 nämä tapaukset ovat monesti ryhmän @ee_lista tapaan alatopiikkeja. Esimerkki @ee_omakokemus
 on kuitenkin esimerkkiä @ee_lista selvemmin topiikkia asettava virke, sillä siinä
 asumisen rooli yhtenä vaihtokokemuksen osana on ilmaistu eksplisiittisesti.
-Vain kahdessa ryhmän  @ee_omakokemus tapauksessa asumisesta kertovaa
-kappaletta edeltää väliotsikko.
+
 
 ```{r, include=FALSE}
 detach(esim.ordered[[4]])
@@ -208,24 +160,10 @@ detach(esim.ordered[[9]])
 attach(esim.ordered[[10]])
 ```
 
-Esimerkin @ee_narratiivi edustamassa ryhmässä asumisesta raportoidaan kertovan
-tekstityypin avulla, mikä käy tästä esimerkistä esiin erityisen selvästi, koska
-kirjoittaja on käyttänyt ajan ilmausta. 
 
-`r esimerkki`
 
-Aikamuoto ryhmän @ee_narratiivi virkkeissä on tyypillisesti imperfekti.
-Näissäkin tapauksissa topiikki-indikaattori on informaatiorakenteen kannalta
-uusi topiikki, joka esimerkin narratiivisuuden vuoksi tulee asetetuksi
-muita tässä tarkasteltuja uuden topiikin sisältäviä ryhmiä
-implisiittisemmin.  Kaikkiaan ryhmään @ee_narratiivi kuuluu
-`r total` tapausta, joista niistäkin suurin osa (`r otsikoita` kpl)
-sisältää väliotsikon.
 
-```{r, include=FALSE}
-detach(esim.ordered[[10]])
-attach(esim.ordered[[11]])
-```
+
 Oman, selvästi muista erottuvan ryhmänsä muodostavat ne esimerkin @ee_parisanaa
 edustamat `r total` tapausta, joissa kirjoittaja
 eksplisiittisesti ilmaisee siirtyvänsä käsittelemään asumista.
