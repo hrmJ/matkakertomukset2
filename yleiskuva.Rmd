@@ -25,16 +25,10 @@ for(idx in c(1:length(esim.ordered))){
 attach(esim.ordered[[1]])
 ```
 
-Taulukkoon xxx olemme koonneet edustavat esimerkit kustakin alaryhmästä. Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Käytännön syistä johtuen syvennymme seuraavassa vain ryhmiin x, x, x, jotka osoittautuivat  kirjoittamisen näkökulmasta erityisen kiinnostaviksi. 
+Taulukkoon xxx olemme koonneet edustavat esimerkit kustakin alaryhmästä. Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Rajallisesta sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain ryhmiin x, x, x, jotka osoittautuivat  kirjoittamisen näkökulmasta erityisen kiinnostaviksi. 
 
 Aineiston isoimman ryhmän muodostavat esimerkin @ee_lista kaltaiset
-topiikkia asettavat virkkeet. Esimerkin @ee_lista topiikki-indikaattorina on *asuntoni*-sana. Se on siis tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. Vaikka esimerkissä @ee_lista ei täyty Dikin [-@dik1989, 275] kuvailema ehto siitä, että varsinainen ylätopiikki olisi erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110], *asuntoni* on tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä). 
- 
-Kirjoittaja nimittäin vaikuttaa operoineen tässä, kuten useimmissa muissakin ryhmän @ee_lista[^ryhmanum] tapauksissa, yksinomaan tehtävänannon tarjoaman kysymyspatteriston ja saatavilla olevien mallitekstien puitteissa. Tästä seuraa, että asunto tai asuminen oletetaan lukijan käytettävissä olevaksi entiteetiksi [vrt. @chafe1987, 29;  @lambrecht1996, 99], mikä mahdollistaa sen tuomisen tekstiin ilman ennakkomainintoja tai esittelyjä.
-Voisi jopa sanoa, että esimerkin @ee_lista kaltaiset tapaukset eivät niinkään aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia.
-
-
-
+topiikkia asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana. Se on siis tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. Vaikka esimerkissä @ee_lista ei täyty Dikin [-@dik1989, 275] kuvailema ehto siitä, että varsinainen ylätopiikki olisi erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110], *asuntoni* on tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä). Kirjoittaja nimittäin vaikuttaa operoineen tässä, kuten useimmissa muissakin ryhmän @ee_lista[^ryhmanum] tapauksissa, yksinomaan tehtävänannon tarjoaman kysymyspatteriston ja saatavilla olevien mallitekstien puitteissa. Tästä seuraa, että asunto tai asuminen oletetaan lukijan käytettävissä olevaksi entiteetiksi [vrt. @chafe1987, 29;  @lambrecht1996, 99], ja se on tuotu tekstiin ilman ennakkomainintoja tai esittelyjä. Voisi jopa sanoa, että esimerkin @ee_lista kaltaiset tapaukset eivät niinkään aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia (vrt. implisiittinen teema @Shore2008).
 
 [^ryhmanum]: Viitaamme jatkossa ryhmiin tässä esitettyjen esimerkkien numeron
 perusteella.
@@ -44,26 +38,10 @@ detach(esim.ordered[[1]])
 attach(esim.ordered[[2]])
 ```
 
-Toiseksi suurimman laadullisen analyysin tuloksena syntyneistä ryhmistä muodostavat
-esimerkin @ee_predikaatti kaltaiset tapaukset, joita tutkimusaineistossa on
-`r total` kappaletta. Esimerkkiä @ee_predikaatti samoin kuin `r otsikoita-1`
-muuta tämän ryhmän virkettä (yht. `r otsikkosuhde` ryhmän tapauksista) edeltää
-asumiseen viittaava väliotsikko.
+Seuraavan kiinnostavan ryhmän muodostavat esimerkin @ee_predikaatti kaltaiset tapaukset, joissa topiikki-indikaattorina on persoonamuotoinen *asua*-verbi. Virkkeiden pääasiallinen sisältö on yleensä
+informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. 
 
-`r esimerkki`
-
-Kaikissa ryhmän @ee_predikaatti tapauksista topiikki-indikaattorina on
-persoonamuotoinen *asua*-verbi, ja virkkeiden pääasiallinen sisältö on yleensä
-informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. Tämän ryhmän
-tapaukset ovat edellistä ryhmää selkeämmin nimenomaan johdantoja uuteen
-aiheeseen, ja Dikin jaottelun mukaisesti esimerkin @ee_predikaatti lopussa
-mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä
-merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset
-rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä
-alkava kappale kertoo. Esimerkin @ee_predikaatti tapauksessa kirjoittaja
-jatkaa kappalettaan kuvailemalla asuntonsa sisustuksen, kämppäkaverit ja vuokran
-suuruuden.
-
+Ryhmän tapaukset ovat edellistä ryhmää selkeämmin nimenomaan johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin @ee_predikaatti lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä alkava kappale kertoo. 
 
 ```{r, include=FALSE}
 detach(esim.ordered[[2]])
