@@ -25,39 +25,13 @@ for(idx in c(1:length(esim.ordered))){
 attach(esim.ordered[[1]])
 ```
 
-Taulukkoon xxx olemme koonneet edustavat esimerkit kustakin alaryhmästä. Niiden rinnalla on hyvin tiiviis kuvaus topiikin asettamisen tavoista ja lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Käytännön syistä johtuen syvennymme seuraavassa vain ryhmiin x, x, x niitä edustavien esimerkkien tarkemman analyysin kautta.
+Taulukkoon xxx olemme koonneet edustavat esimerkit kustakin alaryhmästä. Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Käytännön syistä johtuen syvennymme seuraavassa vain ryhmiin x, x, x, jotka osoittautuivat  kirjoittamisen näkökulmasta erityisen kiinnostaviksi. 
 
-Aineiston isoimman ryhmän, kaikkiaan `r total` tapausta, muodostavat esimerkin @ee_lista kaltaiset
-topiikkia asettavat virkkeet. 
-Ryhmässä on jonkin verran tekstejä 
-(`r otsikoita` kpl / `r otsikkosuhde`), joissa varsinaista asumisesta kertovaa
-kappaletta tai kappaleita edeltää aiheeseen johdattava väliotsikko kuten
-*Asuminen* tai *Asuminen Istanbulissa* -- näin ei kuitenkaan ole tässä esitetyn
-virkkeen tapauksessa. 
-
-`r gsub("\\( "," \\(",esimerkki)`
-
-Esimerkin @ee_lista topiikki-indikaattorina on *asuntoni*-sana, joka tälle
-ryhmälle leimallisesti on lauseen alussa sijaitseva objekti.
-Asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa, vaan topiikkia
-asettava virke on samalla ensimmäinen maininta itse topiikista: esimerkkiä
-@ee_lista edeltävässä tekstissä kirjoittaja on käsitellyt ensin valmistelujaan
-kotoa käsin, sitten kielikurssia melko seikkaperäisesti, vaihto-opiskelijoille
-järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä reflektoinut omaa osaamistaan
-valitsemallaan kielikurssilla. 
-Informaatiorakenteellisesti tarkasteltuna esimerkin @ee_lista *asuntoni*
-voidaan nähdä alatopiikkina (ks. osio x.x edellä),
-vaikka esimerkissä @ee_lista ei täyty Dikin [-@dik1989, 275]
- kuvailema ehto siitä, että varsinainen ylätopiikki olisi
-erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110]. Kirjoittaja kuitenkin operoi tässä ja useimmissa
-ryhmän @ee_lista[^ryhmanum] tapauksissa niin selkeästi tehtävänannossa ehdotetun rakenteen
-puitteissa, että hän olettaa lukijan automaattisesti jakavan käsityksen siitä,
-mitä  aiheita tekstin diskurssitopiikkiin, vaihtokokemukseen, liittyvien
-asioiden joukko pitää sisällään. Asunto tai asuminen nähdään toisin sanoen
-lukijan käytettävissä olevana entiteettinä [vrt. @chafe1987, 29;  @lambrecht1996, 99],
-mikä mahdollistaa sen tuomisen tekstiin ilman ennakkomainintoja tai esittelyjä.
-Voisi jopa sanoa, että esimerkin @ee_lista kaltaiset tapaukset eivät niinkään
-aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia.
+Aineiston isoimman ryhmän muodostavat esimerkin @ee_lista kaltaiset
+topiikkia asettavat virkkeet. Esimerkin @ee_lista topiikki-indikaattorina on *asuntoni*-sana. Se on siis tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. Vaikka esimerkissä @ee_lista ei täyty Dikin [-@dik1989, 275] kuvailema ehto siitä, että varsinainen ylätopiikki olisi erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110], *asuntoni* on tulkittu alatopiikiksi (ks. osio x.x edellä). 
+ 
+Kirjoittaja nimittäin vaikuttaa operoineen tässä kuten useimmissa muissakin ryhmän @ee_lista[^ryhmanum] tapauksissa niin totaalisesti tehtävänannon tarjoaman rakenteen puitteissa, että hän olettaa lukijan automaattisesti jakavan käsityksen siitä, mitä  aiheita tekstin diskurssitopiikkiin, vaihtokokemukseen, liittyvien asioiden joukko pitää sisällään. Asunto tai asuminen nähdään toisin sanoen lukijan käytettävissä olevana entiteettinä [vrt. @chafe1987, 29;  @lambrecht1996, 99], mikä mahdollistaa sen tuomisen tekstiin ilman ennakkomainintoja tai esittelyjä.
+Voisi jopa sanoa, että esimerkin @ee_lista kaltaiset tapaukset eivät niinkään aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia.
 
 
 
