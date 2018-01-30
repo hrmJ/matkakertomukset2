@@ -15,7 +15,7 @@ Lohkotopiikeilla viittamme tilanteeseen, jossa kirjoittaja käyttää hyväkseen
 edellä esiteltyyn topiikkiin kiinteästi liittyvää assosiaatioiden joukkoa viitatakseen entiteettiin, jota itseään ei  vielä ole mainittu. Ajatus liittyy suoraan
 semiaktiivisuuden  käsitteeseen Wallace Chafella [-@chafe1987, 29], ja käytettävissä olemiseen Knud Lambrechtilla [-@lambrecht1996, 99]. Dikin (mts. 275) tästä antama esimerkki on lause *John gave a party last week, but the music was awful*, jossa *musiikki*
 on juhlien käsitteen avulla tekstiin tuotu lohkotopiikki. Toisaalta lohkotopiikissa
-voi nähdä yhteyden myös tekstin implisiittiseen teemaan [@shore2008, ?].
+voi nähdä yhteyden myös tekstin implisiittiseen teemaan [@Shore2008, ?].
 
 
 

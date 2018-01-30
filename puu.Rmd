@@ -75,7 +75,7 @@ Kuvio esittää selittävien muuttujien vaikutuksen
 sarjana päätöksiä (kuvion ympyränmuotoiset noodit), jotka on numeroitu
 yhdestä 19:ään, esimerkiksi: *jos jonkin tapauksen dependenssirooli
 on predikaatti (noodi 1) ja pääverbin persoona ensimmäinen (noodi 15) ja jos lisäksi
-tapausta ei edellä väliotsikko, kyseessä on aina ryhmään @ee_predikaatti
+tapausta ei edellä väliotsikko, kyseessä on aina ryhmään 2
 kuuluva tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti (noodi 1),
 joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on kyseessä useimmiten
 ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat mahdollisia.
@@ -112,17 +112,18 @@ pander(tab, caption=Ref('tab','tt_ryhmatpuusta','Kvantitatiivisesti pääteltäv
 ```
 
 
-Taulukon mukaan ryhmä @ee_lista voidaan rakenteiden tasolla määritellä siten, että
+Taulukon mukaan ryhmä 1 voidaan rakenteiden tasolla määritellä siten, että
 siinä on nominaalinen topiikki-indikaattori, jonka pääverbi esiintyy ensimmäisessä
-persoonassa ja imperfektissä. Ryhmän @ee_omakokemus puolestaan erottaa 
+persoonassa ja imperfektissä. Ryhmän `r which(print.labels=="@ee_omakokemus")` puolestaan erottaa 
 muista se, että asumisaiheeseen viitataan siinä jollakin kompleksisella
-lausekkeella, kuten *asunnon hankinta* tai *asumisen järjestäminen*. Ryhmä @ee_ennakoivat
-taas voidaan määritellä ennen kaikkea aikamuodon pohjalta: siihen 
+lausekkeella, kuten *asunnon hankinta* tai *asumisen järjestäminen*. Ryhmä 
+`r which(print.labels=="@ee_ennakoivat")` taas voidaan määritellä ennen kaikkea aikamuodon pohjalta: siihen 
 kuuluvat tapaukset, joissa verbi on pluskvamperfektissä.
-Ainoastaan ryhmien @ee_narratiivi, @ee_parisanaa ja @ee_valimaasto  osalta ei tässä esitetyn
+Ainoastaan ryhmien `r which(print.labels=="@ee_narratiivi")`, `r which(print.labels=="@ee_parisanaa")` ja
+`r which(print.labels=="@ee_valimaasto")`  osalta ei tässä esitetyn
 päätöksentekopuun perusteella voida esittää selkeitä piirteitä, jotka johtaisivat
 tapauksen sijoittamiseen juuri näihin ryhmiin. Lisäksi on huomattava,
-että esimerkin sijoittaminen ryhmään @ee_linkki on perustunut täysin 
+että esimerkin sijoittaminen ryhmään `r which(print.labels=="@ee_linkki")` on perustunut täysin 
 artikkelin kirjoittajien tulkintaan: se, että tulevaa topiikkia
 on eksplisiittisesti pohjustettu aiemmassa tekstissä, ei ole pääteltävissä
 siitä, minkälaisia rakenteita topiikkia asettavassa virkkeessä

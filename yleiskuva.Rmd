@@ -43,88 +43,42 @@ pander(tab,caption=Ref('tab',"tt_esim","Esimerkit laadullisen analyysin tuloksen
 
 
 
-Aineiston isoimman ryhmän muodostavat esimerkin @ee_lista kaltaiset
-topiikkia asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana. Se on siis tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. Vaikka esimerkissä @ee_lista ei täyty Dikin [-@dik1989, 275] kuvailema ehto siitä, että varsinainen ylätopiikki olisi erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110], *asuntoni* on tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä). Kirjoittaja nimittäin vaikuttaa operoineen tässä, kuten useimmissa muissakin ryhmän @ee_lista[^ryhmanum] tapauksissa, yksinomaan tehtävänannon tarjoaman kysymyspatteriston ja saatavilla olevien mallitekstien puitteissa. Tästä seuraa, että asunto tai asuminen oletetaan lukijan käytettävissä olevaksi entiteetiksi [vrt. @chafe1987, 29;  @lambrecht1996, 99], ja se on tuotu tekstiin ilman ennakkomainintoja tai esittelyjä. Voisi jopa sanoa, että esimerkin @ee_lista kaltaiset tapaukset eivät niinkään aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia (vrt. implisiittinen teema @Shore2008).
+Aineiston isoimman ryhmän muodostavat esimerkin `r which(print.labels=="@ee_lista")` kaltaiset
+topiikkia asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana. Se on siis tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. Vaikka esimerkissä `r which(print.labels=="@ee_lista")` ei täyty Dikin [-@dik1989, 275] kuvailema ehto siitä, että varsinainen ylätopiikki olisi erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110], *asuntoni* on tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä). Kirjoittaja nimittäin vaikuttaa operoineen tässä, kuten useimmissa muissakin ryhmän `r which(print.labels=="@ee_lista")`[^ryhmanum] tapauksissa, yksinomaan tehtävänannon tarjoaman kysymyspatteriston ja saatavilla olevien mallitekstien puitteissa. Tästä seuraa, että asunto tai asuminen oletetaan lukijan käytettävissä olevaksi entiteetiksi [vrt. @chafe1987, 29;  @lambrecht1996, 99], ja se on tuotu tekstiin ilman ennakkomainintoja tai esittelyjä. Voisi jopa sanoa, että esimerkin `r which(print.labels=="@ee_lista")` kaltaiset tapaukset eivät niinkään aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia (vrt. implisiittinen teema @Shore2008).
 
 [^ryhmanum]: Viitaamme jatkossa ryhmiin tässä esitettyjen esimerkkien numeron
 perusteella.
 
-Seuraavan kiinnostavan ryhmän muodostavat esimerkin @ee_predikaatti kaltaiset tapaukset, joissa topiikki-indikaattorina on persoonamuotoinen *asua*-verbi. Virkkeiden pääasiallinen sisältö on yleensä
-informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. Tapaukset ovat edellistä ryhmää selkeämmin johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin @ee_predikaatti lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä alkava kappale kertoo. 
+Seuraavan kiinnostavan ryhmän muodostavat esimerkin `r which(print.labels=="@ee_predikaatti")` kaltaiset tapaukset, joissa topiikki-indikaattorina on persoonamuotoinen *asua*-verbi. Virkkeiden pääasiallinen sisältö on yleensä
+informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. Tapaukset ovat edellistä ryhmää selkeämmin johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin `r which(print.labels=="@ee_predikaatti")` lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä alkava kappale kertoo. 
 
-Kertominen ja kertova tekstityyppi ovatkin aineiston tekstilajille tyypillistä, mikä näkyy useammassakin alaryhmässä. Esimerkin @ee_narratiivi edustamassa ryhmässä asumisesta raportoidaan kertovan
+Kertominen ja kertova tekstityyppi ovatkin aineiston tekstilajille tyypillistä, mikä näkyy useammassakin alaryhmässä. Esimerkin `r which(print.labels=="@ee_narratiivi")` edustamassa ryhmässä asumisesta raportoidaan kertovan
 tekstityypin avulla, mikä käy annetusta esimerkistä esiin erityisen selvästi, koska
-kirjoittaja on käyttänyt ajan ilmausta. Aikamuoto ryhmän @ee_narratiivi virkkeissä on tyypillisesti imperfekti. Esimerkin @ee_ennakoivat edustamat virkkeet ovat ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki sijoittuu. 
+kirjoittaja on käyttänyt ajan ilmausta. Aikamuoto ryhmän `r which(print.labels=="@ee_narratiivi")` virkkeissä on tyypillisesti imperfekti. Esimerkin `r which(print.labels=="@ee_ennakoivat")` edustamat virkkeet ovat ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki sijoittuu. 
 
-Yhtälailla ryhmittelystämme on löydettävissä erilaisia tapoja aloittaa luonnehtimalla omia kokemuksiaan. Esimerkissä @ee_omakokemus topiikkia indikoi *asuminen*, mikä tähän ryhmään luokitelluille onkin varsin tyypillistä: jostakin varsinaisen diskurssitopiikin osa-alueelta tiivistetään oma kokemus kompleksiseen deverbaalijohdokseen, jota luonnehditaan predikatiivilauseella. Näissä tapauksissa kuvataan, miten *asunnon hakeminen oli helppoa* tai miten *kaikkein vaikeinta
+Yhtälailla ryhmittelystämme on löydettävissä erilaisia tapoja aloittaa luonnehtimalla omia kokemuksiaan. Esimerkissä `r which(print.labels=="@ee_omakokemus")` topiikkia indikoi *asuminen*, mikä tähän ryhmään luokitelluille onkin varsin tyypillistä: jostakin varsinaisen diskurssitopiikin osa-alueelta tiivistetään oma kokemus kompleksiseen deverbaalijohdokseen, jota luonnehditaan predikatiivilauseella. Näissä tapauksissa kuvataan, miten *asunnon hakeminen oli helppoa* tai miten *kaikkein vaikeinta
 oli asunnon löytäminen*. Strategiana on itsestään käsin kertoa, miten asiat ovat sujuneet, omia onnistumisia ja epäonnistumisia arvioiden. Informaatiorakenteen kannalta 
-nämä tapaukset ovat monesti ryhmän @ee_lista tapaan alatopiikkeja. Esimerkki @ee_omakokemus
-on kuitenkin esimerkkiä @ee_lista selvemmin topiikkia asettava virke, sillä siinä
+nämä tapaukset ovat monesti ryhmän `r which(print.labels=="@ee_lista")` tapaan alatopiikkeja. Esimerkki`r which(print.labels=="@ee_omakokemus")` 
+on kuitenkin esimerkkiä `r which(print.labels=="@ee_lista")` selvemmin topiikkia asettava virke, sillä siinä
 asumisen rooli yhtenä vaihtokokemuksen osana on ilmaistu eksplisiittisesti.
 
 [tähän seuraavaksi etäännytetyt kuvailut ja sitte lopetus linkkihommiin]
 
 
-Esimerkissä @ee_linkki indikaattorina on *asuntoloista*-sana. Ilman kontekstia
+Esimerkissä `r which(print.labels=="@ee_linkki")` indikaattorina on *asuntoloista*-sana. Ilman kontekstia
 tarkasteltuna tämäkin tapaus vaikuttaa samalta kuin listamainen esimerkki, mutta
 laajemman analyysin tuloksena selvisi, että kirjoittaja on jo aiempana,
 kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan saapumisesta, rakentanut
 kuvaa paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. Tämän
 ryhmän tekstit sijoittuvatkin toissijaisesti myös johonkin toiseen alaryhmään,
 mutta ovat erottuneet omasta alaryhmästään kontekstin tarkastelun vaiheessa.
-
-`r esimerkki`
-
-
-Esimerkin @ee_linkki kaltaisia aiempaan kontekstiin tietoisesti sidottuja
-tapauksia on aineistossa `r total` kappaletta. Näissä tapauksissa kyse on 
+Esimerkin `r which(print.labels=="@ee_linkki")` kaltaisia aiempaan kontekstiin tietoisesti sidottuja
+tapauksia on aineistossa `r esim$Linkki$total` kappaletta. Näissä tapauksissa kyse on 
 virketasolla tarkasteltuna joko annetuista topiikeista -- jos
 kontekstuaalinen linkki on muodostettu suhteellisen lähellä tässä käsiteltävää
 varsinaista asumiskappaletta  -- tai, jos edellinen maininta on selvästi
 kauempana, palautetuista topiikeista [@dik1989, 270--271]. X:ssä 
 tämän ryhmän virkkeessä kappaletta edeltää välitotsikko.
-
-```{r, include=FALSE}
-detach(esim.ordered[[5]])
-attach(esim.ordered[[6]])
-```
-
-`r esimerkki`
-
-Esimerkissä @ee_staattinen kirjoittaja esittelee uuden topiikin lähtemällä
-liikkeelle konkreettisesti asuntonsa luonnehtimisesta (vrt. esimerkki
-@ee_omakokemus, jossa luonnehditaan kirjoittajan kokemusta). Vastaavia
-asuntolaa tai asumista staattisesti kuvaavia topiikin asettavia virkkeitä on
-kaikkiaan `r total` kappaletta. Informaatiorakenteeltaan nämä tapaukset ovat
-monesti lähellä ryhmää @ee_predikaatti, sillä molemmissa kappaleen ensimmäinen
-virke esittelee lukijalle sen, minkä yksityiskohtaiseen kuvailuun koko
-loppukappale keskittyy. Esimerkissä @ee_staattinen topiikki asetetaan kuitenkin
-jossain määrin implisiittisemmin, ja hyppäys edellisestä aiheesta (esimerkin
-@ee_staattinen tapauksessa HIV-testin teettäminen) on tyypillisesti rajumpi.
-Tämä selittää sitä, että peräti `r otsikkosuhde` ryhmän @ee_staattinen
-tapauksista (ei kuitenkaan tässä esitetty esimerkki) sisältää asumiskappaletta
-edeltävän väliotsikon.
-
-```{r, include=FALSE}
-detach(esim.ordered[[6]])
-attach(esim.ordered[[7]])
-```
-
-Esimerkki @ee_kontrasti edustaa kaikkiaan `r total` tapausta käsittävää
-ryhmää, jonka ominaispiirteenä on kirjottajan itsensä vertailu
-muihin vaihdossa olleisiin.
-
-`r esimerkki`
-
-Informaatiorakenteeltaan ryhmän @ee_kontrasti tapaukset ovat nekin tyypillisesti 
-alatopiikkeja, ja olettavat indikaattorisanan implikoiman topiikin jossain määrin
-esimerkin @ee_lista kaltaisesti jo asetetuksi. Toisaalta esimerkissä @ee_kontrasti
-on samoja piirteitä kuin esimerkissä @ee_omakokemus: myös tässä
-reflektoidaan sitä, mikä omassa kokemuksessa oli helppoa ja mikä vaikeaa. Yhdessäkään
-ryhmän @ee_kontrasti tapauksessa ei ole asumiseen viittaavaa väliotsikkoa.
-
-
-
 
 
 
@@ -142,7 +96,3 @@ on suurimmalle osalle ryhmistä melko yksinkertaista antaa
 myös muodolliset, lähinnä rakenteeseen perustuvat määritelmät,
 joiden soveltaminen voi joillekin kirjoittajille tai opettajulle olla abstrakteja
 funktionaalisten ominaisuuksien kuvailuja helpompaa.
-
-
-
-
