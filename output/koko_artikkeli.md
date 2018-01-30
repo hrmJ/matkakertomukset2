@@ -273,7 +273,7 @@ pitkälle kuin mahdollista. Prosessi piti sisällään seuraavat vaiheet:
 
 Jos tutkitaan tarkemmin niitä kategorioita, jotka syntaktinen jäsennin
 on merkinnyt tutkimukseen valikoituneiden kappaleiden ensimmäisille
-*asua*-johdoksille, saadaan taulukon 1 mukainen jakauma.
+*asua*-johdoksille, saadaan taulukon 2 mukainen jakauma.
 
 <table>
 <colgroup>
@@ -359,7 +359,7 @@ on merkinnyt tutkimukseen valikoituneiden kappaleiden ensimmäisille
 </tbody>
 </table>
 
-Taulukko 1: Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.
+Taulukko 2: Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.
 
 Taulukon Frekvenssi-sarakkeesta nähdään paitsi se, että yhteensä edellä
 kuvattujen kolmen annotointi- ja rajausvaiheen jälkeen jäljelle jäi 338
@@ -418,6 +418,91 @@ ominaisuuksien pohjalta.
 
 Laadullinen analyysi
 --------------------
+
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Topiikkia asettava virke</th>
+<th align="left">Konteksti</th>
+<th align="left">Siirtymän toteutus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em>Asuntoni sain vuokrattua Apartiksen( paikallinen TOAS) kautta.</em></td>
+<td align="left">Käsittelee ennakkovalmisteluja yms. Lopuksi reflektoi osaamistaan kielikurssilla.</td>
+<td align="left">Alatopiikilla, vaikka ylätopiikkia ei ilmipantu.</td>
+</tr>
+<tr class="even">
+<td align="left"><em>Vaihtoni aikana asuin Grandmontin asuntolassa.</em></td>
+<td align="left">Kertoo, missä asui vaihtonsa aikana; kuvailee sisustuksen, kämppäkaverit ja vuokran.</td>
+<td align="left">Esittelytopiikilla. Predikaattina on asua-verbi. Kertoo, missä kirjoittaja on asunut.</td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Olin löytänyt asunnon ensimmäiseksi kuukaudeksi Airbnb:n kautta ennen Italiaan saapumista.</em></td>
+<td align="left">Kertoo, mitä tapahtunut ennen kuvattavaa jaksoa. Kuvailee tarkemmin sijaintia, kulkuyhteyksiä yms.</td>
+<td align="left">Esittelytopiikilla, mutta aikarakenteltaan monitasoisempi kuin ryhmä 3.</td>
+</tr>
+<tr class="even">
+<td align="left"><em>Asuminen, tai siis lähinnä asunnon hankkiminen, oli varmaankin vaihdon hankalin juttu.</em></td>
+<td align="left">Arvioi edeltävässä kurssitarjonnan tasoa, paperiasioiden hoitumista yms.</td>
+<td align="left">Diskurssista johdetulla alatopiikilla, jota indikoi usein deverbaalisubstantiivi. Luonnehtii kirjoittajan subjektiivista kokemusta.</td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Asuntoloista valitsin Julius Raab Heimin vanhojen matkakertomusten perusteella.</em></td>
+<td align="left">Kuvannut vaihtoon hakua ja kotimaan järjestelyjä. Maininnut jo paikallisista asuntolavaihtoehdoista.</td>
+<td align="left">Edeltävässä kappaleessa annetun tai hiukan kauempaa palautetun topiikin avulla. Kuuluvat toissijaisesti johonkin toiseen alaryhmään.</td>
+</tr>
+<tr class="even">
+<td align="left"><em>Ulkomaisille opiskelijoille tarkoitettu asuntola on vain kolme vuotta vanha ja täten melko moderni.</em></td>
+<td align="left">Luonnehtii asuntoa konkreettisesti. Edellinen kappale lennosta ja saapumisesta.</td>
+<td align="left">Muistuttavat 2. ryhmän tapauksia, kytkös implisiittisempi, usein väliotsikko. Luonnehtii asuntoa / asuntolaa konkreettisesti.</td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Itselläni kävi tuuri asunnon suhteen löytäessäni edullisen huoneen Chelseasta aivan Manhattanin keskeltä.</em></td>
+<td align="left">Tekstin viimeinen kappale. Edellä arvioinut kokemustaan kokonaisuutena.</td>
+<td align="left">Alatopiikin avulla. Muistuttaa 1. ryhmää, mutta sisältönä verrataan omia kokemuksia toisten kokemuksiin.</td>
+</tr>
+<tr class="even">
+<td align="left"><em>Asuminen Tokiossa on aika kallista.</em></td>
+<td align="left">Kappale melkein tekstin lopussa. Edellä kuvannut vapaa-ajan mahdollisuuksia.</td>
+<td align="left">4. ryhmän tapaan, mutta jakaen maailmantietoa, ei eksplikoiden omia kokemuksia.</td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Suurlähetystön henkilökunta tarjosi resurssiensa puitteissa apuaan mm. maahantuloon, käytännön järjestelyihin sekä asunnon löytämiseen liittyvissä asioissa.</em></td>
+<td align="left">Edellä kuvannut hakuprosessia. Jatkaa vuokratasoon ja hintoihin.</td>
+<td align="left">Esittelytopiikin avulla, mutta kirjoittaja ei ole agentiivinen toimija. Fokuksessa joku muu keskeinen toimija.</td>
+</tr>
+<tr class="even">
+<td align="left"><em>Lensin Wieniin sunnuntaina ja lento-kentältä suuntasin suoraan asunnolleni.</em></td>
+<td align="left">Tekstin alkupuolella -- edellä vain hakuprosessin kuvaus.</td>
+<td align="left">edellisiä implisiitisempi, kuitenkin uuden topiikin avulla. Kertova tekstityyppi ja aikamuoto yleensä imperfekti. Narraatio.</td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Sitten pari sanaa asumisesta.</em></td>
+<td align="left">Edellä yksityiskohtaisesti esim. seminaarien opintopisteistä.</td>
+<td align="left">metatekstin kautta. Uusi topiikki, joka tuodaan tekstiin eksplisiittisesti.</td>
+</tr>
+<tr class="even">
+<td align="left"><em>Saapuessani Varsovaan minulla oli onneksi jo asunto tiedossa.</em></td>
+<td align="left">Edellä kieltenopiskelusta, jatkaa hintoihin.</td>
+<td align="left">uuden topiikin avulla, joka avausvirkkeen loppupuolella. Ajallinen jännite, katsotaan kuvatusta aikapisteestä taaksepäin.</td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Lähes kaikki Bratislavan kauppakorkeakoulun vaihto-opiskelijat asuivat Ekonom-nimisessä dormitoryssa.</em></td>
+<td align="left">Kuvannut saapumista ja tutor-toimintaa.</td>
+<td align="left">7. ryhmän tapaan, mutta samaistuen, ei kontrastoiden muiden vaihto-opiskelijoiden toimintaan. Alaotsikko tyypillinen.</td>
+</tr>
+</tbody>
+</table>
+
+Taulukko 1: Esimerkit laadullisen analyysin tuloksena syntyneistä
+ryhmistä
 
 Käymme tässä alaluvussa laadullisen analyysin tuloksena syntyneet ryhmät
 läpi niiden koon mukaisessa järjestyksessä suurimmasta pienimpään.
@@ -703,7 +788,7 @@ selittävien muuttujien avulla.
 
 1.  *Topiikki-indikaattorin dependenssirooli.* Tämän muuttujan avulla
     määriteltiin alkuperäinen satunnaisotanta. Sen arvojen pohjana ovat
-    taulukossa 1 luetellut dependenssiroolit, joita kuitenkin
+    taulukossa 2 luetellut dependenssiroolit, joita kuitenkin
     lavennettiin siten, että arvot *nsubj* ja *nsubj:cop* yhdistettiin
     yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss* sekä
     *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin
@@ -759,7 +844,7 @@ rakenteellisten ominaisuuksien valossa. Karkeasti ottaen voidaan todeta,
 että suurin osa laadullisen analyysin tuloksena laadituista
 kolmestatoista ryhmästä pystytään päättelemään hyödyntämällä kolmea[5]
 yksinkertaista rakenteellisen mikrotason muuttujaa: verbin persoonaa,
-aikamuotoa ja indikaattorisanan dependenssiroolia. Taulukossa 2 on
+aikamuotoa ja indikaattorisanan dependenssiroolia. Taulukossa 3 on
 tiivistetty näiden muuttujien vaikutus topiikkia asettavan virkkeen
 päätymiseen johonkin laadullisessa analyysissa määritellyistä ryhmistä.
 
@@ -840,7 +925,7 @@ päätymiseen johonkin laadullisessa analyysissa määritellyistä ryhmistä.
 </tbody>
 </table>
 
-Taulukko 2: Kvantitatiivisesti pääteltävissä olevat ryhmät
+Taulukko 3: Kvantitatiivisesti pääteltävissä olevat ryhmät
 
 Taulukon mukaan ryhmä 1 voidaan rakenteiden tasolla määritellä siten,
 että siinä on nominaalinen topiikki-indikaattori, jonka pääverbi

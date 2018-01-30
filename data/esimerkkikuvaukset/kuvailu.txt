@@ -1,14 +1,13 @@
-Siirtym‰ alatopiikin avulla, vaikka yl‰topiikkia ei ole ilmipantu.
-Siirtym‰ esittelytopiikin avulla. Lauseiden predikaattina on asua-verbi. V‰litt‰‰ informaatiota siit‰, miss‰ kirjoittaja on asunut.
-Siirtym‰ uuden topiikin esittelyn kautta, mutta aikarakenteltaan monitasoisempi kuin ryhm‰ 3.
-Siirtym‰ diskurssista johdetulla alatopiikilla, jota indikoi usein deverbaalisubstantiivi. Luonnehtii kirjoittajan subjektiivista kokemusta.
-Siirtym‰ edelt‰v‰ss‰ kappaleessa annetun tai hiukan kauempaa palautetun topiikin avulla. Kuuluvat toissijaisesti johonkin toiseen alaryhm‰‰n.
-Siirtym‰t muistuttavat 2. ryhm‰n tapauksia, mutta kytkˆs tyypillisesti implisiittisempi, luotu v‰liotsikon avulla. Uusi topiikki asetetaan ja kuvataan sen ominaisuuksia.
-Siirtym‰ alatopiikin avulla. Muistuttaa topiikin asettamisessa 1. ryhm‰‰, mutta sis‰ltˆn‰ verrataan omia kokemuksia toisten kokemuksiin. Ei v‰liotsikoita.
-Siirtym‰ 4. ryhm‰n tapaan, mutta jakaen maailmantietoa, ei eksplikoiden omia kokemuksia.
-Siirtym‰ uuden topiikin avulla, mutta kirjoittaja ei ole agentiivinen toimija. Fokuksessa joku muu keskeinen toimija.
-Siirtym‰ edellisi‰ implisiitisempi, kuitenkin uuden topiikin avulla. Kertova tekstityyppi ja aikamuoto yleens‰ imperfekti. Narraatio.
-Siirtym‰ metatekstin kautta. Uusi topiikki, joka tuodaan tekstiin eksplisiittisesti.
-Siirtym‰ uuden topiikin avulla, joka avausvirkkeen loppupuolella. Ajallinen j‰nnite, katsotaan kuvatusta aikapisteest‰ taaksep‰in.
-Siirtym‰ 7. ryhm‰n tapaan, mutta samaistuen, ei kontrastoiden muiden vaihto-opiskelijoiden toimintaan. Alaotsikko tyypillinen.
-
+Alatopiikilla, vaikka yl√§topiikkia ei ilmipantu.
+Esittelytopiikilla. Predikaattina on asua-verbi. Kertoo, miss√§ kirjoittaja on asunut.
+Esittelytopiikilla, mutta aikarakenteltaan monitasoisempi kuin ryhm√§ 3.
+Diskurssista johdetulla alatopiikilla, jota indikoi usein deverbaalisubstantiivi. Luonnehtii kirjoittajan subjektiivista kokemusta.
+Edelt√§v√§ss√§ kappaleessa annetun tai hiukan kauempaa palautetun topiikin avulla. Kuuluvat toissijaisesti johonkin toiseen alaryhm√§√§n.
+Muistuttavat 2. ryhm√§n tapauksia, kytk√∂s implisiittisempi, usein v√§liotsikko. Luonnehtii asuntoa / asuntolaa konkreettisesti.
+Alatopiikin avulla. Muistuttaa 1. ryhm√§√§, mutta sis√§lt√∂n√§ verrataan omia kokemuksia toisten kokemuksiin. 
+4. ryhm√§n tapaan, mutta jakaen maailmantietoa, ei eksplikoiden omia kokemuksia.
+Esittelytopiikin avulla, mutta kirjoittaja ei ole agentiivinen toimija. Fokuksessa joku muu keskeinen toimija.
+edellisi√§ implisiitisempi, kuitenkin uuden topiikin avulla. Kertova tekstityyppi ja aikamuoto yleens√§ imperfekti. Narraatio.
+metatekstin kautta. Uusi topiikki, joka tuodaan tekstiin eksplisiittisesti.
+uuden topiikin avulla, joka avausvirkkeen loppupuolella. Ajallinen j√§nnite, katsotaan kuvatusta aikapisteest√§ taaksep√§in.
+7. ryhm√§n tapaan, mutta samaistuen, ei kontrastoiden muiden vaihto-opiskelijoiden toimintaan. Alaotsikko tyypillinen.

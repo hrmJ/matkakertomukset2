@@ -1,27 +1,13 @@
-﻿Kirjoittaja on käsittelee ennakkovalmisteluja yms. Lopuksi reflektoi omaa osaamistaan kielikurssilla. Osassa tekstejä (7 kpl / 22.58 %) väliotsikko kuten Asuminen tai Asuminen Istanbulissa – ei kuitenkaan esimerkissä 1.
-
-Kirjoitaja kertoo, missä asui vaihtonsa aikana ja jatkaa kappalettaan kuvailemalla asuntonsa sisustuksen, kämppäkaverit ja vuokran suuruuden.
-
-Kirjoittaja johdattelee topiikkiin kertomalla jotakin, mikä on tapahtunut ennen kuvattavaa ajanjaksoa. Kappaleen loppuosassa kirjoittaja kuvailee tarkemmin asunnon yksityiskohtia: sijaintia, kulkuyhteyksiä ja tyypillisyyttä kohdekulttuurissa.
-
-
-Kirjoittaja kuvaa, miten asunnon hakeminen oli helppoa tai miten kaikkein vaikeinta oli asunnon löytäminen. Kirjoittajan näkökulma on koko tekstin ja diskurssitopiikinkin tasolla subjektiivinen – strategiana on kertoa käsiteltävästä asiasta sen kautta, miten asiat ovat sujuneet, omia onnistumisia ja epäonnistumisia arvioiden.  
-
-Kirjoittaja on jo aiempana rakentanut kuvaa paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. 
-
-Kirjoittaja esittelee uuden topiikin lähtemällä liikkeelle konkreettisesti asuntonsa luonnehtimisesta. Ryhmästään poiketen ei rakennu väliotsikon varaan, vaan kytkös on implisiittinen.
-
-Kirjoittaja reflektoi sitä, mikä omassa kokemuksessa oli helppoa ja mikä vaikeaa. Yhdessäkään ryhmän 7 tapauksessa ei ole asumiseen viittaavaa väliotsikkoa. 
-
-Kirjoittaja ei lähde liikkeelle omista kokemuksistaan vaan ankkuroi tekstin siihen fyysiseen paikkaan, jossa vaihto tapahtui. Tilanteen käsittelynäkökulma on laajempi, jakaen maailmantietoa lukijalleen. Asumisesta kertovaa kappaletta edeltää väliotsikko Asuminen.
-
-Kirjoittaja keskittyy agenttiin, jonka toimet vaikuttavat kirjoittajaan yleisesti ja asumisen järjestymiseen erityisesti. Väliotsikko.
-
-Kirjoittaa kertoo tapahtumista, esittämisjärestys on temporaalinen.
-
-Pari sanaa asumisesta -ryhmä on haaste.
-
-Kirjoittaja rakentaa ajallisen jännitteen aloittaen ratkaisusta (saavuttaessa asunto oli jo löydetty) ja käyttää lopun kappaleen takaumamaisesti sen kuvailuun, miten ratkaisuun päästiin (kirjoittaja oli etsinyt asuntoa valmiiksi Facebookin kautta).
-
-Kirjoittaja johdattaa lukijan kappaleen varsinaiseen aiheeseen, Ekonom-nimiseen asuntolaan, jonka sijainnista, vuokratasosta ja muista ominaisuuksista kappale kertoo. Yhtä lukuun ottamatta kaikki tämän ryhmän tapaukset sisältävät myös asumiseen viittaavan väliotsikon.
-
+﻿Käsittelee ennakkovalmisteluja yms. Lopuksi reflektoi osaamistaan kielikurssilla. 
+Kertoo, missä asui vaihtonsa aikana; kuvailee sisustuksen, kämppäkaverit ja vuokran.
+Kertoo, mitä tapahtunut ennen kuvattavaa jaksoa. Kuvailee tarkemmin sijaintia, kulkuyhteyksiä yms.
+Arvioi edeltävässä kurssitarjonnan tasoa, paperiasioiden hoitumista yms.
+Kuvannut vaihtoon hakua ja kotimaan järjestelyjä. Maininnut jo paikallisista asuntolavaihtoehdoista.
+Edellinen kappale lennosta ja saapumisesta.
+Tekstin viimeinen kappale. Edellä arvioinut kokemustaan kokonaisuutena.
+Kappale melkein tekstin lopussa. Edellä kuvannut vapaa-ajan mahdollisuuksia.
+Edellä kuvannut hakuprosessia. Jatkaa vuokratasoon ja hintoihin.
+Tekstin alkupuolella -- edellä vain hakuprosessin kuvaus.
+Edellä yksityiskohtaisesti esim. seminaarien opintopisteistä.
+Edellä kieltenopiskelusta, jatkaa hintoihin.
+Kuvannut saapumista ja tutor-toimintaa.
