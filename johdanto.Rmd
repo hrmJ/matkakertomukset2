@@ -14,5 +14,4 @@ Analyysin avulla haetaan vastausta seuraaviin tutkimuskysymyksiin:
 1) Millaisia tapoja yliopisto-opiskelijat käyttävät saman topiikin asettamiseen?
 2) Miten näitä tapoja voidaan määritellä toisaalta funktionaalisesti, toisaalta syntaktisesti?
 
-Tutkimus toteutetaan korpusvetoisesti yhdistelemällä laadullisia (osio 4.1) ja määrällisiä (osio 4.2)
-menetelmiä. Tähän perustelut aineistovalinnalle.
+Tutkimus toteutetaan korpusvetoisesti yhdistelemällä laadullisia (osio 4.1) ja määrällisiä (osio 4.2) menetelmiä. 

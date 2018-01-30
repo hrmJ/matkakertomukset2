@@ -7,23 +7,15 @@ Erityisesti englanninkielisessä kirjoittamisen opetuksen perinteessä on ollut 
 
 Tekstikappaleen ytimen tavoittelun sijaan kohdistammekin huomiomme siihen, miten kirjoittaja toteuttaa siirtymän aiheesta toiseen. Nimitämme siirtymän toteuttavia virkkeitä Juvosta (XX) mukaillen *topiikkia asettaviksi*. Tutkimuksemme kartoittaa eri tapoja asettaa topiikkia tarkastelemalla laajahkosta aineistosta sitä, miten eri kirjoittavat ovat siirtyneet yhteen ja samaan topiikkiin.
 
-Käyttämämme topiikin määritelmä perustuu Simon Dikin esitykseen kielioppiin lekseemit ja rakenteet, joita varioimalla eri kirjoittajat asettavat samaa tekstikappaleen topiikkia. Topiikin määritelmä palautuu Herra Dikin funktionaaliseen kielioppiin (?), jonka ytimenä ovat koherentit tekstit, jotka itsessään ja joiden sisältämät osat puhuvat aina jostakin aiheesta, eli niillä on topiikki. Kokonaisella tekstillä on siis topiikki, josta käytämme tässä termiä diskurssitopiikki, samoin tekstinosilla (kappaleilla, lauseilla, virkkeillä) on omat topiikkinsa. 
+Käyttämämme topiikin käsite pohjaa Simon Dikin funktionaalisessa kieliopissaan [-@dik1989] antamaan esitykseen, jota vastaavassa tekstikappaleiden rakenteen analyysissa on soveltanut mm. Jesus Guijarro [-@guijarro2001]. Dikin mukaan (mts. 266) kaikilla diskursseilla (joka Dikin määrittelemänä tarkottaa mitä tahansa koherenttia tekstiä) on se ominaisuus, että ne kertovat jostakin. Tämä ominaisuus, jota nimitämme *aiheisuudeksi* (*aboutness*), koskee paitsi tekstiä kokonaisuutena, myös siitä eroteltuja alakokonaisuuksia, kuten kappaleita ja virkkeitä. Määrittelemmekin topiikin tämän artikkelin puitteissa siksi, mistä teksti, kappale tai virke kertoo [vrt. @lambrecht1996, 118].
 
-
-Tekstin topiikit ketjuttuvat (topical chains, ks. myös Givon) ja ilmiötä voisi kuvat käsitteellä aiheisuus (aboutness). Aiheisuus ei suoraan ota kantaa tekstin informaatiorakenteeseen tai teemankulkuun, vaan on askelta ylemmän tason käsite (keskustelua aiheesta ja eri tavoista käsitteellistää ilmiötä ks. Shore 2008). Meitä kiinnostaa eritoten ketjun alkupää eli se, millä tavalla kappaleen topiikki saa alkunsa. Dik erottaa  mallissaan alalajeja, joiden avulla on mahdollista kuvata ketjujen alkuja ja topiikin ketjuttumista: lajit newtop, givtop, xtop.
-
-
-
-
-Minä haluaisin ottaa tähän sitten tarkemmin tämän, ihan oma kappaleensa?
-Yleensä subtop kuvataan tapana jatkaa topiikkiketjua eikä alkaa sitä. (ks. artikkeli topical chains drivessä)
-Subtopissa voi nähdä yhteyden esim. tekstin implisittiseen teemaan, Shore)
-
-1)	johdantotopiikki, kun tämä on esitelty, framille tulee 2) mainittu/given-topiikki (meillä ainoastaan linkkitapaukset) 3) alatopiikki s. 275 (lista) 
-
-Miten alemman tason topiikista siirrytään seuraavaan.   (kts. Dik 270)
-
-
+Tekstin sisällä topiikit muodostavat Dikin [mt. 271, vrt. myös @givon1983topic]
+jaottelussa topiikkiketjuja, joiden katsomme tässä artikkelissa koostuvan *esittelytopiikeista* (Dikillä *new topic*), *esitellyistä topiikeista* (Dikillä *given topic*) ja *lohkotopiikeista* (Dikillä *subtopic*). Esittelytopiikkeja ovat tapaukset, joissa  kirjoittaja tuo jonkin aiheen tekstiin ensimmäistä kertaa ja esiteltyjä topiikkeja taas sellaiset tapaukset, jotka on jo tuotu aiemmin ja joihin nyt palataan.
+Lohkotopiikeilla viittamme tilanteeseen, jossa kirjoittaja käyttää hyväkseen johonkin
+edellä esiteltyyn topiikkiin kiinteästi liittyvää assosiaatioiden joukkoa viitatakseen entiteettiin, jota itseään ei  vielä ole mainittu. Ajatus liittyy suoraan
+semiaktiivisuuden  käsitteeseen Wallace Chafella [-@chafe1987, 29], ja käytettävissä olemiseen Knud Lambrechtilla [-@lambrecht1996, 99]. Dikin (mts. 275) tästä antama esimerkki on lause *John gave a party last week, but the music was awful*, jossa *musiikki*
+on juhlien käsitteen avulla tekstiin tuotu lohkotopiikki. Toisaalta lohkotopiikissa
+voi nähdä yhteyden myös tekstin implisiittiseen teemaan [@shore2008, ?].
 
 
 
