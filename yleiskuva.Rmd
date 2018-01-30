@@ -46,7 +46,7 @@ nämä tapaukset ovat monesti ryhmän @ee_lista tapaan alatopiikkeja. Esimerkki 
 on kuitenkin esimerkkiä @ee_lista selvemmin topiikkia asettava virke, sillä siinä
 asumisen rooli yhtenä vaihtokokemuksen osana on ilmaistu eksplisiittisesti.
 
-[tässä olen menossa, nyt nukkumaan]
+[tähän seuraavaksi etäännytetyt kuvailut ja sitte lopetus linkkihommiin]
 
 
 Esimerkissä @ee_linkki indikaattorina on *asuntoloista*-sana. Ilman kontekstia
