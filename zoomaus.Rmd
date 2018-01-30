@@ -51,4 +51,11 @@ Kirjoittaja on edellisessä kappaleessa kuvannut saapumistaan kohdemaahan ja jä
 
 
 
- 
+ ***************************** perjantai-iltapäivän zoomailuja
+
+Ensin on tarkastelus eri tyyppejä esittämiä lause-esimerrkejä, joista on abstrahoitu kuvaus.
+Sitten esitellään dependenssipuun kautta.
+Kolmantena voisi kiepsauttaa kirjoittajan housuihin.
+
+
+Kirjoittaja haluaa kirjoittaa asumisesta. 
