@@ -1,3 +1,10 @@
+﻿
+Tekstikappaleen ydin voi sijaita yhtä lailla ortografisen kappaleen alussa kuin muualla (Komppa). Tekstikappaleen ensimmäinen lause tai virke ei yksinään paljastakaan mitään siitä, millaisessa asemassa kappale hierakkisesti on tekstin kokonaisrakenteen kannalta. Kappaleiden välinen sidosteisuus, koheesio ja/tai koherenssi on kuitenkin saatava aikaan jollain tavalla, ja olemassa olevan tutkimuksen perustella voimme olettaa (kenties?) että tekstin sisältö saattaa olla jopa keskeisempi tekijä kuin tekstin kokonaisrakenne.
+
+Juvonen sanoo, eri tekstityyppejä yhdistellen voi päästä samaan lopputulokseen, jolloin emme voi myöskään rakentaa mitään tiettyyn tekstilajiin soveltuvaa kaavaa.  -> meidän tuloksista kai voisi saada apua siihen, miten päästään alkuun tietyn tekstityypin käytössä ja sitä kautta rakennetaan haluttua tekstilajia??
+
+
+
 
 
 1. Kirjoittamisen opetuksen kannalta ajateltuna. Työkaluja nimenomaan sen
@@ -13,6 +20,7 @@ ettei tietoisesti rakenneta, vaan vedetään assosiatiivisesti?
 kappale?
 
 2. Konkreettinen sovellus fraasipankissa tms.
+
 
 
 
