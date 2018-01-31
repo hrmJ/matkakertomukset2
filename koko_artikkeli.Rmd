@@ -35,20 +35,28 @@ library(SataTapaa)
 
 # Tulokset
 
-Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut
-`r nrow(analysoitu_otanta)` tekstiä jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
-ryhmään. Osiossa 4.1. kutakin ryhmää luonnehditaan yleisellä tasolla tarkastelemalla
-lähemmin yhtä edustavaa esimerkkiä. Vaikka varsinainen ryhmäjako on tehty
-puhtaan laadullisin perustein pohjaamalla tapausten keskinäiseen
-samankaltaisuuteen, tulkitaan osiossa 4.2. analyysin tulosta eli 
-itse jaottelua määrällisten ominaisuuksien pohjalta. 
+Edellä kuvatun laadullisen analyysin tuloksena 
+tutkimusaineiston tekstit
+jaoteteltiin  `r length(unique(analysoitu_otanta$group))`
+ryhmään, joita osiossa 4.1. luonnehditaan yhden edustavan esimerkin avulla.
+Kuten metodin kuvauksen yhteydessä todettiin, tässä kuvatut eri topiikin
+asettamistapoja edustavat ryhmät on muodostettu systemaattisesti sijoittamalla
+toisaan muistuttavat tapaukset samaan kategoriaan. Ryhmien väliset rajat eivät
+luonnollisestikaan ole suoraviivaisia, ja jaottelun olisi voinut tehdä
+muillakin tavoilla.
+Eri ryhmät ovat lisäksi enemmän
+tai vähemmän läheisessä yhteydessä toisiinsa, ja näitä linkkejä
+on tässä esitetyssä kuvauksessa pyritty osoittamaan. Vaikka varsinainen
+ryhmäjako perustuu laadulliseen samankaltaisuuteen, tulkitaan osiossa
+4.2. analyysin tulosta eli itse jaottelua tilastollisin menetelmin.
+
 
 ## Laadullinen analyysi
 
 `r knit_child('yleiskuva.Rmd', quiet=T)`
 
 
-## Määrällinen analyysi
+## Tilastollinen tarkastelu
 
 `r knit_child('puu.Rmd', quiet=T)`
 

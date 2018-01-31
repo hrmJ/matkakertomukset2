@@ -1,14 +1,8 @@
-
-Tekstuaalisia funktioita ja  ja kappaletason elementtejä kuvattaessa 
-on usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa".
-Jos opettaja haluaa konkretisoida eri tekstistrategioita,
-hänen on tavallisesti turvauduttava vain abstrakteihin määritelmiin.
-Yhtenä tämän tutkimuksen tarkoituksena on kuitenkin tuottaa myös
-toisenlaista, rakenteiden tason tietoa...
-Tätä tietoa on kerätty seuraavassa soveltamalla 
-laadullisen analyysin tuloksena saatuun ryhmäjakoon
-määrällisiä menetelmiä, tarkemmin ottaen ehdollisia päätöksentekopuita
-(*conditional inference trees*).
+Edellä (taulukko) esitimme tavan ryhmitellä asumisesta kertovat tekstikappaleet
+sen mukaan, miten kirjoittaja toteuttaa siirtymän uuteen aiheeseen. Seuraavassa
+sovellamme laadullisen analyysin tuloksena saatuun ryhmäjakoon tilastollisia
+menetelmiä, tarkemmin ottaen ehdollisia päätöksentekopuita (conditional
+inference trees). 
 
 Ehdollisissa päätöksentekopuissa  ajatuksena on, että
 [@levshina2015, x] . Analyysissa määritellään yksi selitettävä muuttuja [vrt. @ketokivi2015, x]
@@ -18,11 +12,14 @@ selitettävän muuttujan muodostavat laadullisen analyysin tuloksena
 luodut topiikin asetustapojen `r length(unique(analysoitu_otanta$group))`
 ryhmää. Yksittäisen matkakertomuksen päätymistä johonkin näistä ryhmistä
 on suorittamassamme luokittelupuuanalyysissä tarkasteltu seuraavien selittävien
-muuttujien avulla.
+muuttujien avulla.[^tark]
 
-1. *Topiikki-indikaattorin dependenssirooli.* Tämän muuttujan avulla määriteltiin
-   alkuperäinen satunnaisotanta. Sen arvojen pohjana ovat taulukossa `r Ref('tab', 'tt_deproles')` 
-   luetellut dependenssiroolit, joita kuitenkin lavennettiin siten, että arvot *nsubj* ja
+[^tark](mieti, linkki githubiin ja vähennä selitystä)
+
+
+1. *Koneellisen jäsentimen topiikki-indikaattorille asettama syntaktinen rooli*.
+   Taulukossa `r Ref('tab', 'tt_deproles')` esiteltyjä kategorioita
+   lavennettiin siten, että arvot *nsubj* ja
    *nsubj:cop* yhdistettiin yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss*
    sekä *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin 
    kompleksisiin nominaalirakenteisiin (*asunnon hankinta*, *asumisen järjestäminen*).

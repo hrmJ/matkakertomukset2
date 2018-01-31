@@ -95,14 +95,12 @@ ylioppilaskirjoituksissa (viite).
 
 Englanninkielisessä kirjoittamisen opetuksen perinteessä on ollut tapana
 käyttää topic sentence -käsitettä kuvaamaan virkettä, jolla kirjoittaja
-ilmaisee kappaleen tärkeimmän ajatuksen. Suomeksi tämä kääntyy
-nykyisellään ydinvirkkeeksi, joka yhdessä tukivirkkeiden kanssa
-muodostaa kappaleen. Ydinvirkkeiden todellisesta yleisyydestä ollaan
-tutkijoiden keskuudessa kuitenkin montaa mieltä (ks. Smith 2008). TÄHÄN
-EHKÄ PITÄISI POIMIA JOKU PERUSTELU EDELLISELLE. Tekstikappaleen ytimen
-tavoittelun sijaan kohdistammekin huomiomme siihen, miten kirjoittaja
-siirtyy tekstissään aiheesta toiseen. Nimitämme siirtymän toteuttavia
-virkkeitä *topiikkia asettaviksi* vrt. (Juvonen 2014b).
+ilmaisee kappaleen tärkeimmän ajatuksen (ks. esim. Smith 2008). Suomeksi
+tämä kääntyy nykyisellään ydinvirkkeeksi, joka yhdessä tukivirkkeiden
+kanssa muodostaa kappaleen. Tekstikappaleen ytimen tavoittelun sijaan
+kohdistammekin huomiomme siihen, miten kirjoittaja siirtyy tekstissään
+aiheesta toiseen. Nimitämme siirtymän toteuttavia virkkeitä *topiikkia
+asettaviksi* vrt. (Juvonen 2014b).
 
 Käyttämämme topiikin käsite pohjaa Simon Dikin funktionaalisessa
 kieliopissaan (1989) antamaan esitykseen, jota vastaavassa
@@ -127,16 +125,16 @@ käyttää hyväkseen johonkin edellä esiteltyyn topiikkiin kiinteästi
 liittyvää assosiaatioiden joukkoa viitatakseen entiteettiin, jota
 itseään ei vielä ole mainittu.
 
-Ajatus kytkeytyy Wallace Chafen semiaktiivisuuden käsitteeseen (1987:
-29), ja käytettävissä olemiseen Knud Lambrechtilla (1996: 99). Esimerkki
-Dikiltä (mts. 275) on lause *John gave a party last week, but the music
-was awful*, jossa *musiikki* on juhlien käsitteen avulla tekstiin tuotu
-lohkotopiikki. Lohkotopiikkien muodostumisessa keskeisiä ovatkin sanojen
-väliset merkityssuhteet kuten hyponymia ja meronymia (vrt. Shore 2008:
-33). Shoren esityksessä suomen tekstuaalisesta jäsennyksestä
-assosiaatioihin perustuviin tekstinosien välisiin suhteisiin
-suhtaudutaan varauksella; ilmiötä kuvataan implisiittisen teeman
-käsitteellä (Shore 2008, ?).
+Ajatus lohkotopiikista kytkeytyy Wallace Chafen semiaktiivisuuden
+käsitteeseen (1987: 29), ja käytettävissä olemiseen Knud Lambrechtilla
+(1996: 99). Esimerkki Dikiltä (mts. 275) on lause *John gave a party
+last week, but the music was awful*, jossa *musiikki* on juhlien
+käsitteen avulla tekstiin tuotu lohkotopiikki. Lohkotopiikkien
+muodostumisessa keskeisiä ovatkin sanojen väliset merkityssuhteet kuten
+hyponymia ja meronymia (vrt. Shore 2008: 33). Shoren esityksessä suomen
+tekstuaalisesta jäsennyksestä assosiaatioihin perustuviin tekstinosien
+välisiin suhteisiin suhtaudutaan varauksella; ilmiötä kuvataan
+implisiittisen teeman käsitteellä (Shore 2008, ?).
 
 Huolimatta siitä, että tekstuaalisia suhteita, joita on haasteellista
 ankkuroida eksplisiittiisiin tekstinosiin, on kuvattu eri
@@ -366,13 +364,18 @@ kriteerejä käytetty...
 Tulokset
 ========
 
-Edellä kuvatun laadullisen analyysin tuloksena tutkittavaksi valitut 168
-tekstiä jaoteteltiin 13 ryhmään. Osiossa 4.1. kutakin ryhmää
-luonnehditaan yleisellä tasolla tarkastelemalla lähemmin yhtä edustavaa
-esimerkkiä. Vaikka varsinainen ryhmäjako on tehty puhtaan laadullisin
-perustein pohjaamalla tapausten keskinäiseen samankaltaisuuteen,
-tulkitaan osiossa 4.2. analyysin tulosta eli itse jaottelua määrällisten
-ominaisuuksien pohjalta.
+Edellä kuvatun laadullisen analyysin tuloksena tutkimusaineiston tekstit
+jaoteteltiin 13 ryhmään, joita osiossa 4.1. luonnehditaan yhden
+edustavan esimerkin avulla. Kuten metodin kuvauksen yhteydessä
+todettiin, tässä kuvatut eri topiikin asettamistapoja edustavat ryhmät
+on muodostettu systemaattisesti sijoittamalla toisaan muistuttavat
+tapaukset samaan kategoriaan. Ryhmien väliset rajat eivät
+luonnollisestikaan ole suoraviivaisia, ja jaottelun olisi voinut tehdä
+muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän tai vähemmän
+läheisessä yhteydessä toisiinsa, ja näitä linkkejä on tässä esitetyssä
+kuvauksessa pyritty osoittamaan. Vaikka varsinainen ryhmäjako perustuu
+laadulliseen samankaltaisuuteen, tulkitaan osiossa 4.2. analyysin
+tulosta eli itse jaottelua tilastollisin menetelmin.
 
 Laadullinen analyysi
 --------------------
@@ -541,33 +544,14 @@ asumiskappaletta -- tai, jos edellinen maininta on selvästi kauempana,
 palautetuista topiikeista (Dik 1989: 270--271). X:ssä tämän ryhmän
 virkkeessä kappaletta edeltää välitotsikko.
 
-Kuten edellä metodin kuvauksen yhteydessä todettiin, tässä kuvatut eri
-topiikin asettamistapoja edustavat ryhmät on muodostettu sijoittamalla
-aina toisaan muistuttavat tapaukset samaan kategoriaan. Ryhmien väliset
-rajat eivät luonnollisestikaan ole suoraviivaisia, ja jaottelun olisi
-voinut tehdä muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän tai
-vähemmän läheisessä yhteydessä toisiinsa, ja näitä linkkejä on tässä
-esitetyssä kuvauksessa pyritty osoittamaan. Seuraavaksi nyt esiteltyjen
-ryhmien rakenteellisia tyyppipiirteitä tutkitaan tarkemmin määrällisestä
-näkökulmasta. Argumenttimme on, että vaikka ryhmät on muodostettu
-puhtaasti tulkitsemalla eri tekstien välisiä samankaltaisuuksia, on
-suurimmalle osalle ryhmistä melko yksinkertaista antaa myös muodolliset,
-lähinnä rakenteeseen perustuvat määritelmät, joiden soveltaminen voi
-joillekin kirjoittajille tai opettajulle olla abstrakteja
-funktionaalisten ominaisuuksien kuvailuja helpompaa.
+Tilastollinen tarkastelu
+------------------------
 
-Määrällinen analyysi
---------------------
-
-Tekstuaalisia funktioita ja ja kappaletason elementtejä kuvattaessa on
-usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa". Jos opettaja haluaa
-konkretisoida eri tekstistrategioita, hänen on tavallisesti
-turvauduttava vain abstrakteihin määritelmiin. Yhtenä tämän tutkimuksen
-tarkoituksena on kuitenkin tuottaa myös toisenlaista, rakenteiden tason
-tietoa... Tätä tietoa on kerätty seuraavassa soveltamalla laadullisen
-analyysin tuloksena saatuun ryhmäjakoon määrällisiä menetelmiä,
-tarkemmin ottaen ehdollisia päätöksentekopuita (*conditional inference
-trees*).
+Edellä (taulukko) esitimme tavan ryhmitellä asumisesta kertovat
+tekstikappaleet sen mukaan, miten kirjoittaja toteuttaa siirtymän uuteen
+aiheeseen. Seuraavassa sovellamme laadullisen analyysin tuloksena
+saatuun ryhmäjakoon tilastollisia menetelmiä, tarkemmin ottaen
+ehdollisia päätöksentekopuita (conditional inference trees).
 
 Ehdollisissa päätöksentekopuissa ajatuksena on, että (Levshina 2015, x)
 . Analyysissa määritellään yksi selitettävä muuttuja (vrt. Ketokivi
@@ -577,11 +561,12 @@ käsillä olevassa tutkimuksessa selitettävän muuttujan muodostavat
 laadullisen analyysin tuloksena luodut topiikin asetustapojen 13 ryhmää.
 Yksittäisen matkakertomuksen päätymistä johonkin näistä ryhmistä on
 suorittamassamme luokittelupuuanalyysissä tarkasteltu seuraavien
-selittävien muuttujien avulla.
+selittävien muuttujien avulla.\[^tark\]
 
-1.  *Topiikki-indikaattorin dependenssirooli.* Tämän muuttujan avulla
-    määriteltiin alkuperäinen satunnaisotanta. Sen arvojen pohjana ovat
-    taulukossa 1 luetellut dependenssiroolit, joita kuitenkin
+\[^tark\](mieti, linkki githubiin ja vähennä selitystä)
+
+1.  *Koneellisen jäsentimen topiikki-indikaattorille asettama
+    syntaktinen rooli*. Taulukossa 1 esiteltyjä kategorioita
     lavennettiin siten, että arvot *nsubj* ja *nsubj:cop* yhdistettiin
     yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss* sekä
     *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin
@@ -755,6 +740,13 @@ lopputulokseen, jolloin emme voi myöskään rakentaa mitään tiettyyn
 tekstilajiin soveltuvaa kaavaa. -&gt; meidän tuloksista kai voisi saada
 apua siihen, miten päästään alkuun tietyn tekstityypin käytössä ja sitä
 kautta rakennetaan haluttua tekstilajia??
+
+Tekstuaalisia funktioita ja ja kappaletason elementtejä kuvattaessa on
+usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa". Jos opettaja haluaa
+konkretisoida eri tekstistrategioita, hänen on tavallisesti
+turvauduttava vain abstrakteihin määritelmiin. Yhtenä tämän tutkimuksen
+tarkoituksena on kuitenkin tuottaa myös toisenlaista, rakenteiden tason
+tietoa...
 
 1.  Kirjoittamisen opetuksen kannalta ajateltuna. Työkaluja nimenomaan
     sen listaamiseen, *miten on tehty*. HUOM&gt;&gt; oppilaalle

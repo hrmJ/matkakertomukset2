@@ -4,6 +4,13 @@ Tekstikappaleen ydin voi sijaita yhtä lailla ortografisen kappaleen alussa kuin
 Juvonen sanoo, eri tekstityyppejä yhdistellen voi päästä samaan lopputulokseen, jolloin emme voi myöskään rakentaa mitään tiettyyn tekstilajiin soveltuvaa kaavaa.  -> meidän tuloksista kai voisi saada apua siihen, miten päästään alkuun tietyn tekstityypin käytössä ja sitä kautta rakennetaan haluttua tekstilajia??
 
 
+Tekstuaalisia funktioita ja  ja kappaletason elementtejä kuvattaessa 
+on usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa".
+Jos opettaja haluaa konkretisoida eri tekstistrategioita,
+hänen on tavallisesti turvauduttava vain abstrakteihin määritelmiin.
+Yhtenä tämän tutkimuksen tarkoituksena on kuitenkin tuottaa myös
+toisenlaista, rakenteiden tason tietoa...
+
 
 
 
