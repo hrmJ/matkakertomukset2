@@ -6,76 +6,63 @@ teksti, jonka kirjoittamiseen yliopisto antaa sisältöpainotteisen
 ohjeistuksen. Näillä verkossa julkaistavilla raporteilla on selkeä
 funktio: tukea vaihtojaksoa suunnittelevia opiskelijoita päätöksenteossa
 ja omaan tulevaan vaihtojaksoonsa valmistautumisessa. Niiden voi katsoa
-siis edustavan samaa tekstilajia (tekstilajin määritelmästä ks. esim.
-Honkanen 2012). Vaihtoraportti, kuten tekstilajit yleensäkin on
-dynaaminen ja voi toteutua kielellisesti äärettömän monella eri tavalla
-(onhan riittävän yleistä tietoa, ei kai kaipaa viiterimpsua,
-dynaamisuudesta puhuu esim. Vuorijärvi 2003, Nieminen, Honkanen etc.),
-ja tekstiä, jossa kieltä käytetään varioiden ja monipuolisesti mutta
-lajinsa konventioita riittävässä määrin noudatellen arvostetaan ja
-pidetään lukijan näkökulmasta luettavana ja mielenkiintoisena.
-Monipuolisuus mainitaan usein myös arviointikriteeristöissä.
+edustavan samaa tekstilajia (tekstilajin määritelmästä ks. esim.
+(Juvonen ym. 2012)) \[tähän vielä Suvin määritelmä mukaan\].
+Vaihtoraportti, kuten tekstilajit yleensäkin on dynaaminen ja voi
+toteutua kielellisesti äärettömän monella eri tavalla, ja tekstiä, jossa
+kieltä käytetään varioiden ja monipuolisesti mutta lajinsa konventioita
+riittävässä määrin noudatellen arvostetaan ja pidetään lukijan
+näkökulmasta luettavana ja mielenkiintoisena.
 
 Lähestyessämme 2010-lukua Suomen oppilaitoksissa ja korkeakouluissa
-opiskelee kasvava joukko kirjoittajia (L1 ja L2), jolla ei ole
-opintojensa alkuvaiheessa opinnoissa menestymiseen tarvittavia
-tekstitaitoja. Kirjoitusohjeita ja -oppaita sekä suomenkielisiä
-mallitekstejä, ns. kielellisiä resursseja, löytyy verkosta nykyisin jo
-runsaasti, ja akateemisen kirjoittamisen (erikoiskielten) tarkastelun
-yhteydessä usein todetaan, että ”tekstilajitietoisuuden ja
-tekstilajituntemuksen lisääntyessä yksilön ilmaisurepertuaari ja
-kielellinen valinnanvara laajenevat kattamaan myös yhteisön puhetavat
-(esim. Vuorijärvi 2013 s. 15; Bruce 2008 5-6, Solin 2006, 82 samoin
-Luukka 2002b, 14, 27)”. Sitä, millä tavalla ilmaisurepertuaari
-konkreettisesti laajenee ja miten oppija pääsee tekstilajin kautta
-kiinni kielen rakenteiden varioiviin käyttötapoihin, ei Suomen
-kontekstissa ole kuitenkaan vielä juuri tutkittu. Funktionaalisista
-lähtökohdista tarkasteltuna yllä esitetty näkemys kaipaisi myös
-empiiristä tutkimusta, koska rakenteiden hallinnan on osoitettu olevan
-kytköksissä tekstin laatuun (viite).
+opiskelee kasvava joukko kirjoittajia (L1 ja L2), jolla ei opintojensa
+alkuvaiheessa ole opinnoissa menestymiseen tarvittavia tekstitaitoja.
+Akateemisen kirjoittamisen (laajemmin erikoiskielten) tarkasteluun
+liitty usein käsitys, että tekstilajitietoisuus ja -tuntemus edesauttaa
+ja laajentaa kielenkäyttäjän kielellistä repertuaaria (Vuorijärvi 2013:
+15) ja siinä mainitut lähteet. Sitä, miten oppija pääsee tekstilajin
+kautta kiinni kielen rakenteiden varioiviin käyttötapoihin, ei Suomen
+kontekstissa ole nähdäksemme tutkittu. Funktionaalisista lähtökohdista
+tarkasteltuna esitetty näkemys kaipaisi kuitenkin empiiristä tutkimusta,
+koska myös rakenteiden hallinnan on osoitettu olevan kytköksissä tekstin
+laatuun (ks. esim. (Jisa & Tochinsky 2009)\]
 
-Tekstin kirjoittamisesta tekstikappaleiden tasolla saatavilla on enemmän
-aineistoa ja ohjeita siitä, miten se pitäisi tehdä, kuin deskriptiivistä
-tietoa todellisesta kielenkäytöstä (Komppa 2012: 121) (Chafe 1994: 296).
 Nykyisessä funktionaalista kielikäsitystä ja tutkivaa oppimista
-korostavassa pedagogisessa kehyksessä pääosin preskriptiivinen kuvaus
-tekstikokonaisuuden ja -kappaleen rakentumisesta ei kuitenkaan palvele
-tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen tiedonhakija ja
-tekstien tutkija, joka ei enää kysy, miten minun pitäisi tämä tehdä vaan
-millä eri tavoilla tämä on tehty. Tällä kirjoittajalla voi olla
-nykyisen, tekstitaitoja korostavan kouluopetuksen pohjalta ymmärrys
+korostavassa pedagogisessa kehyksessä tarjolla olevat pääosin
+preskriptiiviset ohjeistukset tekstikappaleen rakentumisesta (ks. esim.
+xxx) eivät palvele tarkoitustaan. Ns. uusi kirjoittaja on aktiivinen
+tiedonhakija ja tekstien tutkija, joka ei enää kysy, miten minun pitäisi
+tämä tehdä vaan millä eri tavoilla tämä on tehty. Tällä kirjoittajalla
+voi olla nykyisen, tekstilajitietoisen kouluopetuksen pohjalta ymmärrys
 tekstilajista, mutta repertuaarissa ei olekaan sopivaa rakennetta, jolla
 pystyisi itse tuottamaan tavoitemuotoisen tekstin ja esim. käymään
-dialogia lukijansa kanssa (ks. Juvonen 2012).
+dialogia lukijansa kanssa (ks. (<span class="citeproc-not-found"
+data-reference-id="juvonenvk">**???**</span>)).
 
-Viime aikaisessa fennistisessä tutkimuksessa on tarkastelu varsinkin
-sitä, miten tekstikokonaisuus rakentuu funktionaalisten tai retoristen
-jaksojen pohjalta. On myös tarkennettu siihen, millä tavalla, eli
-millaisin kielen keinoin, kirjoittajat toteuttavat tekstin keskeisiä
-funktioita tai siirtoja (esim. Juvonen & kump. myös Hilkka). Näissä
-tarkasteluissa ei kuitenkaan puututa itse tekstikappaleen
-kirjoittamiseen eikä siihen, miten teksti temaattisesti rakentuu, vaikka
-tekstin temaattinen sisältö voi yhtälailla voi ohjata kirjoittajaa
-kirjoitusprosessin aikana. On nimittäin huomattavan paljon tekstilajeja
-(ks. Komppa & Vuorijärvi), joissa tekstin rakennetta voi kuvata
-topiikkipohjaiseksi. Näissä teksteissä rakenne muodostuu
-sekventiaalisesti tai lineaarisesti peräkkäin asetetuista
-sisältötopiikeista, jotka kytkeytyvät tavalla tai toisella
-diskurssitopiikkiin. Hierarkkisten tekstirakenteiden rinnalla tekstin
-rakentaminen ns. sisältö edellä vaikuttaisikin olevan yhtä lailla
-relevantti kirjoitusstrategia myös korkeakoulussa.
+Viime aikaisessa kirjoittamista käsittelevässä fennistisessä
+tutkimuksessa on tarkastelu sitä, miten tekstikokonaisuus rakentuu
+funktionaalisten tai retoristen jaksojen pohjalta. On myös tarkennettu
+siihen, millaisin kielisin keinoin kirjoittajat toteuttavat tekstin
+rakenteen kannalta keskeisiä funktioita tai siirtoja (ks. esim. (<span
+class="citeproc-not-found"
+data-reference-id="juvonenvk">**???**</span>)(Komppa 2012)(Paldanius
+2017)(Vuorijärvi 2013)). Hierarkkisesti rakentuneiden tekstien rinnalla
+eää huomattavan paljon tekstilajeja (Hiippala 2013)(Komppa
+2012)(Vuorijärvi 2013)), joissa tekstin rakennetta voi kuvata ennemmin
+topiikkipohjaiseksi ja temaattisen sisällön pohjalta rakentuvaksi kuin
+hierarkkisesti. Rakenne muodostuu sekventiaalisesti tai lineaarisesti
+peräkkäin asetetuista sisältötopiikeista, jotka kytkeytyvät tavalla tai
+toisella diskurssitopiikkiin. Hierarkkisten tekstirakenteiden rinnalla
+tekstin rakentaminen ns. sisältö edellä vaikuttaisikin olevan yhtä
+lailla relevantti kirjoitusstrategia myös korkeakoulussa.
 
-Olemassa olevan tutkimustiedon rinnalle haluammekin tarkastella, miten
+Saatavilla olevan tutkimustiedon rinnalle haluammekin selvittää, miten
 kirjoittaja voi päästä alkuun kappaleen kirjoittamisessa, jos häntä
 ohjaa tieto tekstikappaleen topiikista, ts. siitä mitä kappaleen pitäisi
-pitää sisällään. Tutkimuksessa tarkasteltu tekstilaji on sinänsä selvä,
-apuna on satoja raportteja ja kohtalaisen tarkat kirjoitusohjeet.
-"Tekstit eivät synny tyhjiössä, vaan pikemminkin ne liikkuvat laumoina
-ja ovat suhteessa toisiinsa monin tavoin" (2013: 69). Tässä
-tutkimuksessa siis tarkastellaan, millä tavalla ja mitä rakenteita
-käyttäen kirjoittaja asettaa tekstikappaleen sisältötopiikin ja näin
-ollen miten kirjoittaja siirtyy tekstitopiikista toiseen. Analyysin
-avulla haetaan vastausta seuraaviin tutkimuskysymyksiin:
+pitää sisällään. Meitä kiinnostaa, millä tavalla ja mitä rakenteita
+käyttäen kirjoittaja asettaa tekstikappaleen sisältötopiikin ja siirtyy
+tekstitopiikista toiseen. Analyysin avulla haetaan vastausta seuraaviin
+tutkimuskysymyksiin:
 
 1.  Millaisia tapoja yliopisto-opiskelijat käyttävät saman topiikin
     asettamiseen?
@@ -95,50 +82,29 @@ kielen rakenteiden ja leksikon jakamia rajapintoja kuin tekstin
 kokonaisuutta tai tekstilajin muodostumista sinänsä. Samasta
 lähtökohdasta on myös valittu keskeinen analyysiyksikkö - tekstikappale
 - joka on toistaiseksi harvakseltaan ollut tutkimuksen kohteena (ks.
-kuitenkin x ja y) mutta jonka roolista tekstikokonaisuudessa annetaan
-toistuvasti ohjeita oppikirjoissa ja kirjoittamisoppaissa. Paltridge
-(2002) on verrannut tutkielmaoppaita ja todellisten tutkielmien
-rakennetta ja toteaa, että yhtä mallia esitetään ja todellisuudessa
-variaatiota on huimasti. Voinee olettaa, että myös tekstikappaleiden
-tarkastelu tarjoaa kiinnostavaa aineistoa ohjeiden ja toteutusten
-välisestä todellisuudesta.
+kuitenkin x ja y) mutta jonka kirjoittamiseen ohjeistetaan oppikirjoissa
+ja kirjoittamisoppaissa.
 
-Tekstilingvistisessä tekstin kokonaisrakenteen analyysissä usein
-erotetaan tekstin funktionaaliset jaksot ja visuaaliset elementit,
-tekstikappale lukeutuu jälkimmäisiin. Näin niitä lähestytään lähinnä
-ortografisina merkkeinä, jotka eivät itsessään ole merkitseviä tekstin
-rakentumisen kannalta. Kirjoittajan kannalta kappalejako on kuitenkin
-nähdäksemme hyvin konkreettinen käytännön muovaama työkalu ja
-funktionaalinen kielenyksikkö. Kirjoittamisoppaissa ja ohjeistuksissa
+Kirjoittajan kannalta kappalejako on hyvin konkreettinen työkalu ja
+funktionaalinen kielenyksikkö, vaikka tutkimuksessa niitä lähestytään
+lähinnä ortografisina merkkeinä, jotka eivät itsessään ole merkitseviä
+tekstin rakentumisen kannalta. Kirjoittamisoppaissa ja ohjeistuksissa
 annetaan kuvauksia siitä, millä tavalla teksti rakentuu kappaleistaan,
 ja millaisia kappaleiden – sisällön ja funktion tasolla – olisi hyvä
-olla. Lisäksi kappaleiden koherentti toisiinsa sitominen on
-tyypillisesti arviointikriteeri, esim. ylioppilaskirjoituksissa (viite).
+olla (viitteet tähän vielä). Lisäksi kappaleiden koherentti toisiinsa
+sitominen on tyypillisesti arviointikriteeri, esim.
+ylioppilaskirjoituksissa (viite).
 
-Erityisesti englanninkielisessä kirjoittamisen opetuksen perinteessä on
-ollut tapana käyttää topic sentence -käsitettä kuvaamaan virkettä, jolla
-kirjoittaja ilmaisee kappaleen tärkeimmän ajatuksen. Suomeksi tämä
-kääntyy nykyisellään useimmiten ydinvirkkeeksi (tähän lähteitä).
-Ydinvirkkeiden todellisesta yleisyydestä ollaan tutkijoiden keskuudessa
-kuitenkin montaa mieltä (ks. Smith 2008). Tekstinosan ydin voi sijaita
-yhtä lailla ortografisen kappaleen alussa kuin muualla (Komppa,) ja
-kuten Juvonen sanoo, eri tekstityyppejä yhdistellen voi päästä samaan
-lopputulokseen, jolloin emme voi myöskään rakentaa mitään tiettyyn
-tekstilajiin soveltuvaa kaavaa. (Tuo pitää muotoilla tarkemmin,
-löperösti sanottu). Tekstikappaleen ensimmäinen lause tai virke ei
-yksinään paljastakaan mitään siitä, millaisessa asemassa kappale
-hierakkisesti on tekstin kokonaisrakenteen kannalta. Kappaleiden välinen
-sidosteisuus, koheesio ja/tai koherenssi on kuitenkin saatava aikaan
-jollain tavalla, ja olemassa olevan tutkimuksen perustella voimme
-olettaa (kenties?) että tekstin sisältö saattaa olla jopa keskeisempi
-tekijä kuin tekstin kokonaisrakenne.
-
-Tekstikappaleen ytimen tavoittelun sijaan kohdistammekin huomiomme
-siihen, miten kirjoittaja toteuttaa siirtymän aiheesta toiseen.
-Nimitämme siirtymän toteuttavia virkkeitä Juvosta (XX) mukaillen
-*topiikkia asettaviksi*. Tutkimuksemme kartoittaa eri tapoja asettaa
-topiikkia tarkastelemalla laajahkosta aineistosta sitä, miten eri
-kirjoittavat ovat siirtyneet yhteen ja samaan topiikkiin.
+Englanninkielisessä kirjoittamisen opetuksen perinteessä on ollut tapana
+käyttää topic sentence -käsitettä kuvaamaan virkettä, jolla kirjoittaja
+ilmaisee kappaleen tärkeimmän ajatuksen. Suomeksi tämä kääntyy
+nykyisellään ydinvirkkeeksi, joka yhdessä tukivirkkeiden kanssa
+muodostaa kappaleen. Ydinvirkkeiden todellisesta yleisyydestä ollaan
+tutkijoiden keskuudessa kuitenkin montaa mieltä (ks. Smith 2008). TÄHÄN
+EHKÄ PITÄISI POIMIA JOKU PERUSTELU EDELLISELLE. Tekstikappaleen ytimen
+tavoittelun sijaan kohdistammekin huomiomme siihen, miten kirjoittaja
+siirtyy tekstissään aiheesta toiseen. Nimitämme siirtymän toteuttavia
+virkkeitä *topiikkia asettaviksi* vrt. (Juvonen 2014).
 
 Käyttämämme topiikin käsite pohjaa Simon Dikin funktionaalisessa
 kieliopissaan (1989) antamaan esitykseen, jota vastaavassa
@@ -157,44 +123,41 @@ koostuvan *esittelytopiikeista* (Dikillä *new topic*), *esitellyistä
 topiikeista* (Dikillä *given topic*) ja *lohkotopiikeista* (Dikillä
 *subtopic*). Esittelytopiikkeja ovat tapaukset, joissa kirjoittaja tuo
 jonkin aiheen tekstiin ensimmäistä kertaa ja esiteltyjä topiikkeja taas
-sellaiset tapaukset, jotka on jo tuotu aiemmin ja joihin nyt palataan.
-Lohkotopiikeilla viittamme tilanteeseen, jossa kirjoittaja käyttää
-hyväkseen johonkin edellä esiteltyyn topiikkiin kiinteästi liittyvää
-assosiaatioiden joukkoa viitatakseen entiteettiin, jota itseään ei vielä
-ole mainittu. Ajatus liittyy suoraan semiaktiivisuuden käsitteeseen
-Wallace Chafella (1987: 29), ja käytettävissä olemiseen Knud
-Lambrechtilla (1996: 99). Dikin (mts. 275) tästä antama esimerkki on
-lause *John gave a party last week, but the music was awful*, jossa
-*musiikki* on juhlien käsitteen avulla tekstiin tuotu lohkotopiikki.
-Toisaalta lohkotopiikissa voi nähdä yhteyden myös tekstin
-implisiittiseen teemaan (Shore 2008, ?).
+sellaiset tapaukset, jotka on jo tuotu aiemmin ja joihin nyt
+palataan.Lohkotopiikeilla viittamme tilanteeseen, jossa kirjoittaja
+käyttää hyväkseen johonkin edellä esiteltyyn topiikkiin kiinteästi
+liittyvää assosiaatioiden joukkoa viitatakseen entiteettiin, jota
+itseään ei vielä ole mainittu.
 
-Retorisen rakenteen teoria (ks. esim. Komppa ja jokin kv-lähde) rakentuu
-oletukselle, että tekstinosat ovat hierakkisessa suhteessa toisiinsa.
-Tästä huolimatta aineistopohjaisissa tutkimuksissa on paikallistettu
-huomattava joukko hierarkkisten tekstien rinnalla esiintyviä ns.
+Ajatus kytkeytyy Wallace Chafen semiaktiivisuuden käsitteeseen (1987:
+29), ja käytettävissä olemiseen Knud Lambrechtilla (1996: 99). Esimerkki
+Dikiltä (mts. 275) on lause *John gave a party last week, but the music
+was awful*, jossa *musiikki* on juhlien käsitteen avulla tekstiin tuotu
+lohkotopiikki. Lohkotopiikkien muodostumisessa keskeisiä ovatkin sanojen
+väliset merkityssuhteet kuten hyponymia ja meronymia (vrt. Shore 2008:
+33). Shoren esityksessä suomen tekstuaalisesta jäsennyksestä
+assosiaatioihin perustuviin tekstinosien välisiin suhteisiin
+suhtaudutaan varauksella; ilmiötä kuvataan implisiittisen teeman
+käsitteellä (Shore 2008, ?).
+
+Huolimatta siitä, että tekstuaalisia suhteita, joita on haasteellista
+ankkuroida eksplisiittiisiin tekstinosiin, on kuvattu eri
+viitekehyksissä eri tavoin ja suomen kontekstissa ehkä myös vältetty
+kuvaamasta, niiden merkitys kirjoittajalle on keskeinen.
+Aineistopohjaisissa tutkimuksissa on nimittäin paikallistettu huomattava
+joukko hierarkkisesti rakentuvien tekstien rinnalla esiintyviä ns.
 moniytimisiä tekstejä, joiden osat ovat ennemmin rinnasteisia, keskenään
-tasavertaisia, eikä yhtä voida asettaa toisten ytimeksi (Komppa, ainakin
-s. 39). Vuorijärvi on päätynyt samanlaisiin löydöksiin siirtoanalyysin
-avulla. Vuorijärvi esittelee Paltridgeä (2002, 135) mukaillen
-topiikkipohjaisen rakenteen, jossa tekstin aihetta avataan ikään kuin
-osa kerrallaan. (Vuorijärvi. 75). Tämä topiikkipohjainen skeema kuvaa
-hyvin aineistonamme olevien matkaraporttien tekstilajia, ja käytämmekin
-topiikin käsitettä mukaillen mainittuja lähteitä. Toisin sanoen puhumme
+tasavertaisia, eikä yhtä voida asettaa toisten ytimeksi (Hiippala
+2013)(Komppa 2012)(Vuorijärvi 2013). Vuorijärvi esittelee Paltridgeä
+\[täydennä lähdeluetteloon\] mukaillen topiikkipohjaisen rakenteen,
+jossa tekstin aihetta avataan ikään kuin osa kerrallaan (<span
+class="citeproc-not-found"
+data-reference-id="vuorijärvi2013">**???**</span>). Tämä
+topiikkipohjainen skeema kuvaa hyvin aineistonamme olevien
+matkaraporttien tekstilajia, ja topiikin käsittemme rinnastuu monessa
+suhteessa mainittujen lähteiden käsitteistykseen. Toisin sanoen puhumme
 sisältötopiikista eli aiheesta tai aihepiiristä, josta tekstissä
 sanotaan jotakin.
-
-Johdanto, Topiikki 1, Topiikki 2, Topiikki 3 ….. Päätelmät
-
-Yliopiston antama kirjoitusohje kevyesti ohjaa tällaiseen tekstin
-rakentamiseen ja on näin mukana rakentamassa tutkimuksessa tarkasteltua
-tekstilajia. Jokainen tekstikappale aloittaa uuden tekstikokonaisuuden,
-joka ei niinkään asetu hierakiseen suhteeseen edeltävien
-tekstikappaleiden kanssa, vaan ennemminkin on joko sekventiaalisesti tai
-listamaisesti jäsentynyt tekstin diskiurssitopiikin alle. Ja tästä
-sitten voisimme nostaa yleiselle kirjoitustaiton tasoa kuvaavalle
-scenelle, jossa puhutaan kirjoittajan näkökulmista. Mutta tämä sitten,
-kun olen saanut sen osion valmiiksi.
 
 Tutkimusaineisto ja -metodi
 ===========================
@@ -272,7 +235,7 @@ pitkälle kuin mahdollista. Prosessi piti sisällään seuraavat vaiheet:
 
 Jos tutkitaan tarkemmin niitä kategorioita, jotka syntaktinen jäsennin
 on merkinnyt tutkimukseen valikoituneiden kappaleiden ensimmäisille
-*asua*-johdoksille, saadaan taulukon 2 mukainen jakauma.
+*asua*-johdoksille, saadaan taulukon 1 mukainen jakauma.
 
 <table>
 <colgroup>
@@ -358,7 +321,7 @@ on merkinnyt tutkimukseen valikoituneiden kappaleiden ensimmäisille
 </tbody>
 </table>
 
-Taulukko 2: Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.
+Taulukko 1: Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.
 
 Taulukon Frekvenssi-sarakkeesta nähdään paitsi se, että yhteensä edellä
 kuvattujen kolmen annotointi- ja rajausvaiheen jälkeen jäljelle jäi 338
@@ -418,7 +381,7 @@ ominaisuuksien pohjalta.
 Laadullinen analyysi
 --------------------
 
-Taulukkoon 1 olemme koonneet edustavat esimerkit kustakin alaryhmästä.
+Taulukkoon 2 olemme koonneet edustavat esimerkit kustakin alaryhmästä.
 Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja
 lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista.
 Rajallisesta sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain
@@ -508,7 +471,7 @@ taulukossa merkitty bbbb-merkillä.
 </tbody>
 </table>
 
-Taulukko 1: Esimerkit laadullisen analyysin tuloksena syntyneistä
+Taulukko 2: Esimerkit laadullisen analyysin tuloksena syntyneistä
 ryhmistä
 
 Aineiston isoimman ryhmän muodostavat esimerkin 1 kaltaiset topiikkia
@@ -622,7 +585,7 @@ selittävien muuttujien avulla.
 
 1.  *Topiikki-indikaattorin dependenssirooli.* Tämän muuttujan avulla
     määriteltiin alkuperäinen satunnaisotanta. Sen arvojen pohjana ovat
-    taulukossa 2 luetellut dependenssiroolit, joita kuitenkin
+    taulukossa 1 luetellut dependenssiroolit, joita kuitenkin
     lavennettiin siten, että arvot *nsubj* ja *nsubj:cop* yhdistettiin
     yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss* sekä
     *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin
@@ -782,6 +745,21 @@ Päätelmäluvun puolelle se, miä tästä kaikesta seuraa.
 Päätelmät
 =========
 
+Tekstikappaleen ydin voi sijaita yhtä lailla ortografisen kappaleen
+alussa kuin muualla (Komppa). Tekstikappaleen ensimmäinen lause tai
+virke ei yksinään paljastakaan mitään siitä, millaisessa asemassa
+kappale hierakkisesti on tekstin kokonaisrakenteen kannalta. Kappaleiden
+välinen sidosteisuus, koheesio ja/tai koherenssi on kuitenkin saatava
+aikaan jollain tavalla, ja olemassa olevan tutkimuksen perustella voimme
+olettaa (kenties?) että tekstin sisältö saattaa olla jopa keskeisempi
+tekijä kuin tekstin kokonaisrakenne.
+
+Juvonen sanoo, eri tekstityyppejä yhdistellen voi päästä samaan
+lopputulokseen, jolloin emme voi myöskään rakentaa mitään tiettyyn
+tekstilajiin soveltuvaa kaavaa. -&gt; meidän tuloksista kai voisi saada
+apua siihen, miten päästään alkuun tietyn tekstityypin käytössä ja sitä
+kautta rakennetaan haluttua tekstilajia??
+
 1.  Kirjoittamisen opetuksen kannalta ajateltuna. Työkaluja nimenomaan
     sen listaamiseen, *miten on tehty*. HUOM&gt;&gt; oppilaalle
     itselleen arvioitavaksi, mikä sopii tekstilajiin ja omaan tyyliin ja
@@ -804,10 +782,6 @@ Teoksessa: Russell S. Tomlin (ed.) *Coherence and Grounding in Discourse
 : Outcome of a Symposium, Eugene, Oregon, June 1984.* John Benjamins
 Publishing Company.
 
-Chafe, Wallace 1994. *Discourse, consciousness, and time: The flow and
-displacement of conscious experience in speaking and writing*.
-University of Chicago Press.
-
 Dik, Simon C. 1989. *The Theory of Functional Grammar, Part I: The
 Structure of the Clause, Vol. 9 of Functional Grammar Series*.
 Dordrecht: Foris Publications.
@@ -823,9 +797,23 @@ Kohonen, Anna Missilä, Stina Ojala, Tapio Salakoski & Filip Ginter 2014.
 Building the essential resources for Finnish: the Turku Dependency
 Treebank. *Language Resources and Evaluation* 48:3, 1–39.
 
+Hiippala, Tuomo 2013. Modelling the structure of a multimodal artefact.
+
 Hothorn, Torsten, Kurt Hornik & Achim Zeileis 2006. Unbiased Recursive
 Partitioning: A Conditional Inference Framework. *Journal of
 Computational and Graphical Statistics* 15:3, 651–674.
+
+Jisa, Harriet & Liliana Tochinsky 2009. Developing a personalized stance
+through linguistic means in typologically different languages. Written
+expository discourse. *Written Language & Literacy* 12:1, 1–25.
+
+Juvonen, Riitta 2014. Näkökulma kirjoitelman dialogisuuteen: Kuinka- ja
+miten-yhdyslauseet ylioppilasaineessa. *Virittäjä* 118:1, 72.
+
+Juvonen, Riitta, Mikko Virtanen & Eero Voutilainen 2012. Fennistisen
+tekstilajitutkimuksen suuntia. *Vesa Heikkinen, Eero Voutilainen, Petri
+Lauerma, Ulla Tiililä & Mikko Lounela (toim.), Genreanalyysi.
+Tekstilajitutkimuksen käsikirja* 453–469.
 
 Ketokivi, Mikko 2015. *Tilastollinen päättely ja tieteellinen
 argumentointi* 2. laaj. laitos. Helsinki: Gaudeamus.
@@ -840,6 +828,10 @@ studies in linguistics vol. 71. Cambridge: Cambridge university press.
 
 Levshina, Natalia 2015. *How to do linguistics with R: Data exploration
 and statistical analysis*. John Benjamins Publishing Company.
+
+Paldanius, Hilkka 2017. Historian esseevastauksen funktionaalinen
+rakenne. Teoksessa: Sirkku Latomaa, Emilia Luukka, & Niina Lilja (eds.)
+*AFinLAn vuosikirja 2017*.. Suomen soveltavan kielitieteen yhdistys.
 
 Shore, Susanna 2008. Lauseiden tekstuaalisesta jäsennyksestä.
 *Virittäjä* 112:1, 24.
