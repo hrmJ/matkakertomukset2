@@ -36,25 +36,23 @@ tämä tehdä vaan millä eri tavoilla tämä on tehty. Tällä kirjoittajalla
 voi olla nykyisen, tekstilajitietoisen kouluopetuksen pohjalta ymmärrys
 tekstilajista, mutta repertuaarissa ei olekaan sopivaa rakennetta, jolla
 pystyisi itse tuottamaan tavoitemuotoisen tekstin ja esim. käymään
-dialogia lukijansa kanssa (ks. (<span class="citeproc-not-found"
-data-reference-id="juvonenvk">**???**</span>)).
+dialogia lukijansa kanssa (ks. (Juvonen 2014a)).
 
 Viime aikaisessa kirjoittamista käsittelevässä fennistisessä
 tutkimuksessa on tarkastelu sitä, miten tekstikokonaisuus rakentuu
 funktionaalisten tai retoristen jaksojen pohjalta. On myös tarkennettu
 siihen, millaisin kielisin keinoin kirjoittajat toteuttavat tekstin
-rakenteen kannalta keskeisiä funktioita tai siirtoja (ks. esim. (<span
-class="citeproc-not-found"
-data-reference-id="juvonenvk">**???**</span>)(Komppa 2012)(Paldanius
-2017)(Vuorijärvi 2013)). Hierarkkisesti rakentuneiden tekstien rinnalla
-eää huomattavan paljon tekstilajeja (Hiippala 2013)(Komppa
-2012)(Vuorijärvi 2013)), joissa tekstin rakennetta voi kuvata ennemmin
-topiikkipohjaiseksi ja temaattisen sisällön pohjalta rakentuvaksi kuin
-hierarkkisesti. Rakenne muodostuu sekventiaalisesti tai lineaarisesti
-peräkkäin asetetuista sisältötopiikeista, jotka kytkeytyvät tavalla tai
-toisella diskurssitopiikkiin. Hierarkkisten tekstirakenteiden rinnalla
-tekstin rakentaminen ns. sisältö edellä vaikuttaisikin olevan yhtä
-lailla relevantti kirjoitusstrategia myös korkeakoulussa.
+rakenteen kannalta keskeisiä funktioita tai siirtoja (ks. esim. (Juvonen
+2014a)(Komppa 2012)(Paldanius 2017)(Vuorijärvi 2013)). Hierarkkisesti
+rakentuneiden tekstien rinnalla eää huomattavan paljon tekstilajeja
+(Hiippala 2013)(Komppa 2012)(Vuorijärvi 2013)), joissa tekstin
+rakennetta voi kuvata ennemmin topiikkipohjaiseksi ja temaattisen
+sisällön pohjalta rakentuvaksi kuin hierarkkisesti. Rakenne muodostuu
+sekventiaalisesti tai lineaarisesti peräkkäin asetetuista
+sisältötopiikeista, jotka kytkeytyvät tavalla tai toisella
+diskurssitopiikkiin. Hierarkkisten tekstirakenteiden rinnalla tekstin
+rakentaminen ns. sisältö edellä vaikuttaisikin olevan yhtä lailla
+relevantti kirjoitusstrategia myös korkeakoulussa.
 
 Saatavilla olevan tutkimustiedon rinnalle haluammekin selvittää, miten
 kirjoittaja voi päästä alkuun kappaleen kirjoittamisessa, jos häntä
@@ -104,7 +102,7 @@ tutkijoiden keskuudessa kuitenkin montaa mieltä (ks. Smith 2008). TÄHÄN
 EHKÄ PITÄISI POIMIA JOKU PERUSTELU EDELLISELLE. Tekstikappaleen ytimen
 tavoittelun sijaan kohdistammekin huomiomme siihen, miten kirjoittaja
 siirtyy tekstissään aiheesta toiseen. Nimitämme siirtymän toteuttavia
-virkkeitä *topiikkia asettaviksi* vrt. (Juvonen 2014).
+virkkeitä *topiikkia asettaviksi* vrt. (Juvonen 2014b).
 
 Käyttämämme topiikin käsite pohjaa Simon Dikin funktionaalisessa
 kieliopissaan (1989) antamaan esitykseen, jota vastaavassa
@@ -150,10 +148,8 @@ moniytimisiä tekstejä, joiden osat ovat ennemmin rinnasteisia, keskenään
 tasavertaisia, eikä yhtä voida asettaa toisten ytimeksi (Hiippala
 2013)(Komppa 2012)(Vuorijärvi 2013). Vuorijärvi esittelee Paltridgeä
 \[täydennä lähdeluetteloon\] mukaillen topiikkipohjaisen rakenteen,
-jossa tekstin aihetta avataan ikään kuin osa kerrallaan (<span
-class="citeproc-not-found"
-data-reference-id="vuorijärvi2013">**???**</span>). Tämä
-topiikkipohjainen skeema kuvaa hyvin aineistonamme olevien
+jossa tekstin aihetta avataan ikään kuin osa kerrallaan (Vuorijärvi
+2013). Tämä topiikkipohjainen skeema kuvaa hyvin aineistonamme olevien
 matkaraporttien tekstilajia, ja topiikin käsittemme rinnastuu monessa
 suhteessa mainittujen lähteiden käsitteistykseen. Toisin sanoen puhumme
 sisältötopiikista eli aiheesta tai aihepiiristä, josta tekstissä
@@ -807,7 +803,10 @@ Jisa, Harriet & Liliana Tochinsky 2009. Developing a personalized stance
 through linguistic means in typologically different languages. Written
 expository discourse. *Written Language & Literacy* 12:1, 1–25.
 
-Juvonen, Riitta 2014. Näkökulma kirjoitelman dialogisuuteen: Kuinka- ja
+Juvonen, Riitta 2014a. Kirjoitelma ja tekijän ääni: kehystämisen
+yhdyslauseet suomenkielisen ylioppilasaineen dialogisuuden hallinnassa.
+
+Juvonen, Riitta 2014b. Näkökulma kirjoitelman dialogisuuteen: Kuinka- ja
 miten-yhdyslauseet ylioppilasaineessa. *Virittäjä* 118:1, 72.
 
 Juvonen, Riitta, Mikko Virtanen & Eero Voutilainen 2012. Fennistisen
