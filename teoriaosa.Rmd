@@ -13,14 +13,5 @@ edellä esiteltyyn topiikkiin kiinteästi liittyvää assosiaatioiden joukkoa vi
 
 Ajatus kytkeytyy Wallace Chafen semiaktiivisuuden käsitteeseen [-@chafe1987, 29], ja käytettävissä olemiseen Knud Lambrechtilla [-@lambrecht1996, 99]. Esimerkki Dikiltä (mts. 275) on lause *John gave a party last week, but the music was awful*, jossa *musiikki* on juhlien käsitteen avulla tekstiin tuotu lohkotopiikki. Lohkotopiikkien muodostumisessa keskeisiä ovatkin sanojen väliset merkityssuhteet kuten hyponymia ja meronymia [vrt. @Shore2008, 33]. Shoren esityksessä suomen tekstuaalisesta jäsennyksestä assosiaatioihin perustuviin tekstinosien välisiin suhteisiin suhtaudutaan varauksella; ilmiötä kuvataan implisiittisen teeman käsitteellä [@Shore2008, ?].
 
-
-
-Retorisen rakenteen teoria (ks. esim. Komppa ja jokin kv-lähde) rakentuu oletukselle, että tekstinosat ovat hierakkisessa suhteessa toisiinsa. Tästä huolimatta aineistopohjaisissa tutkimuksissa on paikallistettu huomattava joukko hierarkkisten tekstien rinnalla esiintyviä ns. moniytimisiä tekstejä, joiden osat ovat ennemmin rinnasteisia, keskenään tasavertaisia, eikä yhtä voida asettaa toisten ytimeksi (Komppa, ainakin s. 39). Vuorijärvi on päätynyt samanlaisiin löydöksiin siirtoanalyysin avulla. Vuorijärvi esittelee Paltridgeä (2002, 135) mukaillen topiikkipohjaisen rakenteen, jossa tekstin aihetta avataan ikään kuin osa kerrallaan. (Vuorijärvi. 75). Tämä topiikkipohjainen skeema kuvaa hyvin aineistonamme olevien matkaraporttien tekstilajia, ja käytämmekin topiikin käsitettä mukaillen mainittuja lähteitä. Toisin sanoen puhumme sisältötopiikista eli aiheesta tai aihepiiristä, josta tekstissä sanotaan jotakin. 
-
-Johdanto, Topiikki 1, Topiikki 2, Topiikki 3  ….. Päätelmät
-
-Yliopiston antama kirjoitusohje kevyesti ohjaa tällaiseen tekstin rakentamiseen ja on näin mukana rakentamassa tutkimuksessa tarkasteltua tekstilajia. Jokainen tekstikappale aloittaa uuden tekstikokonaisuuden, joka ei niinkään asetu hierakiseen suhteeseen edeltävien tekstikappaleiden kanssa, vaan ennemminkin on joko sekventiaalisesti tai listamaisesti jäsentynyt tekstin diskiurssitopiikin alle. Ja tästä sitten voisimme nostaa yleiselle kirjoitustaiton tasoa kuvaavalle scenelle, jossa puhutaan kirjoittajan näkökulmista. Mutta tämä sitten, kun olen saanut sen osion valmiiksi.
-
-
-
+Aineistopohjaisissa tutkimuksissa on paikallistettu huomattava joukko hierarkkisesti rakentuvien tekstien rinnalla esiintyviä ns. moniytimisiä tekstejä, joiden osat ovat ennemmin rinnasteisia, keskenään tasavertaisia, eikä yhtä voida asettaa toisten ytimeksi [@hiippala2013][@komppa2012][@vuorijarvi2013]. Vuorijärvi esittelee Paltridgeä [täydennä lähdeluetteloon] mukaillen topiikkipohjaisen rakenteen, jossa tekstin aihetta avataan ikään kuin osa kerrallaan [@vuorijärvi2013]. Tämä topiikkipohjainen skeema kuvaa hyvin aineistonamme olevien matkaraporttien tekstilajia, ja topiikin käsittemme rinnastuu monessa suhteessa mainittujen lähteiden käsitteistykseen. Toisin sanoen puhumme sisältötopiikista eli aiheesta tai aihepiiristä, josta tekstissä sanotaan jotakin. 
 
