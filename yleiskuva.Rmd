@@ -39,10 +39,6 @@ pander(tab,caption=Ref('tab',"tt_esim","Esimerkit laadullisen analyysin tuloksen
 ```
 
 
-
-
-
-
 Aineiston isoimman ryhmän muodostavat esimerkin `r which(print.labels=="@ee_lista")` kaltaiset
 topiikkia asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana. Se on tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. *asuntoni* on tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä), vaikka esimerkissä `r which(print.labels=="@ee_lista")` ei täytykään Dikin [-@dik1989, 275] kuvailema ehto siitä, että varsinainen ylätopiikki olisi erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110]. Asunto tai asuminen on tuotu tekstiin ilman ennakkomainintoja tai esittelyjä, se aivan kuin oletetaan lukijan käytettävissä olevaksi entiteetiksi [vrt. @chafe1987, 29;  @lambrecht1996, 99]. Voisi jopa sanoa, että esimerkin `r which(print.labels=="@ee_lista")` kaltaiset tapaukset eivät niinkään aseta topiikkia vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia (vrt. implisiittinen teema @Shore2008). Tekstin koherenssi rakentuu tässä, kuten useimmissa muissakin ryhmän `r which(print.labels=="@ee_lista")`[^ryhmanum] tapauksissa, lähinnä tehtävänannon tarjoaman kysymyspatteriston ja saatavilla olevien mallitekstien varaan. Tekstejä voisi kuvata listamaisiksi.
 
@@ -55,22 +51,11 @@ Kertova tekstityyppi on aineistona olevissa matkakertomuksissa tyypillistä, mik
 
 Yhtälailla olemme ryhmitelleet erilaisia tapoja aloittaa kappale luonnehtimalla omia kokemuksia. Esimerkissä `r which(print.labels=="@ee_omakokemus")` topiikkia indikoi *asuminen*, mikä tässä ryhmässä onkin varsin tyypillistä: jostakin varsinaisen diskurssitopiikin osa-alueelta tiivistetään oma kokemus esim. deverbaalijohdoksella tai sen ympärille muodostuneella lausekkeella, jota sitten luonnehditaan predikatiivilauseella. Näissä tapauksissa kuvataan, että *asunnon hakeminen oli helppoa* tai miten *kaikkein vaikeinta oli asunnon löytäminen*. Strategiana on omia onnistumisia ja epäonnistumisia arvioiden kertoa, miten asiat ovat sujuneet. Informaatiorakenteen kannalta nämä tapaukset ovat monesti ryhmän `r which(print.labels=="@ee_lista")` tapaan alatopiikkeja. Esimerkki`r which(print.labels=="@ee_omakokemus")` on kuitenkin esimerkkiä `r which(print.labels=="@ee_lista")` selvemmin topiikkia asettava virke, sillä siinä asumisen rooli yhtenä vaihtokokemuksen osana on ilmaistu eksplisiittisesti.
 
-[tähän seuraavaksi etäännytetyt kuvailut ja sitte lopetus linkkihommiin]
-
-
 Esimerkissä `r which(print.labels=="@ee_linkki")` indikaattorina on *asuntoloista*-sana. Ilman kontekstia
-tarkasteltuna tämäkin tapaus vaikuttaa samalta kuin listamainen esimerkki, mutta
-laajemman analyysin tuloksena selvisi, että kirjoittaja on jo aiempana,
-kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan saapumisesta, rakentanut
-kuvaa paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. Tämän
-ryhmän tekstit sijoittuvatkin toissijaisesti myös johonkin toiseen alaryhmään,
+tarkasteltuna tämäkin tapaus vaikuttaa samalta kuin listamainen esimerkki, mutta laajemman analyysin tuloksena selvisi, että kirjoittaja on jo aiempana, kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan saapumisesta, rakentanut kuvaa paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. Tämän ryhmän tekstit sijoittuvatkin toissijaisesti myös johonkin toiseen alaryhmään,
 mutta ovat erottuneet omasta alaryhmästään kontekstin tarkastelun vaiheessa.
 Esimerkin `r which(print.labels=="@ee_linkki")` kaltaisia aiempaan kontekstiin tietoisesti sidottuja
 tapauksia on aineistossa `r esim$Linkki$total` kappaletta. Näissä tapauksissa kyse on 
-virketasolla tarkasteltuna joko annetuista topiikeista -- jos
-kontekstuaalinen linkki on muodostettu suhteellisen lähellä tässä käsiteltävää
-varsinaista asumiskappaletta  -- tai, jos edellinen maininta on selvästi
-kauempana, palautetuista topiikeista [@dik1989, 270--271]. X:ssä 
-tämän ryhmän virkkeessä kappaletta edeltää välitotsikko.
+virketasolla tarkasteltuna joko annetuista topiikeista -- jos kontekstuaalinen linkki on muodostettu suhteellisen lähellä tässä käsiteltävää varsinaista asumiskappaletta  -- tai, jos edellinen maininta on selvästi kauempana, palautetuista topiikeista [@dik1989, 270--271]. X:ssä tämän ryhmän virkkeessä kappaletta edeltää välitotsikko.
 
 
