@@ -1,50 +1,53 @@
-Edellä (taulukko) esitimme tavan ryhmitellä asumisesta kertovat tekstikappaleet
-sen mukaan, miten kirjoittaja toteuttaa siirtymän uuteen aiheeseen. Seuraavassa
-sovellamme laadullisen analyysin tuloksena saatuun ryhmäjakoon tilastollisia
-menetelmiä, tarkemmin ottaen ehdollisia päätöksentekopuita (conditional
-inference trees). 
+Edellä (taulukko `r Ref('tab', 'tt_esim')` ) esitimme tavan ryhmitellä
+asumisesta kertovat tekstikappaleet sen mukaan, miten kirjoittaja toteuttaa
+siirtymän uuteen aiheeseen. Seuraavassa sovellamme laadullisen analyysin
+tuloksena saatuun ryhmäjakoon tilastollisia menetelmiä, tarkemmin ottaen
+ehdollisia päätöksentekopuita (conditional inference trees). 
 
-Ehdollisissa päätöksentekopuissa  ajatuksena on, että
-[@levshina2015, x] . Analyysissa määritellään yksi selitettävä muuttuja [vrt. @ketokivi2015, x]
-ja (tavallisesti useita) selittäviä muuttujia, joiden avulla jonkin tapauksen
-päätymistä johonkin luokkaan pyritään ennustamaan. Nyt käsillä olevassa tutkimuksessa
-selitettävän muuttujan muodostavat laadullisen analyysin tuloksena
-luodut topiikin asetustapojen `r length(unique(analysoitu_otanta$group))`
-ryhmää. Yksittäisen matkakertomuksen päätymistä johonkin näistä ryhmistä
-on suorittamassamme luokittelupuuanalyysissä tarkasteltu seuraavien selittävien
-muuttujien avulla.[^tark]
+Ehdolliset päätöksentekopuut ovat regressiotyyppinen luokittelumenetelmä, jossa
+yhden tai useamman selittävän muuttujan assosiaatiota selitettävään muuttujaan
+[termeistä ks. @ketokivi2015, 131]
+tarkastellaan sarjana tutkimusaineistoa jaottelevia päätöksiä [@levshina2015,
+291]. Meidän tutkimukseemme sovellettuna tämä tarkoittaa sen selvittämistä,
+mitkä aineiston  `r nrow(analysoitu_otanta) ` tapauksen
+ominaisuudet (selittävät muuttujat) parhaiten
+ennustavat sen, mihin kolmestatoista ryhmästä (selitettävä muuttuja) tapaus
+on luokiteltu. Käytössämme ovat taulukon `r Ref('tab', 'tt_muuttujat')` 
+mukaiset selittävät muuttujat. 
 
-[^tark](mieti, linkki githubiin ja vähennä selitystä)
+```{r, echo=FALSE, results='asis'}
+
+nimi <- c("Koneellisen jäsentimen topiikki-indikaattorille asettama syntaktinen rooli","Topiikki-indikaattorin sijainti virkkeessä","lauseen predikaattiverbin persoona","Side muuhun tekstiin","Topiikki-indikaattorin morfologinen rakenne","Aikamuoto")
+lyh <- c("(dep)","(sij)","(pers)","(side)","(morf)","(tense)")
+nimi <- paste(nimi, lyh)
+selitys <- c(paste0("Arvot esitetty taulukossa ", Ref('tab', 'tt_deproles'), ", kuitenkin lavennettuna siten, että arvot *nsubj* ja *nsubj:cop* yhdistettiin yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss* sekä *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin kompleksisiin nominaalirakenteisiin (*asunnon hankinta*, *asumisen järjestäminen*)."),
+             "Kaksi arvoa a) Tapaukset, joissa topiikki-indikaattori on koko virkkeen ensimmäisenä. b) Muut tapaukset.",
+             "Kaksi arvoa: a) Tapaukset, joissa predikaattiverbi on ensimmäisessä persoonassa ja b) Muut tapaukset.",
+             "Neljä arvoa: a) Tapaukset, joissa topiikki asetetaan viittaamalla selkeästi johonkin edellä muodostettuun linkkiin (*linkki*) b) Tapaukset, joissa asumistopiikkia on pohjustettu edellisessä kappaleessa, muttei niin selvästi, että kyseessä olisi linkkitapaus (*edel.*) c)  Tapaukset, joissa asumiskappaletta edeltää väliotsikko (*ots*) d) Tapaukset, joissa mitään edellä kuvatuista siteistä ei ole (*x*).",
+             "Kolme arvoa: a) finiittiverbit b) infintiivimuodot (mukaan lukien minen-johdokset) c) substantiivit.",
+             "Neljä arvoa: a) preesens, imperfekti, pluskvamperfekti/perferkti[^perft], ellipsi (--)."
+             )
+   
+pander(matrix(c(nimi,selitys),ncol=2,byrow=F, dimnames=list(c(),c("Muuttujan nimi ja lyhenne","Muuttujan arvot"))),
+       caption=Ref('tab','tt_muuttujat','Tilastollisen analyysin selittävät muuttujat')
+       )
+
+```
 
 
-1. *Koneellisen jäsentimen topiikki-indikaattorille asettama syntaktinen rooli*.
-   Taulukossa `r Ref('tab', 'tt_deproles')` esiteltyjä kategorioita
-   lavennettiin siten, että arvot *nsubj* ja
-   *nsubj:cop* yhdistettiin yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss*
-   sekä *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin 
-   kompleksisiin nominaalirakenteisiin (*asunnon hankinta*, *asumisen järjestäminen*).
-2.  *Topiikki-indikaattorin sijainti virkkeessä* jakaa aineiston
-    kahteen luokkaan: tapauksiin, joissa topiikki-indikaattori on koko virkkeen
-    ensimmäisenä ja muihin tapauksiin.
-3. Myös *lauseen predikaattiverbin persoona*  jaettiin kahteen kategoriaan:
-   tapauksiin, joissa predikaattiverbi on ensimmäisessä persoonassa ja muihin tapauksiin.
-4. *Side muuhun tekstiin* -muuttujalla on kolme kategoriaa: tapaukset, joissa
-   asumistopiikkia on pohjustettu jo edellisessä kappaleessa muttei niin selvästi, että 
-   kyseessä olisi linkkitapaus (*edel.*); tapaukset, joissa topiikki asetetaan viittaamalla
-   selkeästi johonkin edellä muodostettuun linkkiin (*linkki*); tapaukset, joissa asumiskappaletta
-   edeltää väliotsikko (*ots*) sekä tapaukset, joissa mitään edellä kuvatuista siteistä ei ole (*x*).
-5. *Topiikki-indikaattorin morfologinen rakenne*  erottelee toisistaan finiittiverbit,
-   infintiivimuodot (mukaan lukien minen-johdokset) ja substantiivit.
-6. *Aikamuoto*-muuttuja pitää sisällään arvot *preesens*, *imperfekti*,
-   *pluskvamperfekti/perferkti*[^perft] ja *ellipsi* (--).
+
+
+
 
 [^perft]: Perfektitapauksia aineistossa oli vain yksi ja sekin
 konditionaalissa, joten molemmat suomen liittoaikamuodot yhdistettiin samaan
 kategoriaan.
 
-Näiden muuttujien perusteella rakennettiin päätöksentekopuu R-ohjelmiston
-*party*-kirjastoon kuuluvaa *ctree*-funktiota [@party] käyttäen. 
+Tässä käytetty päätöksentekopuu rakennettiin R-ohjelmiston
+*party*-kirjastoon kuuluvaa *ctree*-funktiota [@party] käyttäen.[^ghan]
 Analyysin tulos on esitetty kuviossa `r Ref('fig', 'ff_tree')`.
+
+[^ghan]: viittaus githubiin
 
 ```{r, echo=FALSE, out.extra='angle=90', fig.width=14,fig.height=10,fig.cap=Ref('fig','ff_tree','Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna')}
 
@@ -55,7 +58,11 @@ stats$side <- as.character(stats$side)
 stats$side[stats$side=="otsikko"] <- "ots."
 stats$side[stats$side=="edellinen"] <- "ed."
 stats$side <- as.factor(stats$side)
-puu <- ctree(group ~ side + location + dep + pers + pos + tense,stats)
+
+colnames(stats) <- c("group", "side", "loc", "dep", "temp", "morf", "sent", "pers", "pos")
+
+
+puu <- ctree(group ~ side + loc + dep + pers + pos + temp,stats)
 plot(puu,         
   inner_panel=node_inner(puu,
        abbreviate = FALSE,            
@@ -76,7 +83,11 @@ tapausta ei edellä väliotsikko, kyseessä on aina ryhmään 2
 kuuluva tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti (noodi 1),
 joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on kyseessä useimmiten
 ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat mahdollisia.
-Jokaisen noodin kohdalle on myös merkitty p-arvo (tästä tarkemmin).
+Jokaisen kuvion haarauman kohdalle on myös merkitty p-arvo, joiden avulla voidaan
+arvioida kunkin haarauman merkitsevyyttä  [@levshina2015, 292]. Korkein p-arvo
+kuviossa `r Ref('fig', 'ff_tree')` on noodilla 15, joka sekin on vain noin yhden 
+prosentin luokkaa, mikä tarkoittaa että kuviossa esitetyt jaot
+ovat kaiken kaikkiaan merkitseviä [p-arvoista ks. esim. @levshina2015, 10; @baayen2012, 69].
 
 
 Oleellista tässä esitetyssä päätöksentekopuussa on, että vaikka itse luokittelu
@@ -92,7 +103,7 @@ näiden muuttujien vaikutus topiikkia asettavan virkkeen päätymiseen
 johonkin laadullisessa analyysissa määritellyistä ryhmistä. 
 
 [^sijaintihom]: Päätöksentekopuun tuottaneessa algoritmissa indikaattorin sijainti osoittautui
-hieman yllättäenkin merkityksettömäksi.
+hieman yllättäenkin merkityksettömäksi, samoin kuin morfologinen rakenne.
 
 ```{r, echo=FALSE, results="asis"}
 library(pander)

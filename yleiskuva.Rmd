@@ -32,7 +32,7 @@ kont <- read_lines("data/esimerkkikuvaukset/konteksti.txt")
 kont <- kont[kont!=""]
 tulk <- read_lines("data/esimerkkikuvaukset/kuvailu.txt")
 tulk <- tulk[tulk!=""]
-tab <- matrix(c(paste0("*",esim.print,"*"), kont,tulk),ncol=3,dimnames=list(c(),c("Topiikkia asettava virke", "Konteksti","Siirtymän toteutus")))
+tab <- matrix(c(c(1:13),paste0("*",esim.print,"*"), kont,tulk),ncol=4,dimnames=list(c(),c("Ryhmä","Topiikkia asettava virke", "Konteksti","Siirtymän toteutus")))
 pander(tab,caption=Ref('tab',"tt_esim","Esimerkit laadullisen analyysin tuloksena syntyneistä ryhmistä"))
 
 

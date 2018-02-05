@@ -1,18 +1,34 @@
 Johdanto
 ========
 
+Abstrakti (Tämän räpiköinti loppuun odottaa konkluusion valmistumista.
+En osannut pidemmälle ilman sitä.)
+
+This paper explores textual organization in academic writing. The main
+questions addressed in the study are...
+
+The data for the study consist of ....
+
+The article discusses ..... from the point of view...
+
+The analysis shows that....
+
+Avainsanat: (mitäs ihmettä näihin laitetaan…) topiikki, dependenssi,
+kirjoittaminen, tekstilaji, korpus....??????
+
 Opiskelijavaihdosta kirjoitettava vaihtoraportti on institutionaalinen
 teksti, jonka kirjoittamiseen yliopisto antaa sisältöpainotteisen
 ohjeistuksen. Näillä verkossa julkaistavilla raporteilla on selkeä
 funktio: tukea vaihtojaksoa suunnittelevia opiskelijoita päätöksenteossa
 ja omaan tulevaan vaihtojaksoonsa valmistautumisessa. Niiden voi katsoa
 edustavan samaa tekstilajia (tekstilajin määritelmästä ks. esim.
-(Juvonen ym. 2012)) \[tähän vielä Suvin määritelmä mukaan\].
-Vaihtoraportti, kuten tekstilajit yleensäkin on dynaaminen ja voi
-toteutua kielellisesti äärettömän monella eri tavalla, ja tekstiä, jossa
-kieltä käytetään varioiden ja monipuolisesti mutta lajinsa konventioita
-riittävässä määrin noudatellen arvostetaan ja pidetään lukijan
-näkökulmasta luettavana ja mielenkiintoisena.
+(Juvonen ym. 2012)) [tähän vielä Suvin määritelmä
+mukaan](Swales%201990,%2045-58). Vaihtoraportti, kuten tekstilajit
+yleensäkin on dynaaminen ja voi toteutua kielellisesti äärettömän
+monella eri tavalla, ja tekstiä, jossa kieltä käytetään varioiden ja
+monipuolisesti mutta lajinsa konventioita riittävässä määrin noudatellen
+arvostetaan ja pidetään lukijan näkökulmasta luettavana ja
+mielenkiintoisena.
 
 Lähestyessämme 2010-lukua Suomen oppilaitoksissa ja korkeakouluissa
 opiskelee kasvava joukko kirjoittajia (L1 ja L2), jolla ei opintojensa
@@ -36,23 +52,25 @@ tämä tehdä vaan millä eri tavoilla tämä on tehty. Tällä kirjoittajalla
 voi olla nykyisen, tekstilajitietoisen kouluopetuksen pohjalta ymmärrys
 tekstilajista, mutta repertuaarissa ei olekaan sopivaa rakennetta, jolla
 pystyisi itse tuottamaan tavoitemuotoisen tekstin ja esim. käymään
-dialogia lukijansa kanssa (ks. (Juvonen 2014a)).
+dialogia lukijansa kanssa (ks. (<span class="citeproc-not-found"
+data-reference-id="juvonenvk">**???**</span>)).
 
 Viime aikaisessa kirjoittamista käsittelevässä fennistisessä
 tutkimuksessa on tarkastelu sitä, miten tekstikokonaisuus rakentuu
 funktionaalisten tai retoristen jaksojen pohjalta. On myös tarkennettu
 siihen, millaisin kielisin keinoin kirjoittajat toteuttavat tekstin
-rakenteen kannalta keskeisiä funktioita tai siirtoja (ks. esim. (Juvonen
-2014a)(Komppa 2012)(Paldanius 2017)(Vuorijärvi 2013)). Hierarkkisesti
-rakentuneiden tekstien rinnalla eää huomattavan paljon tekstilajeja
-(Hiippala 2013)(Komppa 2012)(Vuorijärvi 2013)), joissa tekstin
-rakennetta voi kuvata ennemmin topiikkipohjaiseksi ja temaattisen
-sisällön pohjalta rakentuvaksi kuin hierarkkisesti. Rakenne muodostuu
-sekventiaalisesti tai lineaarisesti peräkkäin asetetuista
-sisältötopiikeista, jotka kytkeytyvät tavalla tai toisella
-diskurssitopiikkiin. Hierarkkisten tekstirakenteiden rinnalla tekstin
-rakentaminen ns. sisältö edellä vaikuttaisikin olevan yhtä lailla
-relevantti kirjoitusstrategia myös korkeakoulussa.
+rakenteen kannalta keskeisiä funktioita tai siirtoja (ks. esim. (<span
+class="citeproc-not-found"
+data-reference-id="juvonenvk">**???**</span>)(Komppa 2012)(Paldanius
+2017)(Vuorijärvi 2013)). Hierarkkisesti rakentuneiden tekstien rinnalla
+eää huomattavan paljon tekstilajeja (Hiippala 2013)(Komppa
+2012)(Vuorijärvi 2013)), joissa tekstin rakennetta voi kuvata ennemmin
+topiikkipohjaiseksi ja temaattisen sisällön pohjalta rakentuvaksi kuin
+hierarkkisesti. Rakenne muodostuu sekventiaalisesti tai lineaarisesti
+peräkkäin asetetuista sisältötopiikeista, jotka kytkeytyvät tavalla tai
+toisella diskurssitopiikkiin. Hierarkkisten tekstirakenteiden rinnalla
+tekstin rakentaminen ns. sisältö edellä vaikuttaisikin olevan yhtä
+lailla relevantti kirjoitusstrategia myös korkeakoulussa.
 
 Saatavilla olevan tutkimustiedon rinnalle haluammekin selvittää, miten
 kirjoittaja voi päästä alkuun kappaleen kirjoittamisessa, jos häntä
@@ -100,7 +118,7 @@ tämä kääntyy nykyisellään ydinvirkkeeksi, joka yhdessä tukivirkkeiden
 kanssa muodostaa kappaleen. Tekstikappaleen ytimen tavoittelun sijaan
 kohdistammekin huomiomme siihen, miten kirjoittaja siirtyy tekstissään
 aiheesta toiseen. Nimitämme siirtymän toteuttavia virkkeitä *topiikkia
-asettaviksi* vrt. (Juvonen 2014b).
+asettaviksi* vrt. (Juvonen 2014).
 
 Käyttämämme topiikin käsite pohjaa Simon Dikin funktionaalisessa
 kieliopissaan (1989) antamaan esitykseen, jota vastaavassa
@@ -229,7 +247,7 @@ pitkälle kuin mahdollista. Prosessi piti sisällään seuraavat vaiheet:
 
 Jos tutkitaan tarkemmin niitä kategorioita, jotka syntaktinen jäsennin
 on merkinnyt tutkimukseen valikoituneiden kappaleiden ensimmäisille
-*asua*-johdoksille, saadaan taulukon 1 mukainen jakauma.
+*asua*-johdoksille, saadaan taulukon 2 mukainen jakauma.
 
 <table>
 <colgroup>
@@ -315,7 +333,7 @@ on merkinnyt tutkimukseen valikoituneiden kappaleiden ensimmäisille
 </tbody>
 </table>
 
-Taulukko 1: Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.
+Taulukko 2: Asua-johdosten jakautuminen eri syntaktisiin kategorioihin.
 
 Taulukon Frekvenssi-sarakkeesta nähdään paitsi se, että yhteensä edellä
 kuvattujen kolmen annotointi- ja rajausvaiheen jälkeen jäljelle jäi 338
@@ -380,7 +398,7 @@ tulosta eli itse jaottelua tilastollisin menetelmin.
 Laadullinen analyysi
 --------------------
 
-Taulukkoon 2 olemme koonneet edustavat esimerkit kustakin alaryhmästä.
+Taulukkoon 1 olemme koonneet edustavat esimerkit kustakin alaryhmästä.
 Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja
 lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista.
 Rajallisesta sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain
@@ -390,12 +408,14 @@ taulukossa merkitty bbbb-merkillä.
 
 <table>
 <colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
+<col width="7%" />
+<col width="30%" />
+<col width="30%" />
+<col width="30%" />
 </colgroup>
 <thead>
 <tr class="header">
+<th align="left">Ryhmä</th>
 <th align="left">Topiikkia asettava virke</th>
 <th align="left">Konteksti</th>
 <th align="left">Siirtymän toteutus</th>
@@ -403,66 +423,79 @@ taulukossa merkitty bbbb-merkillä.
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left">1</td>
 <td align="left"><em>Asuntoni sain vuokrattua Apartiksen( paikallinen TOAS) kautta.</em></td>
 <td align="left">Käsittelee ennakkovalmisteluja yms. Lopuksi reflektoi osaamistaan kielikurssilla.</td>
 <td align="left">Alatopiikilla, vaikka ylätopiikkia ei ilmipantu.</td>
 </tr>
 <tr class="even">
+<td align="left">2</td>
 <td align="left"><em>Vaihtoni aikana asuin Grandmontin asuntolassa.</em></td>
 <td align="left">Kertoo, missä asui vaihtonsa aikana; kuvailee sisustuksen, kämppäkaverit ja vuokran.</td>
 <td align="left">Esittelytopiikilla. Predikaattina on asua-verbi. Kertoo, missä kirjoittaja on asunut.</td>
 </tr>
 <tr class="odd">
+<td align="left">3</td>
 <td align="left"><em>Olin löytänyt asunnon ensimmäiseksi kuukaudeksi Airbnb:n kautta ennen Italiaan saapumista.</em></td>
 <td align="left">Kertoo, mitä tapahtunut ennen kuvattavaa jaksoa. Kuvailee tarkemmin sijaintia, kulkuyhteyksiä yms.</td>
 <td align="left">Esittelytopiikilla, mutta aikarakenteltaan monitasoisempi kuin ryhmä 3.</td>
 </tr>
 <tr class="even">
+<td align="left">4</td>
 <td align="left"><em>Asuminen, tai siis lähinnä asunnon hankkiminen, oli varmaankin vaihdon hankalin juttu.</em></td>
 <td align="left">Arvioi edeltävässä kurssitarjonnan tasoa, paperiasioiden hoitumista yms.</td>
 <td align="left">Diskurssista johdetulla alatopiikilla, jota indikoi usein deverbaalisubstantiivi. Luonnehtii kirjoittajan subjektiivista kokemusta.</td>
 </tr>
 <tr class="odd">
+<td align="left">5</td>
 <td align="left"><em>Asuntoloista valitsin Julius Raab Heimin vanhojen matkakertomusten perusteella.</em></td>
 <td align="left">Kuvannut vaihtoon hakua ja kotimaan järjestelyjä. Maininnut jo paikallisista asuntolavaihtoehdoista.</td>
 <td align="left">Edeltävässä kappaleessa annetun tai hiukan kauempaa palautetun topiikin avulla. Kuuluvat toissijaisesti johonkin toiseen alaryhmään.</td>
 </tr>
 <tr class="even">
+<td align="left">6</td>
 <td align="left"><em>Ulkomaisille opiskelijoille tarkoitettu asuntola on vain kolme vuotta vanha ja täten melko moderni.</em></td>
 <td align="left">Edellinen kappale lennosta ja saapumisesta.</td>
 <td align="left">Muistuttavat 2. ryhmän tapauksia, kytkös implisiittisempi, usein väliotsikko. Luonnehtii asuntoa / asuntolaa konkreettisesti.</td>
 </tr>
 <tr class="odd">
+<td align="left">7</td>
 <td align="left"><em>Itselläni kävi tuuri asunnon suhteen löytäessäni edullisen huoneen Chelseasta aivan Manhattanin keskeltä.</em></td>
 <td align="left">Tekstin viimeinen kappale. Edellä arvioinut kokemustaan kokonaisuutena.</td>
 <td align="left">Alatopiikin avulla. Muistuttaa 1. ryhmää, mutta sisältönä verrataan omia kokemuksia toisten kokemuksiin.</td>
 </tr>
 <tr class="even">
+<td align="left">8</td>
 <td align="left"><em>Asuminen Tokiossa on aika kallista.</em></td>
 <td align="left">Kappale melkein tekstin lopussa. Edellä kuvannut vapaa-ajan mahdollisuuksia.</td>
 <td align="left">4. ryhmän tapaan, mutta jakaen maailmantietoa, ei eksplikoiden omia kokemuksia.</td>
 </tr>
 <tr class="odd">
+<td align="left">9</td>
 <td align="left"><em>Suurlähetystön henkilökunta tarjosi resurssiensa puitteissa apuaan mm. maahantuloon, käytännön järjestelyihin sekä asunnon löytämiseen liittyvissä asioissa.</em></td>
 <td align="left">Edellä kuvannut hakuprosessia. Jatkaa vuokratasoon ja hintoihin.</td>
 <td align="left">Esittelytopiikin avulla, mutta kirjoittaja ei ole agentiivinen toimija. Fokuksessa joku muu keskeinen toimija.</td>
 </tr>
 <tr class="even">
+<td align="left">10</td>
 <td align="left"><em>Lensin Wieniin sunnuntaina ja lento-kentältä suuntasin suoraan asunnolleni.</em></td>
 <td align="left">Tekstin alkupuolella -- edellä vain hakuprosessin kuvaus.</td>
 <td align="left">edellisiä implisiitisempi, kuitenkin uuden topiikin avulla. Kertova tekstityyppi ja aikamuoto yleensä imperfekti. Narraatio.</td>
 </tr>
 <tr class="odd">
+<td align="left">11</td>
 <td align="left"><em>Sitten pari sanaa asumisesta.</em></td>
 <td align="left">Edellä yksityiskohtaisesti esim. seminaarien opintopisteistä.</td>
 <td align="left">metatekstin kautta. Uusi topiikki, joka tuodaan tekstiin eksplisiittisesti.</td>
 </tr>
 <tr class="even">
+<td align="left">12</td>
 <td align="left"><em>Saapuessani Varsovaan minulla oli onneksi jo asunto tiedossa.</em></td>
 <td align="left">Edellä kieltenopiskelusta, jatkaa hintoihin.</td>
 <td align="left">uuden topiikin avulla, joka avausvirkkeen loppupuolella. Ajallinen jännite, katsotaan kuvatusta aikapisteestä taaksepäin.</td>
 </tr>
 <tr class="odd">
+<td align="left">13</td>
 <td align="left"><em>Lähes kaikki Bratislavan kauppakorkeakoulun vaihto-opiskelijat asuivat Ekonom-nimisessä dormitoryssa.</em></td>
 <td align="left">Kuvannut saapumista ja tutor-toimintaa.</td>
 <td align="left">7. ryhmän tapaan, mutta samaistuen, ei kontrastoiden muiden vaihto-opiskelijoiden toimintaan. Alaotsikko tyypillinen.</td>
@@ -470,25 +503,26 @@ taulukossa merkitty bbbb-merkillä.
 </tbody>
 </table>
 
-Taulukko 2: Esimerkit laadullisen analyysin tuloksena syntyneistä
+Taulukko 1: Esimerkit laadullisen analyysin tuloksena syntyneistä
 ryhmistä
 
 Aineiston isoimman ryhmän muodostavat esimerkin 1 kaltaiset topiikkia
 asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana. Se
-on siis tekstin ensimmäinen eksplisiittinen maininta topiikista;
-asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. Vaikka
-esimerkissä 1 ei täyty Dikin (1989: 275) kuvailema ehto siitä, että
+on tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen
+tai asuntoon ei ole viitattu edeltävissä kappaleissa. *asuntoni* on
+tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä), vaikka
+esimerkissä 1 ei täytykään Dikin (1989: 275) kuvailema ehto siitä, että
 varsinainen ylätopiikki olisi erikseen esitelty lukijalle (vrt. myös
-Guijarro 2001: 110), *asuntoni* on tulkittu analyysissämme alatopiikiksi
-(ks. osio x.x edellä). Kirjoittaja nimittäin vaikuttaa operoineen tässä,
-kuten useimmissa muissakin ryhmän 1[3] tapauksissa, yksinomaan
-tehtävänannon tarjoaman kysymyspatteriston ja saatavilla olevien
-mallitekstien puitteissa. Tästä seuraa, että asunto tai asuminen
-oletetaan lukijan käytettävissä olevaksi entiteetiksi (vrt. Chafe 1987:
-29; Lambrecht 1996: 99), ja se on tuotu tekstiin ilman ennakkomainintoja
-tai esittelyjä. Voisi jopa sanoa, että esimerkin 1 kaltaiset tapaukset
-eivät niinkään aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi
-oletettua topiikkia (vrt. implisiittinen teema Shore (2008)).
+Guijarro 2001: 110). Asunto tai asuminen on tuotu tekstiin ilman
+ennakkomainintoja tai esittelyjä, se aivan kuin oletetaan lukijan
+käytettävissä olevaksi entiteetiksi (vrt. Chafe 1987: 29; Lambrecht
+1996: 99). Voisi jopa sanoa, että esimerkin 1 kaltaiset tapaukset eivät
+niinkään aseta topiikkia vaan ennemmin käyttävät jo asetetetuksi
+oletettua topiikkia (vrt. implisiittinen teema Shore (2008)). Tekstin
+koherenssi rakentuu tässä, kuten useimmissa muissakin ryhmän 1[3]
+tapauksissa, lähinnä tehtävänannon tarjoaman kysymyspatteriston ja
+saatavilla olevien mallitekstien varaan. Tekstejä voisi kuvata
+listamaisiksi.
 
 Seuraavan kiinnostavan ryhmän muodostavat esimerkin 2 kaltaiset
 tapaukset, joissa topiikki-indikaattorina on persoonamuotoinen
@@ -501,32 +535,27 @@ topiikin (1989: 269). Vastaavat *asuin paikassa X* -tyyppiset rakenteet
 ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä
 alkava kappale kertoo.
 
-Kertominen ja kertova tekstityyppi ovatkin aineiston tekstilajille
+Kertova tekstityyppi on aineistona olevissa matkakertomuksissa
 tyypillistä, mikä näkyy useammassakin alaryhmässä. Esimerkin 10
 edustamassa ryhmässä asumisesta raportoidaan kertovan tekstityypin
-avulla, mikä käy annetusta esimerkistä esiin erityisen selvästi, koska
-kirjoittaja on käyttänyt ajan ilmausta. Aikamuoto ryhmän 10 virkkeissä
-on tyypillisesti imperfekti. Esimerkin 3 edustamat virkkeet ovat
-ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen
-topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa,
-jolle varsinainen käsiteltävä topiikki sijoittuu.
+avulla. Aikamuoto ryhmässä 10 on tyypillisesti imperfekti. Esimerkin 3
+edustamat virkkeet ovat ajallisesti muita monitasoisempia. Lukija
+johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on tapahtunut
+ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki sijoittuu.
 
-Yhtälailla ryhmittelystämme on löydettävissä erilaisia tapoja aloittaa
-luonnehtimalla omia kokemuksiaan. Esimerkissä 4 topiikkia indikoi
-*asuminen*, mikä tähän ryhmään luokitelluille onkin varsin tyypillistä:
-jostakin varsinaisen diskurssitopiikin osa-alueelta tiivistetään oma
-kokemus kompleksiseen deverbaalijohdokseen, jota luonnehditaan
-predikatiivilauseella. Näissä tapauksissa kuvataan, miten *asunnon
-hakeminen oli helppoa* tai miten *kaikkein vaikeinta oli asunnon
-löytäminen*. Strategiana on itsestään käsin kertoa, miten asiat ovat
-sujuneet, omia onnistumisia ja epäonnistumisia arvioiden.
-Informaatiorakenteen kannalta nämä tapaukset ovat monesti ryhmän 1
-tapaan alatopiikkeja. Esimerkki4 on kuitenkin esimerkkiä 1 selvemmin
-topiikkia asettava virke, sillä siinä asumisen rooli yhtenä
+Yhtälailla olemme ryhmitelleet erilaisia tapoja aloittaa kappale
+luonnehtimalla omia kokemuksia. Esimerkissä 4 topiikkia indikoi
+*asuminen*, mikä tässä ryhmässä onkin varsin tyypillistä: jostakin
+varsinaisen diskurssitopiikin osa-alueelta tiivistetään oma kokemus
+esim. deverbaalijohdoksella tai sen ympärille muodostuneella
+lausekkeella, jota sitten luonnehditaan predikatiivilauseella. Näissä
+tapauksissa kuvataan, että *asunnon hakeminen oli helppoa* tai miten
+*kaikkein vaikeinta oli asunnon löytäminen*. Strategiana on omia
+onnistumisia ja epäonnistumisia arvioiden kertoa, miten asiat ovat
+sujuneet. Informaatiorakenteen kannalta nämä tapaukset ovat monesti
+ryhmän 1 tapaan alatopiikkeja. Esimerkki4 on kuitenkin esimerkkiä 1
+selvemmin topiikkia asettava virke, sillä siinä asumisen rooli yhtenä
 vaihtokokemuksen osana on ilmaistu eksplisiittisesti.
-
-\[tähän seuraavaksi etäännytetyt kuvailut ja sitte lopetus
-linkkihommiin\]
 
 Esimerkissä 5 indikaattorina on *asuntoloista*-sana. Ilman kontekstia
 tarkasteltuna tämäkin tapaus vaikuttaa samalta kuin listamainen
@@ -547,55 +576,74 @@ virkkeessä kappaletta edeltää välitotsikko.
 Tilastollinen tarkastelu
 ------------------------
 
-Edellä (taulukko) esitimme tavan ryhmitellä asumisesta kertovat
+Edellä (taulukko 1 ) esitimme tavan ryhmitellä asumisesta kertovat
 tekstikappaleet sen mukaan, miten kirjoittaja toteuttaa siirtymän uuteen
 aiheeseen. Seuraavassa sovellamme laadullisen analyysin tuloksena
 saatuun ryhmäjakoon tilastollisia menetelmiä, tarkemmin ottaen
 ehdollisia päätöksentekopuita (conditional inference trees).
 
-Ehdollisissa päätöksentekopuissa ajatuksena on, että (Levshina 2015, x)
-. Analyysissa määritellään yksi selitettävä muuttuja (vrt. Ketokivi
-2015, x) ja (tavallisesti useita) selittäviä muuttujia, joiden avulla
-jonkin tapauksen päätymistä johonkin luokkaan pyritään ennustamaan. Nyt
-käsillä olevassa tutkimuksessa selitettävän muuttujan muodostavat
-laadullisen analyysin tuloksena luodut topiikin asetustapojen 13 ryhmää.
-Yksittäisen matkakertomuksen päätymistä johonkin näistä ryhmistä on
-suorittamassamme luokittelupuuanalyysissä tarkasteltu seuraavien
-selittävien muuttujien avulla.\[^tark\]
+Ehdolliset päätöksentekopuut ovat regressiotyyppinen
+luokittelumenetelmä, jossa yhden tai useamman selittävän muuttujan
+assosiaatiota selitettävään muuttujaan (termeistä ks. Ketokivi 2015:
+131) tarkastellaan sarjana tutkimusaineistoa jaottelevia päätöksiä
+(Levshina 2015: 291). Meidän tutkimukseemme sovellettuna tämä tarkoittaa
+sen selvittämistä, mitkä aineiston 168 tapauksen ominaisuudet
+(selittävät muuttujat) parhaiten ennustavat sen, mihin kolmestatoista
+ryhmästä (selitettävä muuttuja) tapaus on luokiteltu. Käytössämme ovat
+taulukon 4 mukaiset selittävät muuttujat.
 
-\[^tark\](mieti, linkki githubiin ja vähennä selitystä)
+<table style="width:93%;">
+<colgroup>
+<col width="41%" />
+<col width="51%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Muuttujan nimi ja lyhenne</th>
+<th align="left">Muuttujan arvot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Koneellisen jäsentimen topiikki-indikaattorille asettama syntaktinen rooli (dep)</td>
+<td align="left">Arvot esitetty taulukossa 2, kuitenkin lavennettuna siten, että arvot <em>nsubj</em> ja <em>nsubj:cop</em> yhdistettiin yhdeksi subjektin kategoriaksi (<em>subj</em>) ja arvot <em>nmod:poss</em> sekä <em>nmod:gobj</em> yhdeksi <em>nmod:x</em>-kategoriaksi, jolla viitattiin kaikkiin kompleksisiin nominaalirakenteisiin (<em>asunnon hankinta</em>, <em>asumisen järjestäminen</em>).</td>
+</tr>
+<tr class="even">
+<td align="left">Topiikki-indikaattorin sijainti virkkeessä (sij)</td>
+<td align="left">Kaksi arvoa a) Tapaukset, joissa topiikki-indikaattori on koko virkkeen ensimmäisenä. b) Muut tapaukset.</td>
+</tr>
+<tr class="odd">
+<td align="left">lauseen predikaattiverbin persoona (pers)</td>
+<td align="left">Kaksi arvoa: a) Tapaukset, joissa predikaattiverbi on ensimmäisessä persoonassa ja b) Muut tapaukset.</td>
+</tr>
+<tr class="even">
+<td align="left">Side muuhun tekstiin (side)</td>
+<td align="left">Neljä arvoa: a) Tapaukset, joissa topiikki asetetaan viittaamalla selkeästi johonkin edellä muodostettuun linkkiin (<em>linkki</em>) b) Tapaukset, joissa asumistopiikkia on pohjustettu edellisessä kappaleessa, muttei niin selvästi, että kyseessä olisi linkkitapaus (<em>edel.</em>) c) Tapaukset, joissa asumiskappaletta edeltää väliotsikko (<em>ots</em>) d) Tapaukset, joissa mitään edellä kuvatuista siteistä ei ole (<em>x</em>).</td>
+</tr>
+<tr class="odd">
+<td align="left">Topiikki-indikaattorin morfologinen rakenne (morf)</td>
+<td align="left">Kolme arvoa: a) finiittiverbit b) infintiivimuodot (mukaan lukien minen-johdokset) c) substantiivit.</td>
+</tr>
+<tr class="even">
+<td align="left">Aikamuoto (tense)</td>
+<td align="left">Neljä arvoa: a) preesens, imperfekti, pluskvamperfekti/perferkti<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, ellipsi (--).</td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Perfektitapauksia aineistossa oli vain yksi ja sekin konditionaalissa, joten molemmat suomen liittoaikamuodot yhdistettiin samaan kategoriaan.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
 
-1.  *Koneellisen jäsentimen topiikki-indikaattorille asettama
-    syntaktinen rooli*. Taulukossa 1 esiteltyjä kategorioita
-    lavennettiin siten, että arvot *nsubj* ja *nsubj:cop* yhdistettiin
-    yhdeksi subjektin kategoriaksi (*subj*) ja arvot *nmod:poss* sekä
-    *nmod:gobj* yhdeksi *nmod:x*-kategoriaksi, jolla viitattiin kaikkiin
-    kompleksisiin nominaalirakenteisiin (*asunnon hankinta*, *asumisen
-    järjestäminen*).
-2.  *Topiikki-indikaattorin sijainti virkkeessä* jakaa aineiston kahteen
-    luokkaan: tapauksiin, joissa topiikki-indikaattori on koko virkkeen
-    ensimmäisenä ja muihin tapauksiin.
-3.  Myös *lauseen predikaattiverbin persoona* jaettiin kahteen
-    kategoriaan: tapauksiin, joissa predikaattiverbi on ensimmäisessä
-    persoonassa ja muihin tapauksiin.
-4.  *Side muuhun tekstiin* -muuttujalla on kolme kategoriaa: tapaukset,
-    joissa asumistopiikkia on pohjustettu jo edellisessä kappaleessa
-    muttei niin selvästi, että kyseessä olisi linkkitapaus (*edel.*);
-    tapaukset, joissa topiikki asetetaan viittaamalla selkeästi johonkin
-    edellä muodostettuun linkkiin (*linkki*); tapaukset, joissa
-    asumiskappaletta edeltää väliotsikko (*ots*) sekä tapaukset, joissa
-    mitään edellä kuvatuista siteistä ei ole (*x*).
-5.  *Topiikki-indikaattorin morfologinen rakenne* erottelee toisistaan
-    finiittiverbit, infintiivimuodot (mukaan lukien minen-johdokset) ja
-    substantiivit.
-6.  *Aikamuoto*-muuttuja pitää sisällään arvot *preesens*, *imperfekti*,
-    *pluskvamperfekti/perferkti*[4] ja *ellipsi* (--).
+Taulukko 4: Tilastollisen analyysin selittävät muuttujat
 
-Näiden muuttujien perusteella rakennettiin päätöksentekopuu
-R-ohjelmiston *party*-kirjastoon kuuluvaa *ctree*-funktiota (Hothorn ym.
-2006) käyttäen. Analyysin tulos on esitetty kuviossa 3.
+Tässä käytetty päätöksentekopuu rakennettiin R-ohjelmiston
+*party*-kirjastoon kuuluvaa *ctree*-funktiota (Hothorn ym. 2006)
+käyttäen.[5] Analyysin tulos on esitetty kuviossa 3.
 
-<img src="/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-3-1.png" alt="Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna" angle=90 />
+<img src="/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-4-1.png" alt="Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna" angle=90 />
 <p class="caption">
 Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
 tarkasteltuna
@@ -611,8 +659,12 @@ jos lisäksi tapausta ei edellä väliotsikko, kyseessä on aina ryhmään 2
 kuuluva tapaus (noodi 18)*. Jos taas dependenssirooli on predikaatti
 (noodi 1), joka ei kuitenkaan esiinny ensimmäisessä persoonassa, on
 kyseessä useimmiten ryhmän 13 tapaus, vaikka muutkin vaihtoehdot ovat
-mahdollisia. Jokaisen noodin kohdalle on myös merkitty p-arvo (tästä
-tarkemmin).
+mahdollisia. Jokaisen kuvion haarauman kohdalle on myös merkitty p-arvo,
+joiden avulla voidaan arvioida kunkin haarauman merkitsevyyttä (Levshina
+2015: 292). Korkein p-arvo kuviossa 3 on noodilla 15, joka sekin on vain
+noin yhden prosentin luokkaa, mikä tarkoittaa että kuviossa esitetyt
+jaot ovat kaiken kaikkiaan merkitseviä (Baayen 2012: 69; p-arvoista ks.
+esim. Levshina 2015: 10).
 
 Oleellista tässä esitetyssä päätöksentekopuussa on, että vaikka itse
 luokittelu ryhmiin tehtiin puhtaasti artikkelin kirjoittajien tulkinnan
@@ -620,7 +672,7 @@ perusteella ja kustakin ryhmästä annettiin edellä funktionaalinen
 kuvaus, on ryhmiä mahdollista kuvailla melko pitkälle myös
 rakenteellisten ominaisuuksien valossa. Karkeasti ottaen voidaan todeta,
 että suurin osa laadullisen analyysin tuloksena laadituista
-kolmestatoista ryhmästä pystytään päättelemään hyödyntämällä kolmea[5]
+kolmestatoista ryhmästä pystytään päättelemään hyödyntämällä kolmea[6]
 yksinkertaista rakenteellisen mikrotason muuttujaa: verbin persoonaa,
 aikamuotoa ja indikaattorisanan dependenssiroolia. Taulukossa 3 on
 tiivistetty näiden muuttujien vaikutus topiikkia asettavan virkkeen
@@ -726,40 +778,79 @@ Päätelmäluvun puolelle se, miä tästä kaikesta seuraa.
 Päätelmät
 =========
 
-Tekstikappaleen ydin voi sijaita yhtä lailla ortografisen kappaleen
-alussa kuin muualla (Komppa). Tekstikappaleen ensimmäinen lause tai
-virke ei yksinään paljastakaan mitään siitä, millaisessa asemassa
-kappale hierakkisesti on tekstin kokonaisrakenteen kannalta. Kappaleiden
-välinen sidosteisuus, koheesio ja/tai koherenssi on kuitenkin saatava
-aikaan jollain tavalla, ja olemassa olevan tutkimuksen perustella voimme
-olettaa (kenties?) että tekstin sisältö saattaa olla jopa keskeisempi
-tekijä kuin tekstin kokonaisrakenne.
+Tarkastelimme tässä tutkimuksessa tekstikappaleen sisältötopiikin
+muodostumista kahdella menetelmällä, ja tavoitteenamme oli selvittää,
+miten eri tavoin on tekstikappaleiden alut muodostuvat. Toinen
+tavoitteemme oli soveltava (kuvaa se vielä tähän).
 
-Juvonen sanoo, eri tekstityyppejä yhdistellen voi päästä samaan
-lopputulokseen, jolloin emme voi myöskään rakentaa mitään tiettyyn
-tekstilajiin soveltuvaa kaavaa. -&gt; meidän tuloksista kai voisi saada
-apua siihen, miten päästään alkuun tietyn tekstityypin käytössä ja sitä
-kautta rakennetaan haluttua tekstilajia??
+Laadullisen analyysin tuloksena löytyi 12 toisistaan eroavaa ryhmää.
+Tarkemmassa tarkastelussa selvisi, että eroavaisuudet palautuvat
+toisaaltaa siihen, millaisessa suhteessa aloitusvirkkeessä esitetty
+topiikki on aiempaan tekstiin ja toisaalta siihen, millaisesta
+näkökulmasta käsin kirjoittaja lähestyy tekstinsä aihetta (itsestään
+käsin vai etäännyttäen). Tutkimuksen aineistona oli
+yliopisto-opiskelijoiden kirjoittamista matkakertomuksista koostettu
+korpus, joten osa löydöksistä palautuu eittämättä myös tekstilajin
+piirteisiin. Päästäksemme tarkemmin kiinni niihin kielenpiirteisiin,
+joita varioimalla kirjoittajat avaavat testkikappaleen ja asettavat sen
+topiikin, tarkastelimme korpusta myös xxxx:n kautta.
 
-Tekstuaalisia funktioita ja ja kappaletason elementtejä kuvattaessa on
-usein.. Esimerkiksi Vuorijärvellä kuvaus "blablaa". Jos opettaja haluaa
-konkretisoida eri tekstistrategioita, hänen on tavallisesti
-turvauduttava vain abstrakteihin määritelmiin. Yhtenä tämän tutkimuksen
-tarkoituksena on kuitenkin tuottaa myös toisenlaista, rakenteiden tason
-tietoa...
+Tähän jotain sitten toisen analyysin tuloksesta lyhyesti.
 
-1.  Kirjoittamisen opetuksen kannalta ajateltuna. Työkaluja nimenomaan
-    sen listaamiseen, *miten on tehty*. HUOM&gt;&gt; oppilaalle
-    itselleen arvioitavaksi, mikä sopii tekstilajiin ja omaan tyyliin ja
-    kulloinkin käsiteltävään aiheeseen.
+Jo kirjallisuuskatsauksen pohjalta oli selvää, että tekstikappaleen ydin
+voi sijaita yhtä lailla ortografisen kappaleen alussa kuin muuallakin ja
+että tekstikappaleen ensimmäinen lause tai virke ei läheskään aina
+paljasta mitään siitä, millaisessa asemassa kappale hierakkisesti on
+tekstin kokonaisrakenteen kannalta. Lähderimpsu kotimaisia
+tekstintutkijoita \[Voisiko tähän tulla myös niistä topic sentence
+-tilastoista)\]. Kuten Juvonen toteaa (sivunumerot), tiettyyn
+tekstilajiin soveltuvaa kaavaa tekstikappaleen kirjoittamisesta on
+mahdotonta rakentaa, koska kirjoittaja voi eri tekstityyppejä
+yhdistellen päästä samaan lopputulokseen. Tuloksissamme näkyykin
+fennistisessä tutkimuksessa klassiseksi muodostunut Werlichin
+tekstityyppijaottelu (lähdeviite), josta kertova ja kuvaileva
+tekstityyppi asettuivat omiksi ryhmikseen, ja yhtymäkohtia on
+löydettävissä myös Juvosen käyttämään erittelevään tekstityyppiin.
+
+Vaikka tekstikappaleen ensimmäinen virke ei tutkimusten mukaan ole avain
+tekstin hierarkkisen rakenteen selvittämiseen - sen paremmin kai
+kirjoittamiseekaan - tutkimuksemme osoittaa, että topiikin suhteen
+avausvirke on usein avainasemassa. Se kertoo, mistä kappaleessa puhutaan
+ja antaa usein myös vihjeen tekstityypistä. Aineistossamme jo
+ensimmäisestä virkkeestä kävi selväksi, rakentaako kirjoittaja tekstiään
+henkilökohtaisen narratiivin avulla vai onko hallussa etäännyttävä,
+erittelevä kirjoitusstrategia (meneekö jo teoreettisesti liian kauas
+tämä? voipi poistaa?). Kappaleiden välinen sidosteisuus, koheesio ja/tai
+koherenssi on ei-fiktiivisessä tekstissä luotava nopeasti, jotta lukija
+pystyy ymmärtämään tekstin sisällön. Tulostemme pohjalta voimme
+voimme(ko) väittää, että tekstin sisältö saattaa tässä olla jopa
+keskeisempi tekijä kuin tekstin kokonaisrakenne.
+
+Ja tästä pääsemmekin vastaamaan toiseeen tutkimuskysymykseemme:
+
+1.  Kirjoittamisen opetuksen kannalta ajateltuna. Tutkimuksen tuloksista
+    kai voisi saada apua siihen, miten päästään alkuun tietyn
+    tekstityypin käytössä ja sitä kautta rakennetaan haluttua
+    tekstilajia??Työkaluja nimenomaan sen listaamiseen, *miten on
+    tehty*. HUOM&gt;&gt; oppilaalle itselleen arvioitavaksi, mikä sopii
+    tekstilajiin ja omaan tyyliin ja kulloinkin käsiteltävään aiheeseen.
 
 Tähän analyysia siitä, miksi tietyt rakenteet vallitsevia. Kertooko esim
 siitä, ettei tietoisesti rakenneta, vaan vedetään assosiatiivisesti?
+
+Jos opettaja haluaa konkretisoida eri tekstistrategioita, hänen on
+tavallisesti turvauduttava vain abstrakteihin määritelmiin. Yhtenä tämän
+tutkimuksen tarkoituksena on kuitenkin tuottaa myös toisenlaista,
+rakenteiden tason tietoa...
 
 -- Mitä hyötyä sitten siitä, että voi jostain kuulla erilaisista
 tavoista aloittaa kappale?
 
 1.  Konkreettinen sovellus fraasipankissa tms.
+
+Baayen, Rolf H. 2012. *Analyzing Linguistic Data: A Practical
+Introduction to Statistics using R*. Cambridge: Cambridge university
+press.
 
 Biber, Douglas, Ulla Connor & Thomas A. Upton 2007. *Discourse on the
 move: Using corpus analysis to describe discourse structure* Vsk. 28.
@@ -795,10 +886,7 @@ Jisa, Harriet & Liliana Tochinsky 2009. Developing a personalized stance
 through linguistic means in typologically different languages. Written
 expository discourse. *Written Language & Literacy* 12:1, 1–25.
 
-Juvonen, Riitta 2014a. Kirjoitelma ja tekijän ääni: kehystämisen
-yhdyslauseet suomenkielisen ylioppilasaineen dialogisuuden hallinnassa.
-
-Juvonen, Riitta 2014b. Näkökulma kirjoitelman dialogisuuteen: Kuinka- ja
+Juvonen, Riitta 2014. Näkökulma kirjoitelman dialogisuuteen: Kuinka- ja
 miten-yhdyslauseet ylioppilasaineessa. *Virittäjä* 118:1, 72.
 
 Juvonen, Riitta, Mikko Virtanen & Eero Voutilainen 2012. Fennistisen
@@ -844,5 +932,8 @@ perusteella.
 konditionaalissa, joten molemmat suomen liittoaikamuodot yhdistettiin
 samaan kategoriaan.
 
-[5] Päätöksentekopuun tuottaneessa algoritmissa indikaattorin sijainti
-osoittautui hieman yllättäenkin merkityksettömäksi.
+[5] viittaus githubiin
+
+[6] Päätöksentekopuun tuottaneessa algoritmissa indikaattorin sijainti
+osoittautui hieman yllättäenkin merkityksettömäksi, samoin kuin
+morfologinen rakenne.
