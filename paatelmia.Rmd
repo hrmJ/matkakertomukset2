@@ -1,6 +1,6 @@
 ﻿
  
-Tarkastelimme tässä tutkimuksessa tekstikappaleen sisältötopiikin muodostumista kahdella menetelmällä, ja tavoitteenamme oli selvittää, miten eri tavoin on tekstikappaleiden alut muodostuvat. Toinen tavoitteemme oli soveltava (kuvaa se vielä tähän).
+Tarkastelimme tässä tutkimuksessa tekstikappaleen sisältötopiikin muodostumista korpusvetoisesti kahdella menetelmällä, ja tavoitteenamme oli selvittää, millaisia tapoja yliopisto-opiskelijat käyttävät saman topiikin asettamiseen ja miten näitä tapoja voidaan määritellä toisaalta funktionaalisesti, toisaalta syntaktisesti. 
 
 Laadullisen analyysin tuloksena löytyi 12 toisistaan eroavaa ryhmää. Tarkemmassa tarkastelussa selvisi, että eroavaisuudet palautuvat toisaaltaa siihen, millaisessa suhteessa aloitusvirkkeessä esitetty topiikki on aiempaan tekstiin ja toisaalta siihen, millaisesta näkökulmasta käsin kirjoittaja lähestyy tekstinsä aihetta (itsestään käsin vai etäännyttäen). Tutkimuksen aineistona oli yliopisto-opiskelijoiden kirjoittamista matkakertomuksista koostettu korpus, joten osa löydöksistä palautuu eittämättä myös tekstilajin piirteisiin. Päästäksemme tarkemmin kiinni niihin kielenpiirteisiin, joita varioimalla kirjoittajat avaavat testkikappaleen ja asettavat sen topiikin, tarkastelimme korpusta myös xxxx:n kautta.
 
