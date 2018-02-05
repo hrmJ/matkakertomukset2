@@ -1,4 +1,18 @@
-﻿
+﻿Abstrakti (Tämän räpiköinti loppuun odottaa konkluusion valmistumista. En osannut pidemmälle ilman sitä.)
+
+This paper explores textual organization in academic writing. The main questions addressed in the study are...
+
+The data for the study consist of ....
+
+The article discusses ..... from the point of view...
+
+
+The analysis shows that....
+
+
+
+Avainsanat: (mitäs ihmettä näihin laitetaan…) topiikki, dependenssi, kirjoittaminen, tekstilaji, korpus....?????? 
+
 
 Opiskelijavaihdosta kirjoitettava vaihtoraportti on institutionaalinen teksti, jonka kirjoittamiseen yliopisto antaa sisältöpainotteisen ohjeistuksen. Näillä verkossa julkaistavilla raporteilla on selkeä funktio: tukea vaihtojaksoa suunnittelevia opiskelijoita päätöksenteossa ja omaan tulevaan vaihtojaksoonsa valmistautumisessa. Niiden voi katsoa edustavan samaa tekstilajia (tekstilajin määritelmästä ks. esim. [@juvonen2012]) [tähän vielä Suvin määritelmä mukaan](Swales 1990, 45-58). Vaihtoraportti, kuten tekstilajit yleensäkin on dynaaminen ja voi toteutua kielellisesti äärettömän monella eri tavalla, ja tekstiä, jossa kieltä käytetään varioiden ja monipuolisesti mutta lajinsa konventioita riittävässä määrin noudatellen arvostetaan ja pidetään lukijan näkökulmasta luettavana ja mielenkiintoisena.
 
