@@ -1,5 +1,5 @@
 ---
-title: Pari sanaa asumisesta -- miten yliopisto-opiskelijoiden kirjoittamissa vaihtoraporteissa asetetaan asuminen tekstikappaleen topiikiksi?
+title: Pari sanaa asumisesta -- miten yliopisto-opiskelijoiden kirjoittamissa vaihtoraporteissa asetetaan tekstikappaleen topiikki?
 author: Kirsi Sandberg & Juho Härme
 output:
   pdf_document: 
@@ -20,6 +20,24 @@ csl: formatting/utaltl.csl
 library(SataTapaa)
 
 ```
+
+This paper explores the various strategies writers use to shift from one topic
+to another based on a corpus of  student exchange reports. The main questions
+addressed in the study are 1) what linguistic means students use to set a new
+topic and 2) how these means could be defined functionally and syntactically.
+The data for the study consists of xxx reports from exchange period abroad.
+Both qualitative and statistical approaches were adopted in order to capture
+the complexities of the phenomenon. The paper descibes 13 separate functional
+groups of topic-setting strategies. The statistical analysis conducted on these
+groups shows that majority of them  can be drawn from three simple micro-level
+variables. This information can be used to develop teaching and writing
+practises especially in L2 context but to some degree in L1 also.
+
+
+Avainsanat: topiikki, kirjoittaminen, korpusmentelmät 
+
+Keywords: topic, writing, corpus-based methods
+
 
 # Johdanto
 

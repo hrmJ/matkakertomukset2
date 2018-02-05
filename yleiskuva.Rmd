@@ -22,7 +22,14 @@ for(idx in c(1:length(esim.ordered))){
 
 ```
 
-Taulukkoon `r Ref('tab', 'tt_esim')`  olemme koonneet edustavat esimerkit kustakin alaryhmästä. Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Rajallisesta sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain ryhmiin x, x, x, jotka osoittautuivat  kirjoittamisen näkökulmasta erityisen kiinnostaviksi. Tarkemman käsittelyn tässä saavat esimerkit on taulukossa merkitty bbbb-merkillä.
+Taulukkoon `r Ref('tab', 'tt_esim')`  olemme koonneet edustavat esimerkit kustakin ryhmästä. 
+Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja lisäksi
+muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Rajallisesta
+sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain niihin ryhmiin,
+jotka osoittautuivat  kirjoittamisen näkökulmasta erityisen kiinnostaviksi.
+Ryhmät on taulukossa esitetty koon mukaisessa järjestyksestä suurimmasta
+pienimpään. Viittaamme ryhmiä edustaviin virkkeisiin jatkossa samoin, kuin 
+viittaisimme numeroituihin esimerkkeihin.
 
 ```{r esimtaul, echo=FALSE}
 
@@ -47,9 +54,28 @@ perusteella.
 
 Seuraavan kiinnostavan ryhmän muodostavat esimerkin `r which(print.labels=="@ee_predikaatti")` kaltaiset tapaukset, joissa topiikki-indikaattorina on persoonamuotoinen *asua*-verbi. Virkkeiden pääasiallinen sisältö on yleensä informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. Tapaukset ovat edellistä ryhmää selkeämmin johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin `r which(print.labels=="@ee_predikaatti")` lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä alkava kappale kertoo. 
 
-Kertova tekstityyppi on aineistona olevissa matkakertomuksissa tyypillinen, mikä näkyy useammassakin alaryhmässä. Esimerkin `r which(print.labels=="@ee_narratiivi")` edustamassa ryhmässä asumisesta raportoidaan kertovan tekstityypin avulla. Aikamuoto ryhmässä `r which(print.labels=="@ee_narratiivi")`  on tyypillisesti imperfekti. Esimerkin `r which(print.labels=="@ee_ennakoivat")` edustamat virkkeet ovat ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki sijoittuu. 
+Kertova tekstityyppi on aineistona olevissa matkakertomuksissa tyypillinen, mikä näkyy useammassakin ryhmässä. Ryhmässä `r which(print.labels=="@ee_narratiivi")` asumisesta raportoidaan kertovan tekstityypin avulla. Aikamuoto ryhmässä `r which(print.labels=="@ee_narratiivi")`  on tyypillisesti imperfekti. Esimerkin `r which(print.labels=="@ee_ennakoivat")` edustamat tapaukset ovat ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki sijoittuu.
 
-Oman selvän kokonaisuutensa muodostavat myös erilaiset tavat aloittaa kappale luonnehtimalla omia kokemuksia. Esimerkissä `r which(print.labels=="@ee_omakokemus")` topiikkia indikoi *asuminen*, mikä tässä ryhmässä onkin varsin tyypillistä: jostakin varsinaisen diskurssitopiikin osa-alueelta tiivistetään oma kokemus esim. deverbaalijohdoksella tai sen ympärille muodostuneella lausekkeella, jota sitten luonnehditaan predikatiivilauseella. Näissä tapauksissa kuvataan, että *asunnon hakeminen oli helppoa* tai miten *kaikkein vaikeinta oli asunnon löytäminen*. Strategiana on omia onnistumisia ja epäonnistumisia arvioiden kertoa, miten asiat ovat sujuneet. Informaatiorakenteen kannalta nämä tapaukset ovat monesti ryhmän `r which(print.labels=="@ee_lista")` tapaan alatopiikkeja. Esimerkki`r which(print.labels=="@ee_omakokemus")` on kuitenkin esimerkkiä `r which(print.labels=="@ee_lista")` selvemmin topiikkia asettava virke, sillä siinä asumisen rooli yhtenä vaihtokokemuksen osana on ilmaistu eksplisiittisesti. Osittain samankaltaista reflektointia ja omien näkemysten jakamista edustaa esimerkki 7 (n=10). Ryhmän ominaispiirteenä on vertailu tai kontrastointi muihin vaihdossa olleisiin opiskelijoihin. Edellä esitetyn ryhmän tavoin kirjoittajat käyttävät alatopiikkeja, ja olettavat indikaattorisanan implikoiman topiikin jossain määrin esimerkin 1 kaltaisesti jo asetetuksi. Yhdessäkään ryhmän 7 tapauksessa ei ole asumiseen viittaavaa väliotsikkoa.
+Oman selvän kokonaisuutensa muodostavat myös erilaiset tavat aloittaa kappale
+luonnehtimalla omia kokemuksia. Esimerkissä `r which(print.labels=="@ee_omakokemus")` 
+topiikkia indikoi *asuminen*, mikä tässä
+ryhmässä onkin varsin tyypillistä: jostakin varsinaisen diskurssitopiikin
+osa-alueelta tiivistetään oma kokemus esim. deverbaalijohdoksella tai sen
+ympärille muodostuneella lausekkeella, jota sitten luonnehditaan
+predikatiivilauseella. Näissä tapauksissa kuvataan, että *asunnon hakeminen oli
+helppoa* tai miten *kaikkein vaikeinta oli asunnon löytäminen*. Strategiana on
+omia onnistumisia ja epäonnistumisia arvioiden kertoa, miten asiat ovat
+sujuneet. Informaatiorakenteen kannalta nämä tapaukset ovat monesti ryhmän 
+`r which(print.labels=="@ee_lista")` tapaan alatopiikkeja. 
+Esimerkki`r which(print.labels=="@ee_omakokemus")` on kuitenkin 
+esimerkkiä `r which(print.labels=="@ee_lista")` selvemmin topiikkia asettava virke, sillä
+siinä asumisen rooli yhtenä vaihtokokemuksen osana on ilmaistu
+eksplisiittisesti. Osittain samankaltaista reflektointia ja omien näkemysten
+jakamista edustaa esimerkki 7 (n=10). Ryhmän ominaispiirteenä on vertailu tai
+kontrastointi muihin vaihdossa olleisiin opiskelijoihin. Edellä esitetyn ryhmän
+tavoin kirjoittajat käyttävät alatopiikkeja, ja olettavat indikaattorisanan
+implikoiman topiikin jossain määrin esimerkin 1 kaltaisesti jo asetetuksi.
+Yhdessäkään ryhmän 7 tapauksessa ei ole asumiseen viittaavaa väliotsikkoa.
 
 
 Siinä missä esimerkki 4 on informaatiorakenteen kannalta omasta vaihtokokemuksesta lohkaistu alatopiikki, ankkuroituu esimerkki 8 siihen fyysiseen paikkaan, jossa vaihto tapahtui. Ryhmän 8 (n=10) kirjoittajat eivät lähdekään liikkeelle omista kokemuksistaan, vaan käsittelevät tilannetta laajemmin, jakaen maailmantietoa lukijalleen. Kahdessa (mukaan lukien esimerkki 8) asumisesta kertovaa kappaletta edeltää väliotsikko Asuminen. Yleistys kirjoittajan oman kokemuspiirin ulkopuolelle voidaan kuitenkin tehdä myös toisella tavalla. Esimerkissä 9 ja kahdeksassa muussa tapauksessa tämä tapahtuu keskittymällä johonkin ulkoiseen agenttiin (tämä sanavalinta vaivaa minua, mutten keksi mitään parempaakaan), jonka toimet vaikuttavat kirjoittajaan yleisesti ja asumisen järjestymiseen erityisesti. Esimerkissä 9 on informaatiorakenteen kannalta katsottuna kyse esimerkkien 2, 3 ja 6 tapaan uudesta topiikista, mutta sen esittely toteutetaan hyödyntämällä jotakin tekstin kannalta keskeistä toimijaa, tässä tapauksessa suurlähetystön henkilökuntaa. Kuten ryhmän 7 kohdalla, myös ryhmässä 9 yli puolessa tapauksia (55.56 %) asumisesta kertovaa kappaletta edeltää väliotsikko.

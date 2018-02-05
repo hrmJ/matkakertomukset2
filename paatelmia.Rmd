@@ -1,34 +1,48 @@
-﻿
- 
-Tarkastelimme tässä tutkimuksessa tekstikappaleen sisältötopiikin muodostumista korpusvetoisesti kahdella menetelmällä, ja tavoitteenamme oli selvittää, millaisia tapoja yliopisto-opiskelijat käyttävät saman topiikin asettamiseen ja miten näitä tapoja voidaan määritellä toisaalta funktionaalisesti, toisaalta syntaktisesti. 
+﻿Tarkastelimme tässä tutkimuksessa tekstikappaleen topiikin muodostumista
+korpusvetoisesti, kahdella menetelmällä. 
+Tavoitteenamme oli selvittää, millaisia tapoja yliopisto-opiskelijat käyttävät
+matkaraporteissaan saman topiikin asettamiseen ja miten näitä tapoja voidaan
+määritellä toisaalta funktionaalisesti, toisaalta syntaktisesti. 
 
-Laadullisen analyysin tuloksena löytyi 12 toisistaan eroavaa ryhmää. Tarkemmassa tarkastelussa selvisi, että eroavaisuudet palautuvat toisaaltaa siihen, millaisessa suhteessa aloitusvirkkeessä esitetty topiikki on aiempaan tekstiin ja toisaalta siihen, millaisesta näkökulmasta käsin kirjoittaja lähestyy tekstinsä aihetta (itsestään käsin vai etäännyttäen). Tutkimuksen aineistona oli yliopisto-opiskelijoiden kirjoittamista matkakertomuksista koostettu korpus, joten osa löydöksistä palautuu eittämättä myös tekstilajin piirteisiin. Päästäksemme tarkemmin kiinni niihin kielenpiirteisiin, joita varioimalla kirjoittajat avaavat testkikappaleen ja asettavat sen topiikin, tarkastelimme korpusta myös xxxx:n kautta.
-
-Tähän jotain sitten toisen analyysin tuloksesta lyhyesti.
- 
-Jo kirjallisuuskatsauksen pohjalta oli selvää, että tekstikappaleen ydin voi sijaita yhtä lailla ortografisen kappaleen alussa kuin muuallakin ja että tekstikappaleen ensimmäinen lause tai virke ei läheskään aina paljasta mitään siitä, millaisessa asemassa kappale hierakkisesti on tekstin kokonaisrakenteen kannalta. Lähderimpsu kotimaisia tekstintutkijoita [Voisiko tähän tulla myös niistä topic sentence -tilastoista)]. Kuten Juvonen toteaa (sivunumerot), tiettyyn tekstilajiin soveltuvaa kaavaa tekstikappaleen kirjoittamisesta on mahdotonta rakentaa, koska kirjoittaja voi eri tekstityyppejä yhdistellen päästä samaan lopputulokseen. Tuloksissamme näkyykin fennistisessä tutkimuksessa klassiseksi muodostunut Werlichin tekstityyppijaottelu (lähdeviite), josta kertova ja kuvaileva tekstityyppi asettuivat omiksi ryhmikseen, ja yhtymäkohtia on löydettävissä myös Juvosen käyttämään erittelevään tekstityyppiin.
-
-Vaikka tekstikappaleen ensimmäinen virke ei tutkimusten mukaan ole avain tekstin hierarkkisen rakenteen selvittämiseen - sen paremmin kai kirjoittamiseekaan - tutkimuksemme osoittaa, että topiikin suhteen avausvirke on usein avainasemassa. Se kertoo, mistä kappaleessa puhutaan ja antaa usein myös vihjeen tekstityypistä. Aineistossamme jo ensimmäisestä virkkeestä kävi selväksi, rakentaako kirjoittaja tekstiään henkilökohtaisen narratiivin avulla vai onko hallussa etäännyttävä, erittelevä kirjoitusstrategia (meneekö jo teoreettisesti liian kauas tämä? voipi poistaa?). Kappaleiden välinen sidosteisuus, koheesio ja/tai koherenssi on ei-fiktiivisessä tekstissä luotava nopeasti, jotta lukija pystyy ymmärtämään tekstin sisällön. Tulostemme pohjalta voimme voimme(ko) väittää, että tekstin sisältö saattaa tässä olla jopa keskeisempi tekijä kuin tekstin kokonaisrakenne.
-
-Ja tästä pääsemmekin vastaamaan toiseeen tutkimuskysymykseemme:
-
-1. Kirjoittamisen opetuksen kannalta ajateltuna. Tutkimuksen tuloksista kai voisi saada apua siihen, miten päästään alkuun tietyn tekstityypin käytössä ja sitä kautta rakennetaan haluttua tekstilajia??Työkaluja nimenomaan sen listaamiseen, *miten on tehty*. HUOM>> oppilaalle itselleen arvioitavaksi,
-   mikä sopii tekstilajiin ja omaan tyyliin ja kulloinkin käsiteltävään
-   aiheeseen.
-
-Tähän analyysia siitä, miksi tietyt rakenteet vallitsevia. Kertooko esim siitä,
-ettei tietoisesti rakenneta, vaan vedetään assosiatiivisesti?
+Tutkimuksen aineistona oli yliopisto-opiskelijoiden kirjoittamista
+matkakertomuksista koostettu korpus, ja osa artikkelin löydöksistä liittyykin
+eittämättä myös tekstilajille ominaisiin ilmaisutapoihin, vaikka tutkimuksen
+keskiössä olivat virkkeet ja niiden väliset suhteet. Käyttämämme
+aineisto ja menetelmät eivät tarjoa vastauksia siihen, miksi kirjoittajat ovat
+päätyneet ehkä hieman luettelomaisestikin kirjoittamaan ohjeessa annetuista
+aiheista sen sijaan, että olisivat kirjoittaneet hierarkkisesti rakentuneen
+tekstin.
 
 
-Jos opettaja haluaa konkretisoida eri tekstistrategioita, hänen on tavallisesti turvauduttava vain abstrakteihin määritelmiin. Yhtenä tämän tutkimuksen tarkoituksena on kuitenkin tuottaa myös
-toisenlaista, rakenteiden tason tietoa...
+Laadullisen analyysin tuloksena erotimme 13 erilaista tapaa toteuttaa
+kappaleenalkuinen siirtymä topiikista toiseen. Pääpiirteissään näiden 13 ryhmän
+eroavaisuudet palautuvat 1) siihen, toteuttaako kappale kertovaa, kuvailevaa
+vai erittelevää tekstityyppiä [vrt. @juvonen2014, 81--82] 2) siihen,
+millaisessa suhteessa aloitusvirkkeessä esitetty topiikki on
+aiempaan tekstiin ja 3) siihen, millaisesta näkökulmasta käsin
+kirjoittaja lähestyy tekstinsä aihetta.
+Tilastollisessa rakenteiden tason analyysissa suurin osa laadullisen analyysin
+tuloksena laadituista  ryhmistä  pystyttiin lopulta päättelemään hyödyntämällä
+kolmea yksinkertaista muuttujaa: predikaatin persoonaa ja aikamuotoa sekä
+indikaattorisanan dependenssiroolia.
 
-
--- Mitä hyötyä sitten siitä, että voi jostain kuulla erilaisista tavoista aloittaa
-kappale?
-
-2. Konkreettinen sovellus fraasipankissa tms.
-
+Esimerkiksi tekstilajeja tai argumentointia käsitellessään opettajan tai
+oppimateriaalin tekijän on usein turvauduttava melko abstrakteihin
+komponentteihin ja määritelmiin. Yhtenä tämän tutkimuksen tuloksena ovatkin
+funktionaalisten kuvausten lisäksi tuotetut rakenteiden tason määritelmät,
+jotka tarjoavat vaihtoehtoisen lähestymistavan kappaleiden rakentamisen
+opettamiseen ja omaksumiseen. Tämä lähestymistapa voi olla erityisen
+hedelmällinen  suomea toisena tai vieraana kielenä kirjoittaville:
+konkreettiset kielenaineksiin viittaavat ohjeet kuten "rakenna lause yksikön
+kolmannessa persoonassa" tai "muodosta käsiteltävästä asiasta
+minen-substantiivi ja kuvaile sitä adjektiivilla" voivat monissa
+tilanteissa olla helpommin lähestyttäviä kuin abstraktit kuvaukset siitä,
+minkälaisia kappaleiden tulisi olla. Tässä tuotetut ryhmittelyt
+voisivatkin toimia lähtölaukauksena myös erilaisia todellisista teksteistä
+poimittuja mallirakenteita esittelevälle  fraasipankille [vrt. @chitez2015corpus]. 
+Juuri tällaiset materiaalit istuvat hyvin ajatukseen
+uudesta kirjoittajasta, joka ei niinkään kysy, miten asiat pitäisi tehdä, vaan
+etsii malleja siitä, millä eri tavoilla on jo tehty.
 
 
 
