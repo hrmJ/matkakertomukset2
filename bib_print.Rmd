@@ -1,0 +1,14 @@
+
+---
+output:
+  word_document: 
+        reference_docx: tyyliohje.docx
+  #md_document: default
+  #pdf_document: default
+bibliography: bibliography.bib
+csl: formatting/utaltl.csl
+nocite: |
+    @lambrecht1996, @dik1989, @guijarro2001, @ketokivi2015, @chitez2015corpus, @juvonenVK, @komppa2012, @paldanius2017, @vuorijarvi2013, @hiippala2013, @smith2008braddock, @baayen2012, @levshina2015, @chafe1987, @bhatia2012, @jisa2009, @paltridge1997genre, @party, @koskenniemi2012, @haverinen2013tdt, @Shore2008
+---
+
+

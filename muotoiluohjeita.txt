@@ -1,0 +1,28 @@
+Yleistä
+=======
+
+- Jos tekijät > 3: tekstissä ym. ENSIMMÄISELLÄ kerralla KAIKKI
+- Jos useampi eri kirjoittajan viite --> erottimena puolipiste
+
+Itse Lähdeluettelo
+==================
+
+- Lähdeluettelossa kursivoidaan kirjan nimi. Artikkeleissa lehden tai kokooomateoksen tai vastaavan nimi.
+- sukunimen mukaan aakk.
+- jos samalla useita, vuoden mukaan ja samana vuonna aakkosj
+- monografian, kokoomateoksen ja lehden nimi kursivoidaan
+- kokoomateoksen tiedot täydellisinä jokaiseen artikkeliin
+- jos tekijöitä / toimittajia useita --> ensimmäisten väliin pilkut, kahden vikan väliin et-merkki
+- lähdeviittauksen loppuun piste
+
+
+Merkitään
+---------
+- sukunimi + etunimen alkukirjain
+- julkaisuvuosi
+- teoksen tai artikkelin tarkka nimi. ARtikkeleissa myös lehden nimi, vuosikerta, numero ja snum 
+- TAI kokoomateoksen toimittajat ja nimi, julkaisusarjan teidot sekä snum
+- kustannuspaikka (ml. osavaltio)
+- kustantajan nimi
+- DOI tai URN
+
