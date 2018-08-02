@@ -50,4 +50,31 @@ as.character(esimerkit[1,"paragraph"]) %>% cat(.,"\n\n")
 
 
 
+**Esimerkki @ee_predikaatti:**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[2,])
+
+as.character(esimerkit[2,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+
+
+**Esimerkki @ee_ennakoivat:**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[3,])
+
+as.character(esimerkit[3,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+
+
+
 
