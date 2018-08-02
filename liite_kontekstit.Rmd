@@ -1,0 +1,23 @@
+# Liite 1: osiossa 4.1 esitettyjen esimerkkivirkkeiden lähikontekstit
+
+
+```{r, echo=FALSE}
+
+ex.ids <- c(286, 42, 839, 699, 317, 107, 341,557,272,498,732,807,298)
+esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
+#Järjestetään esimerkit koon mukaan
+totals <- sort(sapply(esim,function(x)x$total),dec=T)
+esim.ordered <- lapply(names(totals),function(x)esim[[x]])
+esim.print <- sapply(esim.ordered,function(x)x$sentence)
+#Tulostetaan esimerkit suuruusjärjestyksessä niin, että kukin on nimetty loogisesti
+ex.names <- data.frame(group=c("Listamaiset","Selkeät yksittäiseen tapahtumaan keskittyvät narratiivit","asuin paikassa x","pari sanaa asumisesta","Linkki","yleistys","Ennakoivat","ennakoivien ja predikoivien välimaasto","oma kokemus","Yliopisto (maggy) tarjosi","Suurin osa opiskelijoista","Kontrasti","asunnon ja asumisen staattinen kuvailu"),
+                       label=c("@ee_lista", "@ee_narratiivi", "@ee_predikaatti", "@ee_parisanaa", "@ee_linkki", "@ee_yleistys", "@ee_ennakoivat", "@ee_valimaasto", "@ee_omakokemus", "@ee_maggytarjosi", "@ee_suurionsa", "@ee_kontrasti", "@ee_staattinen"))
+print.labels <- as.character(sapply(names(totals),function(x)ex.names$label[ex.names$group==x]))
+print.names <- paste0("(",print.labels,")")
+
+for(idx in c(1:length(esim.ordered))){
+    esim.ordered[[idx]]$esimerkki <- paste(print.names[[idx]], esim.print[[idx]])
+    esim.ordered[[idx]]$id <- ex.ids[which(names(esim) == esim.ordered[[idx]]$group)]
+}
+
+```

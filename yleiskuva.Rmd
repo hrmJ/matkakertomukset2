@@ -1,7 +1,7 @@
 ﻿
 
 ```{r, echo=FALSE}
-
+library(dplyr)
 ex.ids <- c(286, 42, 839, 699, 317, 107, 341,557,272,498,732,807,298)
 esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
 #Järjestetään esimerkit koon mukaan
@@ -14,7 +14,6 @@ ex.names <- data.frame(group=c("Listamaiset","Selkeät yksittäiseen tapahtumaan
 print.labels <- as.character(sapply(names(totals),function(x)ex.names$label[ex.names$group==x]))
 print.names <- paste0("(",print.labels,")")
 
-
 for(idx in c(1:length(esim.ordered))){
     esim.ordered[[idx]]$esimerkki <- paste(print.names[[idx]], esim.print[[idx]])
     esim.ordered[[idx]]$id <- ex.ids[which(names(esim) == esim.ordered[[idx]]$group)]
@@ -22,70 +21,358 @@ for(idx in c(1:length(esim.ordered))){
 
 ```
 
-Taulukkoon `r Ref('tab', 'tt_esim')`  olemme koonneet edustavat esimerkit kustakin ryhmästä. 
-Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja lisäksi
-muutama sana juuri kyseisen esimerkkivirkkeen kontekstista. Rajallisesta
-sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain niihin ryhmiin,
-jotka osoittautuivat  kirjoittamisen näkökulmasta erityisen kiinnostaviksi.
-Ryhmät on taulukossa esitetty koon mukaisessa järjestyksestä suurimmasta
-pienimpään. Viittaamme ryhmiä edustaviin virkkeisiin jatkossa samoin, kuin 
-viittaisimme numeroituihin esimerkkeihin.
 
-```{r esimtaul, echo=FALSE}
+Laadullisen analyysin tuloksena päädyttiin melko suureen määrään eri
+kategorioita. Jaottelun hienojakoisuudella haluttiin säilyttää intuitio
+tiettyjen topiikin asettamistapojen muita suuremmasta samankaltaisuudesta.
+Määrittelemämme `r length(esim.ordered)` kategoriaa voitaisiin luonnollisesti
+koota myös laajemmiksi ryppäiksi. Yksi ryhmiä vertailemalla esiin nouseva
+yhdistävä piirre on kirjoittamisen tutkimuksessa (viite x, y, z) käytetty
+jaottelu kirjoittajakeskeisiin, *XXXXkeskeisiin* ja *XXXXkeskeisiin*.
+Esittelemmekin erottelemamme topiikin asettamistavat seuraavassa jaoteltuna
+löyhästi näiden kolmen kategorian mukaisiin alalukuihin. Esittely tehdään
+käyttämällä jokaisesta ryhmästä mallina yhtä kappaleen avaavaa virkettä, jonka
+laajempi konteksti on nähtävillä liitteessä 1. 
 
-library(readr)
-library(pander)
-kont <- read_lines("data/esimerkkikuvaukset/konteksti.txt")
-kont <- kont[kont!=""]
-tulk <- read_lines("data/esimerkkikuvaukset/kuvailu.txt")
-tulk <- tulk[tulk!=""]
-tab <- matrix(c(c(1:13),paste0("*",esim.print,"*"), kont,tulk),ncol=4,dimnames=list(c(),c("Ryhmä","Topiikkia asettava virke", "Konteksti","Siirtymän toteutus")))
-pander(tab,caption=Ref('tab',"tt_esim","Esimerkit laadullisen analyysin tuloksena syntyneistä ryhmistä"))
+## Kirjoittajakeskeiset lähestymistavat
 
 
-```
+Kirjoittajakeskeisiksi on tutkimuskirjallisuudessa kutsuttu... Omassa
+aineistossamme tällaisiksi topiikinasettamistavoiksi voidaan luokitella
+karkeasti ottaen N ryhmää. Näistä suurin -- ja samalla koko tutkimuksen yleisin
+-- kategoria ovat esimerkin @ee_lista kaltaiset tapaukset, joihin jatkossa
+viittaamme nimellä *listamaiset*.
+
+(@ee_lista) `r esim.ordered[[1]]$sentence`
 
 
-Aineiston isoimman ryhmän muodostavat esimerkin `r which(print.labels=="@ee_lista")` kaltaiset
-topiikkia asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana. Se on tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa. *asuntoni* on tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä), vaikka esimerkissä `r which(print.labels=="@ee_lista")` ei täytykään Dikin [-@dik1989, 275] kuvailema ehto siitä, että varsinainen ylätopiikki olisi erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110]. Asunto tai asuminen on tuotu tekstiin ilman ennakkomainintoja tai esittelyjä, se aivan kuin oletetaan lukijan käytettävissä olevaksi entiteetiksi [vrt. @chafe1987, 29;  @lambrecht1996, 99]. Voisi jopa sanoa, että esimerkin `r which(print.labels=="@ee_lista")` kaltaiset tapaukset eivät niinkään aseta topiikkia vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia (vrt. implisiittinen teema @Shore2008). Tekstin koherenssi rakentuu tässä, kuten useimmissa muissakin ryhmän `r which(print.labels=="@ee_lista")`[^ryhmanum] tapauksissa, lähinnä tehtävänannon tarjoaman kysymyspatteriston ja saatavilla olevien mallitekstien varaan. Tekstejä voisi kuvata listamaisiksi.
+ `r gsub("\\( "," \\(",esimerkki)`
+
+Esimerkin @ee_lista topiikki-indikaattorina on *asuntoni*-sana, joka tälle
+ryhmälle leimallisesti on lauseen alussa sijaitseva objekti.
+Asumiseen tai asuntoon ei ole viitattu edeltävissä kappaleissa, vaan topiikkia
+asettava virke on samalla ensimmäinen maininta itse topiikista. 
+Informaatiorakenteellisesti tarkasteltuna esimerkin @ee_lista *asuntoni*
+voidaan nähdä alatopiikkina (ks. osio x.x edellä),
+vaikka esimerkissä @ee_lista ei täyty Dikin [-@dik1989, 275]
+ kuvailema ehto siitä, että varsinainen ylätopiikki olisi
+erikseen esitelty lukijalle [vrt. myös @guijarro2001, 110]. Kirjoittaja
+kuitenkin operoi tässä ja useimmissa muissa ryhmän tapauksissa
+niin selkeästi tehtävänannossa ehdotetun rakenteen puitteissa, että hän olettaa
+lukijan automaattisesti jakavan käsityksen siitä, mitä  aiheita tekstin
+diskurssitopiikkiin, vaihtokokemukseen, liittyvien asioiden joukko pitää
+sisällään. Asunto tai asuminen nähdään toisin sanoen lukijan käytettävissä
+olevana entiteettinä [vrt. @chafe1987, 29;  @lambrecht1996, 99], mikä
+mahdollistaa sen tuomisen tekstiin ilman ennakkomainintoja tai esittelyjä.
+Voisi jopa sanoa, että esimerkin @ee_lista kaltaiset tapaukset eivät niinkään
+aseta topiikkia, vaan ennemmin käyttävät jo asetetetuksi oletettua topiikkia.
+
+
+
+
+## XXXXX lähestymistavat
+
+
+## XXXXX lähestymistavat
+
+ ryhmään
+
+läpi 
+seuraavissa kolmessa alaluvussa.
+
+ja
+
+
+
 
 [^ryhmanum]: Viitaamme jatkossa ryhmiin tässä esitettyjen esimerkkien numeron
 perusteella.
 
-Seuraavan kiinnostavan ryhmän muodostavat esimerkin `r which(print.labels=="@ee_predikaatti")` kaltaiset tapaukset, joissa topiikki-indikaattorina on persoonamuotoinen *asua*-verbi. Virkkeiden pääasiallinen sisältö on yleensä informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. Tapaukset ovat edellistä ryhmää selkeämmin johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin `r which(print.labels=="@ee_predikaatti")` lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä alkava kappale kertoo. 
+```{r, include=FALSE}
+detach(esim.ordered[[1]])
+attach(esim.ordered[[2]])
+```
 
-Kertova tekstityyppi on aineistona olevissa matkakertomuksissa tyypillinen, mikä näkyy useammassakin ryhmässä. Ryhmässä `r which(print.labels=="@ee_narratiivi")` asumisesta raportoidaan kertovan tekstityypin avulla. Aikamuoto ryhmässä `r which(print.labels=="@ee_narratiivi")`  on tyypillisesti imperfekti. Esimerkin `r which(print.labels=="@ee_ennakoivat")` edustamat tapaukset ovat ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki sijoittuu.
+Toiseksi suurimman laadullisen analyysin tuloksena syntyneistä ryhmistä muodostavat
+esimerkin @ee_predikaatti kaltaiset tapaukset, joita tutkimusaineistossa on
+`r total` kappaletta. Esimerkkiä @ee_predikaatti samoin kuin `r otsikoita-1`
+muuta tämän ryhmän virkettä (yht. `r otsikkosuhde` ryhmän tapauksista) edeltää
+asumiseen viittaava väliotsikko.
 
-Oman selvän kokonaisuutensa muodostavat myös erilaiset tavat aloittaa kappale
-luonnehtimalla omia kokemuksia. Esimerkissä `r which(print.labels=="@ee_omakokemus")` 
-topiikkia indikoi *asuminen*, mikä tässä
-ryhmässä onkin varsin tyypillistä: jostakin varsinaisen diskurssitopiikin
-osa-alueelta tiivistetään oma kokemus esim. deverbaalijohdoksella tai sen
-ympärille muodostuneella lausekkeella, jota sitten luonnehditaan
-predikatiivilauseella. Näissä tapauksissa kuvataan, että *asunnon hakeminen oli
-helppoa* tai miten *kaikkein vaikeinta oli asunnon löytäminen*. Strategiana on
-omia onnistumisia ja epäonnistumisia arvioiden kertoa, miten asiat ovat
-sujuneet. Informaatiorakenteen kannalta nämä tapaukset ovat monesti ryhmän 
-`r which(print.labels=="@ee_lista")` tapaan alatopiikkeja. 
-Esimerkki`r which(print.labels=="@ee_omakokemus")` on kuitenkin 
-esimerkkiä `r which(print.labels=="@ee_lista")` selvemmin topiikkia asettava virke, sillä
-siinä asumisen rooli yhtenä vaihtokokemuksen osana on ilmaistu
-eksplisiittisesti. Osittain samankaltaista reflektointia ja omien näkemysten
-jakamista edustaa esimerkki 7 (n=10). Ryhmän ominaispiirteenä on vertailu tai
-kontrastointi muihin vaihdossa olleisiin opiskelijoihin. Edellä esitetyn ryhmän
-tavoin kirjoittajat käyttävät alatopiikkeja, ja olettavat indikaattorisanan
-implikoiman topiikin jossain määrin esimerkin 1 kaltaisesti jo asetetuksi.
-Yhdessäkään ryhmän 7 tapauksessa ei ole asumiseen viittaavaa väliotsikkoa.
+`r esimerkki`
 
-
-Siinä missä esimerkki 4 on informaatiorakenteen kannalta omasta vaihtokokemuksesta lohkaistu alatopiikki, ankkuroituu esimerkki 8 siihen fyysiseen paikkaan, jossa vaihto tapahtui. Ryhmän 8 (n=10) kirjoittajat eivät lähdekään liikkeelle omista kokemuksistaan, vaan käsittelevät tilannetta laajemmin, jakaen maailmantietoa lukijalleen. Kahdessa (mukaan lukien esimerkki 8) asumisesta kertovaa kappaletta edeltää väliotsikko Asuminen. Yleistys kirjoittajan oman kokemuspiirin ulkopuolelle voidaan kuitenkin tehdä myös toisella tavalla. Esimerkissä 9 ja kahdeksassa muussa tapauksessa tämä tapahtuu keskittymällä johonkin ulkoiseen agenttiin (tämä sanavalinta vaivaa minua, mutten keksi mitään parempaakaan), jonka toimet vaikuttavat kirjoittajaan yleisesti ja asumisen järjestymiseen erityisesti. Esimerkissä 9 on informaatiorakenteen kannalta katsottuna kyse esimerkkien 2, 3 ja 6 tapaan uudesta topiikista, mutta sen esittely toteutetaan hyödyntämällä jotakin tekstin kannalta keskeistä toimijaa, tässä tapauksessa suurlähetystön henkilökuntaa. Kuten ryhmän 7 kohdalla, myös ryhmässä 9 yli puolessa tapauksia (55.56 %) asumisesta kertovaa kappaletta edeltää väliotsikko.
+Kaikissa ryhmän @ee_predikaatti tapauksista topiikki-indikaattorina on
+persoonamuotoinen *asua*-verbi, ja virkkeiden pääasiallinen sisältö on yleensä
+informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut. Tämän ryhmän
+tapaukset ovat edellistä ryhmää selkeämmin nimenomaan johdantoja uuteen
+aiheeseen, ja Dikin jaottelun mukaisesti esimerkin @ee_predikaatti lopussa
+mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin teknisessä
+merkityksessä) uuden topiikin [-@dik1989, 269]. Vastaavat *asuin paikassa X* -tyyppiset
+rakenteet ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä
+alkava kappale kertoo. Esimerkin @ee_predikaatti tapauksessa kirjoittaja
+jatkaa kappalettaan kuvailemalla asuntonsa sisustuksen, kämppäkaverit ja vuokran
+suuruuden.
 
 
-Esimerkissä `r which(print.labels=="@ee_linkki")` indikaattorina on *asuntoloista*-sana. Ilman kontekstia
-tarkasteltuna tämäkin tapaus vaikuttaa samalta kuin listamainen esimerkki, mutta laajemman analyysin tuloksena selvisi, että kirjoittaja on jo aiempana, kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan saapumisesta, rakentanut kuvaa paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. Tämän ryhmän tekstit sijoittuvatkin toissijaisesti myös johonkin toiseen alaryhmään,
+```{r, include=FALSE}
+detach(esim.ordered[[2]])
+attach(esim.ordered[[3]])
+```
+
+Esimerkin @ee_ennakoivat kaltaisten tapausten muodostama ryhmä on täsmalleen
+samankokoinen kuin ryhmä @ee_predikaatti (`r total` tapausta) -- sattumalta myös otsikoitujen
+kappaleiden määrä on identtinen (`r otsikoita` kappaletta).
+
+`r esimerkki`
+
+Esimerkin @ee_ennakoivat edustamat virkkeet ovat ajallisesti 
+muita monitasoisempia. Lukija johdatetaan kappaleen topiikkiin kuvaamalla
+jotakin, mikä on tapahtunut ennen sitä ajanjaksoa, jolle varsinainen
+käsiteltävä topiikki sijoittuu. Esimerkin @ee_ennakoivat tapauksessa
+luodaan pieni jännite: jos kerran ensimmäiseksi kuukaudeksi oli löydetty
+AirBnb-asunto, miten asumisasia lopullisesti ratkaistiin?
+Avausvirkkeen jälkeen kappaleessa selviää, että AirBnb-ratkaisusta
+muodostuikin lopulta asunto koko vaihdon ajaksi. 
+Kappaleen loppuosassa kirjoittaja kuvailee tarkemmin asunnon yksityiskohtia: sijaintia, 
+kulkuyhteyksiä ja tyypillisyyttä kohdekulttuurissa. Informaatiorakenteeltaan ryhmä @ee_ennakoivat
+onkin hyvin samanlainen kuin edellinen ryhmä: koko kappaleen topiikkina
+oleva *asunto* esitellään uutena topiikkina ensimmäisessä virkkeessä.
+
+```{r, include=FALSE}
+detach(esim.ordered[[3]])
+attach(esim.ordered[[4]])
+```
+
+Neljäntenä ryhmänä tarkastellaan seuraavanlaisia tapauksia, joissa 
+topiikki asetetaan luonnehtimalla jotenkin kirjoittajan henkilökohtaista kokemusta
+aiheesta:
+
+`r esimerkki`
+
+Esimerkissä @ee_omakokemus topiikkia indikoi *asuminen*, mikä tähän ryhmään
+luokitelluilla kaikkiaan `r total` tapauksella 
+onkin tyypillistä:
+kenties suoraviivaisin tapa kuvailla omaa kokemusta jostakin varsinaisen
+diskurssitopiikin osa-alueesta on niputtaa kokemus nominalisoituun
+verbimuotoon ja luonnehtia tätä predikatiivilauseella. Näissä tapauksissa
+kuvataan, miten *asunnon hakeminen oli helppoa* tai miten *kaikkein vaikeinta
+oli asunnon löytäminen*. Kirjoittajan näkökulma onkin usein koko tekstin ja diskurssitopiikinkin
+tasolla subjektiivinen -- strategiana on kertoa käsiteltävästä asiasta
+sen kautta, miten asiat ovat sujuneet, omia onnistumisia ja epäonnistumisia
+arvioiden. Informaatiorakenteen kannalta 
+nämä tapaukset ovat monesti ryhmän @ee_lista tapaan alatopiikkeja. Esimerkki @ee_omakokemus
+on kuitenkin esimerkkiä @ee_lista selvemmin topiikkia asettava virke, sillä siinä
+asumisen rooli yhtenä vaihtokokemuksen osana on ilmaistu eksplisiittisesti.
+Vain kahdessa ryhmän  @ee_omakokemus tapauksessa asumisesta kertovaa
+kappaletta edeltää väliotsikko.
+
+```{r, include=FALSE}
+detach(esim.ordered[[4]])
+attach(esim.ordered[[5]])
+```
+
+Esimerkissä @ee_linkki indikaattorina on *asuntoloista*-sana. Ilman kontekstia
+tarkasteltuna tämäkin tapaus vaikuttaa samalta kuin listamainen esimerkki, mutta
+laajemman analyysin tuloksena selvisi, että kirjoittaja on jo aiempana,
+kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan saapumisesta, rakentanut
+kuvaa paikallisista asuntolavaihtoehdoista ja asuntolassa elämisestä. Tämän
+ryhmän tekstit sijoittuvatkin toissijaisesti myös johonkin toiseen alaryhmään,
 mutta ovat erottuneet omasta alaryhmästään kontekstin tarkastelun vaiheessa.
-Esimerkin `r which(print.labels=="@ee_linkki")` kaltaisia aiempaan kontekstiin tietoisesti sidottuja
-tapauksia on aineistossa `r esim$Linkki$total` kappaletta. Näissä tapauksissa kyse on 
-virketasolla tarkasteltuna joko annetuista topiikeista -- jos kontekstuaalinen linkki on muodostettu suhteellisen lähellä tässä käsiteltävää varsinaista asumiskappaletta  -- tai, jos edellinen maininta on selvästi kauempana, palautetuista topiikeista [@dik1989, 270--271]. X:ssä tämän ryhmän virkkeessä kappaletta edeltää välitotsikko.
+
+`r esimerkki`
+
+
+Esimerkin @ee_linkki kaltaisia aiempaan kontekstiin tietoisesti sidottuja
+tapauksia on aineistossa `r total` kappaletta. Näissä tapauksissa kyse on 
+virketasolla tarkasteltuna joko annetuista topiikeista -- jos
+kontekstuaalinen linkki on muodostettu suhteellisen lähellä tässä käsiteltävää
+varsinaista asumiskappaletta  -- tai, jos edellinen maininta on selvästi
+kauempana, palautetuista topiikeista [@dik1989, 270--271]. X:ssä 
+tämän ryhmän virkkeessä kappaletta edeltää välitotsikko.
+
+```{r, include=FALSE}
+detach(esim.ordered[[5]])
+attach(esim.ordered[[6]])
+```
+
+`r esimerkki`
+
+Esimerkissä @ee_staattinen kirjoittaja esittelee uuden topiikin lähtemällä
+liikkeelle konkreettisesti asuntonsa luonnehtimisesta (vrt. esimerkki
+@ee_omakokemus, jossa luonnehditaan kirjoittajan kokemusta). Vastaavia
+asuntolaa tai asumista staattisesti kuvaavia topiikin asettavia virkkeitä on
+kaikkiaan `r total` kappaletta. Informaatiorakenteeltaan nämä tapaukset ovat
+monesti lähellä ryhmää @ee_predikaatti, sillä molemmissa kappaleen ensimmäinen
+virke esittelee lukijalle sen, minkä yksityiskohtaiseen kuvailuun koko
+loppukappale keskittyy. Esimerkissä @ee_staattinen topiikki asetetaan kuitenkin
+jossain määrin implisiittisemmin, ja hyppäys edellisestä aiheesta (esimerkin
+@ee_staattinen tapauksessa HIV-testin teettäminen) on tyypillisesti rajumpi.
+Tämä selittää sitä, että peräti `r otsikkosuhde` ryhmän @ee_staattinen
+tapauksista (ei kuitenkaan tässä esitetty esimerkki) sisältää asumiskappaletta
+edeltävän väliotsikon.
+
+```{r, include=FALSE}
+detach(esim.ordered[[6]])
+attach(esim.ordered[[7]])
+```
+
+Esimerkki @ee_kontrasti edustaa kaikkiaan `r total` tapausta käsittävää
+ryhmää, jonka ominaispiirteenä on kirjottajan itsensä vertailu
+muihin vaihdossa olleisiin.
+
+`r esimerkki`
+
+Informaatiorakenteeltaan ryhmän @ee_kontrasti tapaukset ovat nekin tyypillisesti 
+alatopiikkeja, ja olettavat indikaattorisanan implikoiman topiikin jossain määrin
+esimerkin @ee_lista kaltaisesti jo asetetuksi. Toisaalta esimerkissä @ee_kontrasti
+on samoja piirteitä kuin esimerkissä @ee_omakokemus: myös tässä
+reflektoidaan sitä, mikä omassa kokemuksessa oli helppoa ja mikä vaikeaa. Yhdessäkään
+ryhmän @ee_kontrasti tapauksessa ei ole asumiseen viittaavaa väliotsikkoa.
+
+
+```{r, include=FALSE}
+detach(esim.ordered[[7]])
+attach(esim.ordered[[8]])
+```
+
+Samoin kuin esimerkissä @ee_omakokemus, myös esimerkissä @ee_yleistys
+topiikki-indikaattorina on koko lauseen ensimmäisena sijaitseva
+*asuminen*-sana. Erona näiden esimerkkien välillä on, että siinä
+missä esimerkki @ee_omakokemus on informaatiorakenteen kannalta 
+omasta vaihtokokemuksesta lohkaistu alatopiikki, ankkuroituu esimerkki @ee_yleistys
+siihen fyysiseen paikkaan, jossa vaihto tapahtui:
+
+`r esimerkki`
+
+Ryhmän @ee_yleistys kirjoittajat eivät lähde liikkeelle
+omista kokemuksistaan, vaan käsittelevät tilannetta laajemmin, tavoitteenaan
+eräässä mielessä jakaa maailmantietoa lukijalleen. Esimerkin @ee_yleistys
+edustama ryhmä kattaa kaikkiaan `r total` tapausta, joista 
+kahdessa (mukaan lukien esimerkki @ee_yleistys)
+asumisesta kertovaa kappaletta edeltää väliotsikko *Asuminen*. 
+
+
+```{r, include=FALSE}
+detach(esim.ordered[[8]])
+attach(esim.ordered[[9]])
+```
+
+Yleistys kirjoittajan oman kokemuspiirin ulkopuolelle voidaan
+kuitenkin tehdä myös toisella tavalla. Esimerkissä
+@ee_maggytarjosi ja kahdeksassa muussa tapauksessa tämä tapahtuu 
+keskittymällä johonkin ulkoiseen agenttiin, jonka toimet
+vaikuttavat kirjoittajaan yleisesti ja asumisen järjestymiseen
+erityisesti:
+
+`r esimerkki`
+
+Esimerkissä @ee_maggytarjosi  on informaatiorakenteen kannalta 
+katsottuna kyse esimerkkien @ee_predikaatti, @ee_ennakoivat ja @ee_staattinen
+tapaan uudesta topiikista, mutta sen esittely toteutetaan hyödyntämällä
+jotakin tekstin kannalta keskeistä toimijaa, tässä tapauksessa
+suurlähetystön henkilökuntaa. Kuten ryhmän @ee_kontrasti kohdalla, 
+myös ryhmässä @ee_maggytarjosi yli puolessa tapauksia (`r otsikkosuhde`) 
+asumisesta kertovaa kappaletta edeltää väliotsikko.
+
+```{r, include=FALSE}
+detach(esim.ordered[[9]])
+attach(esim.ordered[[10]])
+```
+
+Esimerkin @ee_narratiivi edustamassa ryhmässä asumisesta raportoidaan kertovan
+tekstityypin avulla, mikä käy tästä esimerkistä esiin erityisen selvästi, koska
+kirjoittaja on käyttänyt ajan ilmausta. 
+
+`r esimerkki`
+
+Aikamuoto ryhmän @ee_narratiivi virkkeissä on tyypillisesti imperfekti.
+Näissäkin tapauksissa topiikki-indikaattori on informaatiorakenteen kannalta
+uusi topiikki, joka esimerkin narratiivisuuden vuoksi tulee asetetuksi
+muita tässä tarkasteltuja uuden topiikin sisältäviä ryhmiä
+implisiittisemmin.  Kaikkiaan ryhmään @ee_narratiivi kuuluu
+`r total` tapausta, joista niistäkin suurin osa (`r otsikoita` kpl)
+sisältää väliotsikon.
+
+```{r, include=FALSE}
+detach(esim.ordered[[10]])
+attach(esim.ordered[[11]])
+```
+Oman, selvästi muista erottuvan ryhmänsä muodostavat ne esimerkin @ee_parisanaa
+edustamat `r total` tapausta, joissa kirjoittaja
+eksplisiittisesti ilmaisee siirtyvänsä käsittelemään asumista.
+
+`r esimerkki`
+
+*Sitten pari sanaa asumisesta* -tyyppisten
+johdantovirkkeiden voisi ajatella jossain määrin korvaavan väliotsikoita tekstissä,
+vaikka yksi tähän ryhmään luokiteltu virke
+(*Monella varmaan herää jo kysymys, entäs asuminen?*) tekeekin poikkeuksen.
+Nämä `r total` esimerkkiä edustavat Dikin jaottelussa uusia topiikkeja [-@dik1989, 268], ja
+ovat aiheeseen johdattamisen implisiittisyys--eksplisiittisyys-asteikon
+eksplisiittisessä ääripäässä (vrt. päinvastaisessa ääripäässä sijaitseva ryhmä @ee_lista).
+
+
+```{r, include=FALSE}
+detach(esim.ordered[[11]])
+attach(esim.ordered[[12]])
+```
+
+Laadullisessa analyysissa luokiteltiin omaksi pieneksi ryhmäkseen 
+myös esimerkin @ee_valimaasto kaltaiset `r total` tapausta:
+
+
+`r esimerkki`
+
+
+Nämä topiikkia asettavat tapaukset sijoittuvat ryhmien @ee_predikaatti,
+@ee_ennakoivat ja @ee_narratiivi välimaastoon. Kuten mainituissa ryhmissä,
+myös näissä tapauksissa kyseessä on varsinainen aiheeseen johdattava
+virke, jossa kappaleen topiikki esitellään uutena avausvirkkeen
+loppupuolella. Myös ryhmässä @ee_valimaasto 
+kuvataan ajallinen jännite, mutta se esitetään usein eri järjestyksessä
+kuin ryhmässä @ee_ennakoivat. Siinä missä esimerkki @ee_ennakoivat
+esitti kappaleen alussa avoimen tilanteen ja myöhemmässä kappaleessa tilanteen
+ratkaisun, aloittaa esimerkki @ee_valimaasto ratkaisusta (saavuttaessa asunto
+oli jo löydetty) ja käyttää lopun kappaleen takaumamaisesti sen kuvailuun,
+miten ratkaisuun päästiin (kirjoittaja oli etsinyt asuntoa valmiiksi Facebookin
+kautta).
+
+```{r, include=FALSE}
+detach(esim.ordered[[12]])
+attach(esim.ordered[[13]])
+```
+
+Pienimmän mutta silti tarkastelemisen arvoisen ryhmän aineistossamme muodostivat
+esimerkki @ee_suurionsa ja kolme muuta vastaavaa tapausta:
+
+`r esimerkki`
+
+Nämä topiikkia asettavat virkkeet ovat lähellä ryhmää @ee_kontrasti, johon luetuissa
+tapauksissa oleellista on kirjoittajan itsensä vertailu muihin. Ryhmässä
+@ee_suurionsa kirjoittaja lähtee liikkeelle siitä, miten yleensä
+tehdään tai miten suurin osa tekee. Tämä voitaisiin esittää 
+vastakohtana omalla kokemukselle, mutta ryhmän @ee_suurionsa tapauksille on
+tyypillistä, että myös kirjoittaja noudattaa kuvailtua ennemmistön toimintatapaa.
+Virke @ee_suurionsa on todella vain keino johdattaa lukija kappaleen varsinaiseen
+aiheeseen, *Ekonom*-nimiseen asuntolaan (uusi topiikki), jonka sijainnista, vuokratasosta
+ja muista ominaisuuksista kappale kertoo. Yhtä lukuun ottamatta 
+kaikki tämän ryhmän tapaukset sisältävät myös asumiseen viittaavan
+väliotsikon.
+
+
+Kuten edellä metodin kuvauksen yhteydessä todettiin, tässä kuvatut eri
+topiikin asettamistapoja edustavat ryhmät on muodostettu
+sijoittamalla aina toisaan muistuttavat tapaukset samaan kategoriaan. Ryhmien
+väliset rajat eivät luonnollisestikaan ole suoraviivaisia, ja jaottelun
+olisi voinut tehdä muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän
+tai vähemmän läheisessä yhteydessä toisiinsa, ja näitä linkkejä
+on tässä esitetyssä kuvauksessa pyritty osoittamaan. Seuraavaksi 
+nyt esiteltyjen ryhmien rakenteellisia tyyppipiirteitä tutkitaan tarkemmin
+määrällisestä näkökulmasta. Argumenttimme on, että vaikka ryhmät on muodostettu
+puhtaasti tulkitsemalla eri tekstien välisiä samankaltaisuuksia,
+on suurimmalle osalle ryhmistä melko yksinkertaista antaa
+myös muodolliset, lähinnä rakenteeseen perustuvat määritelmät,
+joiden soveltaminen voi joillekin kirjoittajille tai opettajulle olla abstrakteja
+funktionaalisten ominaisuuksien kuvailuja helpompaa.
 
 

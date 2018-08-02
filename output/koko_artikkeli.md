@@ -44,7 +44,7 @@ kautta kiinni kielen rakenteiden varioiviin käyttötapoihin, ei Suomen
 kontekstissa ole nähdäksemme tutkittu. Funktionaalisista lähtökohdista
 tarkasteltuna esitetty näkemys kaipaisi kuitenkin empiiristä tutkimusta,
 koska myös rakenteiden hallinnan on osoitettu olevan kytköksissä tekstin
-laatuun (ks. esim. (Jisa & Tochinsky 2009)\]
+laatuun (ks. esim. (Jisa & Tolchinsky 2009)\]
 
 Nykyisessä funktionaalista kielikäsitystä ja tutkivaa oppimista
 korostavassa pedagogisessa kehyksessä tarjolla olevat pääosin
@@ -399,192 +399,102 @@ tulosta eli itse jaottelua tilastollisin menetelmin.
 Laadullinen analyysi
 --------------------
 
-Taulukkoon 2 olemme koonneet edustavat esimerkit kustakin ryhmästä.
-Niiden rinnalla on hyvin tiivis kuvaus topiikin asettamisen tavoista ja
-lisäksi muutama sana juuri kyseisen esimerkkivirkkeen kontekstista.
-Rajallisesta sivumäärästä johtuen syvennymme seuraavassa tarkemmin vain
-niihin ryhmiin, jotka osoittautuivat kirjoittamisen näkökulmasta
-erityisen kiinnostaviksi. Ryhmät on taulukossa esitetty koon mukaisessa
-järjestyksestä suurimmasta pienimpään. Viittaamme ryhmiä edustaviin
-virkkeisiin jatkossa samoin, kuin viittaisimme numeroituihin
-esimerkkeihin.
+Käymme tässä alaluvussa laadullisen analyysin tuloksena syntyneet ryhmät
+läpi niiden koon mukaisessa järjestyksessä suurimmasta pienimpään.
+Aineiston laajimman ryhmän, kaikkiaan 31 tapausta, muodostavat esimerkin
+1 kaltaiset topiikkia asettavat virkkeet. Ryhmässä on jonkin verran
+tekstejä (7 kpl / 22.58 %), joissa varsinaista asumisesta kertovaa
+kappaletta tai kappaleita edeltää aiheeseen johdattava väliotsikko kuten
+*Asuminen* tai *Asuminen Istanbulissa* -- näin ei kuitenkaan ole tässä
+esitetyn virkkeen tapauksessa.
 
-<table>
-<colgroup>
-<col width="7%" />
-<col width="30%" />
-<col width="30%" />
-<col width="30%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Ryhmä</th>
-<th align="left">Topiikkia asettava virke</th>
-<th align="left">Konteksti</th>
-<th align="left">Siirtymän toteutus</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">1</td>
-<td align="left"><em>Asuntoni sain vuokrattua Apartiksen( paikallinen TOAS) kautta.</em></td>
-<td align="left">Käsittelee ennakkovalmisteluja yms. Lopuksi reflektoi osaamistaan kielikurssilla.</td>
-<td align="left">Alatopiikilla, vaikka ylätopiikkia ei ilmipantu.</td>
-</tr>
-<tr class="even">
-<td align="left">2</td>
-<td align="left"><em>Vaihtoni aikana asuin Grandmontin asuntolassa.</em></td>
-<td align="left">Kertoo, missä asui vaihtonsa aikana; kuvailee sisustuksen, kämppäkaverit ja vuokran.</td>
-<td align="left">Esittelytopiikilla. Predikaattina on asua-verbi. Kertoo, missä kirjoittaja on asunut.</td>
-</tr>
-<tr class="odd">
-<td align="left">3</td>
-<td align="left"><em>Olin löytänyt asunnon ensimmäiseksi kuukaudeksi Airbnb:n kautta ennen Italiaan saapumista.</em></td>
-<td align="left">Kertoo, mitä tapahtunut ennen kuvattavaa jaksoa. Kuvailee tarkemmin sijaintia, kulkuyhteyksiä yms.</td>
-<td align="left">Esittelytopiikilla, mutta aikarakenteltaan monitasoisempi kuin ryhmä 3.</td>
-</tr>
-<tr class="even">
-<td align="left">4</td>
-<td align="left"><em>Asuminen, tai siis lähinnä asunnon hankkiminen, oli varmaankin vaihdon hankalin juttu.</em></td>
-<td align="left">Arvioi edeltävässä kurssitarjonnan tasoa, paperiasioiden hoitumista yms.</td>
-<td align="left">Diskurssista johdetulla alatopiikilla, jota indikoi usein deverbaalisubstantiivi. Luonnehtii kirjoittajan subjektiivista kokemusta.</td>
-</tr>
-<tr class="odd">
-<td align="left">5</td>
-<td align="left"><em>Asuntoloista valitsin Julius Raab Heimin vanhojen matkakertomusten perusteella.</em></td>
-<td align="left">Kuvannut vaihtoon hakua ja kotimaan järjestelyjä. Maininnut jo paikallisista asuntolavaihtoehdoista.</td>
-<td align="left">Edeltävässä kappaleessa annetun tai hiukan kauempaa palautetun topiikin avulla. Kuuluvat toissijaisesti johonkin toiseen alaryhmään.</td>
-</tr>
-<tr class="even">
-<td align="left">6</td>
-<td align="left"><em>Ulkomaisille opiskelijoille tarkoitettu asuntola on vain kolme vuotta vanha ja täten melko moderni.</em></td>
-<td align="left">Edellinen kappale lennosta ja saapumisesta.</td>
-<td align="left">Muistuttavat 2. ryhmän tapauksia, kytkös implisiittisempi, usein väliotsikko. Luonnehtii asuntoa / asuntolaa konkreettisesti.</td>
-</tr>
-<tr class="odd">
-<td align="left">7</td>
-<td align="left"><em>Itselläni kävi tuuri asunnon suhteen löytäessäni edullisen huoneen Chelseasta aivan Manhattanin keskeltä.</em></td>
-<td align="left">Tekstin viimeinen kappale. Edellä arvioinut kokemustaan kokonaisuutena.</td>
-<td align="left">Alatopiikin avulla. Muistuttaa 1. ryhmää, mutta sisältönä verrataan omia kokemuksia toisten kokemuksiin.</td>
-</tr>
-<tr class="even">
-<td align="left">8</td>
-<td align="left"><em>Asuminen Tokiossa on aika kallista.</em></td>
-<td align="left">Kappale melkein tekstin lopussa. Edellä kuvannut vapaa-ajan mahdollisuuksia.</td>
-<td align="left">4. ryhmän tapaan, mutta jakaen maailmantietoa, ei eksplikoiden omia kokemuksia.</td>
-</tr>
-<tr class="odd">
-<td align="left">9</td>
-<td align="left"><em>Suurlähetystön henkilökunta tarjosi resurssiensa puitteissa apuaan mm. maahantuloon, käytännön järjestelyihin sekä asunnon löytämiseen liittyvissä asioissa.</em></td>
-<td align="left">Edellä kuvannut hakuprosessia. Jatkaa vuokratasoon ja hintoihin.</td>
-<td align="left">Esittelytopiikin avulla, mutta kirjoittaja ei ole agentiivinen toimija. Fokuksessa joku muu keskeinen toimija.</td>
-</tr>
-<tr class="even">
-<td align="left">10</td>
-<td align="left"><em>Lensin Wieniin sunnuntaina ja lento-kentältä suuntasin suoraan asunnolleni.</em></td>
-<td align="left">Tekstin alkupuolella -- edellä vain hakuprosessin kuvaus.</td>
-<td align="left">edellisiä implisiitisempi, kuitenkin uuden topiikin avulla. Kertova tekstityyppi ja aikamuoto yleensä imperfekti. Narraatio.</td>
-</tr>
-<tr class="odd">
-<td align="left">11</td>
-<td align="left"><em>Sitten pari sanaa asumisesta.</em></td>
-<td align="left">Edellä yksityiskohtaisesti esim. seminaarien opintopisteistä.</td>
-<td align="left">metatekstin kautta. Uusi topiikki, joka tuodaan tekstiin eksplisiittisesti.</td>
-</tr>
-<tr class="even">
-<td align="left">12</td>
-<td align="left"><em>Saapuessani Varsovaan minulla oli onneksi jo asunto tiedossa.</em></td>
-<td align="left">Edellä kieltenopiskelusta, jatkaa hintoihin.</td>
-<td align="left">uuden topiikin avulla, joka avausvirkkeen loppupuolella. Ajallinen jännite, katsotaan kuvatusta aikapisteestä taaksepäin.</td>
-</tr>
-<tr class="odd">
-<td align="left">13</td>
-<td align="left"><em>Lähes kaikki Bratislavan kauppakorkeakoulun vaihto-opiskelijat asuivat Ekonom-nimisessä dormitoryssa.</em></td>
-<td align="left">Kuvannut saapumista ja tutor-toimintaa.</td>
-<td align="left">7. ryhmän tapaan, mutta samaistuen, ei kontrastoiden muiden vaihto-opiskelijoiden toimintaan. Alaotsikko tyypillinen.</td>
-</tr>
-</tbody>
-</table>
+1.  Asuntoni sain vuokrattua Apartiksen (paikallinen TOAS) kautta.
 
-Taulukko 2: Esimerkit laadullisen analyysin tuloksena syntyneistä
-ryhmistä
+Esimerkin 1 topiikki-indikaattorina on *asuntoni*-sana, joka tälle
+ryhmälle leimallisesti on lauseen alussa sijaitseva objekti. Asumiseen
+tai asuntoon ei ole viitattu edeltävissä kappaleissa, vaan topiikkia
+asettava virke on samalla ensimmäinen maininta itse topiikista:
+esimerkkiä 1 edeltävässä tekstissä kirjoittaja on käsitellyt ensin
+valmistelujaan kotoa käsin, sitten kielikurssia melko seikkaperäisesti,
+vaihto-opiskelijoille järjestettyä vapaa-ajan ohjelmaa ja lopuksi vielä
+reflektoinut omaa osaamistaan valitsemallaan kielikurssilla.
+Informaatiorakenteellisesti tarkasteltuna esimerkin 1 *asuntoni* voidaan
+nähdä alatopiikkina (ks. osio x.x edellä), vaikka esimerkissä 1 ei täyty
+Dikin (1989: 275) kuvailema ehto siitä, että varsinainen ylätopiikki
+olisi erikseen esitelty lukijalle (vrt. myös Guijarro 2001: 110).
+Kirjoittaja kuitenkin operoi tässä ja useimmissa ryhmän 1[3] tapauksissa
+niin selkeästi tehtävänannossa ehdotetun rakenteen puitteissa, että hän
+olettaa lukijan automaattisesti jakavan käsityksen siitä, mitä aiheita
+tekstin diskurssitopiikkiin, vaihtokokemukseen, liittyvien asioiden
+joukko pitää sisällään. Asunto tai asuminen nähdään toisin sanoen
+lukijan käytettävissä olevana entiteettinä (vrt. Chafe 1987: 29;
+Lambrecht 1996: 99), mikä mahdollistaa sen tuomisen tekstiin ilman
+ennakkomainintoja tai esittelyjä. Voisi jopa sanoa, että esimerkin 1
+kaltaiset tapaukset eivät niinkään aseta topiikkia, vaan ennemmin
+käyttävät jo asetetetuksi oletettua topiikkia.
 
-Aineiston isoimman ryhmän muodostavat esimerkin 1 kaltaiset topiikkia
-asettavat virkkeet. Topiikki-indikaattorina on tässä *asuntoni*-sana. Se
-on tekstin ensimmäinen eksplisiittinen maininta topiikista; asumiseen
-tai asuntoon ei ole viitattu edeltävissä kappaleissa. *asuntoni* on
-tulkittu analyysissämme alatopiikiksi (ks. osio x.x edellä), vaikka
-esimerkissä 1 ei täytykään Dikin (1989: 275) kuvailema ehto siitä, että
-varsinainen ylätopiikki olisi erikseen esitelty lukijalle (vrt. myös
-Guijarro 2001: 110). Asunto tai asuminen on tuotu tekstiin ilman
-ennakkomainintoja tai esittelyjä, se aivan kuin oletetaan lukijan
-käytettävissä olevaksi entiteetiksi (vrt. Chafe 1987: 29; Lambrecht
-1996: 99). Voisi jopa sanoa, että esimerkin 1 kaltaiset tapaukset eivät
-niinkään aseta topiikkia vaan ennemmin käyttävät jo asetetetuksi
-oletettua topiikkia (vrt. implisiittinen teema Shore (2008)). Tekstin
-koherenssi rakentuu tässä, kuten useimmissa muissakin ryhmän 1[3]
-tapauksissa, lähinnä tehtävänannon tarjoaman kysymyspatteriston ja
-saatavilla olevien mallitekstien varaan. Tekstejä voisi kuvata
-listamaisiksi.
-
-Seuraavan kiinnostavan ryhmän muodostavat esimerkin 2 kaltaiset
-tapaukset, joissa topiikki-indikaattorina on persoonamuotoinen
-*asua*-verbi. Virkkeiden pääasiallinen sisältö on yleensä informaatio
-siitä, missä kirjoittaja on vaihtonsa aikana asunut. Tapaukset ovat
-edellistä ryhmää selkeämmin johdantoja uuteen aiheeseen, ja Dikin
-jaottelun mukaisesti esimerkin 2 lopussa mainittu *asuntola* muodostaa
-(osiossa x.x. määritellyssä termin teknisessä merkityksessä) uuden
-topiikin (1989: 269). Vastaavat *asuin paikassa X* -tyyppiset rakenteet
-ovat siis keinoja esitellä *paikka X*, josta tällaisella virkkeellä
-alkava kappale kertoo.
-
-Kertova tekstityyppi on aineistona olevissa matkakertomuksissa
-tyypillinen, mikä näkyy useammassakin ryhmässä. Ryhmässä 10 asumisesta
-raportoidaan kertovan tekstityypin avulla. Aikamuoto ryhmässä 10 on
-tyypillisesti imperfekti. Esimerkin 3 edustamat tapaukset ovat
-ajallisesti muita monitasoisempia. Lukija johdatetaan kappaleen
-topiikkiin kuvaamalla jotakin, mikä on tapahtunut ennen sitä ajanjaksoa,
-jolle varsinainen käsiteltävä topiikki sijoittuu.
-
-Oman selvän kokonaisuutensa muodostavat myös erilaiset tavat aloittaa
-kappale luonnehtimalla omia kokemuksia. Esimerkissä 4 topiikkia indikoi
-*asuminen*, mikä tässä ryhmässä onkin varsin tyypillistä: jostakin
-varsinaisen diskurssitopiikin osa-alueelta tiivistetään oma kokemus
-esim. deverbaalijohdoksella tai sen ympärille muodostuneella
-lausekkeella, jota sitten luonnehditaan predikatiivilauseella. Näissä
-tapauksissa kuvataan, että *asunnon hakeminen oli helppoa* tai miten
-*kaikkein vaikeinta oli asunnon löytäminen*. Strategiana on omia
-onnistumisia ja epäonnistumisia arvioiden kertoa, miten asiat ovat
-sujuneet. Informaatiorakenteen kannalta nämä tapaukset ovat monesti
-ryhmän 1 tapaan alatopiikkeja. Esimerkki4 on kuitenkin esimerkkiä 1
-selvemmin topiikkia asettava virke, sillä siinä asumisen rooli yhtenä
-vaihtokokemuksen osana on ilmaistu eksplisiittisesti. Osittain
-samankaltaista reflektointia ja omien näkemysten jakamista edustaa
-esimerkki 7 (n=10). Ryhmän ominaispiirteenä on vertailu tai
-kontrastointi muihin vaihdossa olleisiin opiskelijoihin. Edellä esitetyn
-ryhmän tavoin kirjoittajat käyttävät alatopiikkeja, ja olettavat
-indikaattorisanan implikoiman topiikin jossain määrin esimerkin 1
-kaltaisesti jo asetetuksi. Yhdessäkään ryhmän 7 tapauksessa ei ole
-asumiseen viittaavaa väliotsikkoa.
-
-Siinä missä esimerkki 4 on informaatiorakenteen kannalta omasta
-vaihtokokemuksesta lohkaistu alatopiikki, ankkuroituu esimerkki 8 siihen
-fyysiseen paikkaan, jossa vaihto tapahtui. Ryhmän 8 (n=10) kirjoittajat
-eivät lähdekään liikkeelle omista kokemuksistaan, vaan käsittelevät
-tilannetta laajemmin, jakaen maailmantietoa lukijalleen. Kahdessa
-(mukaan lukien esimerkki 8) asumisesta kertovaa kappaletta edeltää
-väliotsikko Asuminen. Yleistys kirjoittajan oman kokemuspiirin
-ulkopuolelle voidaan kuitenkin tehdä myös toisella tavalla. Esimerkissä
-9 ja kahdeksassa muussa tapauksessa tämä tapahtuu keskittymällä johonkin
-ulkoiseen agenttiin (tämä sanavalinta vaivaa minua, mutten keksi mitään
-parempaakaan), jonka toimet vaikuttavat kirjoittajaan yleisesti ja
-asumisen järjestymiseen erityisesti. Esimerkissä 9 on
-informaatiorakenteen kannalta katsottuna kyse esimerkkien 2, 3 ja 6
-tapaan uudesta topiikista, mutta sen esittely toteutetaan hyödyntämällä
-jotakin tekstin kannalta keskeistä toimijaa, tässä tapauksessa
-suurlähetystön henkilökuntaa. Kuten ryhmän 7 kohdalla, myös ryhmässä 9
-yli puolessa tapauksia (55.56 %) asumisesta kertovaa kappaletta edeltää
+Toiseksi suurimman laadullisen analyysin tuloksena syntyneistä ryhmistä
+muodostavat esimerkin 2 kaltaiset tapaukset, joita tutkimusaineistossa
+on 21 kappaletta. Esimerkkiä 2 samoin kuin 6 muuta tämän ryhmän virkettä
+(yht. 33.33 % ryhmän tapauksista) edeltää asumiseen viittaava
 väliotsikko.
+
+1.  Vaihtoni aikana asuin Grandmontin asuntolassa.
+
+Kaikissa ryhmän 2 tapauksista topiikki-indikaattorina on
+persoonamuotoinen *asua*-verbi, ja virkkeiden pääasiallinen sisältö on
+yleensä informaatio siitä, missä kirjoittaja on vaihtonsa aikana asunut.
+Tämän ryhmän tapaukset ovat edellistä ryhmää selkeämmin nimenomaan
+johdantoja uuteen aiheeseen, ja Dikin jaottelun mukaisesti esimerkin 2
+lopussa mainittu *asuntola* muodostaa (osiossa x.x. määritellyssä termin
+teknisessä merkityksessä) uuden topiikin (1989: 269). Vastaavat *asuin
+paikassa X* -tyyppiset rakenteet ovat siis keinoja esitellä *paikka X*,
+josta tällaisella virkkeellä alkava kappale kertoo. Esimerkin 2
+tapauksessa kirjoittaja jatkaa kappalettaan kuvailemalla asuntonsa
+sisustuksen, kämppäkaverit ja vuokran suuruuden.
+
+Esimerkin 3 kaltaisten tapausten muodostama ryhmä on täsmalleen
+samankokoinen kuin ryhmä 2 (21 tapausta) -- sattumalta myös otsikoitujen
+kappaleiden määrä on identtinen (7 kappaletta).
+
+1.  Olin löytänyt asunnon ensimmäiseksi kuukaudeksi Airbnb:n kautta
+    ennen Italiaan saapumista.
+
+Esimerkin 3 edustamat virkkeet ovat ajallisesti muita monitasoisempia.
+Lukija johdatetaan kappaleen topiikkiin kuvaamalla jotakin, mikä on
+tapahtunut ennen sitä ajanjaksoa, jolle varsinainen käsiteltävä topiikki
+sijoittuu. Esimerkin 3 tapauksessa luodaan pieni jännite: jos kerran
+ensimmäiseksi kuukaudeksi oli löydetty AirBnb-asunto, miten asumisasia
+lopullisesti ratkaistiin? Avausvirkkeen jälkeen kappaleessa selviää,
+että AirBnb-ratkaisusta muodostuikin lopulta asunto koko vaihdon ajaksi.
+Kappaleen loppuosassa kirjoittaja kuvailee tarkemmin asunnon
+yksityiskohtia: sijaintia, kulkuyhteyksiä ja tyypillisyyttä
+kohdekulttuurissa. Informaatiorakenteeltaan ryhmä 3 onkin hyvin
+samanlainen kuin edellinen ryhmä: koko kappaleen topiikkina oleva
+*asunto* esitellään uutena topiikkina ensimmäisessä virkkeessä.
+
+Neljäntenä ryhmänä tarkastellaan seuraavanlaisia tapauksia, joissa
+topiikki asetetaan luonnehtimalla jotenkin kirjoittajan henkilökohtaista
+kokemusta aiheesta:
+
+1.  Asuminen, tai siis lähinnä asunnon hankkiminen, oli varmaankin
+    vaihdon hankalin juttu.
+
+Esimerkissä 4 topiikkia indikoi *asuminen*, mikä tähän ryhmään
+luokitelluilla kaikkiaan 16 tapauksella onkin tyypillistä: kenties
+suoraviivaisin tapa kuvailla omaa kokemusta jostakin varsinaisen
+diskurssitopiikin osa-alueesta on niputtaa kokemus nominalisoituun
+verbimuotoon ja luonnehtia tätä predikatiivilauseella. Näissä
+tapauksissa kuvataan, miten *asunnon hakeminen oli helppoa* tai miten
+*kaikkein vaikeinta oli asunnon löytäminen*. Kirjoittajan näkökulma
+onkin usein koko tekstin ja diskurssitopiikinkin tasolla subjektiivinen
+-- strategiana on kertoa käsiteltävästä asiasta sen kautta, miten asiat
+ovat sujuneet, omia onnistumisia ja epäonnistumisia arvioiden.
+Informaatiorakenteen kannalta nämä tapaukset ovat monesti ryhmän 1
+tapaan alatopiikkeja. Esimerkki 4 on kuitenkin esimerkkiä 1 selvemmin
+topiikkia asettava virke, sillä siinä asumisen rooli yhtenä
+vaihtokokemuksen osana on ilmaistu eksplisiittisesti. Vain kahdessa
+ryhmän 4 tapauksessa asumisesta kertovaa kappaletta edeltää väliotsikko.
 
 Esimerkissä 5 indikaattorina on *asuntoloista*-sana. Ilman kontekstia
 tarkasteltuna tämäkin tapaus vaikuttaa samalta kuin listamainen
@@ -593,19 +503,165 @@ on jo aiempana, kirjoittaessaan etukäteisjärjestelyistä ja kohdemaahan
 saapumisesta, rakentanut kuvaa paikallisista asuntolavaihtoehdoista ja
 asuntolassa elämisestä. Tämän ryhmän tekstit sijoittuvatkin
 toissijaisesti myös johonkin toiseen alaryhmään, mutta ovat erottuneet
-omasta alaryhmästään kontekstin tarkastelun vaiheessa. Esimerkin 5
-kaltaisia aiempaan kontekstiin tietoisesti sidottuja tapauksia on
-aineistossa 14 kappaletta. Näissä tapauksissa kyse on virketasolla
-tarkasteltuna joko annetuista topiikeista -- jos kontekstuaalinen linkki
-on muodostettu suhteellisen lähellä tässä käsiteltävää varsinaista
-asumiskappaletta -- tai, jos edellinen maininta on selvästi kauempana,
-palautetuista topiikeista (Dik 1989: 270--271). X:ssä tämän ryhmän
-virkkeessä kappaletta edeltää välitotsikko.
+omasta alaryhmästään kontekstin tarkastelun vaiheessa.
+
+1.  Asuntoloista valitsin Julius Raab Heimin vanhojen matkakertomusten
+    perusteella.
+
+Esimerkin 5 kaltaisia aiempaan kontekstiin tietoisesti sidottuja
+tapauksia on aineistossa 14 kappaletta. Näissä tapauksissa kyse on
+virketasolla tarkasteltuna joko annetuista topiikeista -- jos
+kontekstuaalinen linkki on muodostettu suhteellisen lähellä tässä
+käsiteltävää varsinaista asumiskappaletta -- tai, jos edellinen maininta
+on selvästi kauempana, palautetuista topiikeista (Dik 1989: 270--271).
+X:ssä tämän ryhmän virkkeessä kappaletta edeltää välitotsikko.
+
+1.  Ulkomaisille opiskelijoille tarkoitettu asuntola on vain kolme
+    vuotta vanha ja täten melko moderni.
+
+Esimerkissä 6 kirjoittaja esittelee uuden topiikin lähtemällä liikkeelle
+konkreettisesti asuntonsa luonnehtimisesta (vrt. esimerkki 4, jossa
+luonnehditaan kirjoittajan kokemusta). Vastaavia asuntolaa tai asumista
+staattisesti kuvaavia topiikin asettavia virkkeitä on kaikkiaan 12
+kappaletta. Informaatiorakenteeltaan nämä tapaukset ovat monesti lähellä
+ryhmää 2, sillä molemmissa kappaleen ensimmäinen virke esittelee
+lukijalle sen, minkä yksityiskohtaiseen kuvailuun koko loppukappale
+keskittyy. Esimerkissä 6 topiikki asetetaan kuitenkin jossain määrin
+implisiittisemmin, ja hyppäys edellisestä aiheesta (esimerkin 6
+tapauksessa HIV-testin teettäminen) on tyypillisesti rajumpi. Tämä
+selittää sitä, että peräti 58.33 % ryhmän 6 tapauksista (ei kuitenkaan
+tässä esitetty esimerkki) sisältää asumiskappaletta edeltävän
+väliotsikon.
+
+Esimerkki 7 edustaa kaikkiaan 10 tapausta käsittävää ryhmää, jonka
+ominaispiirteenä on kirjottajan itsensä vertailu muihin vaihdossa
+olleisiin.
+
+1.  Itselläni kävi tuuri asunnon suhteen löytäessäni edullisen huoneen
+    Chelseasta aivan Manhattanin keskeltä.
+
+Informaatiorakenteeltaan ryhmän 7 tapaukset ovat nekin tyypillisesti
+alatopiikkeja, ja olettavat indikaattorisanan implikoiman topiikin
+jossain määrin esimerkin 1 kaltaisesti jo asetetuksi. Toisaalta
+esimerkissä 7 on samoja piirteitä kuin esimerkissä 4: myös tässä
+reflektoidaan sitä, mikä omassa kokemuksessa oli helppoa ja mikä
+vaikeaa. Yhdessäkään ryhmän 7 tapauksessa ei ole asumiseen viittaavaa
+väliotsikkoa.
+
+Samoin kuin esimerkissä 4, myös esimerkissä 8 topiikki-indikaattorina on
+koko lauseen ensimmäisena sijaitseva *asuminen*-sana. Erona näiden
+esimerkkien välillä on, että siinä missä esimerkki 4 on
+informaatiorakenteen kannalta omasta vaihtokokemuksesta lohkaistu
+alatopiikki, ankkuroituu esimerkki 8 siihen fyysiseen paikkaan, jossa
+vaihto tapahtui:
+
+1.  Asuminen Tokiossa on aika kallista.
+
+Ryhmän 8 kirjoittajat eivät lähde liikkeelle omista kokemuksistaan, vaan
+käsittelevät tilannetta laajemmin, tavoitteenaan eräässä mielessä jakaa
+maailmantietoa lukijalleen. Esimerkin 8 edustama ryhmä kattaa kaikkiaan
+10 tapausta, joista kahdessa (mukaan lukien esimerkki 8) asumisesta
+kertovaa kappaletta edeltää väliotsikko *Asuminen*.
+
+Yleistys kirjoittajan oman kokemuspiirin ulkopuolelle voidaan kuitenkin
+tehdä myös toisella tavalla. Esimerkissä 9 ja kahdeksassa muussa
+tapauksessa tämä tapahtuu keskittymällä johonkin ulkoiseen agenttiin,
+jonka toimet vaikuttavat kirjoittajaan yleisesti ja asumisen
+järjestymiseen erityisesti:
+
+1.  Suurlähetystön henkilökunta tarjosi resurssiensa puitteissa
+    apuaan mm. maahantuloon, käytännön järjestelyihin sekä asunnon
+    löytämiseen liittyvissä asioissa.
+
+Esimerkissä 9 on informaatiorakenteen kannalta katsottuna kyse
+esimerkkien 2, 3 ja 6 tapaan uudesta topiikista, mutta sen esittely
+toteutetaan hyödyntämällä jotakin tekstin kannalta keskeistä toimijaa,
+tässä tapauksessa suurlähetystön henkilökuntaa. Kuten ryhmän 7 kohdalla,
+myös ryhmässä 9 yli puolessa tapauksia (55.56 %) asumisesta kertovaa
+kappaletta edeltää väliotsikko.
+
+Esimerkin 10 edustamassa ryhmässä asumisesta raportoidaan kertovan
+tekstityypin avulla, mikä käy tästä esimerkistä esiin erityisen
+selvästi, koska kirjoittaja on käyttänyt ajan ilmausta.
+
+1.  Lensin Wieniin sunnuntaina ja lento-kentältä suuntasin suoraan
+    asunnolleni.
+
+Aikamuoto ryhmän 10 virkkeissä on tyypillisesti imperfekti. Näissäkin
+tapauksissa topiikki-indikaattori on informaatiorakenteen kannalta uusi
+topiikki, joka esimerkin narratiivisuuden vuoksi tulee asetetuksi muita
+tässä tarkasteltuja uuden topiikin sisältäviä ryhmiä implisiittisemmin.
+Kaikkiaan ryhmään 10 kuuluu 9 tapausta, joista niistäkin suurin osa (5
+kpl) sisältää väliotsikon.
+
+Oman, selvästi muista erottuvan ryhmänsä muodostavat ne esimerkin 11
+edustamat 6 tapausta, joissa kirjoittaja eksplisiittisesti ilmaisee
+siirtyvänsä käsittelemään asumista.
+
+1.  Sitten pari sanaa asumisesta.
+
+*Sitten pari sanaa asumisesta* -tyyppisten johdantovirkkeiden voisi
+ajatella jossain määrin korvaavan väliotsikoita tekstissä, vaikka yksi
+tähän ryhmään luokiteltu virke (*Monella varmaan herää jo kysymys, entäs
+asuminen?*) tekeekin poikkeuksen. Nämä 6 esimerkkiä edustavat Dikin
+jaottelussa uusia topiikkeja (1989: 268), ja ovat aiheeseen
+johdattamisen implisiittisyys--eksplisiittisyys-asteikon
+eksplisiittisessä ääripäässä (vrt. päinvastaisessa ääripäässä sijaitseva
+ryhmä 1).
+
+Laadullisessa analyysissa luokiteltiin omaksi pieneksi ryhmäkseen myös
+esimerkin 12 kaltaiset 5 tapausta:
+
+1.  Saapuessani Varsovaan minulla oli onneksi jo asunto tiedossa.
+
+Nämä topiikkia asettavat tapaukset sijoittuvat ryhmien 2, 3 ja 10
+välimaastoon. Kuten mainituissa ryhmissä, myös näissä tapauksissa
+kyseessä on varsinainen aiheeseen johdattava virke, jossa kappaleen
+topiikki esitellään uutena avausvirkkeen loppupuolella. Myös ryhmässä 12
+kuvataan ajallinen jännite, mutta se esitetään usein eri järjestyksessä
+kuin ryhmässä 3. Siinä missä esimerkki 3 esitti kappaleen alussa avoimen
+tilanteen ja myöhemmässä kappaleessa tilanteen ratkaisun, aloittaa
+esimerkki 12 ratkaisusta (saavuttaessa asunto oli jo löydetty) ja
+käyttää lopun kappaleen takaumamaisesti sen kuvailuun, miten ratkaisuun
+päästiin (kirjoittaja oli etsinyt asuntoa valmiiksi Facebookin kautta).
+
+Pienimmän mutta silti tarkastelemisen arvoisen ryhmän aineistossamme
+muodostivat esimerkki 13 ja kolme muuta vastaavaa tapausta:
+
+1.  Lähes kaikki Bratislavan kauppakorkeakoulun vaihto-opiskelijat
+    asuivat Ekonom-nimisessä dormitoryssa.
+
+Nämä topiikkia asettavat virkkeet ovat lähellä ryhmää 7, johon luetuissa
+tapauksissa oleellista on kirjoittajan itsensä vertailu muihin. Ryhmässä
+13 kirjoittaja lähtee liikkeelle siitä, miten yleensä tehdään tai miten
+suurin osa tekee. Tämä voitaisiin esittää vastakohtana omalla
+kokemukselle, mutta ryhmän 13 tapauksille on tyypillistä, että myös
+kirjoittaja noudattaa kuvailtua ennemmistön toimintatapaa. Virke 13 on
+todella vain keino johdattaa lukija kappaleen varsinaiseen aiheeseen,
+*Ekonom*-nimiseen asuntolaan (uusi topiikki), jonka sijainnista,
+vuokratasosta ja muista ominaisuuksista kappale kertoo. Yhtä lukuun
+ottamatta kaikki tämän ryhmän tapaukset sisältävät myös asumiseen
+viittaavan väliotsikon.
+
+Kuten edellä metodin kuvauksen yhteydessä todettiin, tässä kuvatut eri
+topiikin asettamistapoja edustavat ryhmät on muodostettu sijoittamalla
+aina toisaan muistuttavat tapaukset samaan kategoriaan. Ryhmien väliset
+rajat eivät luonnollisestikaan ole suoraviivaisia, ja jaottelun olisi
+voinut tehdä muillakin tavoilla. Eri ryhmät ovat lisäksi enemmän tai
+vähemmän läheisessä yhteydessä toisiinsa, ja näitä linkkejä on tässä
+esitetyssä kuvauksessa pyritty osoittamaan. Seuraavaksi nyt esiteltyjen
+ryhmien rakenteellisia tyyppipiirteitä tutkitaan tarkemmin määrällisestä
+näkökulmasta. Argumenttimme on, että vaikka ryhmät on muodostettu
+puhtaasti tulkitsemalla eri tekstien välisiä samankaltaisuuksia, on
+suurimmalle osalle ryhmistä melko yksinkertaista antaa myös muodolliset,
+lähinnä rakenteeseen perustuvat määritelmät, joiden soveltaminen voi
+joillekin kirjoittajille tai opettajulle olla abstrakteja
+funktionaalisten ominaisuuksien kuvailuja helpompaa.
 
 Tilastollinen tarkastelu
 ------------------------
 
-Edellä (taulukko 2 ) esitimme tavan ryhmitellä asumisesta kertovat
+Edellä (taulukko ) esitimme tavan ryhmitellä asumisesta kertovat
 tekstikappaleet sen mukaan, miten kirjoittaja toteuttaa siirtymän uuteen
 aiheeseen. Seuraavassa sovellamme laadullisen analyysin tuloksena
 saatuun ryhmäjakoon tilastollisia menetelmiä, tarkemmin ottaen
@@ -619,7 +675,7 @@ assosiaatiota selitettävään muuttujaan (termeistä ks. Ketokivi 2015:
 sen selvittämistä, mitkä aineiston 168 tapauksen ominaisuudet
 (selittävät muuttujat) parhaiten ennustavat sen, mihin kolmestatoista
 ryhmästä (selitettävä muuttuja) tapaus on luokiteltu. Käytössämme ovat
-taulukon 3 mukaiset selittävät muuttujat.
+taulukon 2 mukaiset selittävät muuttujat.
 
 <table style="width:93%;">
 <colgroup>
@@ -666,13 +722,13 @@ taulukon 3 mukaiset selittävät muuttujat.
 </ol>
 </div>
 
-Taulukko 3: Tilastollisen analyysin selittävät muuttujat
+Taulukko 2: Tilastollisen analyysin selittävät muuttujat
 
 Tässä käytetty päätöksentekopuu rakennettiin R-ohjelmiston
 *party*-kirjastoon kuuluvaa *ctree*-funktiota (Hothorn ym. 2006)
 käyttäen.[5] Analyysin tulos on esitetty kuviossa 3.
 
-<img src="/home/juho/projects/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-4-1.png" alt="Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna" angle=90 />
+<img src="/home/juho/projects/work/100-tapaa-indikoida-topiikkia/output/koko_artikkeli_files/figure-markdown_strict/unnamed-chunk-17-1.png" alt="Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla tarkasteltuna" angle=90 />
 <p class="caption">
 Kuvio 3: Topiikkia asettavien ryhmien rakenne luokittelupuun avulla
 tarkasteltuna
@@ -703,7 +759,7 @@ rakenteellisten ominaisuuksien valossa. Karkeasti ottaen voidaan todeta,
 että suurin osa laadullisen analyysin tuloksena laadituista
 kolmestatoista ryhmästä pystytään päättelemään hyödyntämällä kolmea[6]
 yksinkertaista rakenteellisen mikrotason muuttujaa: verbin persoonaa,
-aikamuotoa ja indikaattorisanan dependenssiroolia. Taulukossa 4 on
+aikamuotoa ja indikaattorisanan dependenssiroolia. Taulukossa 3 on
 tiivistetty näiden muuttujien vaikutus topiikkia asettavan virkkeen
 päätymiseen johonkin laadullisessa analyysissa määritellyistä ryhmistä.
 
@@ -784,7 +840,7 @@ päätymiseen johonkin laadullisessa analyysissa määritellyistä ryhmistä.
 </tbody>
 </table>
 
-Taulukko 4: Kvantitatiivisesti pääteltävissä olevat ryhmät
+Taulukko 3: Kvantitatiivisesti pääteltävissä olevat ryhmät
 
 Taulukon mukaan ryhmä 1 voidaan rakenteiden tasolla määritellä siten,
 että siinä on nominaalinen topiikki-indikaattori, jonka pääverbi
@@ -853,84 +909,88 @@ istuvat hyvin ajatukseen uudesta kirjoittajasta, joka ei niinkään kysy,
 miten asiat pitäisi tehdä, vaan etsii malleja siitä, millä eri tavoilla
 on jo tehty.
 
-Baayen, Rolf H. 2012. *Analyzing Linguistic Data: A Practical
-Introduction to Statistics using R*. Cambridge: Cambridge university
-press.
+Baayen, R. H. 2012. *Analyzing Linguistic Data: A Practical Introduction
+to Statistics using R*. Cambridge: Cambridge university press.
 
-Biber, Douglas, Ulla Connor & Thomas A. Upton 2007. *Discourse on the
-move: Using corpus analysis to describe discourse structure* Vsk. 28.
-John Benjamins Publishing.
+Biber, D., U. Connor & T. A. Upton 2007. *Discourse on the move: Using
+corpus analysis to describe discourse structure* Vsk. 28. John Benjamins
+Publishing.
 
-Chafe, Wallace 1987. Cognitive constraints on information flow.
-Teoksessa: Russell S. Tomlin (ed.) *Coherence and Grounding in Discourse
-: Outcome of a Symposium, Eugene, Oregon, June 1984.* John Benjamins
+Chafe, W. 1987. Cognitive constraints on information flow. Teoksessa R.
+S. Tomlin (toim.) *Coherence and Grounding in Discourse : Outcome of a
+Symposium, Eugene, Oregon, June 1984.* Typological Studies in Language
+11. Amsterdam: John Benjamins, 21–25.
+
+Chitez, M., C. Rapp & O. Kruse 2015. Corpus-supported academic writing:
+how can technology help? Teoksessa F. Helm L. Bradley & S. Thouësny.
+(toim.) *Critical CALL-Proceedings of the 2015 EUROCALL Conference,
+Padova, Italy,*. Dublin, Ireland: Research-publishing.net.
+
+Dik, S. C. 1989. *The Theory of Functional Grammar, Part I: The
+Structure of the Clause*. Functional grammar series 9. Dordrecht: Foris
+Publications.
+
+Givón, T. 1983. *Topic continuity in discourse*. John Benjamins
 Publishing Company.
 
-Chitez, Madalina, Christian Rapp & Otto Kruse 2015. Corpus-supported
-academic writing: how can technology help? Teoksessa: *Critical
-CALL-Proceedings of the 2015 EUROCALL Conference, Padova, Italy, F.
-Helm, L. Bradley, and S. Thouësny.(Eds)*, 125–132. Dublin, Ireland:
-Research-publishing.net.
+Guijarro, A. J. M. 2001. Topicality chains in two discourse genres.
+*Estudios Ingleses de la Universidad Complutense* (9), 103–128.
+<http://revistas.ucm.es/index.php/EIUC/article/view/EIUC0101110103A>.
 
-Dik, Simon C. 1989. *The Theory of Functional Grammar, Part I: The
-Structure of the Clause, Vol. 9 of Functional Grammar Series*.
-Dordrecht: Foris Publications.
+Haverinen, K., J. Nyblom, T. Viljanen, V. Laippala, S. Kohonen, A.
+Missilä, S. Ojala, T. Salakoski & F. Ginter 2014. Building the essential
+resources for Finnish: the Turku Dependency Treebank. *Language
+Resources and Evaluation* *48* (3), 1–39.
 
-Givón, Talmy 1983. *Topic continuity in discourse*. John Benjamins
-Publishing Company.
+Hiippala, T. 2013. *Modelling the structure of a multimodal artefact*.
+Helsinki: Helsingin yliopisto. <URN:ISBN:978-952-10-9427-9>.
 
-Guijarro, A. Jesús Moya 2001. Topicality chains in two discourse genres.
-*Estudios Ingleses de la Universidad Complutense* 9: 103–128.
-
-Haverinen, Katri, Jenna Nyblom, Timo Viljanen, Veronika Laippala, Samuel
-Kohonen, Anna Missilä, Stina Ojala, Tapio Salakoski & Filip Ginter 2014.
-Building the essential resources for Finnish: the Turku Dependency
-Treebank. *Language Resources and Evaluation* 48:3, 1–39.
-
-Hiippala, Tuomo 2013. Modelling the structure of a multimodal artefact.
-
-Hothorn, Torsten, Kurt Hornik & Achim Zeileis 2006. Unbiased Recursive
+Hothorn, T., K. Hornik & A. Zeileis 2006. Unbiased Recursive
 Partitioning: A Conditional Inference Framework. *Journal of
-Computational and Graphical Statistics* 15:3, 651–674.
+Computational and Graphical Statistics* *15* (3), 651–674.
 
-Jisa, Harriet & Liliana Tochinsky 2009. Developing a personalized stance
-through linguistic means in typologically different languages. Written
-expository discourse. *Written Language & Literacy* 12:1, 1–25.
+Jisa, H. & L. Tolchinsky 2009. Developing a personalized stance through
+linguistic means in typologically different languages. Written
+expository discourse. *Written Language & Literacy* *12* (1), 1–25.
 
-Juvonen, Riitta 2014a. Kirjoitelma ja tekijän ääni: kehystämisen
-yhdyslauseet suomenkielisen ylioppilasaineen dialogisuuden hallinnassa.
+Juvonen, R. 2014a. *Kirjoitelma ja tekijän ääni: kehystämisen
+yhdyslauseet suomenkielisen ylioppilasaineen dialogisuuden hallinnassa*.
+Helsinki: Helsingin yliopisto. <URN:ISBN:978-951-51-0264-5>.
 
-Juvonen, Riitta 2014b. Näkökulma kirjoitelman dialogisuuteen: Kuinka- ja
-miten-yhdyslauseet ylioppilasaineessa. *Virittäjä* 118:1, 72.
+Juvonen, R. 2014b. Näkökulma kirjoitelman dialogisuuteen: Kuinka- ja
+miten-yhdyslauseet ylioppilasaineessa. *Virittäjä* *118* (1), 72.
 
-Juvonen, Riitta, Mikko Virtanen & Eero Voutilainen 2012. Fennistisen
+Juvonen, R., M. Virtanen & E. Voutilainen 2012. Fennistisen
 tekstilajitutkimuksen suuntia. *Vesa Heikkinen, Eero Voutilainen, Petri
 Lauerma, Ulla Tiililä & Mikko Lounela (toim.), Genreanalyysi.
 Tekstilajitutkimuksen käsikirja* 453–469.
 
-Ketokivi, Mikko 2015. *Tilastollinen päättely ja tieteellinen
-argumentointi* 2. laaj. laitos. Helsinki: Gaudeamus.
+Ketokivi, M. 2015. *Tilastollinen päättely ja tieteellinen
+argumentointi*. Helsinki: Gaudeamus.
 
-Komppa, Johanna 2012. Retorisen rakenteen teoria suomi toisena
+Komppa, J. 2012. *Retorisen rakenteen teoria suomi toisena
 kielenä-ylioppilaskokeen kirjoitelman kokonaisrakenteen ja kappalejaon
-tarkastelussa.
+tarkastelussa*. Helsinki: Helsingin yliopisto.
+<URN:ISBN:978-952-10-8164-4>.
 
-Lambrecht, Knud 1996. *Information structure and sentence form: Topic,
+Lambrecht, K. 1996. *Information structure and sentence form: Topic,
 focus, and the mental representations of discourse referents*. Cambridge
-studies in linguistics vol. 71. Cambridge: Cambridge university press.
+studies in linguistics 71. Cambridge: Cambridge university press.
 
-Levshina, Natalia 2015. *How to do linguistics with R: Data exploration
-and statistical analysis*. John Benjamins Publishing Company.
+Levshina, N. 2015. *How to do linguistics with R: Data exploration and
+statistical analysis*. Amsterdam: John Benjamins.
 
-Paldanius, Hilkka 2017. Historian esseevastauksen funktionaalinen
-rakenne. Teoksessa: Sirkku Latomaa, Emilia Luukka, & Niina Lilja (eds.)
-*AFinLAn vuosikirja 2017*.. Suomen soveltavan kielitieteen yhdistys.
+Paldanius, H. 2017. Historian esseevastauksen funktionaalinen rakenne.
+Teoksessa S. Latomaa, E. Luukka, & N. Lilja (toim.) *AFinLAn vuosikirja
+2017*. Suomen soveltavan kielitieteen yhdistyksen julkaisuja 75.
+Jyväskylä: Suomen soveltavan kielitieteen yhdistys.
 
-Shore, Susanna 2008. Lauseiden tekstuaalisesta jäsennyksestä.
-*Virittäjä* 112:1, 24.
+Shore, S. 2008. Lauseiden tekstuaalisesta jäsennyksestä. *Virittäjä*
+*112* (1), 24–65.
 
-Vuorijärvi, Aino 2013. Tekstilaji ja yhteisö: Ammattikorkeakoulun
-opinnäytetyön diskussio tekstinä.
+Vuorijärvi, A. 2013. *Tekstilaji ja yhteisö: Ammattikorkeakoulun
+opinnäytetyön diskussio tekstinä*. Helsinki: Helsingin yliopisto.
+<URN:ISBN:978-952-10-8928-2>.
 
 [1] Käyttäen kirjoittajien itsensä tekemää kappaleiden ortografista
 erottelua.
