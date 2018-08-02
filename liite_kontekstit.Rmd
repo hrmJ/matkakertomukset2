@@ -3,6 +3,14 @@
 
 ```{r, echo=FALSE}
 
+
+library(dplyr)
+library(rmarkdown)
+library(knitr)
+library(kableExtra)
+library(bookdown)
+
+#render("liite_kontekstit.Rmd",output_format="pdf_document",output_dir="output/")
 ex.ids <- c(286, 42, 839, 699, 317, 107, 341,557,272,498,732,807,298)
 esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
 #Järjestetään esimerkit koon mukaan
@@ -20,4 +28,23 @@ for(idx in c(1:length(esim.ordered))){
     esim.ordered[[idx]]$id <- ex.ids[which(names(esim) == esim.ordered[[idx]]$group)]
 }
 
+do.call(rbind.data.frame, esim.ordered)  %>% as_tibble -> esimerkit
+esimerkit %>% 
+    left_join(fsstats1 %>% select(textid, paragraph)  %>% rename(id=textid), by=c("id")) %>% 
+    mutate_if(is.factor,as.character)  %>% 
+    select(paragraph, otsikko) %>% 
+    mutate(otsikko = case_when(otsikko == 'unnamed' ~ "tavallinen kappale",
+                               TRUE ~ paste0("Väliotsikko: ", otsikko)
+                     )) %>% 
+    rename(`Edeltävä konteksti`=otsikko, Kappale=paragraph) -> kontekstit
+
+
 ```
+
+
+```{r, echo=FALSE}
+
+pander(kontekstit)
+
+```
+
