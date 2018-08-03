@@ -75,6 +75,109 @@ as.character(esimerkit[3,"paragraph"]) %>% cat(.,"\n\n")
 ```
 
 
+**Esimerkki @ee_narratiivi:**
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[10,])
+
+as.character(esimerkit[10,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_valimaasto**
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[12,])
+
+as.character(esimerkit[12,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_omakokemus**
 
 
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[4,])
+
+as.character(esimerkit[4,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_kontrasti**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[7,])
+
+as.character(esimerkit[7,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_yleistys**
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[8,])
+
+as.character(esimerkit[8,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_maggytarjosi**
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[9,])
+
+as.character(esimerkit[9,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_suurionsa**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[13,])
+
+as.character(esimerkit[13,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_staattinen**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[6,])
+
+as.character(esimerkit[6,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_linkki**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[5,])
+
+as.character(esimerkit[5,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_parisanaa**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[11,])
+
+as.character(esimerkit[11,"paragraph"]) %>% cat(.,"\n\n")
+
+```
 
