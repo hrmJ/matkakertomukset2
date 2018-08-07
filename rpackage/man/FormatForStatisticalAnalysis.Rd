@@ -4,7 +4,7 @@
 \alias{FormatForStatisticalAnalysis}
 \title{Muotoilee analysoitua dataa niin, että sitä on helppo käyttää tilastollisessa analyysissa}
 \usage{
-FormatForStatisticalAnalysis(numericalgroups = F)
+FormatForStatisticalAnalysis(numericalgroups = F, simplenames = F)
 }
 \arguments{
 \item{numericalgroups}{käytetäänkö ryhmien niminä numeroita}

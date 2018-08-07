@@ -81,3 +81,5 @@ ryhmäjako perustuu laadulliseen samankaltaisuuteen, tulkitaan osiossa
 # Päätelmät
 
 `r knit_child('paatelmia.Rmd', quiet=T)`
+
+

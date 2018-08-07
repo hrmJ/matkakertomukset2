@@ -1,0 +1,183 @@
+# Liite 1: osiossa 4.1 esitettyjen esimerkkivirkkeiden lähikontekstit
+
+Tähän liitteeseen on koottu osiossa 4.1. esitettyjen virkkeiden laajempi
+konteksti. Laajempi konteksti kattaa mahdollisen kappaletta edeltävän 
+väliotsikon sekä esimerkkivirkkeen avaaman kappaleen kokonaisuudessaan.
+
+```{r, echo=FALSE}
+
+library(dplyr)
+ex.ids <- c(286, 42, 839, 699, 317, 107, 341,557,272,498,732,807,298)
+esim <- setNames(lapply(ex.ids,function(x)MoreInfo(x)),groups.meta$Nimi)
+#Järjestetään esimerkit koon mukaan
+totals <- sort(sapply(esim,function(x)x$total),dec=T)
+esim.ordered <- lapply(names(totals),function(x)esim[[x]])
+esim.print <- sapply(esim.ordered,function(x)x$sentence)
+#Tulostetaan esimerkit suuruusjärjestyksessä niin, että kukin on nimetty loogisesti
+ex.names <- data.frame(group=c("Listamaiset","Selkeät yksittäiseen tapahtumaan keskittyvät narratiivit","asuin paikassa x","pari sanaa asumisesta","Linkki","yleistys","Ennakoivat","ennakoivien ja predikoivien välimaasto","oma kokemus","Yliopisto (maggy) tarjosi","Suurin osa opiskelijoista","Kontrasti","asunnon ja asumisen staattinen kuvailu"),
+                       label=c("@ee_lista", "@ee_narratiivi", "@ee_predikaatti", "@ee_parisanaa", "@ee_linkki", "@ee_yleistys", "@ee_ennakoivat", "@ee_valimaasto", "@ee_omakokemus", "@ee_maggytarjosi", "@ee_suurionsa", "@ee_kontrasti", "@ee_staattinen"))
+print.labels <- as.character(sapply(names(totals),function(x)ex.names$label[ex.names$group==x]))
+print.names <- paste0("(",print.labels,")")
+
+for(idx in c(1:length(esim.ordered))){
+    esim.ordered[[idx]]$esimerkki <- paste(print.names[[idx]], esim.print[[idx]])
+    esim.ordered[[idx]]$id <- ex.ids[which(names(esim) == esim.ordered[[idx]]$group)]
+}
+
+do.call(rbind.data.frame, esim.ordered)  %>% as_tibble -> esimerkit
+esimerkit %>% 
+    left_join(fsstats1 %>% select(textid, paragraph)  %>% rename(id=textid), by=c("id")) %>% 
+    mutate_if(is.factor,as.character) -> esimerkit
+
+PrintHeading <- function(r){
+    if(r["otsikko"] != "unnamed"){
+        cat(as.character(r["otsikko"]), "\n\n")
+    }
+}
+
+```
+
+**Esimerkki @ee_lista:**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[1,])
+
+as.character(esimerkit[1,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+
+
+**Esimerkki @ee_predikaatti:**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[2,])
+
+as.character(esimerkit[2,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+
+
+**Esimerkki @ee_ennakoivat:**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[3,])
+
+as.character(esimerkit[3,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+
+**Esimerkki @ee_narratiivi:**
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[10,])
+
+as.character(esimerkit[10,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_valimaasto**
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[12,])
+
+as.character(esimerkit[12,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_omakokemus**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[4,])
+
+as.character(esimerkit[4,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_kontrasti**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[7,])
+
+as.character(esimerkit[7,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_yleistys**
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[8,])
+
+as.character(esimerkit[8,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_maggytarjosi**
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[9,])
+
+as.character(esimerkit[9,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_suurionsa**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[13,])
+
+as.character(esimerkit[13,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_staattinen**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[6,])
+
+as.character(esimerkit[6,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_linkki**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[5,])
+
+as.character(esimerkit[5,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
+**Esimerkki @ee_parisanaa**
+
+
+```{r, echo=FALSE, results='asis'}
+
+PrintHeading(esimerkit[11,])
+
+as.character(esimerkit[11,"paragraph"]) %>% cat(.,"\n\n")
+
+```
+
