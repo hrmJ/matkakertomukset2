@@ -22,7 +22,7 @@ for(idx in c(1:length(esim.ordered))){
 ```
 
 
-Laadullisen analyysin tuloksena päädyttiin melko suureen määrään eri
+Empiirisen (HANKKIUDU EROON LAADULLINEN-termistä) analyysin tuloksena päädyttiin melko suureen määrään eri
 kategorioita. Jaottelun hienojakoisuudella haluttiin säilyttää intuitio
 tiettyjen topiikin asettamistapojen muita suuremmasta samankaltaisuudesta.
 Määrittelemämme `r length(esim.ordered)` kategoriaa voitaisiin luonnollisesti

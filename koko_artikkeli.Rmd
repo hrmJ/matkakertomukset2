@@ -69,7 +69,7 @@ ryhmäjako perustuu laadulliseen samankaltaisuuteen, tulkitaan osiossa
 4.2. analyysin tulosta eli itse jaottelua tilastollisin menetelmin.
 
 
-## Laadullinen analyysi
+## Tekstikappaleiden analyysi
 
 `r knit_child('yleiskuva.Rmd', quiet=T)`
 
