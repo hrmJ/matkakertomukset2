@@ -22,6 +22,80 @@ for(idx in c(1:length(esim.ordered))){
 ```
 
 
+Mainitsimme artikkelin johdannossa suuret tekstimassat ja tosielämän tekstit
+varantona, jota vielä ei suomen kirjoittamisen ja opettamisessa ole ryhdytty
+systemaattisesti hyödyntämään. Opetus keskittyy ennemmin ideaali- kuin
+reaalimalleihin: opiskelijat tutustuvat teoreettiseen kuvaukseen siitä, 
+miltä esimerkiksi kappaleen aloituksen tulisi näyttää. Samalla annetaan 
+tavallisesti joitakin mahdollisesti varta vasten keksittyjä esimerkkejä.
+
+Pohdittaessa eri tapoja esitellä uusi topiikki, Dik [-@dik1989, 268] toteaa
+
+- explicit metalinguistic statement: Im' going to tell you a story about an
+  elephant called J.
+- Object position In the circus we saw an elephant called J.
+- If at the beginning, use existential or locative-existential:
+  "Long ago in the jungle there was"
+- predicates of "appearing on the scene": sudennly there appeared a huge elephant
+- yesterday in the pub i met your sister may
+- properties: strong preference to be late in the sentence
+
+"Ideaalit":
+
+1. Metakielelliset: parisanaa, linkki
+2. Tyypillisesti myöhään tulevat: predikoiva ryhmä, narratiiviryhmä, ennakoiva ryhmä, suurin osa, ulkoinen toimija, välim?
+
+Epätyypilliset:
+
+3. Muita: lista, yleistys, oma kokemus, kontrasti, staattinen
+
+Kontrasti 1+2 ja 3 välillä. On hyvä mainita myös näitä eikä vain ideaaleja...
+Ja Ideaalitkin voivat joskus olla kökköjä kuten parisanaa-ryhmä.
+
+Kvantitatiivinen näkökulma
+==========================
+
+Tosielämän aineistoja voisi opetuksessa hyödyntää myös näyttämällä
+tilastollisesti, mitkä konkreettiset kielenkäytön temput 
+voivat auttaa tekemään erilaisen siirtymän.
+Jos edellä määriteltyjä ryhmiä katselee yksinkertaisten kielellsiten muuttujien läpi:
+
+Edellä jo puhuttukin sijainnista, mutta voidaan erottaa muitakin:
+sijainti, kieliopillinen funktio~lauseenjäsen~dependenssirooli, pääverbin
+persoona, topiikki-indikaattorin muoto, aikamuoto.
+
+Nämä kun syöttää päättelypuugeneraattorille, nähdään, että edellä 
+Intuitiivisesti/xxx/ööö määritellyt ryhmät ovat aika pitkälle kuvattavissa
+myös eksplisiittisten kielenainesten avulla.
+
+
+
+
+
+
+
+
+Ideaalit Dik määrittelee uuden topiikin asetustavoiksi X, Y ja X. XXX
+määrittelee, että tekstikeskeisyys on hienoa. Tekstikeskeisiä aineistossa
+edustaa oikeastaan vain Expliziittiset-ryhmä, josta esimerkkinä :zxc
+
+
+Usein kun opetetaan ja muuta blabalaa niin annetaan hienoja esimerkkejä ja
+malleja. adasd lkjlkj Teoreettiset..ideaaleja.. Meidän agendalla promota
+tosielämän aineistoja… Tutkiessamme aineistoa havaitsimme, että vaikea löytää
+ideaalimalliin sopivia.,….. päädyimme xxxx persusteella lopulta kolmeentoista
+ryhmöön, joita ovat ninni nunnu nono..,m…   Näistä xx ja yy… Seuraavassa
+esittelemme ryhmiö tarkemmin jaoteltuna… esimerkiksi peilattuna dikin
+topiikkeihin, voidaan sanoa että ..
+
+
+zxczxc
+
+XX taas näkyy BBB-ryhmässä, josta esimerko-.
+
+Vähemmän
+
+
 Empiirisen (HANKKIUDU EROON LAADULLINEN-termistä) analyysin tuloksena päädyttiin melko suureen määrään eri
 kategorioita. Jaottelun hienojakoisuudella haluttiin säilyttää intuitio
 tiettyjen topiikin asettamistapojen muita suuremmasta samankaltaisuudesta.
